@@ -25,12 +25,12 @@ text =  \lyricmode {
   Need I need I need a high | Pen -- ny pen -- ny pen -- ny
   Need I need I need a high | God al --  migh -- ty.
 }
-  \addLyrics { 
+
+second_stanza = \lyricmode { 
   \set stanza = #"2. "
   Lift me lift me lift me high | Hea -- ven Hea -- ve Hea -- ve |
   Lift me lift me lift me high | God al -- migh -- ty.
 }
-
 
 harmonies = \chordmode {
   d1:7 | g1:m | g2:m/f g2:m/ees | d1:7
@@ -45,6 +45,7 @@ harmonies = \chordmode {
     }
     \new Voice = "one" { \melody }
     \new Lyrics \lyricsto "one" \text
+    \new Lyrics \lyricsto "one" \second_stanza
   >>
   \layout { }
   \midi { }
