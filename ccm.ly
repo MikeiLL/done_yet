@@ -1,4 +1,5 @@
 \version "2.18.2"
+% First lilypond endeavor.
 
 % first, define a variable to hold the formatted date:
 date = #(strftime "%d-%m-%Y" (localtime (current-time)))
@@ -19,15 +20,13 @@ melody = \relative c' {
   \key des \major
   \time 5/4
 
-  \repeat volta 2 {
-  \repeat percent 2 {ees4 ees16 f ees des ees8-> ees16 des bes4 des8 f }
-  ges4 ges16 aes ges f ges8-> ges16 f des4 f8 aes |
-  bes4 bes16 c bes aes bes8-> bes16 aes f4 aes8 f |
-  }
+  ees4 ees16 f ees des ees8-> ees16 des bes4 des8 f 
+  ges4 ges16 aes ges f ges8-> ges16 f des4 f8 aes 
+  bes4 bes16 c bes aes bes8-> bes16 aes f4 aes8 f 
 }
 
 harmonies = \chordmode {
-  ees2.:m bes2:m |ees2.:m bes2:m |
+  ees2.:m bes2:m |
   ees2.:m bes2:m |ees2.:m bes2:m |
 }
 
@@ -38,6 +37,8 @@ harmonies = \chordmode {
         The \italic {Nigunum} are wordless melodies. According to Hassidish lore,
         certain spiritual concepts can be not be fully expressed when limited by
         a verbal language. 
+
+        Each measure can be repeated arbitrarily, and also works interestingly as a round.
         }
   }
 \markup { \vspace #2 }   
