@@ -3,7 +3,7 @@
 \header {
   title = "Minimart"
   subtitle = "Derived from Traditional Balkan Song: Rumelaj"
-  poet = "Mike iLL"
+  poet = "Text by Mike iLL"
 }
 
 melody = \relative c'' {
