@@ -27,8 +27,10 @@ text =  \lyricmode {
 }
 
 second_stanza = \lyricmode { 
-  \set stanza = #"2. "
-  Lift me lift me lift me high | Hea -- ven Hea -- ve Hea -- ve |
+  There's a mi -- ni -- mart | on the cor -- ner |
+  At the mi -- ni -- mart is a | moon -- pie, I'm rea -- dy. 
+  \set stanza = #"2. " 
+  Lift me lift me lift me high | Hea -- ven Hea -- ven Hea -- ven |
   Lift me lift me lift me high | God al -- migh -- ty.
 }
 
