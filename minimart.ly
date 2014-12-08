@@ -18,20 +18,21 @@ melody = \relative c'' {
 }
 
 text =  \lyricmode {
-  There's a mi -- ni -- mart | on the cor -- ner |
-  At the mi -- ni -- mart is a | moon -- pie, I'm rea -- dy. 
-
-  \set stanza = #"1. "
-  Need I need I need a high | Pen -- ny pen -- ny pen -- ny
-  Need I need I need a high | God al --  migh -- ty.
-}
-
-second_stanza = \lyricmode { 
-  There's a mi -- ni -- mart | on the cor -- ner |
-  At the mi -- ni -- mart is a | moon -- pie, I'm rea -- dy. 
-  \set stanza = #"2. " 
-  Lift me lift me lift me high | Hea -- ven Hea -- ven Hea -- ven |
-  Lift me lift me lift me high | God al -- migh -- ty.
+  There's a mi -- ni -- mart on the cor -- ner
+  At the mi -- ni -- mart is a moon -- pie, I'm rea -- dy. 
+  <<
+    {
+      \set stanza = #"1. "
+      Need I need I need a high Pen -- ny pen -- ny pen -- ny
+      Need I need I need a high God al --  migh -- ty.
+    }
+    \new Lyrics {
+      \set associatedVoice = "melody"
+      \set stanza = #"2. " 
+      Lift me lift me lift me high Hea -- ven Hea -- ven Hea -- ven
+      Lift me lift me lift me high God al -- migh -- ty.
+    }
+  >>
 }
 
 harmonies = \chordmode {
@@ -47,7 +48,6 @@ harmonies = \chordmode {
     }
     \new Voice = "one" { \melody }
     \new Lyrics \lyricsto "one" \text
-    \new Lyrics \lyricsto "one" \second_stanza
   >>
   \layout { }
   \midi { }
