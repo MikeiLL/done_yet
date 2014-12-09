@@ -36,6 +36,34 @@ melody = \relative c' {
   e8 e e4 e8 e e e | e e e e e e e4 | % pay a fine ... nails
   e'1~ | e2( e8 b g4) | % Ahh 
   e4 r e fes | g a8 b4.~ b8 r8 | % youth got me holdin on
+  e,4 r e fes | g a8 b4.~ b8 r8 | %  pour me another one
+  e,4 r e fes | g a8 b4.~ b8 r8 | % down another one
+  e,4 r e fes | g a8 b4.~ b8 r8 | % now the thrill is gone
+  e,4 r e fes | g a8 b4.~ b8 r8 | % and the bill has come
+  e,4 r e fes | g a8 b4. c4 | % i can justify my 
+  e,4 r e fes | g a8 b4. c4 | % i can vindicate my
+  e,4 r e fes | g a8 b4.  c4 | % i can fortify my
+  e,4 r e fes | g a8 b4. c4 | % watch me fornicate my
+  e,4 r e fes | g a8 b4. c4 | % watch me rectify my
+  e,4 r b' b | b8 b4 b b8 b4 | % save me say a prayer for my 
+  e4 r b b | b4 b8 b4 b8 b4 | % make a sacrifice to my
+  e4 r \times 2/3 { b4 b a | b b a } b2 % line after ... line
+  r2 \times 2/3 { b4 b a | b b a } b2 % bringin' him forward in time
+  r2 b8 b a b~ | b a b4 b g | % giving ... wisdom
+  r2 b8 b a b~ | b b a4 b2 | % see what ... now
+  r2 b8 b b4 | b8 b b4 b8 b b4 | % laughing .. and
+  r2 b8 b a b~ | b b a4 b g | % looking ... acceptance
+  r2 b8 b b b~ | b b b4 e b | % all of his ... brilliance
+  r2 b8 b b4 | b8 b b4 b8 b r4 | % beggin ... beggin
+  b8 b b r b4 b8 b | b r \times 2/3 { b8 b b~ } b g g4 | % makin' up .. emptiness 
+  b8 b b r b4 b8 b | b r \times 2/3 { b8 b c~ } c b b4 | % makin' up .. loneliness 
+  % Final chorus
+  r2 e8 e e g( | g e4) e4.~ e4 | % This is the bomb dude
+  r2. b'8 b | b4 b8 b4. a8( g | % 'cause of heaven and youth
+  \repeat volta 2 {
+    e4) r2 b'8 b | b4 b8 b4. a8( g | % And the cousin of booth
+    e4) r2 b'8 b | b4 b8 b4. a8( g | % 'cause of heaven and youth
+  }
 }
 
 text =  \lyricmode {
@@ -65,7 +93,31 @@ text =  \lyricmode {
   Pay a fine just be -- cause I | paint my dir -- ty fin -- ger nails |
   Ahhh- | |  
   Youth! Got me | hol -- din on. |
-
+  Youth! Pour me_a -- | no -- ther one. |
+  Youth! Down a -- | no -- ther one. |
+  Youth! Now the | thrill is gone. |
+  Youth! And the | bill has come. |
+  Youth! I can | jus -- ti -- fy my |
+  Youth! I can | vin -- di -- cate my |
+  Youth! I can | for -- ti -- fy my |
+  Youth! Watch me | for -- ni -- cate my |
+  Youth! Watch me | rec -- ti -- fy my |
+  Youth! Save me | say a prayer for my |
+  Youth! Make a sac -- ri -- fice to my |
+  Youth! Line af -- ter | line af -- ter line, |
+  Bring -- in' him | for -- ward in time. |
+  Gi -- vin him all | o' my wis -- dom |
+  See what he does | with it now. |
+  Laugh -- ing and | fuck -- ing and hugg -- ing and |
+  Look -- in' for love | and ac -- cep -- tance |
+  All of his arr -- o -- gant brill -- | iance |
+  Beg -- gin' and | beg -- gin and beg -- gin'. |
+  Mak -- in' up songs to com -- | pete  with his empt -- i -- ness. |
+  Mak -- in' up psalms to com -- | pete with his lone -- li -- ness. |
+  This is the bomb, | dude. |
+  'Cause of | Hea -- ven and |
+  youth and the | cou -- sin of Booth. |
+  'Cause of | Hea -- ven and youth |
 }
 
 detailed = \chordmode { e2:m e:m/fis | e:m/g e:m/fis |
@@ -80,13 +132,7 @@ harmonies = {
    \it \it \it \it 
    \it \it \it \it 
    \it \it \it \it 
-   \it \it \it \it 
-   \it \it \it \it 
-   \it \it \it \it 
-   \it \it \it \it 
-   \it \it \it \it 
-   \it \it \it \it 
-   \it \it 
+   \it \it \it  
 }
 
 \score {
