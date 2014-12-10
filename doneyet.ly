@@ -28,10 +28,17 @@ melody = \relative c' {
   \times 2/3 { dis' dis dis } cis cis | \times 2/3 { b4 b b } \times 2/3 { a a a } | % lignorant can't wait to practice the
   \times 2/3 { fis gis gis } gis4 r | fis fis8 fis g g g g |
 % CHORUS
-  \times 2/3 { gis4 gis gis } \times 2/3 { gis gis gis } | \times 2/3 { gis gis gis } gis4 e' |
-  \times 2/3 { gis,4 gis gis } \times 2/3 { gis gis gis } | \times 2/3 { gis gis gis } gis4 e' |
-  \times 2/3 { gis,4 gis gis } \times 2/3 { gis gis gis } | \times 2/3 { gis gis gis } gis4 e' |
-  \times 2/3 { r4 gis, gis } gis4 e' | r gis8 gis gis4 fis |
+  \times 2/3 { gis4 gis gis } \times 2/3 { gis gis gis } | \times 2/3 { gis gis gis } gis4 
+\once \override NoteHead.style = #'cross
+e' |
+  \times 2/3 { gis,4 gis gis } \times 2/3 { gis gis gis } | \times 2/3 { gis gis gis } gis4 
+ \once \override NoteHead.style = #'cross
+e' |
+  \times 2/3 { gis,4 gis gis } \times 2/3 { gis gis gis } | \times 2/3 { gis gis gis } gis4 
+\once \override NoteHead.style = #'cross
+e' |
+  \times 2/3 { r4 gis, gis } gis4 \once \override NoteHead.style = #'cross
+e' | r gis8 gis gis4 fis |
   \new Voice = "break" { gis,8 gis gis r4. gis8 gis | gis8 r4 gis8 gis gis r4 }
 % Verse 2
   gis8 gis gis gis gis r gis r | gis gis gis gis g4 r | % economic ... planet
@@ -52,16 +59,28 @@ melody = \relative c' {
   gis gis gis gis4. gis8 gis~ | gis gis gis4 gis2 | % ominous ... gear
   \times 2/3 { r4 fis' fis } \times 2/3 { fis4 fis fis } | % don't you know ... they're
   \times 2/3 { g4 gis gis } gis2 | % doing in there
+
 % CHORUS
-  \times 2/3 { gis4 gis gis } \times 2/3 { gis gis gis } | \times 2/3 { gis gis gis } gis4 e' |
-  \times 2/3 { gis,4 gis gis } \times 2/3 { gis gis gis } | \times 2/3 { gis gis gis } gis4 e' |
-  \times 2/3 { gis,4 gis gis } \times 2/3 { gis gis gis } | \times 2/3 { gis gis gis } gis4 e' |
-  \times 2/3 { r4 gis, gis } gis4 e' | r gis8 gis gis4 fis |
-  \repeat volta 2 { e4. e8~ e2~ | e4. e8 fis fis dis4 | % higher ... can
+  \times 2/3 { gis4 gis gis } \times 2/3 { gis gis gis } | \times 2/3 { gis gis gis } gis4 
+\once \override NoteHead.style = #'cross
+e' |
+  \times 2/3 { gis,4 gis gis } \times 2/3 { gis gis gis } | \times 2/3 { gis gis gis } gis4
+ \once \override NoteHead.style = #'cross
+e' |
+  \times 2/3 { gis,4 gis gis } \times 2/3 { gis gis gis } | \times 2/3 { gis gis gis } gis4 
+\once \override NoteHead.style = #'cross
+e' |
+  \times 2/3 { r4 gis, gis } gis4 \once \override NoteHead.style = #'cross
+e' | r gis8 gis gis4 fis |
+
+% Higher  
+\repeat volta 2 { e4. e8~ e2~ | e4. e8 fis fis dis4 | % higher ... can
   e1~ | e2 fis4 cis | % buy wing can
   dis1~ | dis2 fis4 e | % fly, smoke can |
   dis4. dis8 fis4 e | dis4 cis cis dis | % rise. The price of life let's make it
   }
+
+% Peace
   \repeat volta 2 {
   dis4( cis2) gis4 | b4. a4.~ a4 |
   gis2. fis4 | a4. gis4. r4 |
