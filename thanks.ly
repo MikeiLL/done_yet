@@ -3,7 +3,10 @@
 \header {
   title = "Ministers and Ministresses of the Temple of Wow"
   instrument = "Without Whom We Would be Broker at the Very Least"
+  tag = "Copyright Rivka and Mike iLL Kilmer Creative Commons Attribution-NonCommercial BMI - Engraving by Lilypond"
 }
+
+\paper{ print-page-number = ##f }
 
 
 %Additional Verses

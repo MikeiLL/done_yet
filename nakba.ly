@@ -3,7 +3,10 @@
 \header {
   title = "Nakba (Catastrophe)"
   composer = "Words and Music by Rivka and Mike iLL"
+  tag = "Copyright Rivka and Mike iLL Kilmer Creative Commons Attribution-NonCommercial BMI - Engraving by Lilypond"
 }
+
+\paper{ print-page-number = ##f }
 
 
 melody = \relative c' {

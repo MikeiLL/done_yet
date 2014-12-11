@@ -3,7 +3,10 @@
 \header {
   title = "Transcendental Medication"
   composer = "Words and Music by Mike iLL"
+  tag = "Copyright Rivka and Mike iLL Kilmer Creative Commons Attribution-NonCommercial BMI - Engraving by Lilypond"
 }
+
+\paper{ print-page-number = ##f }
 
 melody = \relative c'' {
   \clef treble

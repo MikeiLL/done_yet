@@ -9,7 +9,10 @@ date = #(strftime "%d-%m-%Y" (localtime (current-time)))
   composer = "Rivka and Mike iLL"
   copyright = "copyright R and M Kilmer"
   instrument = "unaccompanied vocal"
+  tag = "Copyright Rivka and Mike iLL Kilmer Creative Commons Attribution-NonCommercial BMI - Engraving by Lilypond"
 }
+
+\paper{ print-page-number = ##f }
 
 \markup {
   \date
