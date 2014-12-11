@@ -46,7 +46,7 @@ harmonies = \chordmode {
   c2. | c | g:7 | g:7 |
   c | c | g:7 | g:7 |
   c | e:m/b | a:m | a:m |
-  d:7 | d:7 | g:7 | g:7 |
+  d:m7 | d:m7 | g:7 | g:7 |
   c | g:/b | a:m | g:7 |
   f | f | f | f |
   f | f | f |  g |
@@ -77,7 +77,7 @@ harmonies = \chordmode {
 %Additional Verses
 \markup \fill-line {
 \column {
-"2. There's a devil inside of us all, this one's holdin' the rains."
+"2. There's a devil inside of us all, this one's holdin' the reigns."
 "Hell, Hell, Hell."
 "A struggle that's older than God's humble soldiers and their sayings."
 "Well, well, well."
