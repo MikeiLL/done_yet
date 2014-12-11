@@ -12,6 +12,7 @@ melody = \relative c'' {
   \clef treble
   \key g \minor
   \time 4/4
+  \set Score.voltaSpannerDuration = #(ly:make-moment 4/4)
 }
 
 text =  \lyricmode {
