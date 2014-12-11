@@ -113,6 +113,18 @@ harmonies = \chordmode {
 
   d:7 | e:7 | fis:7 | b:m |
   b:m | fis:m | gis:7 | cis:7 |
+
+  fis:m | cis:7 | cis:7 | fis:m |
+  dis:m7.5- | d:7 | cis:7 | fis:m |
+
+  fis:m | cis:7 | cis:7 | fis:m |
+  dis:m7.5- | d:7 | cis:7 | fis:m |
+
+  fis:m | cis:7 | cis:7 | fis:m |
+  dis:m7.5- | d:7 | cis:7 | fis:m |
+
+  fis:m | cis:7 | cis:7 | fis:m |
+  dis:m7.5- | d:7 | cis:7 | fis:m |
 }
 
 \score {
