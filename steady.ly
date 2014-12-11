@@ -25,10 +25,10 @@ melody = \relative c' {
   }
   \alternative { 
     { 
-     r2. |
+     r*6/8 |
     }
     { 
-     r2. |
+     r*6/8 |
     }
   }
   % CHORUS
