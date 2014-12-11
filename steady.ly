@@ -25,21 +25,21 @@ melody = \relative c' {
   }
   \alternative { 
     { 
-     r*6/8 |
+     r1*6/8 |
     }
     { 
-     r*6/8 |
+     r1*6/8 |
     }
   }
   % CHORUS
   \new Voice = "chorus"	{
   g4. a | bes g4 r8 |
-  r2. | r2. |
+  r1*6/8 | r1*6/8 |
   g4. a | bes g4 r8 |
-  r2. | r2. |
+  r1*6/8 | r1*6/8 |
   g4. a | bes d4 r8 |
   r2 r8 des8~ | des4. c8 bes bes~ |
-  bes2. | r4 aes' ges | ges16( f~) f4. r4 | r2. |
+  bes2. | r4 aes' ges | ges16( f~) f4. r4 | r1*6/8 |
 	}
   
 }
