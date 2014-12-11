@@ -15,7 +15,7 @@ melody = \relative c' {
   r4 f4 d | r f f | % first i rubber her
   f4. f8 f4 | r8 f4 f8 f ees8~ | % thighs 'till they turned to butter
   \time 3/8 ees4 r8 | \time 6/8
-  r4 ees c | r ees ees | % then i rubber her
+  r4 ees c | r ees ees | % then i rubbed her
   ees4. ees8 ees4 | r8 ees8~ ees16 d16 d4. | % lips 'till they turned to bread
   r4 d bes | r d d | % let's just say i
   r4. des8. des8. | c4 bes8 a4 c8 | % layed us out a fancy 
