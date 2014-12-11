@@ -74,16 +74,17 @@ text =  \lyricmode {
 		stea -- dy | roll | |
 		}
   >>
-	All I | want is |
+	
+}
+chorus = \lyricmode {
+    All I | want is |
 	 | |
 	All I | need is |
 	 | |
 	All night | e -- ven |
 	Long | stea -- dy roll |
-	 | | | |
-	
-}
-
+	 | Stea -- dy | Roll. | |
+	 }
 
 harmonies = \chordmode {
   e1:m7.5-~ e8:m7.5- | bes1~ bes8 |
@@ -91,7 +92,7 @@ harmonies = \chordmode {
   aes2.:/g | f:7 | aes:/g | f4.:/b b |
   f2.:maj7 | d:m7 | ees:m | f:7 |
   bes | f:m | bes | c:7/e |
-  c4.:7/e d:7 |
+  c4.:7 d:7 |
   g2.:m | g:m | c:m | f:7 |
   g:m | g:m | c:7 | f:7 |
   g:m | g:m | ees:m | f:7 |
@@ -106,7 +107,17 @@ harmonies = \chordmode {
     }
     \new Voice = "one" { \melody }
     \new Lyrics \lyricsto "words" \text
+    \new Lyrics \lyricsto "chorus" \chorus
   >>
   \layout { }
   \midi { }
+}
+%Additional Verses
+\markup \fill-line {
+    \column {
+    "First we pressed our luck 'till it turned to reason."
+    "Then we said our prayers 'till it cast a spell."
+    "Let's just say we turned ourselves our pretty well."
+    "Steady roll."
+    }
 }
