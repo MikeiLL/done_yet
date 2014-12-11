@@ -3,7 +3,10 @@
 \header {
   title = "Cousin of Booth"
   composer = "Words and Music by Mike iLL"
+  tagline = "copyright Mike and Rivka Kilmer BMI Music engraving by LilyPond"
 }
+
+\paper{ print-page-number = ##f }
 
 melody = \relative c' {
   \clef treble
