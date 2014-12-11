@@ -35,16 +35,16 @@ melody = \relative c' {
   e8 e e4 e8 e e4 | e8 e e e e e e4 | % tough as nails ... jail
   e8 e e4 e8 e e e | e e e e e e e4 | % pay a fine ... nails
   e'1~ | e2( e8 b g4) | % Ahh 
-  e4 r e fes | g a8 b4.~ b8 r8 | % youth got me holdin on
-  e,4 r e fes | g a8 b4.~ b8 r8 | %  pour me another one
-  e,4 r e fes | g a8 b4.~ b8 r8 | % down another one
-  e,4 r e fes | g a8 b4.~ b8 r8 | % now the thrill is gone
-  e,4 r e fes | g a8 b4.~ b8 r8 | % and the bill has come
-  e,4 r e fes | g a8 b4. c4 | % i can justify my 
-  e,4 r e fes | g a8 b4. c4 | % i can vindicate my
-  e,4 r e fes | g a8 b4.  c4 | % i can fortify my
-  e,4 r e fes | g a8 b4. c4 | % watch me fornicate my
-  e,4 r e fes | g a8 b4. c4 | % watch me rectify my
+  e4 r e fis | g a8 b4.~ b8 r8 | % youth got me holdin on
+  e,4 r e fis | g a8 b4.~ b8 r8 | %  pour me another one
+  e,4 r e fis | g a8 b4.~ b8 r8 | % down another one
+  e,4 r e fis | g a8 b4.~ b8 r8 | % now the thrill is gone
+  e,4 r e fis | g a8 b4.~ b8 r8 | % and the bill has come
+  e,4 r e fis | g a8 b4. c4 | % i can justify my 
+  e,4 r e fis | g a8 b4. c4 | % i can vindicate my
+  e,4 r e fis | g a8 b4.  c4 | % i can fortify my
+  e,4 r e fis | g a8 b4. c4 | % watch me fornicate my
+  e,4 r e fis | g a8 b4. c4 | % watch me rectify my
   e,4 r b' b | b8 b4 b b8 b4 | % save me say a prayer for my 
   e4 r b b | b4 b8 b4 b8 b4 | % make a sacrifice to my
   e4 r \times 2/3 { b4 b a | b b a } b2 % line after ... line
@@ -76,7 +76,7 @@ text =  \lyricmode {
   I'm not the one you ex -- | pect -- ed to be drink -- ing. |
   Drink -- ing and dri -- ving. | Here I am thri -- ving. |
   Thri -- ving and sur -- vi -- ving, | bob -- bing and wea -- ving. |
-  Off -- i -- cer ex -- cuse me, | we we're just lea -- ving.
+  Off -- i -- cer ex -- cuse me, | we were just lea -- ving.
   Here I got ta look this down. | |
   Here I got ta know this town. | |
   Hope they don't for -- get me. | Had a lot -- ta trau -- ma. |
@@ -84,7 +84,7 @@ text =  \lyricmode {
   Mom was a teach -- er. | Dead now or ne -- ver. |
   'Mem -- ber her for -- e -- ver | In the book of mor -- ning stars. |
   Book o' mor -- ning stars. | Hope I'm not preg -- nant. |
-  Feel a lit -- tle quee -- zy | Need tha in -- con -- ven -- ience |
+  Feel a lit -- tle quee -- zy | Need the in -- con -- ven -- ience |
   Like I need a hole in my | nose |
   with a big fat | ring in it | |
   Yes, sir, off -- i -- sir. | Se -- ven -- in the mor -- ning, sir |
