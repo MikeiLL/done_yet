@@ -13,8 +13,8 @@ melody = \relative c'' {
   \repeat volta 2 { c4. b8 c b c( a) | r8 bes4 a8 bes( a) g r8 |
   g a bes c d( c) bes c | g a4 a8 a4 a8 r8 | }
 
- \repeat volta 2 { d8 cis d c d c d( c) | d cis d c d( c) bes( a) |
-  g bes b b b b c( b) | r a4 a8 bes( a) a8 r | }
+ \repeat volta 2 { d8 cis d cis d cis d( cis) | d cis d cis d( cis) bes( a) |
+  g bes bes bes bes bes c( bes) | r a4 a8 bes( a) a8 r | }
 }
 
 text =  \lyricmode {
@@ -37,7 +37,7 @@ text =  \lyricmode {
 
 harmonies = \chordmode {
   d1:7 | g1:m | g2:m/f g2:m/ees | d1:7
-  d1:7 |      | g1:m  | d1:7   |
+  d1:7 | d1:7  | g1:m  | d1:7   |
 }
 
 \score {
