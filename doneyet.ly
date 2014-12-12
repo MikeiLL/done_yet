@@ -93,7 +93,7 @@ text =  \lyricmode {
   pro -- fit be gained by the | rough -- tro -- dden poor? |
   A -- round the world, | ba -- ttle -- field to rock |
   Won with a stacked deck, but | came back sick! |
-  Sub -- di -- vide a fad -- ed comm -- | un -- i -- ty tur -- tle isle. Occ -- u -- |
+  Sub -- di -- vide a fad -- ed com -- | mun -- i -- ty tur -- tle isle. Occ -- u -- |
   pa -- tion -- is -- real, de -- mo -- | li -- tion is final. Ref -- u -- |
   gees in tent ci -- ties grow -- ing | up hom -- i -- ci -- dal. Head |
   bowed at the road block it's a | game of sur -- vi -- val. Singed |
@@ -118,7 +118,7 @@ text =  \lyricmode {
   so -- nous net -- works spun | to drain as -- sets |
   In -- fant for -- mu -- la in -- stant | food and ci -- ga -- rets, |
   In -- fan -- tile in -- fra -- struc -- ture | ver -- ging on col -- lapse. |
-  Pu -- pe -- try go -- ver -- ment, brink of ci -- vil war. "\"Kill" |
+  Pup -- pe -- try go -- ver -- nment, brink of ci -- vil war. "\"Kill" |
   that's what we gave ya the God -- | dam guns "for.\"" |
   Aim at the char -- as -- ma -- tic med -- dle -- some poor. If ya |
   run out -- ta bul -- lets some -- one's al -- ways ma -- kin' more. |
@@ -145,12 +145,12 @@ cg = \chordmode { cis1:m | gis:7 | }
 ggcc = \chordmode { gis2:7 cis:m | }
 ccgg = \chordmode { cis2:m gis:7 | }
 ffff = \chordmode { fis1:m }
-ddgg = \chordmode { dis2:dim gis:7 }
-dddd = \chordmode { dis1:dim }
+ddgg = \chordmode { dis2:m7.5- gis:7 }
+dddd = \chordmode { dis1:m7.5- }
 ggcf = \chordmode { gis4:7 gis:7 cis:m fis:m }
 higher = \chordmode { 
   cis1:m | cis:m | cis:m | cis:m |
-  fis:m | fis:m | gis:7 | dis2:dim gis:m |
+  fis:m | fis:m | gis:7 | dis2:m7.5- gis:m |
   }
 peace = { \cccc \cccc \ffff \gggg } 
 
@@ -162,7 +162,7 @@ bings = {
 begins = \chordmode { 
   cis1:m | gis2:7 cis4:m gis:7 | cis1:m | cis2:m fis:m | % ... poor
   gis1:7 | gis:7 | gis:7 | gis:7 | % around ... back sick
-  cis1:m | gis2:7 cis:m | cis1:m | cis:m | % subdivide ... 
+  cis1:m | gis2:7 cis:m | cis1:m | gis2:7 cis:m | % subdivide ... 
   }
 
 harmonies = {
