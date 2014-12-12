@@ -3,8 +3,11 @@
 \header {
   title = "Minimart"
   subtitle = "Derived from Traditional Balkan Song: Rumelaj"
-  poet = "Text by Mike iLL"
+  poet = "Text by Mike iLL"  
+  tagline = "Copyright R. and M. Kilmer Creative Commons Attribution-NonCommercial, BMI"
 }
+
+\paper{ print-page-number = ##f }
 
 melody = \relative c'' {
   \clef treble

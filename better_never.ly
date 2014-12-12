@@ -3,7 +3,7 @@
 \header {
   title = "Better Never"
   composer = "Words and Music by Mike iLL"
-  tag = "Copyright Rivka and Mike iLL Kilmer Creative Commons Attribution-NonCommercial BMI - Engraving by Lilypond"
+  tagline = "Copyright R. and M. Kilmer Creative Commons Attribution-NonCommercial, BMI"
 }
 
 \paper{ print-page-number = ##f }

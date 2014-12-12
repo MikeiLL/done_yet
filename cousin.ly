@@ -3,7 +3,7 @@
 \header {
   title = "Cousin of Booth"
   composer = "Words and Music by Mike iLL"
-  tagline = "copyright Mike and Rivka Kilmer BMI Music engraving by LilyPond"
+  tagline = "Copyright R. and M. Kilmer Creative Commons Attribution-NonCommercial, BMI"
 }
 
 \paper{ print-page-number = ##f }

@@ -3,7 +3,10 @@
 \header {
   title = "The Liars"
   composer = "Words and Music by Mike iLL"
+  tagline = "Copyright R. and M. Kilmer Creative Commons Attribution-NonCommercial, BMI"
 }
+
+\paper{ print-page-number = ##f }
 
 melody = \relative c'' {
   \clef treble

@@ -7,10 +7,11 @@ date = #(strftime "%d-%m-%Y" (localtime (current-time)))
 \header {
   title = "The Money"
   composer = "Rivka and Mike iLL"
-  copyright = "copyright R and M Kilmer"
   instrument = "voice and wallet"
+  tagline = "Copyright R. and M. Kilmer Creative Commons Attribution-NonCommercial, BMI"
 }
 
+\paper{ print-page-number = ##f }
 \markup {
   \date
 }

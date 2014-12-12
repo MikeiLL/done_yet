@@ -3,7 +3,7 @@
 \header {
   title = "The Hoop"
   composer = "Words and Music by Rivka and Mike iLL"
-  tag = "Copyright Rivka and Mike iLL Kilmer Creative Commons Attribution-NonCommercial BMI - Engraving by Lilypond"
+  tagline = "Copyright R. and M. Kilmer Creative Commons Attribution-NonCommercial, BMI"
 }
 
 \paper{ print-page-number = ##f }

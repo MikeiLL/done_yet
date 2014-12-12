@@ -3,7 +3,10 @@
 \header {
   title = "R We Done Yet?"
   composer = "Words and Music by Rivka and Mike iLL"
+  tagline = "Copyright R. and M. Kilmer Creative Commons Attribution-NonCommercial, BMI"
 }
+
+\paper{ print-page-number = ##f }
 
 melody = \relative c' {
   \clef treble

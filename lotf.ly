@@ -3,8 +3,11 @@
     \header {
       title = "Lullaby of Twisted Feelings"
       composer = "Based on De Cind Te Cunosc Pe Tine by Nicolae Gutsa"
-      poet = "Words by Mike iLL"
-    }
+      poet = "Words by Mike iLL"  
+      tagline = "Copyright R. and M. Kilmer Creative Commons Attribution-NonCommercial, BMI"
+}
+
+\paper{ print-page-number = ##f }
 
 melody = \relative c' {
   \clef treble
