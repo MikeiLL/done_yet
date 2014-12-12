@@ -15,7 +15,7 @@ melody = \relative c' {
     <<
     \new Voice = "shown" {
       fis8 e fis e fis e4 fes8~ | fes ges~ ges2. | % lullaby ... feelings
-      gis8 fis gis fis gis fis4 ges8~ | ges( a~ a2.) | % whispered ... megaphone
+      gis8 fis gis fis gis fis4 gis8~ | gis( a~ a2.) | % whispered ... megaphone
       a8 b cis b b( a4) gis8~ | gis a gis fis gis( fis4) r8 | % can ... this
       r eis eis eis fis gis4 fis8~ | fis( eis4.) fis4( gis) | % till any ... gone
         }
@@ -75,7 +75,7 @@ text =  \lyricmode {
 
   Think a -- bout the fools we're up | a -- gainst |
   Li -- ving in the va -- ni -- ty. | |
-  What they lack in co -- | mmon sense |
+  What they lack in com -- | mon sense |
   is made up for in ar -- | gu -- ments |
   
   Lo -- vers who re -- veal a hi -- | den face, |
@@ -115,16 +115,16 @@ harmonies = \chordmode {
   b:m | fis:m | gis:7 | cis:7 |
 
   fis:m | cis:7 | cis:7 | fis:m |
-  dis:m7.5- | d:7 | cis:7 | fis:m |
+  fis:m/dis | d:7 | cis:7 | fis:m |
+
+  fis:m | cis:7 | cis:7 | fis:m |
+  fis:m/dis | d:7 | cis:7 | fis:m |
 
   fis:m | cis:7 | cis:7 | fis:m |
   dis:m7.5- | d:7 | cis:7 | fis:m |
 
   fis:m | cis:7 | cis:7 | fis:m |
-  dis:m7.5- | d:7 | cis:7 | fis:m |
-
-  fis:m | cis:7 | cis:7 | fis:m |
-  dis:m7.5- | d:7 | cis:7 | fis:m |
+  fis:m/dis | d:7 | cis:7 | fis:m |
 }
 
 \score {
