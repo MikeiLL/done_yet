@@ -58,7 +58,7 @@ melody = \relative c' {
 
 
 text =  \lyricmode {
- Spin that hoop. Twist that hoop.
+ Swing that hoop. Twist that hoop.
  Whip that hoop. Wig -- gle that hoop.
  Bump that, hump that, jump that hoop.
  Step -- pin' right through it, now.
