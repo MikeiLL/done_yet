@@ -91,9 +91,9 @@ chorus = \lyricmode {
 
 harmonies = \chordmode {
   e1:m7.5-~ e8:m7.5- | bes1~ bes8 |
-  bes2. | g:m7 | aes:/g | f:7 | f4.:7 |
-  aes2.:/g | f:7 | aes:/g | f4.:/b b |
-  f2.:maj7 | d:m7 | ees:m | f:7 |
+  bes2. | g:m7 | c:7sus4/g | f:7 | f4.:7 |
+  c2.:m7/g | f:7 | c:7sus4/g | ees4.:/bes bes |
+  ees2.:maj7 | c:m7 | ees:m | f:7 |
   bes | f:m | bes | c:7/e |
   c4.:7 d:7 |
   g2.:m | g:m | c:m | f:7 |
