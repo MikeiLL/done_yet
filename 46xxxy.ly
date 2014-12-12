@@ -3,7 +3,7 @@
 \header {
   title = "46XXXY"
   composer = "Words and Music by Rivka and Mike iLL"
-  tag = "Copyright Rivka and Mike iLL Kilmer Creative Commons Attribution-NonCommercial BMI - Engraving by Lilypond"
+  tagline = "Copyright Rivka and Mike iLL Kilmer Creative Commons Attribution-NonCommercial BMI - Engraving by Lilypond"
 }
 
 \paper{ print-page-number = ##f }
@@ -78,7 +78,7 @@ melody = \relative c'' {
 	  aes4( ees) aes4( ees) | fes8 ees des fes ees4( c8) r |
 	  des c bes des c4( aes8) r | c r beses r aes2 |
 	  aes'4( ees) aes4( ees) | fes8 ees des fes ees4( c8) r |
-	  des c bes des c4( aes8) r | c r4. beses8 r4. | aes1~ | aes |
+	  des c bes des c4( aes8) r | c r4. beses8 r4. | aes1~ | aes \bar "|."
 }
 
 text =  \lyricmode {
@@ -128,7 +128,44 @@ chorus = \lyricmode {
 	chro -- mo -- some for -- ty -- six | trip -- ple X Y |
 }
 
-harmonies = \chordmode {
+choruschrds = \chordmode {
+	aes1 | aes | aes | aes |
+	fes:m | fes:m | fes:m | aes |
+	}
+
+aaaa = \chordmode { aes1 | aes | aes | aes | }
+ggga = \chordmode { ges1:m | ges:m | ges:m | aes | }
+aggg = \chordmode { aes1 | ges:m | ges:m | ges:m | }
+gaaa = \chordmode { ges1:m | aes | aes | aes | }
+agga = \chordmode { aes1 | ges:m | ges:m | aes | }
+aaag = \chordmode { aes1 | aes | aes | ges:m | }
+% agaa = \chordmode { aes1 | ges:m | aes | aes | }
+gggg = \chordmode { ges1:m | ges:m | ges:m | ges:m | }
+inst = \chordmode { aes1 | ges:m | ges:m | ges2:m aes | }
+ending = \chordmode { aes1 | ges:m | ges:m | ges:m |  aes | aes | }
+test = \chordmode { c1 | }
+
+harmonies = {
+	\choruschrds
+	\aaaa % flower ... transmissions 
+	\ggga % plastic ... now
+	\aggg % neighbornood ... afternoon
+	\gaaa % dynomite ... doom
+	\agga % prissy ... soft side
+	\aaag % kid ... wood
+	\gggg % walked ... dress
+	\inst
+	\inst
+	\aaaa % estrogen ... questioned him
+	\ggga % testin' ... testosterone
+	\aaag % tell ... looks
+	\ggga % hushed ... books
+	\aaag % soon ... reigns
+	\gggg % heard ... lace
+	\choruschrds
+	\inst
+	\inst
+	\ending
 }
 
 \score {
@@ -150,7 +187,8 @@ harmonies = \chordmode {
 
 \markup \fill-line {
 	\column {
-		"Additional verses:"
+		" "
+		"Additional 46XXXY verses:"
 		"  "
 	}
 }
@@ -158,6 +196,8 @@ harmonies = \chordmode {
 %Additional Verses
 \markup \fill-line {
 \column {	
+	    " "
+
 	    "Nest-headed girl rude lip, hard ball"
 
 	    "Dirty hands, bloody knees and a broke tooth smile"
@@ -182,6 +222,7 @@ harmonies = \chordmode {
 	    "Results to deliver in a welding mask."
 	}
 \column {
+	    "  "
 	    "Nitrogen, glycerine, substitute for estrogen"
 
 	    "Super-octane testosterone"
