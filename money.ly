@@ -11,7 +11,8 @@ date = #(strftime "%d-%m-%Y" (localtime (current-time)))
   tagline = "Copyright R. and M. Kilmer Creative Commons Attribution-NonCommercial, BMI"
 }
 
-\paper{ print-page-number = ##f }
+\paper{ print-page-number = ##f bottom-margin = 0.5\in }
+
 \markup {
   \date
 }
@@ -42,7 +43,7 @@ melody = \relative c'' {
 ddgg = \chordmode { d1:7 | g:m | }
 bridge = \chordmode {
   ees1:7 | ees:7 | c:m7 | c:m7 |
-  ees:7 | g:m | g:m |
+  ees:7 | g:m | c:m |
   }
 
 harmonies = {

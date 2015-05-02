@@ -6,7 +6,7 @@
   tagline = "Copyright Rivka and Mike iLL Kilmer Creative Commons Attribution-NonCommercial BMI - Engraving by Lilypond"
 }
 
-\paper{ print-page-number = ##f }
+\paper{ print-page-number = ##f bottom-margin = 0.5\in }
 
 melody = \relative c'' {
   \clef treble
@@ -91,14 +91,14 @@ text =  \lyricmode {
 }
 
 textb = \lyricmode {
-	Dy -- no -- mite mind sets bent | for doom
+	Dy -- ni -- mite mind sets bent | for doom
 }
 
 textc = \lyricmode {
-	Pris -- sy boy nick name | ric -- o -- che bat -- tle -- ground |
+	Pris -- sy boy nick name | ric -- o -- chet bat -- tle -- ground |
 	Ev -- ery -- bo -- dy rat -- tled out | hide your soft side |
 
-	Kid far -- side a -- lone | if he could ma -- kin' |
+	Kid far -- side a -- lone | if he couldi, ma -- kin' |
 	all day trips to the | west side wood. |
 	Walked up on by the | eighth grade class |
 	Dan -- cin' by the ri -- ver in a | wed -- ding dress.
@@ -130,7 +130,7 @@ chorus = \lyricmode {
 
 choruschrds = \chordmode {
 	aes1 | aes | aes | aes |
-	fes:m | fes:m | fes:m | aes |
+	ges:m | ges:m | ges:m | aes |
 	}
 
 aaaa = \chordmode { aes1 | aes | aes | aes | }
@@ -235,7 +235,7 @@ harmonies = {
 
 	    "She is of the ilk that’s wild and bold,"
 
-	    "Who’s endeavors have enabled us all to unfold."
+	    "Whos endeavors have enabled us all to unfold."
 
 	    "Games don’t tell the boys from the girls."
 

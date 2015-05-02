@@ -6,7 +6,7 @@
   tagline = "Copyright R. and M. Kilmer Creative Commons Attribution-NonCommercial, BMI"
 }
 
-\paper{ print-page-number = ##f }
+\paper{ print-page-number = ##f bottom-margin = 0.5\in }
 
 melody = \relative c' {
   \clef treble
