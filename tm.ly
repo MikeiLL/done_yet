@@ -34,7 +34,7 @@ text =  \lyricmode {
  {
  \set stanza = #"1. " 
    Blues trail -- in' me a -- | round this wide |
-   World. Bor -- ders lie with -- | in these blank walls |
+   World. Bor -- ders lie with -- | in these white walls |
    Need a -- no -- ther | vic -- to -- | ry: |
    Tran -- scen -- | den -- tal med -- i -- | ca -- tion
   }
