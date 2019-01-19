@@ -1,7 +1,7 @@
 \version "2.18.2"
 
 \header {
-  title = "46XXXY"
+  title = "47XXXY"
   composer = "Words and Music by Rivka and Mike iLL"
   tagline = "Copyright Rivka and Mike iLL Kilmer Creative Commons Attribution-NonCommercial BMI - Engraving by Lilypond"
 }
@@ -188,7 +188,7 @@ harmonies = {
 \markup \fill-line {
 	\column {
 		" "
-		"Additional 46XXXY verses:"
+		"Additional 47XXXY verses:"
 		"  "
 	}
 }
