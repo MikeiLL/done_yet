@@ -20,7 +20,7 @@ melody = \relative c'' {
 			a2. | g4 a f | f4. e~ | \time 4/4 e2 e'8 e e e |
 			e4 r2. | r2 b8 b b b | b4 e2. | r2 b8 b b b |
 			b4 e2. | r2 b8 c dis e | \time 6/8 g8 r4 fis4. |
-			e4. r | r2. | r2. | r2. |
+			e8 r4 r4. | r2. | r2. | r2. |
 		}
 	}
 }
