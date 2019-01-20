@@ -28,13 +28,13 @@ melody = \relative c'' {
 	}
 }
 
-harmony = \relative c' {
+harmony = \relative c'' {
   \voiceTwo
 	c2. b4 | b a8 gis4. a4 | f1~ | f |
 	b2. a8 a~ | a4 gis8 f4. d4 | e2 r | r1 | % Dragged
 	c'2. b4 | b a8 gis4. a4 | f1 | r | % Now they
 	b2. a8 a~ | a4 gis8 f4. d4 | e2 r | r1 | % Were they
-	c'2. c4 | c e8 e4. e4 | e2 f4 d,~ | d1 | % Sleep my
+	c'2. c4 | c e8 e4. e4 | e2 f4 d~ | d1 | % Sleep my
 	r2 c8 c b b~ | b4. a gis8 a~ | a2 r | r1 | % Morning will come
 	c2. c4 | e e8 e4. d4 | d2 e4 d~ | d1 | % Drag us
 	r2 c8 c b4 | b a8 gis4. f4 | e2 r | r1 | % Only our love
