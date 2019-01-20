@@ -86,10 +86,13 @@ harmonies = \chordmode {
 %Additional Verses
 \markup \fill-line {
 \column {
-"2. "
-""
-""
-" "
+"2. Tidying my thinking space. My thoughts are not uncluttered."
+"Long to see your face and here your voice as though it's not so far 'way."
+"Verses and verses and verses and verses in"
+"Letters and poems and threads and songs"
+"You and me and longing to be"
+"United in person united in being around"
+"Not so far 'way."
 
   }
 }
