@@ -40,7 +40,7 @@ text =  \lyricmode {
 	No -- thing and no -- thing and no -- thing and no -- thing I'm
 	See -- ing and drea -- ming and li -- ving and schem --ing that
 	You and me and ev' -- ry -- bo -- dy are
-	Dan -- cing and jum -- ping and funk -- ing and breah -- ing a --
+	Dan -- cing and jum -- ping and funk -- ing and breath -- ing a --
 	round. Not so far 
 	'way.		
 }
