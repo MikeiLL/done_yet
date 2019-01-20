@@ -96,10 +96,23 @@ harmonies = \chordmode {
 %Additional Verses
 \markup \fill-line {
 \column {
-"2. "
-""
-""
+"2. Childhood dreams we still pursue,"
+"People try to make us doubt."
+"In our hearts we think screw you,"
+"Smile and say \"Don't stress me out.\""
+"Miles of highway leading who knows where"
+"Thin the treads beneath our souls."
+"In the end they lead me right back here"
+"Thicker of skin, a bit less cold."
 " "
+"3. Words may change the way we suffer."
+"Laws may change the air we breathe."
+"Will we hide from one another"
+"Flaws to minor to perceive?"
+"To the many friends who I've let down,"
+"And the ones who've lead me on,"
+"Tried to save the world and only found"
+"The world is getting on just fine."
 
 " "
   }
