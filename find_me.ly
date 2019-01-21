@@ -21,6 +21,8 @@ melody = \relative c' {
 			d'8 r4 a4 r8 | g4. f4 r8 | d'4 r8 a4 r8 | g8( a4) r4. | % heart so empty
 			d8.( e16 d8) a4. | g4. r8 f8 g | a2. | r2 f'8( e | % aching for your presence oh
 			d8) r4 a4 a8 | g4. f | d'8 r e f r g | f( e d) a4. | % anything you wa a a a ant my
+			r2 a4( | g) r4. f4( | e) r4 d8 | e8 r2 f8 |
+			f4 g2~ | g4. a4 g8~ | g2 a8( g) | bes a g f4 g 
 		}
 	}
 }
@@ -73,7 +75,21 @@ harmonies = \chordmode {
 \markup \fill-line {
 \column {
 "2. Your eyes are the sun an moon."
-
+"Hear, the night sky."
+"Blood, sweat and tears, the rivers and seas."
+"Oh you turn the wo- o- o- o- orld around"
+"I'm lost without a hope until"
+"By no less than a miracle"
+"You find me..."
+" "
+"3. Motherless, fatherless spawn of yourself"
+"Everlasting loneliness."
+"O-o-only place that you fit in is"
+"Everywhere I swear I'll be"
+"Out here somewhere still lost"
+"Singing this prayer,"
+"openhearted, hoping"
+"You find me..."
 " "
   }
 }
