@@ -22,7 +22,7 @@ melody = \relative c' {
 			g4 g a | e e a | g g a | e e g | % Seeing and dreaming and
 			b2 a4 | b2 a4 | b4 b a | b2 a4 | % You and Me and every
 			g4 g a | e e a | g g a | e e g |  % Dancing and jumping
-			e2.~ | e~ | e | b'8 a4. fis4 |  % 'round.... far 
+			fis2.~ | fis~ | fis | b'8 a4. fis4 |  % 'round.... far 
 			e2.~ | e~ | e4 r2 | r2. |
 		}
 	}
