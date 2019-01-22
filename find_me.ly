@@ -14,7 +14,7 @@ melody = \relative c' {
   \set Score.voltaSpannerDuration = #(ly:make-moment 6/8)
 	\new Voice = "words" {
 		\voiceOne 
-		\repeat volta 2 {
+		\repeat volta 3 {
 			f2( e8 f | d4.) r | e4 f r | % you find me
 			r2 r8 g | a4 bes2 |r2 r8 c | % remind me ... good
 			c4.( bes4) a8 | a4. a4 f8 | g4 a8 g4 a8 | % bye goodbye ... temporary
@@ -35,6 +35,10 @@ melody = \relative c' {
 				a4 r4. a8( | g2) r8 f8 | d r2 c8 | e4 r8 f4 f8( | % around I'm lost without a hope
 				g4.) a4 a8( | g2) a8 g | bes a g f f g8 | % hope until by no less than a miracle
 			}
+			{ 
+				d'4 d8 a4 r8 | g4 g8 f4 r8 | d'4. r8 a f | g( a2) r8 | % Motherless fatherless... self
+				% Everlasting loneliness 
+			}
 		}
 	}
 }
@@ -52,6 +56,7 @@ text =  \lyricmode {
 	Oh you turn the wo- o- o- o- orld a -- round.
 	I'm lost with -- out a hope un -- til
 	by no less than a mi -- ra -- cle
+	Mo -- ther -- less, fa -- ther -- less span of your -- self
 }
 
 harmonies = \chordmode {
