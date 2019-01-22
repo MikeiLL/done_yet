@@ -45,12 +45,12 @@ text =  \lyricmode {
 harmonies = \chordmode {
 	f2. | d:m | d:m |
 	g:m | g:m | c:7 | c:7 |
-	a:m | ag:m | d:m | a:m |
+	a:m | g:m | d:m | a:m |
 	d:m | a:m | d:m | a:m |
 	d:m | a:m | d:m | a:m |
 	d:m | a:m | d:m | a:m |
 	g:m | g:m | g:m | g:m |
-	c:7 | c:7 |
+	g:m | g:m | c:7 | c:7 |
 }
 
 \score {
