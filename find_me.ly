@@ -12,6 +12,7 @@ melody = \relative c' {
   \key f \major
   \time 6/8 
   \set Score.voltaSpannerDuration = #(ly:make-moment 6/8)
+  #(ly:expect-warning "cannot end volta") 
 	\new Voice = "words" {
 		\voiceOne 
 		\repeat volta 3 {
@@ -41,6 +42,7 @@ melody = \relative c' {
 				d4) d8 a4 a8 | g4 g8 f4 f8 | d'4 e8 f4 g8 | f( e d) d4 a8~ | % Only place that you fit in is... I'll be
 				a2~ a8 a | g2 r8 f | e4. r4 d8 | e4 r8  f4 g8~ | % Be out here still lost sing
 				g2.~ | g4. a4 a8( | g2) a8 g | bes( a) g f4 g8 | % ing this prayer open hearted hoping
+				\set Score.repeatCommands = #'(end-repeat)
 			}
 		}
 	}
