@@ -43,7 +43,14 @@ text =  \lyricmode {
 }
 
 harmonies = \chordmode {
-  	 
+	f2. | d:m | d:m |
+	g:m | g:m | c:7 | c:7 |
+	a:m | ag:m | d:m | a:m |
+	d:m | a:m | d:m | a:m |
+	d:m | a:m | d:m | a:m |
+	d:m | a:m | d:m | a:m |
+	g:m | g:m | g:m | g:m |
+	c:7 | c:7 |
 }
 
 \score {
@@ -74,7 +81,7 @@ harmonies = \chordmode {
 %Additional Verses
 \markup \fill-line {
 \column {
-"2. Your eyes are the sun an moon."
+"2. Your eyes are the sun and moon."
 "Hear, the night sky."
 "Blood, sweat and tears, the rivers and seas."
 "Oh you turn the wo- o- o- o- orld around"
