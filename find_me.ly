@@ -37,7 +37,10 @@ melody = \relative c' {
 			}
 			{ 
 				d'4 d8 a4 r8 | g4 g8 f4 r8 | d'4. r8 a f | g( a2) r8 | % Motherless fatherless... self
-				% Everlasting loneliness 
+				d8.( e16 d8) a4. | g4. f4 g8~ | g4 a8 a4.~| a r8 f'8( e | % Everlasting loneliness ... oh
+				d4) d8 a4 a8 | g4 g8 f4 f8 | d'4 e8 f4 g8 | f( e d) d4 a8~ | % Only place that you fit in is... I'll be
+				a2~ a8 a | g2 r8 f | e4. r4 d8 | e4 r8  f4 g8~ | % Be out here still lost sing
+				g2.~ | g4. a4 a8( | g2) a8 g | bes( a) g f4 g8 | % ing this prayer open hearted hoping
 			}
 		}
 	}
@@ -56,7 +59,12 @@ text =  \lyricmode {
 	Oh you turn the wo- o- o- o- orld a -- round.
 	I'm lost with -- out a hope un -- til
 	by no less than a mi -- ra -- cle
-	Mo -- ther -- less, fa -- ther -- less span of your -- self
+	Mo -- ther -- less, fa -- ther -- less spawn of your -- self.
+	E -- ver -- las -- ting lone -- li -- ness.
+	On -- ly place that you fit in is
+	ev -- 'ry -- where I swear I'll be
+	out here some -- where still lost sing -- ing this prayer
+	o -- pen hear -- ted ho -- ping
 }
 
 harmonies = \chordmode {
@@ -93,27 +101,3 @@ harmonies = \chordmode {
   }
   
 }
-
-%Additional Verses
-\markup \fill-line {
-\column {
-"2. Your eyes are the sun and moon."
-"Hair, the night sky."
-"Blood, sweat and tears the rivers and seas."
-"Oh you turn the wo- o- o- o- orld around"
-"I'm lost without a hope until"
-"By no less than a miracle"
-"You find me..."
-" "
-"3. Motherless, fatherless spawn of yourself"
-"Everlasting loneliness."
-"O-o-only place that you fit in is"
-"Everywhere I swear I'll be"
-"Out here somewhere still lost"
-"Singing this prayer,"
-"openhearted, hoping"
-"You find me..."
-" "
-  }
-}
-
