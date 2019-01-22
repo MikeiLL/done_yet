@@ -83,7 +83,7 @@ harmonies = \chordmode {
 \column {
 "2. Your eyes are the sun and moon."
 "Hear, the night sky."
-"Blood, sweat and tears, the rivers and seas."
+"Blood, sweat and tears the rivers and seas."
 "Oh you turn the wo- o- o- o- orld around"
 "I'm lost without a hope until"
 "By no less than a miracle"
