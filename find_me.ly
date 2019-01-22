@@ -17,19 +17,14 @@ melody = \relative c' {
 			f2( e8 f | d4.) r | e4 f r | % you find me
 			r2 r8 g | a4 bes2 |r2 r8 c | % remind me ... good
 			c4.( bes4) a8 | a4. a4 f8 | g4 a8 g4 a8 | % bye goodbye ... temporary
-			f8( e f4) r | r2. | % spell
+			f8( e f4) r | r2. | r2. | r  % spell
 			d'8 r4 a4 r8 | g4. f4 r8 | d'4 r8 a4 r8 | g8( a4) r4. | % heart so empty
 			d8.( e16 d8) a4. | g4. r8 f8 g | a2. | r2 f'8( e | % aching for your presence oh
 			d8) r4 a4 a8 | g4. f | d'8 r e f r g | f( e d) a4. | % anything you wa a a a ant my
-			r2 a4( | g) r4. f4( | e) r4 d8 | e8 r2 f8 |
-			f4 g2~ | g4. a4 g8~ | g2 a8( g) | bes a g f4 g 
+			r2 a4( | g8) r4. f4( | e) r4. d8 | e8 r4. f8 f | % heart mind and breath ... my bo-
+			g2.~ | g4. a4 a8( | g2) a8( g) | bes a g f4 g8 | % dy my soul already belongs to
 		}
 	}
-}
-
-harmony = \relative c'' {
-  \voiceTwo
-	
 }
 
 text =  \lyricmode {
@@ -45,7 +40,7 @@ text =  \lyricmode {
 harmonies = \chordmode {
 	f2. | d:m | d:m |
 	g:m | g:m | c:7 | c:7 |
-	a:m | g:m | d:m | a:m |
+	a:m | g:m | d:m | a:m | d:m | a:m |
 	d:m | a:m | d:m | a:m |
 	d:m | a:m | d:m | a:m |
 	d:m | a:m | d:m | a:m |
@@ -56,13 +51,12 @@ harmonies = \chordmode {
 \score {
   <<
     \new ChordNames {
-      \set chordChanf = ##t
+      \set chordChanges = ##t
       \harmonies
     }
     \new Staff  {
     <<
     	\new Voice = "upper" { \melody }
-    	\new Voice = "lower" { \harmony }
     >>
   	}
   	\new Lyrics \lyricsto "words" \text
