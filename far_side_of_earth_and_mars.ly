@@ -2,7 +2,7 @@
 \paper{ print-page-number = ##f bottom-margin = 0.5\in }
 
 \header {
-  title = "Young Beautiful & Stressed"
+  title = "Far Side of Earth & Mars"
   composer = "Words and Music by Rivka & Mike iLL"
   tagline = "Copyright R. and M. Kilmer Creative Commons Attribution-NonCommercial, BMI"
 }
@@ -33,7 +33,7 @@ text =  \lyricmode {
 harmonies = \chordmode {
   	ees1.:m | ees:m | ees:m | ees1:m ees8:m d4.|
   	c1.:m | c:m | c:m6 | c:m6 |
-  	a:m7.5- | aes:7 | c:m | c:m |
+  	a:m7.5- | aes:7 | c:m |
   	a:m7.5- | aes:7 | c:m | bes:7 |
   	
 }
