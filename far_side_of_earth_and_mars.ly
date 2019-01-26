@@ -22,6 +22,7 @@ melody = \relative c' {
 		}
 	}
 	\new Voice = "hidden" {
+	  \voiceTwo
       \hideNotes {
 			ees4 ges4. ees8 ges4. ees | bes1. | ees4 ges4. ees8 ges4. ees | bes'2.~ bes4. aes4. |
 			ges2. ges4. f4 f8~ | f4 ees~ ees1 | ees2. ees4. d4 d8~ | d4 c2~ c2. |
@@ -55,7 +56,7 @@ harmonies = \chordmode {
   	ees1.:m | ees:m | ees:m | ees1:m ees8:m d4.|
   	c1.:m | c:m | c:m6 | c:m6 |
   	a:m7.5- | aes:7 | c:m |
-  	a:m7.5- | aes:7 | c:m | bes:7 |
+  	a:m7.5- | aes:7 | c2.:m bes:7 |
   	
 }
 
