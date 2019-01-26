@@ -31,9 +31,10 @@ text =  \lyricmode {
 }
 
 harmonies = \chordmode {
-  	ees:min1. | ees:min | ees:min | ees:min |
-  	ees:min | ees:min | ees:min | ees:min2. d2.|
-  	c:min1. | c:min | c:min6 | c:min6 |
+  	ees1.:m | ees:m | ees:m | ees1:m ees8:m d4.|
+  	c1.:m | c:m | c:m6 | c:m6 |
+  	a:m7.5- | aes:7 | c:m | c:m |
+  	a:m7.5- | aes:7 | c:m | bes:7 |
   	
 }
 
