@@ -37,7 +37,12 @@ text =  \lyricmode {
 }
 
 harmonies = \chordmode {
-  	ees2.:m | aes:m
+  	ees2.:m | ees:m | aes:m | aes:m |
+  	ees2.:m | ees:m | aes:m | aes:m |
+	ees2.:m | ees:m | aes:m | aes:m |
+	ees2.:m | ees:m | aes:m | aes:m |
+	ees2.:m | ees:m | aes:m | aes:m |
+	ees2.:m | ees:m | aes:m | aes:m |
 }
 
 \score {
