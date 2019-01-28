@@ -10,16 +10,16 @@
 melody = \relative c'' {
   \clef treble
   \key ees \minor
-  \time 6/8 
+  \time 3/4 
 	\new Voice = "words" {
 		\voiceOne 
 		\repeat volta 2 {
-			r4. bes16 bes bes bes bes8~ | bes4. ces8 aes4 |
-			r4. bes16 bes bes bes bes8~ | bes4. ces8 aes4 |
-			r4. bes16 bes bes bes bes8~ | bes4. ces8 aes4 |
-			ges8 aes ges4 r | f8 ges16 aes8 r16 r8 des,16 f8 ees16 |
-			ees4 r4 ees'8 des | ces2 f,8 des | ees4 r4 ees'8 des | 
-			ces2.
+			r2. | bes8 bes bes bes bes4~ | bes2. | ces4 aes2 |
+			r2. | bes8 bes bes bes bes4~ | bes2. | ces4 aes2 |
+			r2. | bes8 bes bes bes bes4~ | bes2. | ces4 aes2 |
+			ges4 aes ges4 | r2. | f4 ges8 aes4. | r4 des,8 f4 ees8 |
+			ees4 r2 | r4 ees' des | ces2.~ | ces4 f, des | 
+			ees4 r2 | r4 ees' des | ces2.~ | ces4 f, des | 
 		}
 	}
 }
