@@ -61,7 +61,7 @@ verse_text =  \lyricmode {
 	herb stuffed pil -- low. La -- ven -- der, jaz -- mine, cha -- mo -- mile
 	rose. Can bare -- ly keep com -- posed some -- times at the sheer
 	awe of be -- ing a -- live with this pair of hands that can make
-	signs and sym -- bols and reach for the start e -- ven with
+	signs and sym -- bols and reach for the stars e -- ven with
 	emp -- ty ac -- counts of va -- ri -- ous sorts even when re --
 	li -- geous sorts come call -- ing at the door with
 	dark exp -- la -- na -- tions and fore -- bod -- ing thoughts I'm think -- in'
