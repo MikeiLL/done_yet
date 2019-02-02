@@ -23,8 +23,8 @@ melody = \relative c'' {
 			ges4 aes ges4 | r2. | f4 ges8 aes4. | r4 des,8 f4 ees8 | % That's a lot ... a lot to
 			ees4 r2 |
 		}
-		r4 ees' des | ces2.~ | ces4 f, des | % ask.
-		ees4 r2 | r4 ees' des | ces2.~ | ces4 f, des | 
+		r4 ees' des | ces2.~ | ces4 f, ces | % ask.
+		ees4 r2 | r4 ees' des | ces2.~ | ces4 f, ces | 
 	
 	}
 	
