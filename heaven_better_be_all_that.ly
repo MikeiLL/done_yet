@@ -13,17 +13,23 @@ melody = \relative c'' {
   \time 3/4 
   \set Score.voltaSpannerDuration = #(ly:make-moment 6/8)
   #(ly:expect-warning "cannot end volta") 
-	\new Voice = "words" {
+  \repeat volta 2 {
+	\new Voice = "chorus" {
 		\voiceOne 
-		\repeat volta 2 {
+		
 			r2. | bes8 bes bes bes bes4~ | bes2. | ces4 aes2 | % Heaven better
 			r2. | bes8 bes bes bes bes4~ | bes2. | ces4 aes2 |
 			r2. | bes8 bes bes bes bes4~ | bes2. | ces4 aes2 |
 			ges4 aes ges4 | r2. | f4 ges8 aes4. | r4 des,8 f4 ees8 | % That's a lot ... a lot to
-			ees4 r2 | r4 ees' des | ces2.~ | ces4 f, des | % ask.
-			ees4 r2 | r4 ees' des | ces2.~ | ces4 f, des | 
+			ees4 r2 |
 		}
-		\alternative {
+		r4 ees' des | ces2.~ | ces4 f, des | % ask.
+		ees4 r2 | r4 ees' des | ces2.~ | ces4 f, des | 
+	
+	}
+	
+	\alternative {
+		\new Voice = "verse" {
 			{
 				r4. bes8 bes bes | bes4 bes r | r bes8 bes4 bes8 | bes bes4 bes bes8 | % Beautiful children
 				r4 bes2~ | bes4 bes8 bes \tuplet 3/2 { bes bes bes } | r2 bes8 bes | bes4 bes8 bes4. | % Gorgeous body and a razor sharp
@@ -39,17 +45,20 @@ melody = \relative c'' {
 				bes bes bes8 bes~ | bes4 bes bes | bes bes8 bes4 bes8~ | bes4 bes8 bes bes4 | % dark explanations .. thoughts I'm thinkin'
 			}
 			{
-			
+		
 			}
 		}
 	}
 }
 
-text =  \lyricmode {
+chorus_text =  \lyricmode {
 	Hea -- ven bet -- ter be all that.
 	Hea -- ven bet -- ter be all that.
 	Hea -- ven bet -- ter be all that.
 	More than this? That's a lot. A lot to ask.
+}
+
+verse_text =  \lyricmode {
 	Beau -- ti -- full child -- ren. A slam -- min lo -- ver with a
 	gor -- geous bo -- dy and a... and a ra -- zor sharp
 	Mind a part -- ner.
@@ -62,7 +71,6 @@ text =  \lyricmode {
 	emp -- ty ac -- counts of va -- ri -- ous sorts even when re --
 	li -- geous sorts come call -- ing at the door with
 	dark exp -- la -- na -- tions and fore -- bod -- ing thoughts I'm think -- in'
-	
 }
 
 harmonies = \chordmode {
@@ -90,13 +98,15 @@ harmonies = \chordmode {
   <<
     \new ChordNames {
       \set chordChanges = ##t
+      \harmonies
     }
     \new Staff  {
     <<
     	\new Voice = "upper" { \melody }
     >>
   	}
-  	\new Lyrics \lyricsto "words" \text
+  	\new Lyrics \lyricsto "chorus" \chorus_text
+  	\new Lyrics \lyricsto "verse" \verse_text
   >>
   
   
