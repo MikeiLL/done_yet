@@ -28,17 +28,18 @@ melody = \relative c'' {
 	
 	}
 	\alternative {
+		\key ees \major
 		\new Voice = "verse" {
-				r4. bes8 bes bes | bes4 bes r | r bes8 bes4 bes8 | bes bes4 bes bes8 | % Beautiful children
-				r4 bes2~ | bes4 bes8 bes \tuplet 3/2 { bes bes bes } | r2 bes8 bes | bes4 bes8 bes4. | % Gorgeous body and a razor sharp
-				bes2 bes8 bes~ | bes4 bes r | r2. | r | % Mind a partner
-				r4 bes8 bes4 bes8 | bes bes4 bes bes8 | bes4 bes8 bes4 bes8 | bes bes bes4 r | % The sun came up ... time ago
-				r8 bes bes4~ \tuplet 3/2 {bes8 bes bes} | bes4. bes8 r4 | bes bes8 bes4 bes8 | bes4 r8 bes4 bes8 | % I fell from the sky ... velvet
-				bes4. bes | bes8 bes4. r4 | bes8 bes bes bes4 bes8 | bes bes bes2 | % herb stuffed ... chamomile
-				bes2 bes4 | bes bes8 bes4 bes8 | bes4. bes | bes4 bes8 bes bes4 | % rose can barely ... sheer
-				bes4 bes8 bes bes bes | bes4 bes8 bes r4 | r bes8 bes4 bes8~ | bes4 bes8 bes4 bes8 | % awe of ... can make
-				bes2 bes4 | bes bes8 bes4 bes8~ | bes4 bes8 bes4 bes8~ | bes4. bes8 bes bes | % signs and symbols ... stars even with
-				bes4 bes8 bes4 bes8~ | bes4 r bes | bes bes8 bes4 bes8~| bes4 bes8 bes bes bes | % empty accounts of ... even when re-
+				r4. g'8 g f | g4 bes2 | r4 g8 g4 f8 | g aes4 bes c8 | % Beautiful children ... with a
+				r4 des2~ | des4 c8 c4 bes8~ | bes4 r bes8 g | bes4 g8 bes4. | % Gorgeous body and a razor sharp
+				g2 g8 g~ | g4 ees r | r2. | r | % Mind a partner
+				r4 f8 f4 g8 | g aes4 aes bes8 | c4 d8 d4 c8 | c bes bes4 r | % The sun came up ... time ago
+				r8 bes bes4~ \tuplet 3/2 {bes8 aes g} | g4. g8 r4 | g d8 ees4 f8 | g4 r8 aes4 bes8 | % I fell from the sky ... velvet
+				aes4. g | f8 f4. r4 | e8 e e g4 g8 | bes bes g2 | % herb stuffed ... chamomile
+				f2 g4 | aes bes8 aes4 g8 | f4. f | f4 f8 a c4 | % rose can barely ... sheer
+				bes4 bes8 bes bes bes | bes4 bes8 bes r4 | r d8 bes4 f'8~ | f4 d8 bes4 aes8 | % awe of ... can make
+				g2 g4 | g ees8 g4 g8~ | g4 g8 g4 bes8~ | bes4. bes8 bes bes | % signs and symbols ... stars even with
+				c4 c8 des4 c8~ | c4 r bes | bes bes8 bes4 bes8~| bes4 bes8 bes aes g | % empty accounts of ... even when re-
 				bes4. bes4 bes8~ | bes4 r bes | bes8 bes4 bes bes8 | bes4 r bes | % ligeous sorts come ... with
 				bes bes bes8 bes~ | bes4 bes bes | bes bes8 bes4 bes8~ | bes4 bes8 bes bes4 | % dark explanations .. thoughts I'm thinkin'
 			}
@@ -61,7 +62,7 @@ chorus_text =  \lyricmode {
 
 verse_text =  \lyricmode {
 	Beau -- ti -- full child -- ren. A slam -- min lo -- ver with a
-	gor -- geous bo -- dy and a... and a ra -- zor sharp
+	gor -- geous bo -- dy and a ra -- zor sharp
 	Mind a part -- ner.
 	The sun came up on my good for -- tune a lone time a -- go.
 	I fell from the sky and lan -- ded on a plush vel -- vet
@@ -85,18 +86,18 @@ harmonies = \chordmode {
 	ees2.:m | ees:m | aes:m | aes:m |
 	ees2.:m | ees:m | aes:m | aes:m |
 	ees2.:m | ees:m | aes:m | aes:m |
-	bes | bes | d:m | d:m |
-	f:m | f:m | g:7-/d | g:7-/d |
-	ees | ees | c:7 | c:7 |
-	f:sus4 | f:sus4 | f:7 | f:7 |
-	bes | bes | d:m | d:m |
-	f:m | f:m | g:7-/d | g:7-/d |
-	ees | ees | c:7 | c:7 |
-	f:sus4 | f:sus4 | f:7 | f:7 |
-	bes | bes | d:m | d:m |
-	f:m | f:m | g:7-/d | g:7-/d |
-	ees | ees | c:7 | c:7 |
-	f:sus4 | f:sus4 | f:7 | f:7 |
+	ees | ees | g:m | g:m |
+	bes:m | bes:m | c:7/g | c:7/g |
+	aes | aes | f:7 | f:7 |
+	bes:sus4 | bes:sus4 | bes:7 | bes:7 |
+	ees | ees | g:m | g:m |
+	bes:m | bes:m | c:7/g | c:7/g |
+	aes | aes | f:7 | f:7 |
+	bes:sus4 | bes:sus4 | bes:7 | bes:7 |
+	ees | ees | g:m | g:m |
+	bes:m | bes:m | c:7/g | c:7/g |
+	aes | aes | f:7 | f:7 |
+	bes:sus4 | bes:sus4 | bes:7 | bes:7 |
 }
 
 \score {
