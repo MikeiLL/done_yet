@@ -27,10 +27,8 @@ melody = \relative c'' {
 		ees4 r2 | r4 ees' des | ces2.~ | ces4 f, ces | 
 	
 	}
-	
 	\alternative {
 		\new Voice = "verse" {
-			{
 				r4. bes8 bes bes | bes4 bes r | r bes8 bes4 bes8 | bes bes4 bes bes8 | % Beautiful children
 				r4 bes2~ | bes4 bes8 bes \tuplet 3/2 { bes bes bes } | r2 bes8 bes | bes4 bes8 bes4. | % Gorgeous body and a razor sharp
 				bes2 bes8 bes~ | bes4 bes r | r2. | r | % Mind a partner
@@ -44,12 +42,15 @@ melody = \relative c'' {
 				bes4. bes4 bes8~ | bes4 r bes | bes8 bes4 bes bes8 | bes4 r bes | % ligeous sorts come ... with
 				bes bes bes8 bes~ | bes4 bes bes | bes bes8 bes4 bes8~ | bes4 bes8 bes bes4 | % dark explanations .. thoughts I'm thinkin'
 			}
-			{
-		
+		\context Voice = "verse" {
+				r4 bes4 bes8 bes~ | bes bes bes bes4 bes8~ | bes4. bes4 bes8~ | bes4 r bes | % Wrote a letter ... but
+				bes2 bes4 | bes2 bes4 | bes2 bes4 | r2. | % on my way I lost it
+				bes2 bes4 | bes2 bes4 | bes4 bes8 bes4 bes8~ | bes2 bes4 | % Walk my god down memory lane to
+				bes2 bes4 | bes2 bes4 | bes4. bes8 r4 | % see if she can smell it
 			}
 		}
 	}
-}
+
 
 chorus_text =  \lyricmode {
 	Hea -- ven bet -- ter be all that.
@@ -68,9 +69,13 @@ verse_text =  \lyricmode {
 	rose. Can bare -- ly keep com -- posed some -- times at the sheer
 	awe of be -- ing a -- live with this pair of hands that can make
 	signs and sym -- bols and reach for the clouds e -- ven with
-	emp -- ty ac -- counts of va -- ri -- ous sorts even when re --
+	emp -- ty ac -- counts of va -- ri -- ous sorts e -- ven when re --
 	li -- geous sorts come call -- ing at the door with
 	dark exp -- la -- na -- tions and fore -- bod -- ing thoughts I'm think -- in'
+	Wrote a let -- ter to my fu -- ture self but
+	on my way I lost it.
+	Walk my God down me -- mo -- ry lane to
+	see if she can smell it.
 }
 
 harmonies = \chordmode {
@@ -80,18 +85,18 @@ harmonies = \chordmode {
 	ees2.:m | ees:m | aes:m | aes:m |
 	ees2.:m | ees:m | aes:m | aes:m |
 	ees2.:m | ees:m | aes:m | aes:m |
-	ees | ees | g:m | g:m |
-	bes:m | bes:m | aes | aes |
-	ees | ees | g:m | g:m |
-	bes:m | bes:m | aes | aes |
-	ees | ees | g:m | g:m |
-	bes:m | bes:m | aes | aes |
-	ees | ees | g:m | g:m |
-	bes:m | bes:m | aes | aes |
-	ees | ees | g:m | g:m |
-	bes:m | bes:m | aes | aes |
-	ees | ees | g:m | g:m |
-	bes:m | bes:m | aes | aes |
+	bes | bes | d:m | d:m |
+	f:m | f:m | g:7-/d | g:7-/d |
+	ees | ees | c:7 | c:7 |
+	f:sus4 | f:sus4 | f:7 | f:7 |
+	bes | bes | d:m | d:m |
+	f:m | f:m | g:7-/d | g:7-/d |
+	ees | ees | c:7 | c:7 |
+	f:sus4 | f:sus4 | f:7 | f:7 |
+	bes | bes | d:m | d:m |
+	f:m | f:m | g:7-/d | g:7-/d |
+	ees | ees | c:7 | c:7 |
+	f:sus4 | f:sus4 | f:7 | f:7 |
 }
 
 \score {
