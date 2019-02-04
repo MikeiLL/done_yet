@@ -92,19 +92,19 @@ harmonies = \chordmode {
 	ees2.:m | ees:m | aes:m | aes:m |
 	ees2.:m | ees:m | aes:m | aes:m |
 	ees2.:m | ees:m | aes:m | aes:m |
-	ees | ees | g:m | g:m |
-	bes:m | bes:m | c:7/g | c:7/g |
-	aes | aes | f:m7 | f:m7 |
-	bes:sus4 | bes:sus4 | bes:7 | bes:7 |
-	ees | ees | g:m | g:m |
-	bes:m | bes:m | c:7/g | c:7/g |
-	aes | aes | f:m7 | f:m7 |
-	bes:sus4 | bes:sus4 | bes:7 | bes:7 |
-	ees | ees | g:m | g:m |
-	bes:m | bes:m | c:7/g | c:7/g |
-	aes | aes | f:m7 | f:m7 |
-	bes:sus4 | bes:sus4 | bes:7 | bes:7 |
 	
+	ees | ees | g:m | g:m |
+	bes:m | bes:m | c:7/g | c:7/g |
+	aes | aes | f:m7 | f:m7 |
+	bes:sus4 | bes:sus4 | bes:7 | bes:7 |
+	ees | ees | g:m | g:m |
+	bes:m | bes:m | c:7/g | c:7/g |
+	aes | aes | f:m7 | f:m7 |
+	bes:sus4 | bes:sus4 | bes:7 | bes:7 |
+	ees | ees | g:m | g:m |
+	bes:m | bes:m | c:7/g | c:7/g |
+	aes | aes | f:m7 | f:m7 |
+	bes:sus4 | bes:sus4 | bes:7 | bes:7 |
 	
 	ees | ees | g:m | g:m |
 	bes:m | bes:m | c:7/g | c:7/g |
