@@ -27,6 +27,7 @@ melody = \relative c'' {
  }
  \alternative {
    \new Voice = "verse" {
+   \key ees \major
     	r4. g'8 g f | g4 bes2 | r4 g8 g4 f8 | g aes4 bes c8 | % Beautiful children ... with a
 		r4 des2~ | des4 c8 c4 bes8~ | bes4 r bes8 g | bes4 g8 bes4. | % Gorgeous body and a razor sharp
 		g2 g8 g~ | g4 ees r | r2. | r | % Mind a partner
@@ -41,10 +42,14 @@ melody = \relative c'' {
 		ees4. ees8 ees ees~ | ees4( d8) c4 bes8 | c d8 c4 bes~ | bes4 bes8 bes bes4 | % dark explanations .. thoughts I'm thinkin'
    }
    \context Voice = "verse" {
-     	r4 ees4 ees8 ees~ | ees f g g g8~ | g4. bes4 bes8~ | bes4 r c | % Wrote a letter ... but
+     	r4 ees,4 ees8 ees~ | ees4 f8 g g g8~ | g4. bes4 bes8~ | bes4 r c | % Wrote a letter ... but
 		des2 c4 | bes2 aes4 | bes2 g4 | r2. | % on my way I lost it
 		g2 g4 | g2 f4 | f4 f8 ees4 ees8~ | ees2 f4 | % Walk my god down memory lane to
-		g2 g4 | g2 aes4 | g4. f8 r4 | % see if she can smell it
+		g2 g4 | g2 aes4 | g4. f4.~ | f2 r4 | % see if she can smell it
+		r4 ees4 ees8 ees~ | ees4 f8 g g g8~ | g4. bes4 bes8~ | bes4 r c | % Sent a letter ... and
+		des2 c4 | bes2 aes4 | bes2 g4 | r2. | % hope that they'll believe it
+		g2 g4 | g2 f4 | f2 ees4~ | ees2 f4 | % Hope that they can read it or
+		g2 g4 | g2 aes4 | g4. f4.~ | f2 r4 |  % have someone to read it
    		}
 	}
 }
@@ -73,7 +78,11 @@ verse_text =  \lyricmode {
 	Wrote a let -- ter to my fu -- ture self but
 	on my way I lost it.
 	Walk my God down me -- mo -- ry lane to
-	see if she can smell it.
+	see if she can find it.
+	Sent a let -- ter to my in -- ner child and
+	hope that they'll be -- lieve it.
+	Hope that they can read it or
+	have some -- one to read it.
 }
 
 harmonies = \chordmode {
