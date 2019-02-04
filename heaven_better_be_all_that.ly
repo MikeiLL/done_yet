@@ -28,21 +28,7 @@ melody = \relative c'' {
  \alternative {
    \new Voice = "verse" {
    \key ees \major
-    	r4. g'8 g f | g4 bes2 | r4 g8 g4 f8 | g aes4 bes c8 | % Beautiful children ... with a
-		r4 des2~ | des4 c8 c4 bes8~ | bes4 r bes8 g | bes4 g8 bes4. | % Gorgeous body and a razor sharp
-		g2 g8 g~ | g4 ees r | r2. | r | % Mind a partner
-		r4 f8 f4 g8 | g aes4 aes bes8 | c4 d8 d4 c8 | c bes bes4 r | % The sun came up ... time ago
-		r8 bes bes4~ \tuplet 3/2 {bes8 aes g} | g4. g8 r4 | g d8 ees4 f8 | g4 r8 aes4 bes8 | % I fell from the sky ... velvet
-		aes4. g | f8 f4. r4 | e8 e e g4 g8 | bes bes g2 | % herb stuffed ... chamomile
-		f2 g4 | aes bes8 aes4 g8 | f4. f | f4 f8 aes c4 | % rose can barely ... sheer
-		bes4 bes8 bes bes bes | bes4 bes8 bes r4 | r d8 bes4 f'8~ | f4 d8 bes4 aes8 | % awe of ... can make
-		g2 g4 | g ees8 g4 g8~ | g4 g8 g4 bes8~ | bes4. bes8 bes bes | % signs and symbols ... stars even with
-		c4 c8 des4 c8~ | c4 r bes | bes bes8 bes4 bes8~| bes4 bes8 bes aes g | % empty accounts of ... even when re-
-		g4. ees4 ees8~ | ees4 r g | bes8 bes4 bes bes8 | bes4 r c | % ligeous sorts come ... with
-		ees4. ees8 ees ees~ | ees4( d8) c4 bes8 | c d8 c4 bes~ | bes4 bes8 bes bes4 | % dark explanations .. thoughts I'm thinkin'
-   }
-   \context Voice = "verse" {
-     	r4 ees,4 ees8 ees~ | ees4 f8 g g g8~ | g4. bes4 bes8~ | bes4 r c | % Wrote a letter ... but
+    	r4 ees4 ees8 ees~ | ees4 f8 g g g8~ | g4. bes4 bes8~ | bes4 r c | % Wrote a letter ... but
 		des2 c4 | bes2 aes4 | bes2 g4 | r2. | % on my way I lost it
 		g2 g4 | g2 f4 | f4 f8 ees4 ees8~ | ees2 f4 | % Walk my god down memory lane to
 		g2 g4 | g2 aes4 | g4. f4.~ | f2 r4 | % see if she can smell it
@@ -50,6 +36,21 @@ melody = \relative c'' {
 		des2 c4 | bes2 aes4 | bes2 g4 | r2. | % hope that they'll believe it
 		g2 g4 | g2 f4 | f2 ees4~ | ees2 f4 | % Hope that they can read it or
 		g2 g4 | g2 aes4 | g4. f4.~ | f2 r4 |  % have someone to read it
+		
+		% g2 g4 | g ees8 g4 g8~ | g4 g8 g4 bes8~ | bes4. bes8 bes bes | % signs and symbols ... stars even with
+		% c4 c8 des4 c8~ | c4 r bes | bes bes8 bes4 bes8~| bes4 bes8 bes aes g | % empty accounts of ... even when re-
+		% g4. ees4 ees8~ | ees4 r g | bes8 bes4 bes bes8 | bes4 r c | % ligeous sorts come ... with
+		% ees4. ees8 ees ees~ | ees4( d8) c4 bes8 | c d8 c4 bes~ | bes4 bes8 bes bes4 | % dark explanations .. thoughts I'm thinkin'
+   }
+   \context Voice = "verse" {
+     	r4. g8 g f | g4 bes2 | r4 g8 g4 f8 | g aes4 bes c8 | % Beautiful children ... with a
+		r4 des2~ | des4 c8 c4 bes8~ | bes4 r bes8 g | bes4 g8 bes4. | % Gorgeous body and a razor sharp
+		g2 g8 g~ | g4 ees r | r2. | r | % Mind a partner
+		r4 f8 f4 g8 | g aes4 aes bes8 | c4 d8 d4 c8 | c bes bes4 r | % The sun came up ... time ago
+		r8 bes bes4~ \tuplet 3/2 {bes8 aes g} | g4. g8 r4 | g d8 ees4 f8 | g4 r8 aes4 bes8 | % I fell from the sky ... velvet
+		aes4. g | f8 f4. r4 | e8 e e g4 g8 | bes bes g2 | % herb stuffed ... chamomile
+		f2 g4 | aes bes8 aes4 g8 | f4. f | f4 f8 aes c4 | % rose can barely ... sheer
+		bes4 bes8 bes bes bes | bes4 bes8 bes r4 | r d8 bes4 f'8~ | f4 d8 bes4 aes8 | % awe of ... think -- in'
    		}
 	}
 }
@@ -63,18 +64,7 @@ chorus_text =  \lyricmode {
 }
 
 verse_text =  \lyricmode {
-	Beau -- ti -- full child -- ren. A slam -- min lo -- ver with a
-	gor -- geous bo -- dy and a ra -- zor sharp
-	Mind a part -- ner.
-	The sun came up on my good for -- tune a lone time a -- go.
-	I fell from the sky and lan -- ded on a plush vel -- vet
-	herb stuffed pil -- low. La -- ven -- der, jaz -- mine, cha -- mo -- mile
-	rose. Can bare -- ly keep com -- posed some -- times at the sheer
-	awe of be -- ing a -- live with this pair of hands that can make
-	signs and sym -- bols and reach for the clouds e -- ven with
-	emp -- ty ac -- counts of va -- ri -- ous sorts e -- ven when re --
-	li -- geous sorts come call -- ing at the door with
-	dark exp -- la -- na -- tions and fore -- bod -- ing thoughts I'm think -- in'
+
 	Wrote a let -- ter to my fu -- ture self but
 	on my way I lost it.
 	Walk my God down me -- mo -- ry lane to
@@ -83,6 +73,22 @@ verse_text =  \lyricmode {
 	hope that they'll be -- lieve it.
 	Hope that they can read it or
 	have some -- one to read it.
+	
+	Beau -- ti -- full child -- ren. A slam -- min lo -- ver with a
+	gor -- geous bo -- dy and a ra -- zor sharp
+	Mind a part -- ner.
+	The sun came up on my good for -- tune a lone time a -- go.
+	I fell from the sky and lan -- ded on a plush vel -- vet
+	herb stuffed pil -- low. La -- ven -- der, jaz -- mine, cha -- mo -- mile
+	rose. Can bare -- ly keep com -- posed some -- times at the sheer
+	awe of be -- ing a -- live with this pair of hands I'm reach -- in'
+	
+	% signs and sym -- bols and reach for the clouds e -- ven with
+	% emp -- ty ac -- counts of va -- ri -- ous sorts e -- ven when re --
+	% li -- geous sorts come call -- ing at the door with
+	% dark exp -- la -- na -- tions and fore -- bod -- ing thoughts I'm think -- in'
+	
+	
 }
 
 harmonies = \chordmode {
@@ -93,10 +99,6 @@ harmonies = \chordmode {
 	ees2.:m | ees:m | aes:m | aes:m |
 	ees2.:m | ees:m | aes:m | aes:m |
 	
-	ees | ees | g:m | g:m |
-	bes:m | bes:m | c:7/g | c:7/g |
-	aes | aes | f:m7 | f:m7 |
-	bes:sus4 | bes:sus4 | bes:7 | bes:7 |
 	ees | ees | g:m | g:m |
 	bes:m | bes:m | c:7/g | c:7/g |
 	aes | aes | f:m7 | f:m7 |
