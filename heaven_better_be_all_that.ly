@@ -13,11 +13,10 @@ melody = \relative c'' {
   \time 3/4 
   \set Score.voltaSpannerDuration = #(ly:make-moment 6/8)
   #(ly:expect-warning "cannot end volta") 
-  \repeat volta 2 {
-	\new Voice = "chorus" {
-		\voiceOne 
-		
-			r2. | bes8 bes bes bes bes4~ | bes2. | ces4 aes2 | % Heaven better
+   \repeat volta 2 {
+   \new Voice = "chorus" {
+     \voiceOne
+     r2. | bes8 bes bes bes bes4~ | bes2. | ces4 aes2 | % Heaven better
 			r2. | bes8 bes bes bes bes4~ | bes2. | ces4 aes2 |
 			r2. | bes8 bes bes bes bes4~ | bes2. | ces4 aes2 |
 			ges4 aes ges4 | r2. | f4 ges8 aes4. | r4 des,8 f4 ees8 | % That's a lot ... a lot to
@@ -25,32 +24,30 @@ melody = \relative c'' {
 		}
 		r4 ees' des | ces2.~ | ces4 f, ces | % ask.
 		ees4 r2 | r4 ees' des | ces2.~ | ces4 f, ces | 
-	
+ }
+ \alternative {
+   \new Voice = "verse" {
+    	r4. g'8 g f | g4 bes2 | r4 g8 g4 f8 | g aes4 bes c8 | % Beautiful children ... with a
+		r4 des2~ | des4 c8 c4 bes8~ | bes4 r bes8 g | bes4 g8 bes4. | % Gorgeous body and a razor sharp
+		g2 g8 g~ | g4 ees r | r2. | r | % Mind a partner
+		r4 f8 f4 g8 | g aes4 aes bes8 | c4 d8 d4 c8 | c bes bes4 r | % The sun came up ... time ago
+		r8 bes bes4~ \tuplet 3/2 {bes8 aes g} | g4. g8 r4 | g d8 ees4 f8 | g4 r8 aes4 bes8 | % I fell from the sky ... velvet
+		aes4. g | f8 f4. r4 | e8 e e g4 g8 | bes bes g2 | % herb stuffed ... chamomile
+		f2 g4 | aes bes8 aes4 g8 | f4. f | f4 f8 aes c4 | % rose can barely ... sheer
+		bes4 bes8 bes bes bes | bes4 bes8 bes r4 | r d8 bes4 f'8~ | f4 d8 bes4 aes8 | % awe of ... can make
+		g2 g4 | g ees8 g4 g8~ | g4 g8 g4 bes8~ | bes4. bes8 bes bes | % signs and symbols ... stars even with
+		c4 c8 des4 c8~ | c4 r bes | bes bes8 bes4 bes8~| bes4 bes8 bes aes g | % empty accounts of ... even when re-
+		g4. ees4 ees8~ | ees4 r g | bes8 bes4 bes bes8 | bes4 r c | % ligeous sorts come ... with
+		ees4. ees8 ees ees~ | ees4( d8) c4 bes8 | c d8 c4 bes~ | bes4 bes8 bes bes4 | % dark explanations .. thoughts I'm thinkin'
+   }
+   \context Voice = "verse" {
+     	r4 bes4 bes8 bes~ | bes bes bes bes4 bes8~ | bes4. bes4 bes8~ | bes4 r bes | % Wrote a letter ... but
+		bes2 bes4 | bes2 bes4 | bes2 bes4 | r2. | % on my way I lost it
+		bes2 bes4 | bes2 bes4 | bes4 bes8 bes4 bes8~ | bes2 bes4 | % Walk my god down memory lane to
+		bes2 bes4 | bes2 bes4 | bes4. bes8 r4 | % see if she can smell it
+   		}
 	}
-	\alternative {
-		\key ees \major
-		\new Voice = "verse" {
-				r4. g'8 g f | g4 bes2 | r4 g8 g4 f8 | g aes4 bes c8 | % Beautiful children ... with a
-				r4 des2~ | des4 c8 c4 bes8~ | bes4 r bes8 g | bes4 g8 bes4. | % Gorgeous body and a razor sharp
-				g2 g8 g~ | g4 ees r | r2. | r | % Mind a partner
-				r4 f8 f4 g8 | g aes4 aes bes8 | c4 d8 d4 c8 | c bes bes4 r | % The sun came up ... time ago
-				r8 bes bes4~ \tuplet 3/2 {bes8 aes g} | g4. g8 r4 | g d8 ees4 f8 | g4 r8 aes4 bes8 | % I fell from the sky ... velvet
-				aes4. g | f8 f4. r4 | e8 e e g4 g8 | bes bes g2 | % herb stuffed ... chamomile
-				f2 g4 | aes bes8 aes4 g8 | f4. f | f4 f8 aes c4 | % rose can barely ... sheer
-				bes4 bes8 bes bes bes | bes4 bes8 bes r4 | r d8 bes4 f'8~ | f4 d8 bes4 aes8 | % awe of ... can make
-				g2 g4 | g ees8 g4 g8~ | g4 g8 g4 bes8~ | bes4. bes8 bes bes | % signs and symbols ... stars even with
-				c4 c8 des4 c8~ | c4 r bes | bes bes8 bes4 bes8~| bes4 bes8 bes aes g | % empty accounts of ... even when re-
-				g4. ees4 ees8~ | ees4 r g | bes8 bes4 bes bes8 | bes4 r c | % ligeous sorts come ... with
-				ees4. ees8 ees ees~ | ees4( d8) c4 bes8 | c d8 c4 bes~ | bes4 bes8 bes bes4 | % dark explanations .. thoughts I'm thinkin'
-			}
-		\context Voice = "verse" {
-				r4 bes4 bes8 bes~ | bes bes bes bes4 bes8~ | bes4. bes4 bes8~ | bes4 r bes | % Wrote a letter ... but
-				bes2 bes4 | bes2 bes4 | bes2 bes4 | r2. | % on my way I lost it
-				bes2 bes4 | bes2 bes4 | bes4 bes8 bes4 bes8~ | bes2 bes4 | % Walk my god down memory lane to
-				bes2 bes4 | bes2 bes4 | bes4. bes8 r4 | % see if she can smell it
-			}
-		}
-	}
+}
 
 
 chorus_text =  \lyricmode {
@@ -90,6 +87,16 @@ harmonies = \chordmode {
 	bes:m | bes:m | c:7/g | c:7/g |
 	aes | aes | f:m7 | f:m7 |
 	bes:sus4 | bes:sus4 | bes:7 | bes:7 |
+	ees | ees | g:m | g:m |
+	bes:m | bes:m | c:7/g | c:7/g |
+	aes | aes | f:m7 | f:m7 |
+	bes:sus4 | bes:sus4 | bes:7 | bes:7 |
+	ees | ees | g:m | g:m |
+	bes:m | bes:m | c:7/g | c:7/g |
+	aes | aes | f:m7 | f:m7 |
+	bes:sus4 | bes:sus4 | bes:7 | bes:7 |
+	
+	
 	ees | ees | g:m | g:m |
 	bes:m | bes:m | c:7/g | c:7/g |
 	aes | aes | f:m7 | f:m7 |
