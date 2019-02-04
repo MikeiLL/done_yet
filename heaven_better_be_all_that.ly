@@ -40,8 +40,8 @@ melody = \relative c'' {
 				bes4 bes8 bes bes bes | bes4 bes8 bes r4 | r d8 bes4 f'8~ | f4 d8 bes4 aes8 | % awe of ... can make
 				g2 g4 | g ees8 g4 g8~ | g4 g8 g4 bes8~ | bes4. bes8 bes bes | % signs and symbols ... stars even with
 				c4 c8 des4 c8~ | c4 r bes | bes bes8 bes4 bes8~| bes4 bes8 bes aes g | % empty accounts of ... even when re-
-				bes4. bes4 bes8~ | bes4 r bes | bes8 bes4 bes bes8 | bes4 r bes | % ligeous sorts come ... with
-				bes bes bes8 bes~ | bes4 bes bes | bes bes8 bes4 bes8~ | bes4 bes8 bes bes4 | % dark explanations .. thoughts I'm thinkin'
+				g4. ees4 ees8~ | ees4 r g | bes8 bes4 bes bes8 | bes4 r c | % ligeous sorts come ... with
+				ees4. ees ees8 ees~ | ees4( d8) c4 bes8 | c d8 c4 bes8~ | bes4 bes8 bes bes4 | % dark explanations .. thoughts I'm thinkin'
 			}
 		\context Voice = "verse" {
 				r4 bes4 bes8 bes~ | bes bes bes bes4 bes8~ | bes4. bes4 bes8~ | bes4 r bes | % Wrote a letter ... but
@@ -88,15 +88,15 @@ harmonies = \chordmode {
 	ees2.:m | ees:m | aes:m | aes:m |
 	ees | ees | g:m | g:m |
 	bes:m | bes:m | c:7/g | c:7/g |
-	aes | aes | f:7 | f:7 |
+	aes | aes | f:m7 | f:m7 |
 	bes:sus4 | bes:sus4 | bes:7 | bes:7 |
 	ees | ees | g:m | g:m |
 	bes:m | bes:m | c:7/g | c:7/g |
-	aes | aes | f:7 | f:7 |
+	aes | aes | f:m7 | f:m7 |
 	bes:sus4 | bes:sus4 | bes:7 | bes:7 |
 	ees | ees | g:m | g:m |
 	bes:m | bes:m | c:7/g | c:7/g |
-	aes | aes | f:7 | f:7 |
+	aes | aes | f:m7 | f:m7 |
 	bes:sus4 | bes:sus4 | bes:7 | bes:7 |
 }
 
