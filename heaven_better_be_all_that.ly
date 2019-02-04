@@ -41,10 +41,10 @@ melody = \relative c'' {
 		ees4. ees8 ees ees~ | ees4( d8) c4 bes8 | c d8 c4 bes~ | bes4 bes8 bes bes4 | % dark explanations .. thoughts I'm thinkin'
    }
    \context Voice = "verse" {
-     	r4 bes4 bes8 bes~ | bes bes bes bes4 bes8~ | bes4. bes4 bes8~ | bes4 r bes | % Wrote a letter ... but
-		bes2 bes4 | bes2 bes4 | bes2 bes4 | r2. | % on my way I lost it
-		bes2 bes4 | bes2 bes4 | bes4 bes8 bes4 bes8~ | bes2 bes4 | % Walk my god down memory lane to
-		bes2 bes4 | bes2 bes4 | bes4. bes8 r4 | % see if she can smell it
+     	r4 ees4 ees8 ees~ | ees f g g g8~ | g4. bes4 bes8~ | bes4 r c | % Wrote a letter ... but
+		des2 c4 | bes2 aes4 | bes2 g4 | r2. | % on my way I lost it
+		g2 g4 | g2 f4 | f4 f8 ees4 ees8~ | ees2 f4 | % Walk my god down memory lane to
+		g2 g4 | g2 aes4 | g4. f8 r4 | % see if she can smell it
    		}
 	}
 }
