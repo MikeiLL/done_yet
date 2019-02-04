@@ -13,7 +13,7 @@ melody = \relative c'' {
   \time 3/4 
   \set Score.voltaSpannerDuration = #(ly:make-moment 6/8)
   #(ly:expect-warning "cannot end volta") 
-   \repeat volta 2 {
+   \repeat volta 3 {
    \new Voice = "chorus" {
      \voiceOne
      r2. | bes8 bes bes bes bes4~ | bes2. | ces4 aes2 | % Heaven better
@@ -37,10 +37,6 @@ melody = \relative c'' {
 		g2 g4 | g2 f4 | f2 ees4~ | ees2 f4 | % Hope that they can read it or
 		g2 g4 | g2 aes4 | g4. f4.~ | f2 r4 |  % have someone to read it
 		
-		% g2 g4 | g ees8 g4 g8~ | g4 g8 g4 bes8~ | bes4. bes8 bes bes | % signs and symbols ... stars even with
-		% c4 c8 des4 c8~ | c4 r bes | bes bes8 bes4 bes8~| bes4 bes8 bes aes g | % empty accounts of ... even when re-
-		% g4. ees4 ees8~ | ees4 r g | bes8 bes4 bes bes8 | bes4 r c | % ligeous sorts come ... with
-		% ees4. ees8 ees ees~ | ees4( d8) c4 bes8 | c d8 c4 bes~ | bes4 bes8 bes bes4 | % dark explanations .. thoughts I'm thinkin'
    }
    \context Voice = "verse" {
      	r4. g8 g f | g4 bes2 | r4 g8 g4 f8 | g aes4 bes c8 | % Beautiful children ... with a
@@ -51,6 +47,16 @@ melody = \relative c'' {
 		aes4. g | f8 f4. r4 | e8 e e g4 g8 | bes bes g2 | % herb stuffed ... chamomile
 		f2 g4 | aes bes8 aes4 g8 | f4. f | f4 f8 aes c4 | % rose can barely ... sheer
 		bes4 bes8 bes bes bes | bes4 bes8 bes r4 | r d8 bes4 f'8~ | f4 d8 bes4 aes8 | % awe of ... think -- in'
+   		}
+   \context Voice = "verse" {
+     	r4 g f | f ees2 | d4 g8 g4 aes8 | aes4 bes8 bes4 c8 | % Yea, I'm damaged ... dramatic
+     	des4 c8 c4 bes8 | bes4 aes8 aes4 g8 | bes4 aes8 aes4 g8 | g4 f8 e4. | % harder than a diamond ring ... suffering
+     	r4 g8 g4 f8 | f4 ees8 ees4. | r4 d8 d4 ees8 | ees4 f8 f4. | % intense ... expense
+     	g4 g8 g aes4 | g4 f f8 f~ | f4 g8 g4 aes8 | aes4 bes8 bes bes8 aes8 |
+		g2 g4 | g ees8 g4 g8~ | g4 g8 g4 bes8~ | bes4. bes8 bes bes | % signs and symbols ... stars even with
+		c4 c8 des4 c8~ | c4 r bes | bes bes8 bes4 bes8~| bes4 bes8 bes aes g | % empty accounts of ... even when re-
+		g4. ees4 ees8~ | ees4 r g | bes8 bes4 bes bes8 | bes4 r c | % ligeous sorts come ... with
+		ees4. ees8 ees ees~ | ees4( d8) c4 bes8 | c d8 c4 bes~ | bes4 bes8 bes bes4 | % dark explanations .. thoughts I'm thinkin'
    		}
 	}
 }
@@ -83,10 +89,14 @@ verse_text =  \lyricmode {
 	rose. Can bare -- ly keep com -- posed some -- times at the sheer
 	awe of be -- ing a -- live with this pair of hands I'm reach -- in'
 	
-	% signs and sym -- bols and reach for the clouds e -- ven with
-	% emp -- ty ac -- counts of va -- ri -- ous sorts e -- ven when re --
-	% li -- geous sorts come call -- ing at the door with
-	% dark exp -- la -- na -- tions and fore -- bod -- ing thoughts I'm think -- in'
+	Yea, I'm da -- maged. Post trau -- ma -- tic stress dra -- ma -- tic.
+	Hard -- er than a dia -- mond ring. I feed my soul on suf -- fer -- ing.
+	In -- tense, in -- tense, in -- tense. It's just a small ex -- pense.
+	Ma -- gi -- cal -- ly use -- full, ma -- ges -- ti -- cal -- ly danc -- a -- ble I make
+	signs and sym -- bols and reach for the clouds. E -- ven with
+	emp -- ty ac -- counts of va -- ri -- ous sorts; e -- ven when re --
+	li -- geous sorts come call -- ing at the door with
+	dark exp -- la -- na -- tions and fore -- bod -- ing thoughts I'm think -- in'
 	
 	
 }
