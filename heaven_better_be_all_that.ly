@@ -36,12 +36,12 @@ melody = \relative c'' {
 				r4 f8 f4 g8 | g aes4 aes bes8 | c4 d8 d4 c8 | c bes bes4 r | % The sun came up ... time ago
 				r8 bes bes4~ \tuplet 3/2 {bes8 aes g} | g4. g8 r4 | g d8 ees4 f8 | g4 r8 aes4 bes8 | % I fell from the sky ... velvet
 				aes4. g | f8 f4. r4 | e8 e e g4 g8 | bes bes g2 | % herb stuffed ... chamomile
-				f2 g4 | aes bes8 aes4 g8 | f4. f | f4 f8 a c4 | % rose can barely ... sheer
+				f2 g4 | aes bes8 aes4 g8 | f4. f | f4 f8 aes c4 | % rose can barely ... sheer
 				bes4 bes8 bes bes bes | bes4 bes8 bes r4 | r d8 bes4 f'8~ | f4 d8 bes4 aes8 | % awe of ... can make
 				g2 g4 | g ees8 g4 g8~ | g4 g8 g4 bes8~ | bes4. bes8 bes bes | % signs and symbols ... stars even with
 				c4 c8 des4 c8~ | c4 r bes | bes bes8 bes4 bes8~| bes4 bes8 bes aes g | % empty accounts of ... even when re-
 				g4. ees4 ees8~ | ees4 r g | bes8 bes4 bes bes8 | bes4 r c | % ligeous sorts come ... with
-				ees4. ees ees8 ees~ | ees4( d8) c4 bes8 | c d8 c4 bes8~ | bes4 bes8 bes bes4 | % dark explanations .. thoughts I'm thinkin'
+				ees4. ees8 ees ees~ | ees4( d8) c4 bes8 | c d8 c4 bes~ | bes4 bes8 bes bes4 | % dark explanations .. thoughts I'm thinkin'
 			}
 		\context Voice = "verse" {
 				r4 bes4 bes8 bes~ | bes bes bes bes4 bes8~ | bes4. bes4 bes8~ | bes4 r bes | % Wrote a letter ... but
