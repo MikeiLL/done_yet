@@ -12,9 +12,9 @@ melody = \relative c' {
   \clef treble
   \key cis \minor
   \time 4/4
-  \times 2/3 { cis4 cis dis } \times 2/3 { e dis cis } | \times 2/3 { bis gis bis } cis8 r gis r |
-  \times 2/3 { cis4 gis cis } \times 2/3 { dis cis dis } | \times 2/3 { e dis e } fis2 |
-  r8 gis gis gis gis4. r8 | gis gis gis a gis4 r |
+  \times 2/3 { cis4 cis dis } \times 2/3 { e dis cis } | \times 2/3 { bis gis bis } cis8 r gis r | % Dragged ... what
+  \times 2/3 { cis4 gis cis } \times 2/3 { dis cis dis } | \times 2/3 { e dis e } fis2 | % profit ... poor
+  r8 gis gis gis gis4. r8 | gis gis gis a gis4 r | % Around the world ... rock
   gis8 gis fis gis r gis r fis | gis4 gis8 r gis r4. | % won with a stacked ... sick
   cis,8 cis cis dis e dis cis bis | bis bis gis gis cis4 gis8 gis | % subdivide ... occu-
   cis cis cis cis4 r8 cis cis | bis bis bis cis4. gis8 a | % pation is real ... final refu
@@ -31,13 +31,13 @@ melody = \relative c' {
   \times 2/3 { dis' dis dis } cis cis | \times 2/3 { b4 b b } \times 2/3 { a a a } | % lignorant can't wait to practice the
   \times 2/3 { fis gis gis } gis4 r | fis fis8 fis g g g g |
 % CHORUS
-  \times 2/3 { gis4 gis gis } \times 2/3 { gis gis gis } | \times 2/3 { gis gis gis } gis4 
+  \times 4/5 { gis4 gis gis gis gis } | \times 2/3 { gis gis gis } gis4 
 \once \override NoteHead.style = #'cross
 e' |
-  \times 2/3 { gis,4 gis gis } \times 2/3 { gis gis gis } | \times 2/3 { gis gis gis } gis4 
+  \times 4/5 { gis,4 gis gis gis gis } | \times 2/3 { gis gis gis } gis4 
  \once \override NoteHead.style = #'cross
 e' |
-  \times 2/3 { gis,4 gis gis } \times 2/3 { gis gis gis } | \times 2/3 { gis gis gis } gis4 
+  \times 4/5 { gis,4 gis gis gis gis } | \times 2/3 { gis gis gis } gis4 
 \once \override NoteHead.style = #'cross
 e' |
   \times 2/3 { r4 gis, gis } gis4 \once \override NoteHead.style = #'cross
@@ -48,8 +48,8 @@ e' | r gis8 gis gis4 fis |
   fis fis gis8 fis \times 2/3 { fis8 fis fis } | % worldwide intl
   fis8 fis \times 2/3 { fis8 fis fis } \times 2/3 { fis8 fis e } r4 | % liability limited
   gis8 gis gis gis gis4 gis8 gis | gis gis gis r a a r a16 a | % planting ... over-
-  b8 b4 b16 b \times 2/3 { b8 b b~ } b4 | b8 b4 b \times 2/3 { c8 c c~ } c16 r8. | % whelming ... economy
-  dis8 dis16 dis8 dis16 d8 cis b8 b~ | b4 a8 gis gis r4 gis8~ | % insurmountable ... interest. poi
+  b8 b4 b16 b \times 2/3 { b8 b b~ } b4 | b8 b4 b \times 2/3 { c8 c c~ } c | % whelming ... economy
+  dis8 dis16 dis8 dis16 d cis8. r8 b8 b~ | b4 a8 gis gis r4 gis8~ | % insurmountable ... interest. poi
   gis gis gis gis4 gis4 gis8~ | gis a \times 2/3 { gis( g) gis~ } gis8 gis r4 | % sonous networks ... assets
   cis,4 cis8 cis~ \times 2/3 { cis8 cis cis } dis8 dis | dis dis e e e2 | % infant ... cigarettes
   fis8 fis fis( e) dis dis dis cis | bis ais bis cis dis2 | % infantile ... collapse  
@@ -64,13 +64,13 @@ e' | r gis8 gis gis4 fis |
   \times 2/3 { g4 gis gis } gis2 | % doing in there
 
 % CHORUS
-  \times 2/3 { gis4 gis gis } \times 2/3 { gis gis gis } | \times 2/3 { gis gis gis } gis4 
+  \times 4/5 { gis4 gis gis gis gis } | \times 2/3 { gis gis gis } gis4 
 \once \override NoteHead.style = #'cross
 e' |
-  \times 2/3 { gis,4 gis gis } \times 2/3 { gis gis gis } | \times 2/3 { gis gis gis } gis4
+  \times 4/5 { gis,4 gis gis gis gis } | \times 2/3 { gis gis gis } gis4
  \once \override NoteHead.style = #'cross
 e' |
-  \times 2/3 { gis,4 gis gis } \times 2/3 { gis gis gis } | \times 2/3 { gis gis gis } gis4 
+  \times 4/5 { gis,4 gis gis gis gis } | \times 2/3 { gis gis gis } gis4 
 \once \override NoteHead.style = #'cross
 e' |
   \times 2/3 { r4 gis, gis } gis4 \once \override NoteHead.style = #'cross
@@ -92,52 +92,52 @@ e' | r gis8 gis gis4 fis |
 }
 
 text =  \lyricmode {
-  Dragged off to war a -- gain | fight -- ing for who. What |
-  pro -- fit be gained by the | rough -- tro -- dden poor? |
-  A -- round the world, | ba -- ttle -- field to rock |
-  Won with a stacked deck, but | came back sick! |
-  Sub -- di -- vide a fad -- ed com -- | mun -- i -- ty tur -- tle isle. Occ -- u -- |
-  pa -- tion -- is -- real, de -- mo -- | li -- tion is final. Ref -- u -- |
-  gees in tent ci -- ties grow -- ing | up hom -- i -- ci -- dal. Head |
-  bowed at the road block it's a | game of sur -- vi -- val. Singed |
-  be -- fore they learn a -- bout | birds and the bees
-  rea -- ding books o' re -- ci -- pes for | I. E. D.s
-  Strap -- on toys for girls | and boys. |
-  No re -- ward in a  mol -- | dy re -- venge. |
-  Sto -- ries spin out like | car -- ni -- val art. |
-  Thirs -- ty mi -- lli -- tias too | young to be mor -- tal be -- |
-  lig -- no -- rant sol -- diers | can't wait to prac -- tice the |
-  la -- test tech -- niques | learned in the bel -- ly of the |
-  Bing bing bing bing bing bing | bing bing bing bing Clack! |
-  Bing bing bing bing bing bing | bing bing bing bing Clack! |
-  Bing bing bing bing bing bing | bing bing bing bing Clack! |
-  Bing bing bing Clack! | Are we done yet?
+  Dragged off to war a -- gain  fight -- ing for who. What 
+  pro -- fit be gained by the  rough -- trod -- den poor? 
+  A -- round the world,  ba -- ttle -- field to rock 
+  Won with a stacked deck, but  came back sick! 
+  Sub -- di -- vide a fad -- ed com --  mun -- i -- ty tur -- tle isle. Occ -- u -- 
+  pa -- tion -- is -- real, de -- mo --  li -- tion is final. Ref -- u -- 
+  gees in tent ci -- ties grow -- ing  up hom -- i -- ci -- dal. Head 
+  bowed at the road block it's a  game of sur -- vi -- val. Singed 
+  be -- fore they learn a -- bout  birds and the bees
+  rea -- ding books o' re -- ci -- pes for  I. E. D.s
+  Strap -- on toys for girls  and boys. 
+  No re -- ward in a  mol --  dy re -- venge. 
+  Sto -- ries spin out like  car -- ni -- val art. 
+  Thirs -- ty mi -- lli -- tias too  young to be mor -- tal be -- 
+  lig -- no -- rant sol -- diers  can't wait to prac -- tice the 
+  la -- test tech -- niques  learned in the bel -- ly of the 
+  Bing bing bing bing bing  bing bing bing bing Clack! 
+  Bing bing bing bing bing  bing bing bing bing Clack! 
+  Bing bing bing bing bing  bing bing bing bing Clack! 
+  Bing bing bing Clack!  Are we done yet?
 % Verse 2
-  E -- co -- no -- mic hit men | sco -- ur the pla -- net |
-  World -- wide in -- ter -- na -- tion -- al | li -- a -- bi -- li -- ty li -- mi -- ted. |
-  Plant -- ing piles of well_ -- laun -- dered | arm_ -- for_ -- drug mo -- ney o -- ver |
-  whelm -- ing the a -- bi -- li -- ties fra -- gile e -- co -- no -- mies. |
-  In -- sur -- mount -- a -- ble debt ex -- | plo -- ding in -- t'rest poi -- |
-  so -- nous net -- works spun | to drain as -- sets |
-  In -- fant for -- mu -- la in -- stant | food and ci -- ga -- rets, |
-  In -- fan -- tile in -- fra -- struc -- ture | ver -- ging on col -- lapse. |
-  Pup -- pe -- try go -- ver -- nment, brink of ci -- vil war. "\"Kill" |
-  that's what we gave ya the God -- | dam guns "for.\"" |
-  Aim at the char -- as -- ma -- tic med -- dle -- some poor. If ya |
-  run out -- ta bul -- lets some -- one's al -- ways ma -- kin' more. |
-  Three hun -- dred six -- ty -- five days a year. Deep |
-  be -- hind chain -- link fence and ra -- zor wire. The |
-  o -- mi -- nous sounds of me -- chan -- ized gear. |
-  Don't you know what they're do -- in' in there? |
-  Bing bing bing bing bing bing | bing bing bing bing Clack! |
-  Bing bing bing bing bing bing | bing bing bing bing Clack! |
-  Bing bing bing bing bing bing | bing bing bing bing Clack! |
-  Bing bing bing Clack! | Are we done yet?
-  High -- er | than mo -- ney can |
-  buy | wings can |
-  fly | smoke can |
-  rise. The price of | life. Let's make it | 
-  Peace and Ju -- stice. | Peace and Ju -- stice. |
+  E -- co -- no -- mic hit men  sco -- ur the pla -- net 
+  World -- wide in -- ter -- na -- tion -- al  li -- a -- bi -- li -- ty li -- mi -- ted. 
+  Plant -- ing piles of well_ -- laun -- dered  arm_ -- for_ -- drug mo -- ney o -- ver 
+  whelm -- ing the a -- bi -- li -- ties fra -- gile e -- co -- no -- mies. 
+  In -- sur -- mount -- a -- ble debt ex --  plo -- ding in -- t'rest poi -- 
+  so -- nous net -- works spun  to drain as -- sets 
+  In -- fant for -- mu -- la in -- stant  food and ci -- ga -- rets, 
+  In -- fan -- tile in -- fra -- struc -- ture  ver -- ging on col -- lapse. 
+  Pup -- pe -- try go -- ver -- nment, brink of ci -- vil war. "\"Kill" 
+  that's what we gave ya the God --  dam guns "for.\"" 
+  Aim at the char -- as -- ma -- tic med -- dle -- some poor. If ya 
+  run out -- ta bul -- lets some -- one's al -- ways ma -- kin' more. 
+  Three hun -- dred six -- ty -- five days a year. Deep 
+  be -- hind chain -- link fence and ra -- zor wire. The 
+  o -- mi -- nous sounds of me -- chan -- ized gear. 
+  Don't you know what they're do -- in' in there? 
+  Bing bing bing bing bing  bing bing bing bing Clack! 
+  Bing bing bing bing bing  bing bing bing bing Clack! 
+  Bing bing bing bing bing  bing bing bing bing Clack! 
+  Bing bing bing Clack!  Are we done yet?
+  High -- er  than mo -- ney can 
+  buy  wings can 
+  fly  smoke can 
+  rise. The price of  life. Let's make it  
+  Peace and Ju -- stice.  Peace and Ju -- stice. 
 }
 
 cccc = \chordmode { cis1:m }
