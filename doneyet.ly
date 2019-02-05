@@ -88,7 +88,13 @@ e' | r gis8 gis gis4 fis |
   dis4( cis2) gis4 | b4. a4.~ a4 |
   gis2. fis4 | a4. gis4. r4 |
   }
-
+  
+% Verse 3
+ cis8 cis cis cis cis cis4 bis8~ | bis8. a16 bis8 cis4 a8~ \tuplet 3/2 { a a a } | % Billion dollar ... lining pro
+ gis8. gis16 gis8 gis4 gis4 gis8 | gis8. gis16~ gis8 gis16 gis a8 a16 gis~ gis8 gis | % cured with the ... designing
+ gis gis gis gis gis4 gis8 gis~ | gis gis gis gis gis4 r | % Looking at the world ... lense
+ dis4 dis8 dis dis4 dis8 cis~ | cis cis ais4 cis r | % Maids ... friends
+ 
 }
 
 text =  \lyricmode {
@@ -138,6 +144,11 @@ text =  \lyricmode {
   fly  smoke can 
   rise. The price of  life. Let's make it  
   Peace and Ju -- stice.  Peace and Ju -- stice. 
+% Verse 3
+  Bil -- lion dol -- lar ba -- bies born in a cloud li -- ning pro --
+  cured with the pro -- cedes of strip min -- ing and bomb de -- sign -- ing.
+  Look -- in at the world through te -- le -- sco -- pic lense,
+  maids bo -- dy guards chauf -- feurs their best friends.
 }
 
 cccc = \chordmode { cis1:m }
