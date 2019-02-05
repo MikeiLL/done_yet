@@ -94,7 +94,18 @@ e' | r gis8 gis gis4 fis |
  gis8. gis16 gis8 gis4 gis4 gis8 | gis8. gis16~ gis8 gis16 gis a8 a16 gis~ gis8 gis | % cured with the ... designing
  gis gis gis gis gis4 gis8 gis~ | gis gis gis gis gis4 r | % Looking at the world ... lense
  dis4 dis8 dis dis4 dis8 cis~ | cis cis ais4 cis r | % Maids ... friends
- 
+ cis8 cis cis4 cis4 r | cis8. cis16 \tuplet 3/2 { cis8 cis cis } dis dis4. | % Ivy league ... finance
+ gis8 gis gis gis4 gis gis16 gis | gis8 gis gis gis a gis gis4 | % % Government contract ... circumstance
+ gis8. gis16 gis8 gis4 gis4 r8 | gis gis gis gis a a a a | % Wink ... brother
+ b b b b b b b b | b b b b cis cis cis \tuplet 3/2 { cis16 cis cis } | % Media ... another do these
+ dis8 dis4 dis16 dis dis8. dis16~ dis8 dis16 dis | \tuplet 3/2 { dis8 dis dis~ } dis dis gis4 r8 dis16 dis | % people ... complex? Are they
+ dis8 dis dis cis bis bis bis8. a16 | a8 a a a gis4 r | % thinkin' ... life and death
+ cis,8 cis cis cis cis cis cis cis | cis cis cis cis cis4 e | % Builders ... crew
+ dis dis cis cis8 cis | dis8 dis cis cis e e cis4 | % Cops hands ... you know who
+ fis'8 fis fis4 gis8 gis gis gis | a a a4 a8 a a gis | % Me and you ... around the
+ fis8 fis16 fis~ \tuplet 3/2 { fis8 fis e } \tuplet 3/2 { dis dis dis8~ } \tuplet 3/2 { dis8 dis cis } | bis8 bis a'4 gis r | % capitol ... boo
+ gis8. gis16 gis8 gis4. gis8 gis~ | \tuplet 3/2 { gis4 gis gis } gis16 gis gis4 gis8 | % Jam the ... magazines con-
+ dis dis dis dis e4 e8 e | fis fis fis4 gis8 gis gis4 | % fetti ... gatherings
 }
 
 text =  \lyricmode {
@@ -149,6 +160,18 @@ text =  \lyricmode {
   cured with the pro -- cedes of strip min -- ing and bomb de -- sign -- ing.
   Look -- in at the world through te -- le -- sco -- pic lense,
   maids bo -- dy guards chauf -- feurs their best friends.
+  I -- vy league school, in -- ter -- na -- tion -- al fi -- nance
+  go -- vern -- ment con -- track to the tune of pomp and cir -- cum -- stance.
+  Wink and a hand shake. Learn to rec -- og -- nize a bro -- ther.
+  Me -- di -- a and le -- gi -- sla -- tors lu -- bri -- ca -- ting one a -- no -- ther. Do these
+  Peo -- ple got a mas -- ters of the u -- ni -- verse comp -- lex? Are they
+  think -- ing it's their dir -- ty job to hand out life and death?
+  Buil -- ders of the pri -- sons, drug im -- porters, they're the same crew. 
+  Cops' hands tied meet -- ing quo -- tas set by you know who.
+  Me an' you, what are we sup -- posed to do? Walk a -- round the
+  ca -- pi -- tal with a lo -- tus flo -- wer and a sign that says boo?
+  Jam the ma -- chine with hate mon -- ger ma -- ga -- zines con --
+  fe -- ti for the last of the tic -- ker tape gat -- her -- ings.
 }
 
 cccc = \chordmode { cis1:m }
