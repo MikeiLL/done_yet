@@ -18,7 +18,19 @@ melody = \relative c' {
 			ees4( ges4. ees8 ges4.) ees | bes1. | ees4( ges4.) ees8 ges4. ees | bes'2.~ bes4. aes4. |
 			ges2. ges4. f4 f8~ | f4 ees~ ees1 | ees2. ees4. d4 d8~ | d4 c2~ c2. |
 			ees4 ges4. ees8 ges2. | ees4 ges4. ees8 ges4. f4. | f4( ees2~) ees2. |
-			c4 ees4. c8 ees2~ ees8 c | c4 ees4. c8 ees4. d | d4( c2~) c2. |
+			c4 ees4. c8 ees2~ ees8 c | c4 ees4. c8 ees4. d | 
+		}
+		\alternative {
+		 {
+		 	d4( c2~) c2. |
+		 }
+		 {
+		 	d4( c2~) c2. |
+		 	ees4 c4. ees4 ees c ees8~ | ees4 ees c ees ees c |
+		 	ees ees c ees ees c | ees1. |
+		 	ees4 ees c8 ees ees2 ees8 c | ees4 ees c8 ees ees2 ees8 f |
+		 	g4 ees c f f ees | ees4( c2~) c2. 
+		 }
 		}
 	}
 	\new Voice = "hidden" {
@@ -41,6 +53,19 @@ text =  \lyricmode {
 		when we're con -- nec -- ted, dead zones and sta -- tic
 		May 'swell be on far sides of Earth and Mars.
 		May 'swell be on the far sides of Earth and Mars.
+		wind.
+		Me an' you
+		Me an' you
+		Me an' you
+		Me an' you
+		Me an' you
+		Me an' you
+		Me an' you
+		Me an' you
+		Me an' you
+		We got to -- ge -- ther can we
+		keep it to -- get -- ther?
+		Man, I swear I'll do all I can do.
 }
 
 wordsTwo =  \lyricmode {
@@ -49,7 +74,7 @@ wordsTwo =  \lyricmode {
       Let -- ters we write, don't send. If not a friend, I'm who? And
       when we're to -- ge -- ther storm clouds come ga -- ther.
       I pray for rain. Rain and a good strong wind.
-      I pray for rain. Rain and a good strong wind.
+      I pray for rain. Rain and a good strong 
 }
 
 harmonies = \chordmode {
@@ -57,7 +82,7 @@ harmonies = \chordmode {
   	c1.:m | c:m | c:m6 | c:m6 |
   	a:m7.5- | aes:7 | c:m |
   	a:m7.5- | aes:7 | c2.:m bes:7 |
-  	
+  	c1.:m  |
 }
 
 \score {
