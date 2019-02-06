@@ -11,6 +11,7 @@ melody = \relative c' {
   \clef treble
   \key c \minor
   \time 12/8 
+  \set Score.voltaSpannerDuration = #(ly:make-moment 24/8)
   <<
 	\new Voice = "words" {
 		\voiceOne 
@@ -22,12 +23,12 @@ melody = \relative c' {
 		}
 		\alternative {
 		 {
-		 	d4( c2~) c2. |
+		 	d4( c2~) c2.~ | c1 r2 |
 		 }
 		 {
-		 	d4( c2~) c2. |
-		 	ees4 c4. ees4 ees c ees8~ | ees4 ees c ees ees c |
-		 	ees ees c ees ees c | ees1. |
+		 	d4( c2~) c2.~ | c1 r2 |
+		 	ees8 c ees4 ees8 c ees4 ees8 c ees4~ | ees8 ees8 c ees4. ees8 c ees4. ees8~ |
+		 	ees8 c ees4 ees8 c ees4 ees8 c ees4~ | ees1. |
 		 	ees4 ees c8 ees ees2 ees8 c | ees4 ees c8 ees ees2 ees8 f |
 		 	g4 ees c f f ees | ees4( c2~) c2. 
 		 }
@@ -54,15 +55,9 @@ text =  \lyricmode {
 		May 'swell be on far sides of Earth and Mars.
 		May 'swell be on the far sides of Earth and Mars.
 		wind.
-		Me an' you
-		Me an' you
-		Me an' you
-		Me an' you
-		Me an' you
-		Me an' you
-		Me an' you
-		Me an' you
-		Me an' you
+		Me an' you Me an' you Me an' you
+		Me an' you Me an' you 
+		Me an' you Me an' you Me an' you
 		We got to -- ge -- ther can we
 		keep it to -- get -- ther?
 		Man, I swear I'll do all I can do.
@@ -81,8 +76,11 @@ harmonies = \chordmode {
   	ees1.:m | ees:m | ees:m | ees1:m ees8:m d4.|
   	c1.:m | c:m | c:m6 | c:m6 |
   	a:m7.5- | aes:7 | c:m |
-  	a:m7.5- | aes:7 | c2.:m bes:7 |
-  	c1.:m  |
+  	a:m7.5- | aes:7 | c:m | c2.:m bes:7 |
+  	c1.:m  | c:m |
+  	c:m | c:m | aes:7 | aes:7 |
+  	aes:7 | f:m | f2.:m g:7 | c:m bes:7 |
+  	
 }
 
 \score {
