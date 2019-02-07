@@ -48,7 +48,7 @@ melody = \relative c' {
 	  \voiceTwo
       \hideNotes {
 			ees4 ges4. ees8 ges4. ees | bes1. | ees4 ges4. ees8 ges4. ees | bes'1 aes2 |
-			ges2. ges4. f4 f8 | ees1. | ees2. ees4. d4 d8~ | d1.  |
+			ges2. ges4. f4 f8 | ees1. | ees2. ees4. d4 d8 | d1.  |
 			ees4 ges4. ees8 ges2. | ees4 ges4. ees8 ges4. f4. | f1. |
 			c4 ees4. c8 ees2. | c4 ees4. c8 ees4. d | d1. |
 		}
@@ -86,7 +86,7 @@ wordsThree =  \lyricmode {
 	\set associatedVoice = "hidden_two"
 	\set stanza = #"3. " 
       Out in the dark and cold. All of the names we've called 
-      our -- selves and each o -- ther ring like a choir __ 
+      our -- selves and each o -- ther ring like a cho -- ir. 
       Dis -- so -- nant chords. I'd like to hear re -- solve. 
       Dis -- so -- nant chords. I'd like to hear re -- solve.
 }
