@@ -34,7 +34,7 @@ melody = \relative c' {
 		 }
 		}
 	}
-	\new Voice = "hidden" {
+	\new NullVoice = "hidden" {
 	  \voiceTwo
       \hideNotes {
 			ees4 ges4. ees8 ges4. ees | bes1. | ees4 ges4. ees8 ges4. ees | bes'1 aes2 |
@@ -44,7 +44,7 @@ melody = \relative c' {
 		}
 	}
 	
-	\new Voice = "hidden_two" {
+	\new NullVoice = "hidden_two" {
 	  \voiceTwo
       \hideNotes {
 			ees4 ges4. ees8 ges4. ees | bes1. | ees4 ges4. ees8 ges4. ees | bes'1 aes2 |
