@@ -65,9 +65,9 @@ text =  \lyricmode {
 		May 'swell be on far sides of Earth and Mars.
 		May 'swell be on far sides of Earth and Mars.
 		wind.
-		Me an' you Me an' you Me an' you
-		Me an' you Me an' you 
-		Me an' you Me an' you Me an' you
+		Me an' you me an' you me an' you
+		me an' you me an' you 
+		me an' you me an' you me an' you.
 		We got to -- ge -- ther can we
 		keep it to -- ge -- ther?
 		Man, I swear I'll do all I can do.
