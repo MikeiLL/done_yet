@@ -16,10 +16,10 @@ melody = \relative c' {
 	\new Voice = "words" {
 		\voiceOne 
 		\repeat volta 2 {
-			ees4( ges4. ees8 ges4.) ees | bes1. | ees4( ges4.) ees8 ges4. ees | bes'2.~ bes4. aes4. |
+			ees4( ges4. ees8 ges4.) ees | bes4.( b4. c2.) | ees4( ges4.) ees8 ges4. ees | bes'2.~ bes4. aes4. |
 			ges2. ges4. f4 f8~ | f4 ees~ ees1 | ees2. ees4. d4 d8~ | d4 c2~ c2. |
 			ees4 ges4. ees8 ges2. | ees4 ges4. ees8 ges4. f4. | f4( ees2~) ees2. |
-			c4 ees4. c8 ees2~ ees8 c | c4 ees4. c8 ees4. d | 
+			c4 ees4. c8 ees2. | c4 ees4. c8 ees4. d | 
 		}
 		\alternative {
 		 {
@@ -37,10 +37,20 @@ melody = \relative c' {
 	\new Voice = "hidden" {
 	  \voiceTwo
       \hideNotes {
-			ees4 ges4. ees8 ges4. ees | bes1. | ees4 ges4. ees8 ges4. ees | bes'2.~ bes4. aes4. |
-			ges2. ges4. f4 f8~ | f4 ees~ ees1 | ees2. ees4. d4 d8~ | d4 c2~ c2. |
-			ees4 ges4. ees8 ges2. | ees4 ges4. ees8 ges4. f4. | f4( ees2~) ees2. |
-			c4 ees4. c8 ees2~ ees4 | c4 ees4. c8 ees4. d | d4( c2~) c2. |
+			ees4 ges4. ees8 ges4. ees | bes1. | ees4 ges4. ees8 ges4. ees | bes'1 aes2 |
+			ges2. ges4. f4 f8~ | f4 ees~ ees1 | ees2. ees4. d4 d8~ | d4 c1~ c4 |
+			ees4 ges4. ees8 ges2. | ees4 ges4. ees8 ges4. f4. | f1. |
+			c4 ees4. c8 ees2. | c4 ees4. c8 ees4. d | d1. |
+		}
+	}
+	
+	\new Voice = "hidden_two" {
+	  \voiceTwo
+      \hideNotes {
+			ees4 ges4. ees8 ges4. ees | bes1. | ees4 ges4. ees8 ges4. ees | bes'1 aes2 |
+			ges2. ges4. f4 f8~ | f2 ees1 | ees2. ees4. d4 d8~ | d1. |
+			ees4 ges4. ees8 ges2. | ees4 ges4. ees8 ges4. f4. | f1. |
+			c4 ees4. c8 ees2. | c4 ees4. c8 ees4. d | d1. |
 		}
 	}
 	>>
@@ -53,13 +63,13 @@ text =  \lyricmode {
 		Lone -- some hours out a -- mong the stars. And
 		when we're con -- nec -- ted, dead zones and sta -- tic
 		May 'swell be on far sides of Earth and Mars.
-		May 'swell be on the far sides of Earth and Mars.
+		May 'swell be on far sides of Earth and Mars.
 		wind.
 		Me an' you Me an' you Me an' you
 		Me an' you Me an' you 
 		Me an' you Me an' you Me an' you
 		We got to -- ge -- ther can we
-		keep it to -- get -- ther?
+		keep it to -- ge -- ther?
 		Man, I swear I'll do all I can do.
 }
 
@@ -70,6 +80,15 @@ wordsTwo =  \lyricmode {
       when we're to -- ge -- ther storm clouds come ga -- ther.
       I pray for rain. Rain and a good strong wind.
       I pray for rain. Rain and a good strong 
+}
+
+wordsThree =  \lyricmode {
+	\set associatedVoice = "hidden_two"
+	\set stanza = #"3. " 
+      Out in the dark and cold. All of the names we've called 
+      our -- selves and each o -- ther ring like a choir.
+      Dis -- so -- nant chords. I'd like to hear re -- solve. 
+      Dis -- so -- nant chords. I'd like to hear re -- solve.
 }
 
 harmonies = \chordmode {
@@ -96,6 +115,7 @@ harmonies = \chordmode {
   	}
   	\new Lyrics \lyricsto "words" \text
   	\new Lyrics \lyricsto "hidden" \wordsTwo
+  	\new Lyrics \lyricsto "hidden_two" \wordsThree
   >>
   
   
