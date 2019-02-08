@@ -9,14 +9,22 @@
 
 melody = \relative c' {
   \clef treble
-  \key c \minor
+  \key c \major
   \time 4/4 
   \set Score.voltaSpannerDuration = #(ly:make-moment 24/8)
 	\new Voice = "words" {
 		\voiceOne 
 		\repeat volta 2 {
-			r8 c c b c des c( b) | des des c des~ des2 | r8 des des c des( ees) des c | ees ees des c~ c2 | % I put together ... demand
-			r8 c4 b8 c ees des c | des des c des~ des2 | r8 des des c des ees des( c) | ees ees des c~ c2 |
+			r8 c c bes c des c( bes) | des des c des~ des2 | r8 des des c des( e) ees des | ees ees des c~ c2 | % I put together ... demand
+			r8 c4 bes8 c ees des c | des des c des~ des2 | r8 des des c des e ees( des) | ees ees des c4 e8 e e | % Don't ... the door. I wanna
+			e c c bes c4 c8 bes | c c bes c r bes r c | r c4 bes8 c des c bes  | c c bes c r bes r c | % Know if you can ... from me
+			r g' g g g4 g | r8 a a a4 a | r8 b b b b4 b | r8 c c c c4 c | % It's like a mudslide ... lightening
+			g4 g g g | fis8 g4 a r4. | a4 a a a | g8 g a4 b c |
+			c r2. | d4 r2. | e4 r2. | fis8 fis r2. | 
+			g4 r2. | a4 r2. | b4 r2. | c4 r2. | 
+			d4 r2. | 
+			c4( b a) b | a( g) g2~ | g2 r2 | r4 fis e d | 
+			c r2 b8 b | b( a) a2 a8 a | a( g) g2. |
 		}
 	}
 }
@@ -26,12 +34,18 @@ text =  \lyricmode {
       \set associatedVoice = "words"
 	  \set stanza = #"1. "
 		I put to -- ge -- ther this cas -- tle of sand based on the laws of sup -- ply and de -- mand.
-		Don't just sit there like a bump on the floor danc -- ing your thumbs a -- round eye -- ing the door.
+		Don't just sit there like a bump on the floor danc -- ing your thumbs a -- round eye -- ing the door. I wan -- na
+		know if you can han -- dle a mouth -- full or two or three of un -- su -- gar coa -- ted re -- a -- li -- ty from me.
+		It's like a flash fire, a scor -- pi -- on sting. It's like a mud slide, a bolt of light -- ning.
+		Tick tick tick tick. Is that me? Tick tick tick tick. Sure as hell could be.
+		Ten, nine, eight, se -- ven, six, five, four, three, two...
+		Wait a min -- ute... and you are 
+		who to me? No -- one. To me no -- one.
 }
 
 
 harmonies = \chordmode {
-  	c:m
+  	c1:m | c:m | c:m7.5- | c:m7.5- |
   	
 }
 
