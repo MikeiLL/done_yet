@@ -87,8 +87,8 @@ wordsThree =  \lyricmode {
 	\set stanza = #"3. " 
       Out in the dark and cold. All of the names we've called 
       our -- selves and each o -- ther ring like a cho -- ir. 
-      Dis -- so -- nant chords. I'd like to hear re -- solve. 
-      Dis -- so -- nant chords. I'd like to hear re -- solve.
+      Dis -- so -- nant chords I'd like to hear re -- solve. 
+      Dis -- so -- nant chords I'd like to hear re -- solve.
 }
 
 harmonies = \chordmode {
