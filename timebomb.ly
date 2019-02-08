@@ -26,7 +26,7 @@ melody = \relative c' {
 			g4 r2. | a4 r2. | b4 r2. | c4 r2. |  % Six ... three
 			d4 r2. |  % Two.
 			c4( b a) b | a( g) g2~ | g2 r2 | r4 fis e d | % Wait a minute ... and you are
-			c r2 b8 b | b( a) a2 a8 a | a( g) g2. | % Who to me ... no one
+			c r2 b8 b | b( a) a2 a8 a | a( g) g2. |  r1 | % Who to me ... no one
 			
 			r8 c, c bes c4 c8 bes | c16 c c8 bes c4 c4. | bes8. bes16 bes8 r bes8. bes16 bes8 r | bes bes bes bes bes8. bes16 bes4 | % Showed you my knob ... Wind me up ... reasoning
 			g'8. g16 e4 g e8 e | g g g g4. fis8 fis | fis fis fis fis fis4 fis8 fis | g g fis g r e8 e e  | % Reasoning please ... wanna relate. I wanna
@@ -54,7 +54,7 @@ melody = \relative c' {
 			g4 r2. | a4 r2. | b4 r2. | c4 r2. |  % Six ... three
 			d4 r2. |  % Two.
 			c4( b a) b | a( g) g2~ | g2 r2 | r4 fis e d | % Wait a minute ... and you are
-			c r2 b8 b | b( a) a2 a8 a | a( g) g2. | % Who to me ... no one
+			c r2 b8 b | b( a) a2 a8 a | a( g) g2. | r1 | % Who to me ... no one
 		}
 	}
 }
