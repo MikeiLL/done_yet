@@ -15,7 +15,7 @@ melody = \relative c' {
   <<
 	\new Voice = "words" {
 		\voiceOne 
-		\repeat volta 2 {
+		\repeat volta 3 {
 			ees4( ges4. ees8 ges4.) ees | bes4.( b4. c2.) | ees4( ges4.) ees8 ges4. ees | bes'2.~ bes4. aes4. |
 			ges2. ges4. f4 f8~ | f4 ees~ ees1 | ees2. ees4. d4 d8~ | d4 c2~ c2. |
 			ees4 ges4. ees8 ges2. | ees4 ges4. ees8 ges4. f4. | f4( ees2~) ees2. |
@@ -32,13 +32,16 @@ melody = \relative c' {
 		 	ees4 ees c8 ees ees2 ees8 c | ees4 ees c8 ees ees2 ees8 f |
 		 	g4 ees c f f ees | ees4( c2~) c2. 
 		 }
+		 {
+		 	d4( c2~) c2.~ | c1 r2 |
+		 }
 		}
 	}
 	\new NullVoice = "hidden" {
 	  \voiceTwo
       \hideNotes {
-			ees4 ges4. ees8 ges4. ees | bes1. | ees4 ges4. ees8 ges4. ees | bes'1 aes2 |
-			ges2. ges4. f4 f8 | r4 ees1 r4| ees2. ees4. d4 d8 | r4 c1 r4 |
+			ees4 ges4. ees8 ges4. ees | bes4.( b4. c2.)  | ees4 ges4. ees8 ges4. ees | bes'2.~ bes4. aes4. |
+			ges2. ges4. f4 f8~ | f4 ees~ ees1 | ees2. ees4. d4 d8~ | d4 c2~ c2. |
 			ees4 ges4. ees8 ges2. | ees4 ges4. ees8 ges4. f4. | f1. |
 			c4 ees4. c8 ees2. | c4 ees4. c8 ees4. d | d1. |
 		}
@@ -47,10 +50,10 @@ melody = \relative c' {
 	\new NullVoice = "hidden_two" {
 	  \voiceTwo
       \hideNotes {
-			ees4 ges4. ees8 ges4. ees | bes1. | ees4 ges4. ees8 ges4. ees | bes'1 aes2 |
-			ges2. ges4. f4 f8 | ees1. | ees2. ees4. d4 d8 | d1.  |
+			ees4 ges4. ees8 ges4. ees | bes4.( b4. c2.)  | ees4 ges4. ees8 ges4. ees | bes'2.~ bes4. aes4. |
+			ges2. ges4. f4 f8~ | f4 ees~ ees1 | ees2. ees4. d4 d8~ | d4 c2~ c2. |
 			ees4 ges4. ees8 ges2. | ees4 ges4. ees8 ges4. f4. | f1. |
-			c4 ees4. c8 ees2. | c4 ees4. c8 ees4. d | d1. |
+			c4 ees4. c8 ees2. | c4 ees4. c8 ees4. d | 
 		}
 	}
 	>>
@@ -71,6 +74,7 @@ text =  \lyricmode {
 		We got to -- ge -- ther can we
 		keep it to -- ge -- ther?
 		Man, I swear I'll do all I can do.
+		solve.
 }
 
 wordsTwo =  \lyricmode {
@@ -88,7 +92,7 @@ wordsThree =  \lyricmode {
       Out in the dark and cold. All of the names we've called 
       our -- selves and each o -- ther ring like a cho -- ir. 
       Dis -- so -- nant chords I'd like to hear re -- solve. 
-      Dis -- so -- nant chords I'd like to hear re -- solve.
+      Dis -- so -- nant chords I'd like to hear re- 
 }
 
 harmonies = \chordmode {
@@ -99,6 +103,7 @@ harmonies = \chordmode {
   	c1.:m  | c:m |
   	c:m | c:m | aes:7 | aes:7 |
   	aes:7 | f:m | f2.:m g:7 | c:m bes:7 |
+  	c1.:m  | c:m |
   	
 }
 
