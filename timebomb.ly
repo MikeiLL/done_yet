@@ -26,7 +26,8 @@ melody = \relative c' {
 			c4( b a) b | a( g) g2~ | g2 r2 | r4 fis e d | % Wait a minute ... and you are
 			c r2 b8 b | b( a) a2 a8 a | a( g) g2. | % Who to me ... no one
 			r8 c c bes c4 c8 bes | c16 c c8 bes c4 c4. | bes8. bes16 bes8 r bes8. bes16 bes8 r | bes bes bes bes bes8. bes16 bes4 | % Showed you my knob ... Wind me up ... reasoning
-			g8. g16 e4 g e8 e | g g g g4. fis8 fis | fis fis fis fis fis4 fis8 fis | g g fis g4 r4. | % Reasoning please ... wanna relate.
+			g8. g16 e4 g e8 e | g g g g4. fis8 fis | fis fis fis fis fis4 fis8 fis | g g fis g r e8 e e  | % Reasoning please ... wanna relate. I wanna
+			e c c bes c4 c8 bes | c c bes c4. c8 bes |  c c c bes8 c4 c8 bes  | c c bes c4 c4.  | % Know if you can deal ... ear full
 		}
 	}
 }
@@ -44,7 +45,8 @@ text =  \lyricmode {
 		Wait a min -- ute... and you are 
 		who to me? No -- one. To me no -- one.
 		Showed you my knob, but I di -- dn't say to twist it. Wind me up. Wind me up. Tell me that it's rea -- son -- ing.
-		Rea -- son -- ing? Please! If you wan -- na de -- bate you can run for head of state. Me? I wan -- na re -- late.
+		Rea -- son -- ing? Please! If you wan -- na de -- bate you can run for head of state. Me? I wan -- na re -- late. I wan -- na
+		know if you can deal with the way that I feel when I've had it up to here and I give you an ear full.
 }
 
 
