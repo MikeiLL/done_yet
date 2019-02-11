@@ -12,6 +12,7 @@ melody = \relative c' {
   \clef treble
   \key c \major
   \time 4/4
+	<<
 	\new Voice = "words" {
 	\repeat volta 2 {
 		c4 c d f | f a8 g4 f8 d4 | f a8 g4 f8 f4 | \time 2/4 g a | % Let's all ... face the
@@ -26,6 +27,21 @@ melody = \relative c' {
 		bes4 bes bes c | d d8 d4 d8 c4 | bes8 bes bes bes bes4 c | d d8 d4. c4~ |c4 r2. | % Let's find out ... windows
 		} 
 	  }
+	\new NullVoice = "more_words" {
+	\repeat volta 2 {
+		c,4 c d f | f a8 g4 f8 d4 | f a8 g4 f8 f4 | \time 2/4 g a | % Let's all ... face the
+		\time 4/4 c~ \tuplet 3/2 {c8( bes a) } g2 | r1 | % truth.
+		bes4 bes8 bes4 bes8 c4 | d d8 d4 d8 c4 | bes8 bes bes bes4 bes8 c4 | \time 2/4 d f8 f | % Blasting music ... seem to 'ave
+		\time 4/4 d4 d8 d4 bes8 d4 | bes8 c4. r2 | r1 | % tacitly agreed upon.
+		c8 c a a g4 f | c'8 c a a g4 f | c g'8( a~) a2 | r1 | % Pass another king ... line.
+		c8 c a a g4 f | c' a g f | \time 2/4 g a | \time 4/4 bes c8 c~ c2 | r1 | % Delicately ... house of cards
+		bes4 bes8 bes4 bes8 c4 | d d d r | bes bes8 bes4 bes8 c4 | d f e c | % we've invested ... we're hardly
+		d( c8 bes) a4 r | r1 | c8 c a a g4 f | c' a g r | % breathing. Do you ... wonder yes we do
+		r4 f g a | bes c8 c4. c4 | r1 | % When happens when the wind blows
+		bes4 bes bes c | d d8 d4 d8 c4 | bes8 bes bes bes bes4 c | d d8 d4. c4~ |c4 r2. | % Let's find out ... windows
+		} 
+	  }
+	>>
 }
 
 verse_one =  \lyricmode {
@@ -44,13 +60,13 @@ verse_one =  \lyricmode {
 }
 
 verse_two =  \lyricmode {
-  \set associatedVoice = "words"
+  \set associatedVoice = "more_words"
   \set stanza = #"2. "
   Let's all face the facts to -- ge -- ther let's turn to -- ge -- ther to face the 
-  truth.
+  mir -- ror.
   Gas -- ping loud -- ly so un -- self -- con -- scious -- ly. Li -- ving the sto -- ries we seem to 'ave
   ma -- gic -- ly to -- ge -- ther spun.
-  Pass a -- no -- ther drink down. Pass a -- no -- ther puff down the line.
+  Pass a -- no -- ther drink down. Pass a -- no -- ther taste down the line.
   De -- li -- cate -- ly bring them oh so slow -- ly to your neigh -- bors lips
   may -- be just to their fin -- ger -- tips. 
   Tea -- ry eyed you can see we're deep -- ly brea -- thing.
