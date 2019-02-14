@@ -21,7 +21,7 @@ melody = \relative c' {
 			d4 d d8 d~ | d4 c8 b4. | b4 c8 d4.~ | d2 r4 | % Worked ... him here.
 			c4 c8 c4 c8 | c4 b8 a4. | c4 c8 c4 c8 | c4 b8 a4 c8 | % Instruments ... someone to
 			d4 d8 d4 d8 | d4 c8 b4.~ | b2. | r | % care ... to care
-			e8 d e2~ | e2. | r | r | % Hurricane 
+			e8 d e2~ | e2.~ | e~ | e | % Hurricane 
 			e8 d e2~ | e2. | g | r | % Hurricane blow
 			e8 d e2~ | e2. | g~ | g2 f4 | % Hurricane blow my
 			e2.~ | e2 d4 | c2. | r | % thoughts away
@@ -31,7 +31,17 @@ melody = \relative c' {
 			d4 d8 d4 d8 | d4 a8 b4 b8 | b4 c d~ | d2. | % Here you ... one needs
 			c4 c8 c4 c8 | c4 b8 a4 b8 | c2. | c4 c8 b4 c8 | % Interjecting ... pick up your
 			d4 d8 d4 d8 | d4 c8 b4 b8 | b4 c8 d4.~ | d2. | % violin ... tune
-			e8 d e2~ | e2. | r | r | % Hurricane 
+			e8 d e2~ | e2.~ | e~ | e | % Hurricane 
+			e8 d e2~ | e2. | g | r | % Hurricane blow
+			e8 d e2~ | e2. | g~ | g2 f4 | % Hurricane blow my
+			e2.~ | e2 d4 | c2. | r | % thoughts away
+			e8 e4 e e8 | e4 d8 c4 d8 | e4 e8 e4. | r2. | % Generators ... on
+			e4 e8 e4 e8 | e4 b8 g4 b8 | e8 e4 e4. | r2. | % Lighting ... long
+			r4 e8 e4 e8 | e4 d8 c4. | r4 e8 e4 e8 | e4 d8 c4. | % The old familiar ... gasp
+			r4 d4 d4 | d4 c8 b4 b8 | b8( c4) d4.~ | d2. | % Sometimes ... laughter
+			r4 c8 c4 c8 | c4 b8 a4. | r4 c8 c4 c8 | c b4 a c8 | % Between ... pause I
+			d4 d8 d4 d8 | d4 c8 b4 b8 | b4 c8 d4.~ | d2. | % hear a whisper ... out of here
+			e8 d e2~ | e2.~ | e~ | e | % Hurricane 
 			e8 d e2~ | e2. | g | r | % Hurricane blow
 			e8 d e2~ | e2. | g~ | g2 f4 | % Hurricane blow my
 			e2.~ | e2 d4 | c2. | r | % thoughts away
@@ -61,6 +71,15 @@ verse_one =  \lyricmode {
 	Hur -- ri -- cane. 
 	Hur -- ri -- cane blow.
 	Hur -- ri -- cane blow my thoughts a -- way.
+	Gen -- e -- ra -- tor's pow -- er switch is rus -- ted on.
+	Light -- ing up the thous -- anth act it's get -- ting long.
+	The old fam -- il -- iar masks. We hold our breath and gasp.
+	Some -- times cry our way to laugh -- ter.
+	Bet -- ween the clust -- ered words, at eve -- ry preg -- nant pause I
+	hear a whis -- per dar -- ing Let's get out of here.
+	Hur -- ri -- cane. 
+	Hur -- ri -- cane blow.
+	Hur -- ri -- cane blow my thoughts a -- way.
 }
 
 
@@ -76,6 +95,18 @@ harmonies = \chordmode {
   c | c | a:m | a:m/g |
   c | c | a:m | a:m/g |
   c | c | a:m | a:m/g |
+  
+  c2. | c | c | c |
+  e:m | e:m | e:m | e:m |
+  f | f | f | f | 
+  e:m | e:m | g | g |
+  f | f | f | f | 
+  e:m | e:m | g | g |
+  c | c | a:m | a:m/g |
+  c | c | a:m | a:m/g |
+  c | c | a:m | a:m/g |
+  c | c | a:m | a:m/g |
+  
   c2. | c | c | c |
   e:m | e:m | e:m | e:m |
   f | f | f | f | 
