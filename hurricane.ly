@@ -18,7 +18,10 @@ melody = \relative c' {
 			e4 e e | e d8 c4 c8 | e4 e8 e4 e8 | e4 d8 c~ \tuplet 3/2 {c8 c c} | % Drowned ... if ya
 			d4 d d8 d~ | d4( c8) b4 b8 | d4 d8 d4 d8 | d4 c8 b4. | % can't stand ... violins
 			e8 e4 e4. | e4 d8 c4 c8 | e e4 e8 e e~ | e4 d8 c4. | % Met a man... over here
-			d4 d d8 d~ | d4 c8 b4. | b4 c8 d4.~ | d2 r4 |
+			d4 d d8 d~ | d4 c8 b4. | b4 c8 d4.~ | d2 r4 | % Worked ... him here.
+			c4 c8 c4 c8 | c4 b8 a4. | c4 c8 c4 c8 | c4 b8 a4 c8 | % Instruments ... someone to
+			d4 d8 d4 d8 | d4 c8 b4.~ | b2. | r |
+			
 		} 
 	  }
 	>>
@@ -37,7 +40,12 @@ verse_one =  \lyricmode {
 
 
 harmonies = \chordmode {
-  
+  c2. | c | c | c |
+  e:m | e:m | e:m | e:m |
+  f | f | f | f | 
+  e:m | e:m | g | g |
+  f | f | f | f | 
+  e:m | e:m | g | g |
 }
 
 \score {
