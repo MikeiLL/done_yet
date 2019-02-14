@@ -21,7 +21,10 @@ melody = \relative c' {
 			d4 d d8 d~ | d4 c8 b4. | b4 c8 d4.~ | d2 r4 | % Worked ... him here.
 			c4 c8 c4 c8 | c4 b8 a4. | c4 c8 c4 c8 | c4 b8 a4 c8 | % Instruments ... someone to
 			d4 d8 d4 d8 | d4 c8 b4.~ | b2. | r |
-			
+			e8 d e2~ | e2. | r | r |
+			e8 d e2~ | e2. | g | r |
+			e8 d e2~ | e2. | g~ | g2 f4 |
+			e2.~ | e2 d4 | c2. | r |
 		} 
 	  }
 	>>
@@ -35,6 +38,9 @@ verse_one =  \lyricmode {
 	Worked hard to get him here. Keep him here.
 	In -- stru -- ments and love af -- fairs fall a -- part with -- out some -- one to 
 	care and who knows how to care.  
+	Hur -- ri -- cane. 
+	Hur -- ri -- cane blow.
+	Hur -- ri -- cane blow my thoughts a -- way.
 }
 
 
@@ -46,6 +52,10 @@ harmonies = \chordmode {
   e:m | e:m | g | g |
   f | f | f | f | 
   e:m | e:m | g | g |
+  c | c | a:m | a:m/g |
+  c | c | a:m | a:m/g |
+  c | c | a:m | a:m/g |
+  c | c | a:m | a:m/g |
 }
 
 \score {
