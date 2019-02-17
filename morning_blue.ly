@@ -12,12 +12,18 @@ melody = \relative c' {
   \clef treble
   \key c \major
   \time 7/8
-  c4 d d8 e g | a4 g e8 d c | \time 4/4 f4 e g,8 a b } | 
-  c1 |
+  c4 d d8 e g | a4 g e8 d c | f4 e g,8 a b  | 
+  \time 4/4 c1 |
  \new Voice = "words" {
 	\repeat volta 2 { 
 		g'8 e g e g2 | r4 g16 g e8 g e c r |
 		c a c a c2 r4 c16 c a8 c a g r |
+		g e' d d c2~ | c1 |
+		g'8 e g e g2 | r8 e g e g e c r |
+		c a c a c2 r8 a c a c a g r |
+		g e' d d c2~ | c1 |
+		g'8 e g e g2 | r8 e g e g e c r |
+		c a c a c2 r8 a c a c a g r |
 		g e' d d c2~ | c1 |
 		g'8 e g e g2 | r8 e g e g e c r |
 		c a c a c2 r8 a c a c a g r |
@@ -46,19 +52,19 @@ harmonies = \chordmode {
   
   c | c | 
   f/c | f/c |
-  f2/c c2 | c | 
+  f2/c c2 | c1 | 
+
+  c | c | 
+  f/c | f/c |
+  f2/c c2 | c1 | 
 
   c1 | c | 
   f/c | f/c |
-  f2/c c2 | c | 
+  f2/c c2 | c1 | 
 
   c1 | c | 
   f/c | f/c |
-  f2/c c2 | c | 
-
-  c1 | c | 
-  f/c | f/c |
-  f2/c c2 | c | 
+  f2/c c2 | c1 | 
 }
 
 \score {
