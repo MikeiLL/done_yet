@@ -12,7 +12,7 @@ melody = \relative c' {
   \clef treble
   \key c \major
   \time 7/8
-  c4 d d8 e g | a4 g e8 d c | \time 4/4 f4 e \tuplet 3/2 { g a b } | 
+  c4 d d8 e g | a4 g e8 d c | \time 4/4 f4 e \tuplet 3/2 { g, a b } | 
   c1~ | c |
  \new Voice = "words" {
 	\repeat volta 2 { 
