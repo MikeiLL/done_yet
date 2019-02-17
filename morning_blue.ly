@@ -16,18 +16,18 @@ melody = \relative c' {
   \time 4/4 c1 |
  \new Voice = "words" {
 	\repeat volta 2 { 
-		g'8 e g e g2 | r4 g16 g e8 g e c r |
-		c a c a c2 r4 c16 c a8 c a g r |
-		g e' d d c2~ | c1 |
-		g'8 e g e g2 | r8 e g e g e c r |
-		c a c a c2 r8 a c a c a g r |
-		g e' d d c2~ | c1 |
-		g'8 e g e g2 | r8 e g e g e c r |
-		c a c a c2 r8 a c a c a g r |
-		g e' d d c2~ | c1 |
-		g'8 e g e g2 | r8 e g e g e c r |
-		c a c a c2 r8 a c a c a g r |
-		g e' d d c2~ | c1 |
+		g'8 e g e g2 | r4 g16 g e8 g e c4 |
+		c8 a c a c2 r4 c16 c a8 c a g4 |
+		g8 e' d d c2~ | c1 |
+		g'8 e g e g2 | r8 e g e g e c4 |
+		c8 a c a c2 r8 a c a c a g4 |
+		g8 e' d d c2~ | c1 |
+		g'8 e g e g2 | r8 e g e g e c4 |
+		c8 a c a c2 r8 a c a c a g4 |
+		g8 e' d d c2~ | c1 |
+		g'8 e g e g2 | r8 e g e g e c4 |
+		c8 a c a c2 r8 a c a c a g4 |
+		g8 e' d d c2~ | c1 |
 		} 
 	}
 }
