@@ -21,8 +21,16 @@ melody = \relative c'' {
 		a4. a8 g e4. | r1 | % tired o' thin -- kin'.
 		r2 b'8 b b4 | a4 a8 g a g4 a8~ | a1~ | a2 b8 b b4 | a2 a4. a8 | % May -- be ... tired, tired of
 		g e e2. | r4 a a4. g8 | a8 a4. r2 | r4 a a4. a8 | b8 b b b a a a a | % be -- ing me... strugglin' to
-		b1 |
+		b1 | r1 |
+		e4 
 	}
+		<< g,,4 b4 >> << g4 b4 >> << b4 d4 >> | r << g,4 b4 >> << a8 c8 >> << g8 b8 >> << e,4 g4 >>
+		
+		\context Voice = "words" {
+			e''4
+		}
+		
+		<< g,,4 b4 >> << g4 b4 >> << b4 d4 >> | r << g,4 b4 >> << a8 c8 >> << g8 b8 >> << e,4 g4 >>
 }
 
 text =  \lyricmode {
@@ -36,6 +44,7 @@ text =  \lyricmode {
 	be -- ing me.
 	Not tired of fee -- ling. Just tired of strug -- gl -- in' to strug -- gl -- in' to
 	feel.
+	Blah. I feel blah.
 }
 
 harmonies = \chordmode {
