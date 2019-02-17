@@ -18,20 +18,10 @@ melody = \relative c' {
 	\repeat volta 2 { 
 		g'8 e g e g2 | r4 g16 g e8 g e c r |
 		c a c a c2 r4 c16 c a8 c a g r |
-		\time 2/4 g e' d d | 
-		\time 4/4 c1~ | c2 r |
+		g e' d d c2~ | c1 |
 		g'8 e g e g2 | r8 e g e g e c r |
 		c a c a c2 r8 a c a c a g r |
-		\time 2/4 g e' d d | 
-		\time 4/4 c1~ | c2 r |
-		g'8 e g e g2 | r8 e g e g e c r |
-		c a c a c2 r8 a c a c a g r |
-		\time 2/4 g e' d d | 
-		\time 4/4 c1~ | c2 r |
-		g'8 e g e g2 | r8 e g e g e c r |
-		c a c a c2 r8 a c a c a g r |
-		\time 2/4 g e' d d | 
-		\time 4/4 c1~ | c2 r |
+		g e' d d c2~ | c1 |
 		} 
 	}
 }
@@ -46,8 +36,8 @@ text =  \lyricmode {
 	Sing so mor -- ning blue.  I slept in starts and fits.
 	Sing so mor -- ning blue.  I slept in starts and fits.
 	Sing so mor -- ning blue. 
-	Sing so mor -- ning blue.  The sun came peeking in.
-	Sing so mor -- ning blue.  The sun came peeking in.
+	Sing so mor -- ning blue.  The sun came peek -- ing in.
+	Sing so mor -- ning blue.  The sun came peek -- ing in.
 	Sing so mor -- ning blue.  
 }
 
