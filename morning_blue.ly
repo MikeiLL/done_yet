@@ -12,8 +12,8 @@ melody = \relative c' {
   \clef treble
   \key c \major
   \time 7/8
-  c4 d d8 e g | a4 g e8 d c | \time 4/4 f4 e \tuplet 3/2 { g, a b } | 
-  c1~ | c |
+  c4 d d8 e g | a4 g e8 d c | \time 4/4 f4 e g,8 a b } | 
+  c1 |
  \new Voice = "words" {
 	\repeat volta 2 { 
 		g'8 e g e g2 | r4 g16 g e8 g e c r |
@@ -42,23 +42,23 @@ text =  \lyricmode {
 }
 
 harmonies = \chordmode {
-  c2. c8 | c2. c8 | c1 | c | c |
+  c2. c8 | c2. c8 | c2. c8 | c1 |
   
   c | c | 
   f/c | f/c |
-  f2/c | c1 | c | 
+  f2/c c2 | c | 
 
   c1 | c | 
   f/c | f/c |
-  f2/c | c1 | c | 
+  f2/c c2 | c | 
 
   c1 | c | 
   f/c | f/c |
-  f2/c | c1 | c | 
+  f2/c c2 | c | 
 
   c1 | c | 
   f/c | f/c |
-  f2/c | c1 | c | 
+  f2/c c2 | c | 
 }
 
 \score {
