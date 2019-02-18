@@ -8,6 +8,29 @@
 
 \paper{ print-page-number = ##f bottom-margin = 0.5\in }
 
+bass = \relative c, {
+  \clef bass
+  \key e \minor
+  \time 4/4
+	\new Voice = "bassline" {
+		e1 | b2 c2 | e1 | b2 c2 |
+		e1 | b2 c2 | e1 | b2 c2 |
+		e1 | b2 c2 | e1 | b2 c2 |
+		e1 | b2 c2 | e1 | b2 c2 |
+		e1 | b2 c2 | e1 | b2 c2 |
+		e1 | b2 c2 | e1 | b2 c2 |
+		e1 | b2 c2 | e1 | b2 c2 |
+		e1 | b2 c2 | e1 | b2 c2 |
+		e1 | b2 c2 | e1 | b2 c2 |
+		e1 | b2 c2 | e1 | b2 c2 |
+		e1 | b2 c2 | e1 | b2 c2 |
+		e1 | b2 c2 | e1 | b2 c2 |
+		e1 | b2 c2 | e1 | b2 c2 |
+		e1 | b2 c2 | e1 | b2 c2 |
+		e1 | e |
+	}  
+}
+  
 melody = \relative c'' {
   \clef treble
   \key e \minor
@@ -78,11 +101,13 @@ harmonies = \chordmode {
       \set chordChanges = ##t
       \harmonies
     }
-
+	\new PianoStaff  <<
     \new Voice = "one" { \melody }
     \new Lyrics \lyricsto "words" \text
     \new Lyrics \lyricsto "chorus" \chorus
     \new Lyrics \lyricsto "verse_two" \verse_two
+    \new Voice = "bass" { \bass }
+    >>
   >>
   \layout { }
   \midi { }
