@@ -11,24 +11,21 @@ melody = \relative c'' {
  \time 3/4
  \set Score.voltaSpannerDuration = #(ly:make-moment 3/4)
  #(ly:expect-warning "cannot end volta")
- \repeat volta 2 {
    \new Voice = "chorus" {
      \voiceOne
      c2. | d | e | d |
      c |
    }
    e4 d c | e4 d c | e4 d c |
- }
- \alternative {
    \new Voice = "verse" {
      c2. | d | e | f |
      g | f | e | d |
    }
-   \context Voice = "verse" {
-     c | d | e | f |
+   e4 d c | e4 d c | e4 d c |
+   \new Voice = "verse_two" {
+     c2. | d | e | f |
      e | f | e | c |
    }
- }
 }
 
 
@@ -39,6 +36,9 @@ chorus =  \lyricmode {
 verse =  \lyricmode {
  This one here will
  be the first verse.
+}
+
+verse_two =  \lyricmode {
  This one here will
  be the se -- cond.
 }
@@ -59,6 +59,7 @@ harmonies = \chordmode {
    }
    \new Lyrics \lyricsto "chorus" \chorus
    \new Lyrics \lyricsto "verse" \verse
+   \new Lyrics \lyricsto "verse_two" \verse_two
  >>
 
   
