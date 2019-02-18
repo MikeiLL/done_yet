@@ -33,7 +33,7 @@ verse_one =  \lyricmode {
 	This is the sad -- dest day of all. And there's no -- one I can tell.
 	If there's a win -- dow in my soul, the glass is caked with dust and soil.
 	If there's a sto -- ry to be told I will ne -- ver find the words.
-	May as well leave the lights turned off. There ain't no -- thing here to see.
+	May as well leave the lights turned off. There is no -- thing here to see.
 	No place left to go but down. No -- one left to ask but
 	Oh __ God, please give me what I don't de -- serve.
 	Oh __ God, please give me one more try.
