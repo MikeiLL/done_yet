@@ -28,7 +28,7 @@ bass = \relative c, {
 		e1 | b2 c2 | e1 | b2 c2 |
 		e1 | b2 c2 | e1 | b2 c2 |
 		e1 | b2 c2 | e1 | b2 c2 |
-		e1 | b2 c2 | e1 | b2 c2 |
+		e1 | b2 c2 | 
 	}  
 }
   
@@ -72,8 +72,8 @@ melody = \relative c'' {
 			r4 a' a a8 g | a4 a2 a8 g | \tuplet 3/2 { a4 a g } a4 r | \tuplet 3/2 { r g4 e g g a }% Woke up ... tongue I'm developing
 			g( e) e2~ | e4. r8 e4 e | \tuplet 3/2 { e4 e e~ } e r | r1 |% cancer ... which one
 			b'8 d4 e fis g8~ | g a4 bes bes a8~ | a2. g4 | a4 g8 a4. a4 | % I don't want ... see no
-			g8( e) e2.~ | e1 | % body
-			r1 | r2 b4 b | b2 b4 b | a a a8 g g e | e1~ | e1 \bar "|." % Let's just say ... at all
+			g8( e) e2.~ | e2 b4 b | % body. Let's just
+		    b2 b4 b | a a a8 g g e | e1~ | e1 \bar "|." % say I don't ... at all
 		}
 }
 
@@ -107,8 +107,8 @@ chorus_three = \lyricmode {
 verse_two =  \lyricmode {
 	Woke up with a cold sore on the tip of my tongue. I'm de -- ve -- lop -- ing 
 	can -- cer. Just don't know which one.
-	I don't want no -- bo -- dy to see me. Don't wan -- na see no -- bo -- dy.
-	Let's just say I don't feel like a -- ny -- thing at all.
+	I don't want no -- bo -- dy to see me. Don't wan -- na see no -- bo -- dy. Let's just 
+	say I don't feel like a -- ny -- thing at all.
 }
 
 harmonies = \chordmode {
