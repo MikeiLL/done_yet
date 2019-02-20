@@ -2,7 +2,7 @@
 
 \header {
   title = "Transcendental Medication"
-  composer = "Words and Music by Mike iLL"
+  composer = "Words and Music by Rivka & Mike iLL"
   tag = "Copyright R. and M. Kilmer Creative Commons Attribution-NonCommercial, BMI"
 }
 
