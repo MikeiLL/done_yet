@@ -40,7 +40,7 @@ text =  \lyricmode {
  {
  \set stanza = #"1. " 
    Blues trail -- in' me a --  round this wide 
-   World. Bor -- ders lie with --  in these white walls 
+   world. Bor -- ders lie with --  in these white walls.
    Need a -- no -- ther  vic -- to --  ry: 
    Tran -- scen --  den -- tal med -- i --  ca -- tion
   }
@@ -54,12 +54,12 @@ text =  \lyricmode {
   }
 >>
   Do do do do do do do  do do do wait -in' for the 
-  grass to grow  see which way the  
-  wind will blow  keep it on the  
-  quiet and low  
-  got -- ta get a med got -- ta  get a med got -- ta get a 
-  med -- i -- cal card.  So I can 
-  trim the weeds  in my 
+  grass to grow. See which way the  
+  wind will blow. Keep it on the  
+  quiet and low.  
+  Got -- ta get a med- Got -- ta  get a med- Got -- ta get a 
+  med -- i -- cal card so I can 
+  trim the weeds in my 
   own back yard.  
 <<
  {
@@ -89,6 +89,8 @@ harmonies = \chordmode {
   g | g | d:m | d:m |
   g | g | c | c |
   g | g | d:m | d:m |
+  g1 | e:m | g | e:m |
+  g | e2:m c2 | c1 | c1 |
 }
 
 \score {
