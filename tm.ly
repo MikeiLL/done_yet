@@ -73,7 +73,7 @@ text =  \lyricmode {
    \set associatedVoice = "melody"
    \set stanza = #"4. "
    Fines turn -- ing in -- to  sen -- ten -- ces. 
-   Whoops. Did I for -- get to  check my mail. 
+   Whoops. Did I for -- get to  check my mail? 
    Wow. They tell me they're pro --  tect -- ing me. 
    Tran -- scen --  den -- tal med -- i --  ca -- tion.
   }
