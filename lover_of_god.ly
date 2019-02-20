@@ -10,7 +10,7 @@
 
 melody = \relative c'' {
   \clef treble
-  \key d \major
+  \key c \major
   \time 3/4
 	<<
 	\new Voice = "words" {
@@ -49,6 +49,14 @@ melody = \relative c'' {
 			e2.~ | e~ | e~ | e |
 			\tuplet 4/3 { e4 e e e} | \tuplet 4/3 { d4 d d b~} | b2. | \tuplet 4/3 { a4 a g g(} | 
 			e2.~) | e~ | e4 r2 | r2. |
+	
+			\tuplet 4/3 { e4 e e e} | \tuplet 4/3 { e4 e e e~} | \tuplet 4/3 { e4 e e g~} |\tuplet 4/3 { g4 e d e~} | 
+			e2.~ | e~ | e~ | e |
+			\tuplet 4/3 { e4 e e e} | \tuplet 4/3 { e4 e e e~} | \tuplet 4/3 { e4 e e g~} |\tuplet 4/3 { g4 e d e~} | 
+			e2.~ | e~ | e~ | e |
+			\tuplet 4/3 { e4 e e e} | \tuplet 4/3 { d4 d d b~} | b2. | \tuplet 4/3 { a4 a g g(} | 
+			e2.~) | e~ | e4 r2 | r2. |
+			
 	  }
 	\new NullVoice = "more_words" {
 	\repeat volta 2 {
@@ -59,7 +67,6 @@ melody = \relative c'' {
 
 verse_one =  \lyricmode {
   \set associatedVoice = "words"
-  \set stanza = #"1. "
   Ma -- ry's got a beau -- ti -- ful ha -- lo of gold on her 
   head.
   Ma -- ry's got a beau -- ti -- ful ha -- lo of gold on her 
@@ -88,6 +95,13 @@ verse_one =  \lyricmode {
   bed?
   Ma -- ma would you lie with me one last time in this 
   bed?
+  Ma -- ry is the mo -- ther of God, lo -- ver of God.
+  
+  
+  Ma -- ry's got a beau -- ti -- ful ha -- lo of gold on her 
+  head.
+  Ma -- ry's got a beau -- ti -- ful ha -- lo of gold on her 
+  head.
   Ma -- ry is the mo -- ther of God, lo -- ver of God.
 }
 
@@ -97,7 +111,7 @@ verse_two =  \lyricmode {
 }
 
 harmonies = \chordmode {
-  \repeat unfold 5 {
+  \repeat unfold 6 {
   e2.:m | e:m | e:m | e:m | 
   e:m | e:m | e:m | e:m | 
   a:m/e | a:m/e | a:m/e | a:m/e | 
