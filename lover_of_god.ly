@@ -20,15 +20,39 @@ melody = \relative c'' {
 			\tuplet 4/3 { e4 e e e} | \tuplet 4/3 { e4 e e e~} | \tuplet 4/3 { e4 e e g~} |\tuplet 4/3 { g4 e d e~} | 
 			e2.~ | e~ | e~ | e |
 			\tuplet 4/3 { e4 e e e} | \tuplet 4/3 { d4 d d b~} | b2. | \tuplet 4/3 { a4 a g g(} | 
-			e2.~) | e~ | e1 r2 | r2. |
+			e2.~) | e~ | e4 r2 | r2. |
+			
+			\tuplet 4/3 { e'4 e e e~} | \tuplet 4/3 { e4 e e e~} | e4. e4 g8~ |\tuplet 4/3 { g4 e d e~} | 
+			e2.~ | e~ | e~ | e |
+			\tuplet 4/3 { e4 e e e~} | \tuplet 4/3 { e4 e e e~} | e4. e4 g8~ |\tuplet 4/3 { g4 e d e~} | 
+			e2.~ | e~ | e~ | e |
+			\tuplet 4/3 { e4 e e e} | \tuplet 4/3 { d4 d d b~} | b2. | \tuplet 4/3 { a4 a g g(} | 
+			e2.~) | e~ | e4 r2 | r2. |
+			
+			\tuplet 4/3 { e'4 e e e~} | \tuplet 4/3 { e4 e e e} | e4 e g~ |\tuplet 4/3 { g4 e d e~} | 
+			e2.~ | e~ | e~ | e |
+			\tuplet 4/3 { e4 e e e~} | \tuplet 4/3 { e4 e e e} | e4 e g~ |\tuplet 4/3 { g4 e d e~} | 
+			e2.~ | e~ | e~ | e |
+			\tuplet 4/3 { e4 e e e} | \tuplet 4/3 { d4 d d b~} | b2. | \tuplet 4/3 { a4 a g g(} | 
+			e2.~) | e~ | e4 r2 | r2. |
+			
+			\tuplet 4/3 { e'4 e e e~} | \tuplet 4/3 { e4 e2.} | e4 e g~ |\tuplet 4/3 { g4 e d e~} | 
+			e2.~ | e~ | e~ | e |
+			\tuplet 4/3 { e4 e e e~} | \tuplet 4/3 { e4 e2.} | e4 e g~ |\tuplet 4/3 { g4 e d e~} | 
+			e2.~ | e~ | e~ | e |
+			\tuplet 4/3 { e4 e e e} | \tuplet 4/3 { d4 d d b~} | b2. | \tuplet 4/3 { a4 a g g(} | 
+			e2.~) | e~ | e4 r2 | r2. |
+			
+			\tuplet 4/3 { e'4 e e e} | \tuplet 4/3 { e4 e e e~} | e4. e4 g8~ |\tuplet 4/3 { g4 e d e~} | 
+			e2.~ | e~ | e~ | e |
+			\tuplet 4/3 { e4 e e e} | \tuplet 4/3 { e4 e e e~} | e4. e4 g8~ |\tuplet 4/3 { g4 e d e~} | 
+			e2.~ | e~ | e~ | e |
+			\tuplet 4/3 { e4 e e e} | \tuplet 4/3 { d4 d d b~} | b2. | \tuplet 4/3 { a4 a g g(} | 
+			e2.~) | e~ | e4 r2 | r2. |
 		} 
 	  }
 	\new NullVoice = "more_words" {
 	\repeat volta 2 {
-			\tuplet 4/3 { e4 e e e} | \tuplet 4/3 { e4 e e e~} | \tuplet 4/3 { e4 e e g~} |\tuplet 4/3 { g4 e d e~} | e2.~ | e |
-			\tuplet 4/3 { e4 e e e} | \tuplet 4/3 { e4 e e e~} | \tuplet 4/3 { e4 e e g~} |\tuplet 4/3 { g4 e d e~} | e2.~ | e |
-			\tuplet 4/3 { e4 e e e} | \tuplet 4/3 { d4 d d b~} | b2. | \tuplet 4/3 { a4 a g g(} | 
-			e2.~) | e~ | e1 r2 | r2. |
 		} 
 	  }
 	>>
@@ -42,12 +66,35 @@ verse_one =  \lyricmode {
   Ma -- ry's got a beau -- ti -- ful ha -- lo of gold on her 
   head.
   Ma -- ry is the mo -- ther of God, lo -- ver of God.
+  
+  I'm go -- ing in -- to a card -- board box when I'm 
+  dead.
+  I'm go -- ing in -- to a card -- board box when I'm 
+  dead.
+  Ma -- ry is the mo -- ther of God, lo -- ver of God.
+  
+  Vi -- sion of Ma -- ry won't you ease this ter -- ri -- ble 
+  dread?
+  Vi -- sion of Ma -- ry won't you ease this ter -- ri -- ble 
+  dread?
+  Ma -- ry is the mo -- ther of God, lo -- ver of God.
+  
+  Bo -- som of Ma -- ry soaked with fe -- ver and 
+  sweat.
+  Bo -- som of Ma -- ry soaked with fe -- ver and 
+  sweat.
+  Ma -- ry is the mo -- ther of God, lo -- ver of God.
+  
+  Ma -- ma would you lie with me one last time in this 
+  bed?
+  Ma -- ma would you lie with me one last time in this 
+  bed?
+  Ma -- ry is the mo -- ther of God, lo -- ver of God.
 }
 
 verse_two =  \lyricmode {
   \set associatedVoice = "more_words"
   \set stanza = #"2. "
-  
 }
 
 harmonies = \chordmode {
