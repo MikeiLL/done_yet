@@ -14,7 +14,7 @@ melody = \relative c'' {
   \time 3/4
 	<<
 	\new Voice = "words" {
-	\repeat volta 2 {
+	
 			\tuplet 4/3 { e4 e e e} | \tuplet 4/3 { e4 e e e~} | \tuplet 4/3 { e4 e e g~} |\tuplet 4/3 { g4 e d e~} | 
 			e2.~ | e~ | e~ | e |
 			\tuplet 4/3 { e4 e e e} | \tuplet 4/3 { e4 e e e~} | \tuplet 4/3 { e4 e e g~} |\tuplet 4/3 { g4 e d e~} | 
@@ -36,9 +36,9 @@ melody = \relative c'' {
 			\tuplet 4/3 { e4 e e e} | \tuplet 4/3 { d4 d d b~} | b2. | \tuplet 4/3 { a4 a g g(} | 
 			e2.~) | e~ | e4 r2 | r2. |
 			
-			\tuplet 4/3 { e'4 e e e~} | \tuplet 4/3 { e4 e2.} | e4 e g~ |\tuplet 4/3 { g4 e d e~} | 
+			\tuplet 4/3 { e'4 e e e~} | \tuplet 4/3 { e4 e2 e4~} | e4 e g~ |\tuplet 4/3 { g4 e d e~} | 
 			e2.~ | e~ | e~ | e |
-			\tuplet 4/3 { e4 e e e~} | \tuplet 4/3 { e4 e2.} | e4 e g~ |\tuplet 4/3 { g4 e d e~} | 
+			\tuplet 4/3 { e4 e e e~} | \tuplet 4/3 { e4 e2 e4~} | e4 e g~ |\tuplet 4/3 { g4 e d e~} | 
 			e2.~ | e~ | e~ | e |
 			\tuplet 4/3 { e4 e e e} | \tuplet 4/3 { d4 d d b~} | b2. | \tuplet 4/3 { a4 a g g(} | 
 			e2.~) | e~ | e4 r2 | r2. |
@@ -49,7 +49,6 @@ melody = \relative c'' {
 			e2.~ | e~ | e~ | e |
 			\tuplet 4/3 { e4 e e e} | \tuplet 4/3 { d4 d d b~} | b2. | \tuplet 4/3 { a4 a g g(} | 
 			e2.~) | e~ | e4 r2 | r2. |
-		} 
 	  }
 	\new NullVoice = "more_words" {
 	\repeat volta 2 {
@@ -98,12 +97,14 @@ verse_two =  \lyricmode {
 }
 
 harmonies = \chordmode {
+  \repeat unfold 5 {
   e2.:m | e:m | e:m | e:m | 
   e:m | e:m | e:m | e:m | 
   a:m/e | a:m/e | a:m/e | a:m/e | 
   e:m | e:m | e:m | e:m | 
   c | c | b:9.5- | b:9.5- |
   e:m | e:m | e:m | e:m | 
+  }
 }
 
 \score {
