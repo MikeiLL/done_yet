@@ -26,6 +26,8 @@ melody = \relative c'' {
   \tuplet 3/2 { d c b} | % Ain't
   b4. d r4 | c b c b8 d~ | d4 r2. | r2. d4 | % changed ... road. Being 
   e4 e r e8 e | e4 e8 e4. e8 g~ | g4 r2. | r2 g4 e | % too broke ... role. That don't
+  d4 d8 d~ d2 | r4 d \tuplet 3/2 { d8 d d} d4 | e8 e4. e8 e4. | g4 r g g | % slow ya down. Just more of the ... maxed out
+  a4. a8 a4 a8 a~ | a g8 fis4 fis4 fis8 a8~ | a4 a8 a4. a8 a~ | a4 r2. | % cards ... psychic mark
   }
 }
 
@@ -35,8 +37,9 @@ text =  \lyricmode {
  	changed much once we hit the road.
  	Being too broke for a cof -- fee and a roll.
 	That don't slow ya down. Just more o' the same
-	stub -- born for -- ward march. Maxed out cards, emp -- ty bank 
-	ac -- counts on -- ly leave a psy -- chic mark.
+	stub -- born for -- ward march. Maxed out 
+	cards and emp -- ty bank ac -- counts on -- ly 
+	leave a psy -- chic mark.
 }
 
 
@@ -51,7 +54,7 @@ harmonies = \chordmode {
   g | g | g | g |
   g | g | g | g |
   g | g | g | g |
-  g | g | d | b/fis |
+  g | g | d | b/dis |
   e:m | e:m/d | c | c |
 }
 
