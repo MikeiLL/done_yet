@@ -38,9 +38,19 @@ melody = \relative c'' {
   c b g c~ | c2 r | r c4 c | c2 c | % year and ... day on a truck stop
   c4 b g2~ | g2 r2 | r1 | r1 | % honey moon
   }
+  
+  b8 a b a g4 fis8 g16 fis | e4 d2. | g4 fis8 g16 fis e4 d | g a8 b a g fis4 |
+  g4 << d b' >> r << d, b' >> | << d, g b >> r << d, g b >> d,8 d | g4 r r r8 d | g8 g d4 r d |
+  b'8 a g4 fis a | g2 r | r1 | << d2 g b >> g8 g r d |
+  g8 r4. r2 | g8 g fis r8 a r fis8 fis | g4\staccato r2. | a4\staccato fis\staccato a\staccato fis8 fis |
+  g8 g d4 a' fis8 fis | g g r4
+  
+  \new Voice = "verse_two" {
+  	d8 e g a |
+  }
 }
 
-text =  \lyricmode {
+verse_one =  \lyricmode {
 	\set associatedVoice = "verse_one"
  	Ain't like things 
  	changed much once we hit the road.
@@ -59,6 +69,10 @@ text =  \lyricmode {
 	Was -- n't raised on a run -- ci -- ble spoon. A
 	year and a day on a truck -- stop
 	hon -- ey -- moon.
+}
+
+verse_two =  \lyricmode {
+	Ev -- 'ry thing we
 }
 
 
@@ -96,7 +110,8 @@ harmonies = \chordmode {
       \harmonies
     }
     \new Voice = "one" { \melody }
-    \new Lyrics \lyricsto "verse_one" \text
+    \new Lyrics \lyricsto "verse_one" \verse_one
+    \new Lyrics \lyricsto "verse_two" \verse_two
   >>
   \layout { }
   \midi { }
