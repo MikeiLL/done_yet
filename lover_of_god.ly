@@ -116,7 +116,7 @@ harmonies = \chordmode {
   e:m | e:m | e:m | e:m | 
   a:m/e | a:m/e | a:m/e | a:m/e | 
   e:m | e:m | e:m | e:m | 
-  c | c | b:9.5- | b:9.5- |
+  c | c | f | f |
   e:m | e:m | e:m | e:m | 
   }
 }
