@@ -47,6 +47,10 @@ melody = \relative c'' {
   
   \new Voice = "verse_two" {
   	d8 e g a |
+  	b4 r2. | r2 g4 a~ |a4 r2. | r2 e8 fis g a |
+  	g1( | fis2)~ fis8 fis4 fis8 | e2. r4 | r2 g4 e |
+  	d4 e8 d4. r4 | d4 e8 g4. r4 | fis8 fis4. fis8 fis4 fis8~ | fis4. fis8 g8 fis4. |
+  	e1 |
   }
 }
 
@@ -73,6 +77,25 @@ verse_one =  \lyricmode {
 
 verse_two =  \lyricmode {
 	Ev -- 'ry thing we
+	had to spend. Spent it on a 
+	one way tic -- ket. Now we're
+	down and out, hight and dry.
+	No -- thin' but our looks to get us
+	by.
+	
+	If I'm gon -- na 
+	starve to -- night. Then I wan -- na
+	starve by your side. Drin -- kin'
+	truck -- stop cof -- fee and I'll
+	tell you it's all -- right. You
+	know that you look gorge -- ous when you 
+	cry.
+	
+	If this is what they call free -- dom, I'll take it.
+	If this is bad as it's gets we'll make it.
+	Ev -- ry sin -- gle turn it's test -- ing me.
+	Fate's just jeal -- ous 'cause we're spen -- din' all our
+	time cha -- sin' signs for des -- ti -- ny.
 }
 
 
