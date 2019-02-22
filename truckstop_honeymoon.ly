@@ -47,10 +47,21 @@ melody = \relative c'' {
   
   \new Voice = "verse_two" {
   	d8 e g a |
-  	b4 r2. | r2 g4 a~ |a4 r2. | r2 e8 fis g a |
+  	b4 r2. | r2 g4 a~ |a4 r2. | r2 e8 fis g a | % had to spend
   	g1( | fis2)~ fis8 fis4 fis8 | e2. r4 | r2 g4 e |
-  	d4 e8 d4. r4 | d4 e8 g4. r4 | fis8 fis4. fis8 fis4 fis8~ | fis4. fis8 g8 fis4. |
-  	e1 |
+  	d4 e8 d4. r4 | r1 | d4 e8 g4. r4 | r1 | 
+  	fis8 fis4. fis8 fis4 fis8~ | fis4. fis8 g8 fis4. | e1 | r2 
+  	
+  	d8 e g a | % If I'm gonna starve
+  	b4 r2. | r2 g4 a~ |a4 r2. | r2 e8 fis g a |
+  	g1( | fis2)~ fis8 fis4 fis8~ | fis e~ e2. | r2 g4 e % ... drinkin
+  	d4 d d8 e4. | r2. d8 d | d4 d8 d4 e4 g8~ | g2 r4. fis8 | % ... alright ya 
+  	fis4. fis8 fis fis4 fis8~ | fis4 fis g fis8 e~ | e1~ | e2 r4. d'8 |
+  	
+  	d8 d d d d4 d8 e~ | e4 d d8 b4. | d8 d d4 d d8 e~ | e d4 c b b8~ | % This is what they call freedom ... make it
+  	b g a e g4 g8 e | g4 e8 b'4. r4 | c4 c b8 b b b | a4 a8 b4 b c8~ | % Evry single .... fates ... all our ti-
+  	c2 b4 a8 c~ | c4. c8 b4 a8 c~ | c4 r2. | r1 | r | c4 c c8 b a g~ | % ... truckstop honeymoon__
+  	g1 | r |
   }
 }
 
@@ -72,7 +83,7 @@ verse_one =  \lyricmode {
 	
 	Was -- n't raised on a run -- ci -- ble spoon. A
 	year and a day on a truck -- stop
-	hon -- ey -- moon.
+	hon -- ey -- moon __.
 }
 
 verse_two =  \lyricmode {
@@ -92,10 +103,12 @@ verse_two =  \lyricmode {
 	cry.
 	
 	If this is what they call free -- dom, I'll take it.
-	If this is bad as it's gets we'll make it.
-	Ev -- ry sin -- gle turn it's test -- ing me.
+	This is bad as it's gets we'll make it.
+	Ev -- ry sin -- gle turn some -- thin's test -- ing me.
 	Fate's just jeal -- ous 'cause we're spen -- din' all our
 	time cha -- sin' signs for des -- ti -- ny.
+	
+	Truck -- stop ho -- ney -- moon
 }
 
 
@@ -124,6 +137,30 @@ harmonies = \chordmode {
   c | c/b | c/a | c/g |
   d/fis | d/e | g | g/c |
   g | g | g | g |
+  
+  
+  g | g | g | g |
+  g | g | g | g |
+  g | g | g | g |
+  g | g | g | g |
+  g | g |  
+  
+  g | g | d | b/dis | % 
+  e:m | e:m/d | c | c |
+  g | g | e:m | e:m |
+  d | d | c | c |
+  
+  g | g | d | b/dis | % 
+  e:m | e:m/d | c | c |
+  g | g | e:m | e:m |
+  d | d | c | c |
+  
+  f:6 | e:m7 | ees:maj7 | b2:sus/fis b:7 |
+  e1:m7/d | e:m/cis |
+  a:m | a:m7 | a:m6 | a:m7 |
+  a:m/d | a:m/d | a:m/d | a:m/d |
+  g
+  
 }
 
 \score {
