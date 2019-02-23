@@ -27,6 +27,7 @@ melody = \relative c'' {
 
 harmony = \relative c'' {
   \voiceTwo
+  \key e \minor
 	g4. g | e4 g e | fis2 b4 | c d b |
 	a4. g~ | g2. | r4. g | b8 b b a b g |
 	g2. | fis4 fis fis | fis g4. r8 | g4 e g |
