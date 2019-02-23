@@ -25,12 +25,15 @@ melody = \relative c'' {
 	}
 }
 
-harmony = \relative c'' {
+harmony = \relative c' {
   \voiceTwo
 	g4. g | e4 g e | fis2 b4 | c d b |
 	a4. g~ | g2. | r4. g | b8 b b a b g |
 	g2. | fis4 fis fis | fis g4. r8 | g4 e g |
-	c2. | d4 b a | a4. g~ | \time 4/4 g2 r |
+	c2. | d4 b a | a4. g | \time 4/4  e2 e'8 e e e |
+	e4 r2. | r2 b8 b b b | b4 e2. | r2 b8 b b b |
+	b4 e2. | r2 b8 c dis e | \time 6/8 g8 r4 fis4. |
+	e8 r4 r4. | r2. | r2. | r2. |
 }
 
 text =  \lyricmode {
@@ -59,13 +62,13 @@ harmonies = \chordmode {
       \set chordChanges = ##t
       \harmonies
     }
-    \new Staff  {
+    \new PianoStaff {
     <<
-    	\new Voice = "upper" { \melody }
-    	\new Voice = "lower" { \harmony }
+    	\new Voice = "voice" { \melody }
+  		\new Lyrics \lyricsto "words" \text
+    	\new Voice = "accordion" { \harmony }
     >>
   	}
-  	\new Lyrics \lyricsto "words" \text
   >>
   
   
