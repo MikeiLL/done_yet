@@ -25,7 +25,7 @@ melody = \relative c'' {
 	}
 }
 
-harmony = \relative c' {
+harmony = \relative c'' {
   \voiceTwo
 	g4. g | e4 g e | fis2 b4 | c d b |
 	a4. g~ | g2. | r4. g | b8 b b a b g |
@@ -55,22 +55,22 @@ harmonies = \chordmode {
   	e:m | e:m | \time 6/8 e4.:m b:7|  
   	e2.:m | e:m | e:m | e:m | 
 }
+  
 
 \score {
   <<
     \new ChordNames {
       \set chordChanges = ##t
-      \harmonies
+      \transpose e c { \harmonies }
     }
     \new PianoStaff {
     <<
-    	\new Voice = "voice" { \melody }
+    	\new Voice = "voice" { \transpose e c { \melody } }
   		\new Lyrics \lyricsto "words" \text
-    	\new Voice = "accordion" { \harmony }
+    	\new Voice = "accordion" { \transpose e c { \harmony } }
     >>
   	}
   >>
-  
   
   \layout { 
    #(layout-set-staff-size 16)
