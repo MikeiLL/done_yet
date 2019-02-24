@@ -17,15 +17,15 @@ melody = \relative c'' {
   g8 a4 b8 a g fis4 | b8 a g4 g fis g2 r | r4 << d g b >> r4 << d, g b >> | << d, g b >> r << d,4. g b >> r8 |
   r4 << d, g b >> r4 << d, g b >> | << d,4. g b >> r8 d,8 r d d | g4 r g g | g g g g |
   g-^ g g g | g g g g  | g-^ g g g | g g g g |
-  g g g g | g g g g | b8 a b a g4 b8 g | b4. g d'4 | d2. b8 d |
+  g g g g | g g g g | b8 a b a g4 b8 g | b4. g d'4~ | d2. b8 d |
   b a g a4. fis4 | fis8 g~ g2.~ | g4 d8 e g a b g~ |
   g2 \grace g16 fis4 e | d4 fis g a | g1~ | g |
   g8 g g4 g g | g8 g g4 g g | g8 g g4 g g | g8 g g4
    
   \new Voice = "verse_one" {
-  \tuplet 3/2 { d c b} | % Ain't
-  b4. d r4 | c b c b8 d~ | d4 r2. | r2. d4 | % changed ... road. Being 
-  e4 e r e8 e | e4 e8 e4. e8 g~ | g4 r2. | r2 g4 e | % too broke ... role. That don't
+  \tuplet 3/2 { d c b } | % Ain't
+  a4. b r4 | c b c b8 d~ | d4 r2. | r2. g8 fis | % changed ... road. Being 
+  e4 e r e8 e | d4 d8 d4. d8 e~ | e4 r2. | r2 g4 e | % too broke ... role. That don't
   d4 d8 d~ d2 | r4 d \tuplet 3/2 { d8 d d} d4 | e8 e4. e8 e4. | g4 r g g | % slow ya down. Just more of the ... maxed out
   a4. a8 a4 a8 a~ | a g8 fis4 fis4 fis8 a8~ | a4 a8 a4. a8 a~ | a4 r2. | % cards ... psychic mark
   
@@ -70,14 +70,15 @@ melody = \relative c'' {
   g8 g d4 a' fis8 fis | g8 g b4 a fis8 fis | g8 g b b a4 fis | g d r d | 
   b'4. a8 g4 fis8 g16 fis | e4 d2. | g4 \tuplet 3/2 { fis8 g fis } e4 d | g a8 b a g a4 |
   d4 \tuplet 3/2 { b8 d b } a4 g | d'4 \tuplet 3/2 { c8 d c } b4 a | a8 b16 a g4 fis a8 g | d8 g b d, a' g fis a |
-  d,8 g b d, a' g fis a | << d,4 g b >> << d,4 g b >> << d,4 g b >> << d,4 g b >> |
+  d,8 g b d, a' g fis a | << d,4 g b >> << d,4 g b >> << d,4 g b >> << d,4 g b >> | << d,4 g b >> << d,4 g b >> << d,4 g b >> << d,4 g b >> | << d,4 g b >> << d,4 g b >> << d,4 g b >> << d,4 g b >> | 
+  << d,4 g b >> << d,4 g b >>  | 
 }
 
 verse_one =  \lyricmode {
 	\set associatedVoice = "verse_one"
  	Ain't like things 
  	changed much once we hit the road.
- 	Being too broke for a cof -- fee and a roll.
+ 	Be -- ing too broke for a cof -- fee and a roll.
 	That don't slow ya down. Just more o' the same
 	stub -- born for -- ward march. Maxed out 
 	cards and emp -- ty bank ac -- counts on -- ly 
