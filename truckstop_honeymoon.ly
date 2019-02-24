@@ -63,6 +63,14 @@ melody = \relative c'' {
   	c2 b4 a8 c~ | c4. c8 b4 a8 c~ | c4 r2. | r1 | r | c4 c c8 b a g~ | % ... truckstop honeymoon__
   	g1 | r |
   }
+  
+  b8 a b a g4 fis8 g16 fis | e4 d2. | g4 fis8 g16 fis e4 d( | g) a8 b a g fis4 | 
+  g8 d g b a4 b | g8 d g b a4 g | g8 d g b a g fis a | g4 d g\staccato d\staccato |
+  g\staccato d8.\staccato d16\staccato g4\staccato d\staccato | g8 g d4 a' fis | g8 g d4 a' fis | g8 g d4 a' fis | 
+  g8 g d4 a' fis8 fis | g8 g b4 a fis8 fis | g8 g b b a4 fis | g d r d | 
+  b'4. a8 g4 fis8 g16 fis | e4 d2. | g4 \tuplet 3/2 { fis8 g fis } e4 d | g a8 b a g a4 |
+  d4 \tuplet 3/2 { b8 d b } a4 g | d'4 \tuplet 3/2 { c8 d c } b4 a | a8 b16 a g4 fis a8 g | d8 g b d, a' g fis a |
+  d,8 g b d, a' g fis a | << d,4 g b >> << d,4 g b >> << d,4 g b >> << d,4 g b >> |
 }
 
 verse_one =  \lyricmode {
@@ -101,6 +109,49 @@ verse_two =  \lyricmode {
 	tell you it's all -- right. You
 	know that you look gorge -- ous when you 
 	cry.
+	
+	If this is what they call free -- dom, I'll take it.
+	This is bad as it's gets we'll make it.
+	Ev -- ry sin -- gle turn some -- thin's test -- ing me.
+	Fate's just jeal -- ous 'cause we're spen -- din' all our
+	time cha -- sin' signs for des -- ti -- ny.
+	
+	Truck -- stop ho -- ney -- moon
+}
+
+verse_three = \lyricmode {
+	
+	We were near -- ly half in -- sane and broke down
+	by the time we left our strange home -- town.
+	Living at the edge of bored to death and a
+	place called no sur -- prise where the
+	only thing that e -- ver chan -- ges is what gets you
+	high. I'd already 
+	
+	kicked dope and a bad slut ha -- bit twice at least. And I'd just been re --
+	placed by a pro -- per queen at a west side hair sa -- lon. If we had
+	what to lose it was get -- ting old on Mary -- jane and Jack. And a --
+	way was the on -- ly worth -- while place to get.
+	
+	If this is what they call free -- dom, I'll take it.
+	This is bad as it's gets we'll make it.
+	Ev -- ry sin -- gle turn some -- thin's test -- ing me.
+	Fate's just jeal -- ous 'cause we're spen -- din' all our
+	time cha -- sin' signs for des -- ti -- ny.
+	
+	Truck -- stop ho -- ney -- moon
+}
+
+verse_four =  \lyricmode {
+	If I e -- ver knew your strength, if I e -- ver
+	be -- lieved in your resolve to a --
+	chieve e -- ven your wild -- est dreams,
+	no -- thing is as dire as it seems.
+	
+	E -- ven as the sky turns pink
+	on a -- no -- ther night here at the brink,
+	we're got love to make, re -- cords to break, and
+	no -- thing but ro -- mance to fill the hours.
 	
 	If this is what they call free -- dom, I'll take it.
 	This is bad as it's gets we'll make it.
