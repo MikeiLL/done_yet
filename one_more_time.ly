@@ -110,7 +110,7 @@ harmonies = \chordmode {
   	e2.:m | a:m | a:m | a:m |
   	e:m | e:m | e:m | e:m |
   	a:m | a:m | e:m | e:m |
-  	f:7 | f:7 | e:m | \time 4/4 e1:m |
+  	f:7 | f:7/ees | e:m | \time 4/4 e1:m |
   	e:m | e:m | e:m | e:m | 
   	e:m | e:m | \time 6/8 e4.:m b:7|  
   	e2.:m | e:m | e:m | e:m | 
