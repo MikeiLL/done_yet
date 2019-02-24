@@ -30,7 +30,7 @@ melody = \relative c' {
 
 text =  \lyricmode {
 	Met an old man on Jef -- fer -- son Street. He played this song with a coup -- le o' strums. His
-	old gui -- tar had a coup -- le o strings and from his lips an old cig -- gar -- ette hung. 
+	old gui -- tar had a coup -- le o strings and from his lips an old cig -- ar -- ette hung. 
 	
 	  <<
     {
