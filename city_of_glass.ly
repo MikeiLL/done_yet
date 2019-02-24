@@ -22,7 +22,7 @@ melody = \relative c' {
 			 f bes,4. des4 f | ees2 r4. f8 | f2.~ f8 ees | ees2 r4 \tuplet 3/2 { f8 f f } |
 			 f bes,4. des4 f | ees r2 \tuplet 3/2 {des4 ees8 } | f1 | r2 \tuplet 3/2 { r4 bes bes} |
 			 bes2 aes8 f4 aes8~ | aes4 r2 des,4 | ees8 f4. ees4 des | ees4 r2 bes4 | bes1 | aes8 aes4.~ aes4 bes |
-			 bes2. r4 | 
+			 bes2. r4 | r2.
 		}
 	}
 }
@@ -78,6 +78,13 @@ text =  \lyricmode {
 
 
 harmonies = \chordmode {
+  	bes1 | bes | bes | bes | 
+  	bes | bes | bes | bes | 
+  	
+  	bes:m | aes | bes:m | aes |
+  	bes:m | aes | bes:m | aes |
+  	bes:m | aes | bes:m | aes |
+  	bes:m | aes | bes:m | aes |
   	
 }
   
@@ -86,7 +93,7 @@ harmonies = \chordmode {
   <<
     \new ChordNames {
       \set chordChanges = ##t
-      \transpose e c { \harmonies }
+      \harmonies 
     }
     \new Staff {
     <<
