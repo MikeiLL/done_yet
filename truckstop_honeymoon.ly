@@ -36,17 +36,14 @@ melody = \relative c'' {
   
   r4 c g c~ | c b g c~ | c b g c~ | c r2 c4 | % Wasn't raised in a runcible spoon. A
   c b g c~ | c2 r | r c4 c | c2 c | % year and ... day on a truck stop
-  c4 b g2~ | g2 r2 | r1 | r1 | % honey moon
+  c4 b g2~ | g2 r2 |  % honey moon
   }
   
   b8 a b a g4 fis8 g16 fis | e4 d2. | g4 fis8 g16 fis e4 d | g a8 b a g fis4 |
-  g4 << d b' >> r << d, b' >> | << d, g b >> r << d, g b >> d,8 d | g4 r r r8 d | g8 g d4 r d |
-  b'8 a g4 fis a | g2 r | r1 | << d2 g b >> g8 g r d |
-  g8 r4. r2 | g8 g fis r8 a r fis8 fis | g4\staccato r2. | a4\staccato fis\staccato a\staccato fis8 fis |
-  g8 g d4 a' fis8 fis | g g r4
+  g4 << d b' >> r << d, b' >> | << d, g b >> r << d, g b >> d,8 d | g4 << d b' >> r << d, b' >> | << d, g b >> r 
   
   \new Voice = "verse_two" {
-  	d8 e g a |
+  	d,8 e g a |
   	b4 r2. | r2 g4 a~ |a4 r2. | r2 e8 fis g a | % had to spend
   	g1( | fis2)~ fis8 fis4 fis8 | e2. r4 | r2 g4 e |
   	d4 e8 d4. r4 | r1 | d4 e8 g4. r4 | r1 | 
@@ -61,7 +58,20 @@ melody = \relative c'' {
   	d8 d d d d4 d8 e~ | e4 d d8 b4. | d8 d d4 d d8 e~ | e d4 c b b8~ | % This is what they call freedom ... make it
   	b g a e g4 g8 e | g4 e8 b'4. r4 | c4 c b8 b b b | a4 a8 b4 b c8~ | % Evry single .... fates ... all our ti-
   	c2 b4 a8 c~ | c4. c8 b4 a8 c~ | c4 r2. | r1 | r | c4 c c8 b a g~ | % ... truckstop honeymoon__
-  	g1 | r |
+  	
+  }
+  
+  << g8 b8 >> a b a g4 fis8 g16 fis | e4 d2. | g4 fis8 g16 fis e4 d | g a8 b a g fis4 |
+  g4 << d b' >> r << d, b' >> | << d, g b >> r << d, g b >> d,8 d | g4 r r r8 d | g8 g d4 r d |
+  b'8 a g4 fis a | g2 r | r1 | << d2 g b >> g8 g r d |
+  g8 r4. r2 | g8 g fis r8 a r fis8 fis | g4\staccato r2. | a4\staccato fis\staccato a\staccato fis8 fis |
+  g8 g d4 a' fis8 fis | g g r
+  
+  \new Voice = "verse_three" {
+  	a4 g8 fis e | e d4 d b8 d d( | e2) r | r g8 fis fis e | e4. d4 e4~ |
+  	e4. dis2 e8~ | e1 | r2 e8 e e e | d4 r8 c8 b4 r8 c | d4 r2 d8 d |
+  	d4 d d d8 fis8( | g4 ) r2 e8 e | fis4 fis8 fis4 fis8 fis fis fis~ | fis4 fis8 fis fis4 e8 e~ |
+  	e4 r2. |
   }
   
   b8 a b a g4 fis8 g16 fis | e4 d2. | g4 fis8 g16 fis e4 d( | g) a8 b a g fis4 | 
@@ -192,10 +202,7 @@ harmonies = \chordmode {
   
   
   g | g | g | g |
-  g | g | g | g |
-  g | g | g | g |
-  g | g | g | g |
-  g | g |  
+  g | g | 
   
   g | g | d | b/dis | % 
   e:m | e:m/d | c | c |
