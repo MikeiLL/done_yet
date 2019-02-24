@@ -23,16 +23,16 @@ melody = \relative c'' {
   g8 g g4 g g | g8 g g4 g g | g8 g g4 g g | g8 g g4
    
   \new Voice = "verse_one" {
-  \tuplet 3/2 { d c b } | % Ain't
-  a4. b r4 | c b c b8 d~ | d4 r2. | r2. g8 fis | % changed ... road. Being 
+  \tuplet 3/2 { d' c b } | % Ain't
+  a4. g r4 | d d8 d4. d8 d~ | d4 r2. | r2. g8 fis | % changed ... road. Being 
   e4 e r e8 e | d4 d8 d4. d8 e~ | e4 r2. | r2 g4 e | % too broke ... role. That don't
-  d4 d8 d~ d2 | r4 d \tuplet 3/2 { d8 d d} d4 | e8 e4. e8 e4. | g4 r g g | % slow ya down. Just more of the ... maxed out
-  a4. a8 a4 a8 a~ | a g8 fis4 fis4 fis8 a8~ | a4 a8 a4. a8 a~ | a4 r2. | % cards ... psychic mark
+  d4 d8 d~ d2 | r4 b \tuplet 3/2 { b8 b b} b4 | a8 a4. a8 a4. | b4 r e e | % slow ya down. Just more of the ... maxed out
+  fis4. fis8 fis4 fis8 fis~ | fis e8 d4 d4 d8 g8~ | g4 fis8 g4. fis8 g~ | g4 r2. | % cards ... psychic mark
   
-  r4 d, d8 d c b | c4 b8 d4. b8 b | c4 c c8 b4 d8~ | d4 r2. | % Late ... Flying J
-  r4 e8 e e4 e8 e | e4 g8 g4. d8 d | e4 e8 e e4 e8 e~ | e4 r8 g8 g4 g8 e | % Nuzzled ... buffet. Aside from the 
-  d4 r d b | d2. d8 d | e4 e e e8 g~ | g4 r g g | % sun. No one cares ... and the
-  a2 a4 a8 a~ | a2 a4 a | a a a8 a4. | c4 r2. | % ride town ... helps forget me where I'm from
+  r4 e d8 d d d | d4 c8 b4. b8 b | c4 c c8 b4 d8~ | d4 r2. | % Late ... Flying J
+  r4 fis8 fis fis4 fis8 fis | fis4 e8 e4. e8 e | d4 d8 d d4 d8 d~ | d4 r8 d8 fis4 e8 d | % Nuzzled ... buffet. Aside from the 
+  d4 r d d | d2. d8 d | e4 e e e8 e~ | e4 r e e | % sun. No one cares ... and the
+  fis2 fis4 fis8 fis~ | fis2 e4 d8 g~ | g4 fis g8 fis4 g8~ | g4 r2. | % drive town ... helps forget me where I'm from
   
   r4 c g c~ | c b g c~ | c b g c~ | c r2 c4 | % Wasn't raised in a runcible spoon. A
   c b g c~ | c2 r | r c4 c | c2 c | % year and ... day on a truck stop
@@ -88,7 +88,7 @@ verse_one =  \lyricmode {
 	place called Fly -- ing J.
 	Nuz -- zled un -- der the in -- ter -- state with an all you can eat buf -- fet. A -- side from the
 	son no one cares if we sleep 'till twelve or one. And the
-	ride town to town helps for -- get me where I'm from.
+	drive town to town helps for -- get me where I'm from.
 	
 	Was -- n't raised on a run -- ci -- ble spoon. A
 	year and a day on a truck -- stop
