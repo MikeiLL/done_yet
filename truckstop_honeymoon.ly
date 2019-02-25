@@ -83,11 +83,15 @@ melody = \relative c'' {
 	  c4 b g2~ | g1 |  % honey moon
   }
   
-  b8 a b a g4 fis8 g16 fis | e4 d2. | g4 fis8 g16 fis e4 d( | g) a8 b a g fis4 | 
+  b8 a b a g4 fis8 g16 fis | e4 d2. | g4 fis8 g16 fis e4 d | g a8 b a g fis4 | 
   g8 d g b a4 b | g8 d g b a4 g | g8 d g b a g fis a | g4 d g\staccato d\staccato |
-  g\staccato d8.\staccato d16\staccato g4\staccato d\staccato | g8 g d4 a' fis | g8 g d4 a' fis | g8 g d4 a' fis | 
-  g8 g d4 a' fis8 fis | g8 g b4 a fis8 fis | g8 g b b a4 fis | g d r d | 
-  b'4. a8 g4 fis8 g16 fis | e4 d2. | g4 \tuplet 3/2 { fis8 g fis } e4 d | g a8 b a g a4 |
+  g\staccato d8.\staccato d16\staccato g4\staccato d\staccato | g8 g d4 a' fis | g d g d | g d g d | 
+  g8 g d4 a' fis | g8 g d4 a'8 a fis fis | g4 d a' fis | g8 g d4 a' fis | 
+  g8 g b4 a fis | g8 g b b a4 fis8 fis | g4 d' b a | b4. a8 g4 fis8 g16 fis |
+  e4 d2. | g4. fis8 e 4 d | g a8 b a g a4 | d4. b8 a4 g |
+  d' \tuplet 3/2 { c8 d c } b4 a | a8 b16 a g4 fis a8 d, | b' d, b' d, a' g fis a | 
+  d4 \tuplet 3/2 { b8 d b } |
+  b4. a8 g4 fis8 g16 fis | e4 d2. | g4 \tuplet 3/2 { fis8 g fis } e4 d | g a8 b a g a4 |
   d4 \tuplet 3/2 { b8 d b } a4 g | d'4 \tuplet 3/2 { c8 d c } b4 a | a8 b16 a g4 fis a8 g | d8 g b d, a' g fis a |
   d,8 g b d, a' g fis a | << d,4 g b >> << d,4 g b >> << d,4 g b >> << d,4 g b >> | << d,4 g b >> << d,4 g b >> << d,4 g b >> << d,4 g b >> | << d,4 g b >> << d,4 g b >> << d,4 g b >> << d,4 g b >> | 
   << d,4 g b >> << d,4 g b >>  | 
