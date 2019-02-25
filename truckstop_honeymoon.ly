@@ -91,24 +91,25 @@ melody = \relative c'' {
   e4 d2. | g4. fis8 e 4 d | g a8 b a g a4 | d4. b8 a4 g |
   d' \tuplet 3/2 { c8 d c } b4 a | a8 b16 a g4 fis a8 g | b a b d, a' g fis a | 
   << d,4 g b >> << d,4 g b >> << d,4 g b >> << d,4 g b >> | << d,4 g b >> << d,4 g b >> << d,4 g b >> << d,4 g b >> | << d,4 g b >> << d,4 g b >> << d,4 g b >> << d,4 g b >> | 
-  << d,4 g b >> << d,4 g b >>  | 
+  << d,4 g b >> << d,4 g b >> 
   
   \new Voice = "verse_four" {
   	d,8 e g a |
   	b4 r2. | r2 g4 a~ |a4 r2. | r2 e8 fis g a | % knew your strength ... ever
   	g1( | fis2)~ fis8 fis4 fis8 | e4. d8 d2~ | d2 r4 g8 e | % believed in your resolve to a-
   	d4 r2. | r2 d8 d d4 | d4 e8 g4. r4 | r1 | % chieve even your wildest dreams
-  	fis8 fis4. fis8 fis4 fis8~ | fis4. fis8 g8 fis4. | e1 | r2 % Nothing is ... it seems
+  	fis8 fis4. fis8 fis4 fis8~ | fis4.~ fis8 g8 fis4 e8~ | e1 | r2 % Nothing is ... it seems
   	
   	d8 e g a | % Even as the 
   	b4 r2. | r2 g4 a~ | a4 r2. | r2 e8 fis g a | % sky turns pink on another
   	g1( | fis2)~ fis8 fis4 fis8~ | fis4 e8 e~ e2 | r2 g4 e % night here at the brink we've got
-  	d4 d8 d4. r4 | r1 | d8 d e g4.~ g4 | r1 | % love to make... records to break
+  	d4 d8 d4. r4 | r1 | d8 d e g4.~ g4 | r2. r8 fis8 | % love to make... records to break and
   	fis8 fis4. fis4 fis8 fis8~ | fis4. fis8 g4 fis8 e~ | e1 | r2. r8 d'8 | % nothin but romance ... hours
   	
   	d8 d d d d4 d8 e~ | e4 d d8 b4. | d8 d d4 d d8 e~ | e d4 c b b8~ | % This is what they call freedom ... make it
   	b g a e g4 g8 e | g4 e8 b'4. r4 | c4 c b8 b b b | a4 a8 b4 b c8~ | % Evry single .... fates ... all our ti-
   	c2 b4 a8 c~ | c4. c8 b4 a8 c~ | c4 r2. | r1 | r | c4 c c8 b a g~ | % ... truckstop honeymoon__
+  	g1~ | g |
   	
   }
 }
@@ -181,13 +182,13 @@ verse_three = \lyricmode {
 
 verse_four =  \lyricmode {
 	If I e -- ver knew your strength, if I e -- ver
-	be -- lieved in your resolve to a --
+	be -- lieved in your re -- solve to a --
 	chieve e -- ven your wild -- est dreams,
 	no -- thing is as dire as it seems.
 	
 	E -- ven as the sky turns pink
 	on a -- no -- ther night here at the brink,
-	we're got love to make, re -- cords to break, and
+	we've got love to make, re -- cords to break, and
 	no -- thing but ro -- mance to fill the hours.
 	
 	If this is what they call free -- dom, I'll take it.
@@ -229,6 +230,51 @@ harmonies = \chordmode {
   
   g | g | g | g |
   g | g | 
+  
+  g | g | d | b/dis | % 
+  e:m | e:m/d | c | c |
+  g | g | e:m | e:m |
+  d | d | c | c |
+  
+  g | g | d | b/dis | % 
+  e:m | e:m/d | c | c |
+  g | g | e:m | e:m |
+  d | d | c | c |
+  
+  f:6 | e:m7 | ees:maj7 | b2:sus/fis b:7 |
+  e1:m7/d | e:m/cis |
+  a:m | a:m7 | a:m6 | a:m7 |
+  a:m/d | a:m/d | a:m/d | a:m/d |
+  g
+  
+  
+  g | g | g | g |
+  g | g | g | g |
+  g | g | g | g |
+  g | g | g | g |
+  
+  g | g | d | b/dis | % half insane
+  e:m | e:m/d | c | c |
+  g | g | e:m | e:m |
+  d | d | c | c |
+  
+  g | g | d | b/dis | % dope and crack
+  e:m | e:m/d | c | c |
+  g | g | e:m | e:m |
+  d | d | c | c |
+  
+  c | c/b | c/a | c/g |
+  d/fis | d/e | g | g/c |
+  g | g | g | g |
+  
+  g | g | g | g |
+  g | g | g | g |
+  g | g | g | g |
+  g | g | g | g |
+  g | g |
+  g | g | g | g |
+  g | g | g | g |
+  g | g | g | 
   
   g | g | d | b/dis | % 
   e:m | e:m/d | c | c |
