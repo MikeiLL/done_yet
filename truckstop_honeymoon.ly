@@ -68,10 +68,11 @@ melody = \relative c'' {
   g8 g d4 a' fis8 fis | g g r
   
   \new Voice = "verse_three" {
-  	a4 g8 fis e | e d4 d b8 d d( | e2) r | r g8 fis fis e | e4. d4 e4~ |
-  	e4. dis2 e8~ | e1 | r2 e8 e e e | d4 r8 c8 b4 r8 c | d4 r2 d8 d |
-  	d4 d d d8 fis8( | g4 ) r2 e8 e | fis4 fis8 fis4 fis8 fis fis fis~ | fis4 fis8 fis fis4 e8 e~ |
-  	e4 r2. |
+  	a4 g8 fis e | % We were nearly
+  	e d4 d b8 d d( | e2) r | r g8 fis fis e | e4. d e4~ | % half insane and broke down ... time we left our str-
+  	e4. dis2 e8~ | e1 | r2 e8 e e e | d4 r8 c8 b4 r8 c | d4 r2 d8 d | % ange home towns ... death and a
+  	d4 d d d8 fis8( | g4 ) r2 e8 e | fis4 fis8 fis4 fis8 fis fis16 fis~ | fis4 fis8 fis fis4 e8 e~ | % place called no surprise ... gets ya hi-
+  	e2 r | r b'8 b  a a~ | a8. g16~ g8 e d4 d8 d | % -igh. I'd already
   }
   
   b8 a b a g4 fis8 g16 fis | e4 d2. | g4 fis8 g16 fis e4 d( | g) a8 b a g fis4 | 
@@ -134,7 +135,7 @@ verse_three = \lyricmode {
 	
 	We were near -- ly half in -- sane and broke down
 	by the time we left our strange home -- town.
-	Living at the edge of bored to death and a
+	Liv -- ing at the edge of bored to death and a
 	place called no sur -- prise where the
 	only thing that e -- ver chan -- ges is what gets you
 	high. I'd already 
@@ -231,6 +232,7 @@ harmonies = \chordmode {
     \new Voice = "one" { \melody }
     \new Lyrics \lyricsto "verse_one" \verse_one
     \new Lyrics \lyricsto "verse_two" \verse_two
+    \new Lyrics \lyricsto "verse_three" \verse_three
   >>
   \layout { }
   \midi { }
