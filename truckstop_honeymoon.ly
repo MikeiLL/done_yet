@@ -36,7 +36,7 @@ melody = \relative c'' {
   
   r4 c g c~ | c b g c~ | c b g c~ | c r2 c4 | % Wasn't raised in a runcible spoon. A
   c b g c~ | c2 r | r c4 c | c2 c | % year and ... day on a truck stop
-  c4 b g2~ | g2 r2 |  % honey moon
+  c4 b g2~ | g1 |  % honey moon
   }
   
   b8 a b a g4 fis8 g16 fis | e4 d2. | g4 fis8 g16 fis e4 d | g a8 b a g fis4 |
@@ -72,7 +72,15 @@ melody = \relative c'' {
   	e d4 d b8 d d( | e2) r | r g8 fis fis e | e4. d e4~ | % half insane and broke down ... time we left our str-
   	e4. dis2 e8~ | e1 | r2 e8 e e e | d4 r8 c8 b4 r8 c | d4 r2 d8 d | % ange home towns ... death and a
   	d4 d d d8 fis8( | g4 ) r2 e8 e | fis4 fis8 fis4 fis8 fis fis16 fis~ | fis4 fis8 fis fis4 e8 e~ | % place called no surprise ... gets ya hi-
-  	e2 r | r b'8 b  a a~ | a8. g16~ g8 e d4 d8 d | % -igh. I'd already
+  	e2 r | r2 b'8 b  a a16 g~ | g8. g16~ g8 e d4 d8 d16 e~ | e4. a4. fis8 fis | r4. a g8 b~ | % -igh. I'd already kicked dope and crack... at least
+  	b4 r8 fis' fis e d d16 d~ | d4 r2 b8 b | b16 b b4( a8 g4) e8 e | e e4. g4 e8 e~ | e4. b'8 c c4 c8~ | % least and I'd just ... if we had what
+  	c b b2 g8 g | g g d'2 b4 | a8 a4. a4 a8 a~ | a4 r2 e8 e | % what to lose... Jack and a-
+  	e4 e8 e d4 d8 e~ | e e4. e4 d8 d~ | % way ... to get
+  	d4 r2. | r1 | % get.
+  	
+	  r4 c' g c~ | c b g c~ | c b g c~ | c r2 c4 | % Wasn't raised in a runcible spoon. A
+	  c b g c~ | c2 r | r c4 c | c2 c | % year and ... day on a truck stop
+	  c4 b g2~ | g1 |  % honey moon
   }
   
   b8 a b a g4 fis8 g16 fis | e4 d2. | g4 fis8 g16 fis e4 d( | g) a8 b a g fis4 | 
@@ -138,20 +146,17 @@ verse_three = \lyricmode {
 	Liv -- ing at the edge of bored to death and a
 	place called no sur -- prise where the
 	only thing that e -- ver chan -- ges is what gets you
-	high. I'd already 
+	high. I'd al -- rea -- dy 
 	
-	kicked dope and a bad slut ha -- bit twice at least. And I'd just been re --
+	kicked dope and crack and a bad slut ha -- bit twice at least. And I'd just been re --
 	placed by a pro -- per queen at a west side hair sa -- lon. If we had
-	what to lose it was get -- ting old on Mary -- jane and Jack. And a --
+	what to lose it was get -- ting old on Ma -- ry -- jane and Jack. And a --
 	way was the on -- ly worth -- while place to get.
 	
-	If this is what they call free -- dom, I'll take it.
-	This is bad as it's gets we'll make it.
-	Ev -- ry sin -- gle turn some -- thin's test -- ing me.
-	Fate's just jeal -- ous 'cause we're spen -- din' all our
-	time cha -- sin' signs for des -- ti -- ny.
+	Was -- n't raised on a run -- ci -- ble spoon. A
+	year and a day on a truck -- stop
+	hon -- ey -- moon __.
 	
-	Truck -- stop ho -- ney -- moon
 }
 
 verse_four =  \lyricmode {
