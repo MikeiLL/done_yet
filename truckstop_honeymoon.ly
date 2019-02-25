@@ -89,12 +89,28 @@ melody = \relative c'' {
   g8 g d4 a' fis | g8 g d4 a'8 a fis fis | g4 d a' fis | g8 g d4 a' fis | 
   g8 g b4 a fis | g8 g b b a4 fis8 fis | g4 d' b a | b4. a8 g4 fis8 g16 fis |
   e4 d2. | g4. fis8 e 4 d | g a8 b a g a4 | d4. b8 a4 g |
-  d' \tuplet 3/2 { c8 d c } b4 a | a8 b16 a g4 fis a8 d, | b' d, b' d, a' g fis a | 
-  d4 \tuplet 3/2 { b8 d b } |
-  b4. a8 g4 fis8 g16 fis | e4 d2. | g4 \tuplet 3/2 { fis8 g fis } e4 d | g a8 b a g a4 |
-  d4 \tuplet 3/2 { b8 d b } a4 g | d'4 \tuplet 3/2 { c8 d c } b4 a | a8 b16 a g4 fis a8 g | d8 g b d, a' g fis a |
-  d,8 g b d, a' g fis a | << d,4 g b >> << d,4 g b >> << d,4 g b >> << d,4 g b >> | << d,4 g b >> << d,4 g b >> << d,4 g b >> << d,4 g b >> | << d,4 g b >> << d,4 g b >> << d,4 g b >> << d,4 g b >> | 
+  d' \tuplet 3/2 { c8 d c } b4 a | a8 b16 a g4 fis a8 g | b a b d, a' g fis a | 
+  << d,4 g b >> << d,4 g b >> << d,4 g b >> << d,4 g b >> | << d,4 g b >> << d,4 g b >> << d,4 g b >> << d,4 g b >> | << d,4 g b >> << d,4 g b >> << d,4 g b >> << d,4 g b >> | 
   << d,4 g b >> << d,4 g b >>  | 
+  
+  \new Voice = "verse_four" {
+  	d,8 e g a |
+  	b4 r2. | r2 g4 a~ |a4 r2. | r2 e8 fis g a | % knew your strength ... ever
+  	g1( | fis2)~ fis8 fis4 fis8 | e4. d8 d2~ | d2 r4 g8 e | % believed in your resolve to a-
+  	d4 r2. | r2 d8 d d4 | d4 e8 g4. r4 | r1 | % chieve even your wildest dreams
+  	fis8 fis4. fis8 fis4 fis8~ | fis4. fis8 g8 fis4. | e1 | r2 % Nothing is ... it seems
+  	
+  	d8 e g a | % Even as the 
+  	b4 r2. | r2 g4 a~ | a4 r2. | r2 e8 fis g a | % sky turns pink on another
+  	g1( | fis2)~ fis8 fis4 fis8~ | fis4 e8 e~ e2 | r2 g4 e % night here at the brink we've got
+  	d4 d8 d4. r4 | r1 | d8 d e g4.~ g4 | r1 | % love to make... records to break
+  	fis8 fis4. fis4 fis8 fis8~ | fis4. fis8 g4 fis8 e~ | e1 | r2. r8 d'8 | % nothin but romance ... hours
+  	
+  	d8 d d d d4 d8 e~ | e4 d d8 b4. | d8 d d4 d d8 e~ | e d4 c b b8~ | % This is what they call freedom ... make it
+  	b g a e g4 g8 e | g4 e8 b'4. r4 | c4 c b8 b b b | a4 a8 b4 b c8~ | % Evry single .... fates ... all our ti-
+  	c2 b4 a8 c~ | c4. c8 b4 a8 c~ | c4 r2. | r1 | r | c4 c c8 b a g~ | % ... truckstop honeymoon__
+  	
+  }
 }
 
 verse_one =  \lyricmode {
@@ -242,6 +258,7 @@ harmonies = \chordmode {
     \new Lyrics \lyricsto "verse_one" \verse_one
     \new Lyrics \lyricsto "verse_two" \verse_two
     \new Lyrics \lyricsto "verse_three" \verse_three
+    \new Lyrics \lyricsto "verse_four" \verse_four
   >>
   \layout { }
   \midi { }
