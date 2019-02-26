@@ -31,7 +31,7 @@ melody = \relative c' {
 		\voiceTwo 
 		\hideNotes {
 			fis4 fis8 a4 b | e8( fis e d) b4. | fis4 fis8 a4 b | e4 d8 b4 r |
-			fis4 fis8 a4 b | e d8 b4. r8 | b4 b8 b4 fis | a b8( a) b4. |
+			fis4 fis8 a4 b | e d8 b2 | b4 b8 b4 fis | a b8( a) b4. |
 			r4. r2 | r4. r2 | r4. r2 | r4. r2 | 
 			
 			fis4 fis8 a4 b | e8( fis) e( d) b4. | fis4 fis8 a4 b | e4 d8 b4 r |
@@ -39,6 +39,40 @@ melody = \relative c' {
 			r4. r2 | r4. r2 | r4. r2 | r4. r2 | 
 			
 			fis4 r8 a4 b | e8( fis e d b4.) | fis4 fis8 a4 b | e4 d8 b4 r |
+			fis4 fis8 a4 b | e d8 b4. r8 | b4 b8 b4 fis | a b8( a) b4. |
+			r4. r2 | r4. r2 | r4. r2 | r4. r2 | 
+		}
+	}
+	
+	\new NullVoice = "hidden_two" {
+		\voiceTwo 
+		\hideNotes {
+			fis4 fis8 a4 b | e8( fis) e b4 fis | fis4 fis8 a4 b | e4 d8 b4 r | % Verses made of
+			fis4 fis8 a4 b | e d8 b2 | b4 b8 b4 fis | a b8( a) b4. |
+			r4. r2 | r4. r2 | r4. r2 | r4. r2 | 
+			
+			fis4 fis8 a4 b | e8( fis) e( d) b4. | fis4 fis8 a4 b | e4 d8 b4 r |
+			fis4 fis8 a4 b | e d8 b4. r8 | b4 b8 b4 fis | a b8( a) b4. |
+			r4. r2 | r4. r2 | r4. r2 | r4. r2 | 
+			
+			fis4 r8 a4 b | e8( fis) e( d) b4. | fis4 fis8 a4 b | e4 d8 b4 r |
+			fis4 fis8 a4 b | e d8 b4. r8 | b4 b8 b4 fis | a b8( a) b4. |
+			r4. r2 | r4. r2 | r4. r2 | r4. r2 | 
+		}
+	}
+	
+	\new NullVoice = "hidden_three" {
+		\voiceTwo 
+		\hideNotes {
+			fis4 fis8 a4 b | e8( fis) e( d) b4. | fis4 fis8 a4 b | e4 d8 b4 r |
+			fis4 fis8 a4 b | e d8 b2 | b4 b8 b4 fis | a b8( a) b4. |
+			r4. r2 | r4. r2 | r4. r2 | r4. r2 | 
+			
+			fis4 fis8 a4 b | e8( fis) e( d) b4. | fis4 fis8 a4 b | e4 d8 b4 r |
+			fis4 fis8 a4 b | e d8 b4. r8 | b4 b8 b4 fis | a b8( a) b4. |
+			r4. r2 | r4. r2 | r4. r2 | r4. r2 | 
+			
+			fis4 r8 a4 b | e8( fis) e( d) b4. | fis4 fis8 a4 b | e4 d8 b4 r |
 			fis4 fis8 a4 b | e d8 b4. r8 | b4 b8 b4 fis | a b8( a) b4. |
 			r4. r2 | r4. r2 | r4. r2 | r4. r2 | 
 		}
@@ -53,7 +87,6 @@ harmony = \relative c'' {
 }
 
 text =  \lyricmode {
-<<
 	\new Lyrics {
       \set associatedVoice = "melody"
       \set stanza = #"1. " 
@@ -70,8 +103,11 @@ text =  \lyricmode {
       	Ask me if they can get in.
       }
 	
+}
+
+hidden = \lyricmode {
 	\new Lyrics {
-      \set associatedVoice = "melody"
+      \set associatedVoice = "hidden"
       \set stanza = #"2. " 
 		Sleep -- in' in a loft bed. Room for five with cub -- by holes.
 		This is how we glamp the blues.
@@ -85,31 +121,44 @@ text =  \lyricmode {
 		On -- ly gold that some will know.
 		On -- ly gold that some will know.
     }
-	
+}
+
+hidden_two = \lyricmode {
 	\new Lyrics {
-      \set associatedVoice = "melody"
+      \set associatedVoice = "hidden_two"
       \set stanza = #"3. " 
+		Ver -- ses made of sub -- stance. Ver -- ses. Ver -- ses made of at -- mos -- phere.
+		Aim to get us out of here.
+		Aim to take us out of here.
 		
+		Peas and car -- rots, corn and grits. Kale sa -- lad, dates with pits.
+		Al -- mond but -- ter sand -- wit -- ches.
+		Al -- mond but -- ter sand -- wit -- ches.
+		
+		If there's been a mean -- ing here. Type it in a col -- ored square.
+		Post it in your social share.
+		Post it in your social share.
     }
-    
+}
+
+hidden_three = \lyricmode {
 	\new Lyrics {
-      \set associatedVoice = "melody"
+      \set associatedVoice = "hidden_three"
       \set stanza = #"4. " 
+		This is how we glamp the blues. This is how we glamp the blues.
+		Mud -- dy -- ing our fan -- cy shoes.
+		Mud -- dy -- ing our fan -- cy shoes.
 		
-    }
-    	
->>
-
-}
-
-
-verseFive = \lyricmode {
-	\new Lyrics {
-      \set associatedVoice = "hidden"
-      \set stanza = #"5. " 
+		If there is a soul at all. That's what se -- pa -- rates us all.
+		Un -- der -- neath one pa -- ra -- sol.
+		Un -- der -- neath one pa -- ra -- sol.
 		
+		This is how we glamp the blues. This is how we glamp the blues.
+		This is how we glamp the blues.
+		This is how we glamp the blues.
     }
 }
+
 
 harmonies = \chordmode {
   	e4.:m g2 | e4.:m g2 | e4.:m g2 | e4.:m g2 | 
@@ -132,7 +181,7 @@ harmonies = \chordmode {
     <<
     	\new Voice = "voice" { \melody  }
   		\new Lyrics \lyricsto "words" \text
-  		\new Lyrics \lyricsto "hidden" \verseFive
+  		\new Lyrics \lyricsto "hidden" \hidden
     >>
   	}
   >>
