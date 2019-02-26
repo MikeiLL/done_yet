@@ -95,8 +95,8 @@ one =  \lyricmode {
       	Some -- thin' in my soul in -- sists.
       	
       	Dreamed I woke with -- out a stitch walk -- in through the sta -- tion.
-      	Sol -- diers looks, but they don't care.
-      	Sol -- diers looks, but they don't care.
+      	Sol -- diers look, but they don't care.
+      	Sol -- diers look, but they don't care.
       	
       	Child -- ren like my cam -- per van, cloth -- ing fal -- ling out the back.
       	Ask me if they can get in.
@@ -190,7 +190,7 @@ harmonies = \chordmode {
   >>
   
   \layout { 
-   #(layout-set-staff-size 20)
+   #(layout-set-staff-size 18)
    }
   \midi { 
   	\tempo 4 = 125
