@@ -24,7 +24,6 @@ melody = \relative c' {
 		
 		fis4 fis8 a4 b | e8( fis e) d b4. | fis4 fis8 a4 b | e4 d8 b4 r | % Children like
 		fis4 fis8 a4 b | e d8 b2 | b4 b8 b4 fis | a b8( a) b4. |
-		r4. r2 | r4. r2 | r4. r2 | r4. r2 | 
 	}
 	
 	\new NullVoice = "two" {
@@ -161,6 +160,7 @@ four = \lyricmode {
 
 
 harmonies = \chordmode {
+  	e4.:m g2 | e4.:m g2 | e4.:m g2 | e4.:m g2 | 
   	e4.:m g2 | e4.:m g2 | e4.:m g2 | e4.:m g2 | 
   	e4.:m g2 | e4.:m g2 | e4.:m g2 | e4.:m g2 | 
   	e4.:m g2 | e4.:m g2 | e4.:m g2 | e4.:m g2 | 
