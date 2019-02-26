@@ -161,14 +161,14 @@ four = \lyricmode {
 
 
 harmonies = \chordmode {
-  	e4.:m g2 | e4.:m g2 | e4.:m g2 | e4.:m g2 | 
-  	e4.:m g2 | e4.:m g2 | e4.:m g2 | e4.:m g2 | 
-  	e4.:m g2 | e4.:m g2 | e4.:m g2 | e4.:m g2 | 
-  	e4.:m g2 | e4.:m g2 | e4.:m g2 | e4.:m g2 | 
-  	e4.:m g2 | e4.:m g2 | e4.:m g2 | e4.:m g2 | 
-  	e4.:m g2 | e4.:m g2 | e4.:m g2 | e4.:m g2 | 
-  	e4.:m g2 | e4.:m g2 | e4.:m g2 | e4.:m g2 | 
-  	e4.:m g2 | e4.:m g2 | e4.:m g2 | e4.:m g2 | 
+  	b4.:m d2:m | b4.:m d2:m | b4.:m d2:m | b4.:m d2:m | 
+  	b4.:m d2:m | b4.:m d2:m | b4.:m d2:m | b4.:m d2:m | 
+  	b4.:m d2:m | b4.:m d2:m | b4.:m d2:m | b4.:m d2:m | 
+  	b4.:m d2:m | b4.:m d2:m | b4.:m d2:m | b4.:m d2:m | 
+  	b4.:m d2:m | b4.:m d2:m | b4.:m d2:m | b4.:m d2:m | 
+  	b4.:m d2:m | b4.:m d2:m | b4.:m d2:m | b4.:m d2:m | 
+  	b4.:m d2:m | b4.:m d2:m | b4.:m d2:m | b4.:m d2:m | 
+  	b4.:m d2:m | b4.:m d2:m | b4.:m d2:m | b4.:m d2:m | 
 }
   
 
