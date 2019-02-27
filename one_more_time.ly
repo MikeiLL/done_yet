@@ -121,20 +121,20 @@ harmonies = \chordmode {
   <<
     \new ChordNames {
       \set chordChanges = ##t
-      \transpose e c { \harmonies }
+      \harmonies 
     }
     \new PianoStaff {
     <<
-    	\new Voice = "voice" { \transpose e c { \melody } }
+    	\new Voice = "voice" { \melody  }
   		\new Lyrics \lyricsto "words" \text
   		\new Lyrics \lyricsto "hidden" \verseFive
-    	\new Voice = "accordion" { \transpose e c { \harmony } }
+    	\new Voice = "accordion" { \harmony  }
     >>
   	}
   >>
   
   \layout { 
-   #(layout-set-staff-size 20)
+   #(layout-set-staff-size 22)
    }
   \midi { 
   	\tempo 4 = 125
