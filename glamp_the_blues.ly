@@ -16,15 +16,15 @@ melody = \relative c' {
 		\voiceOne 
 		fis4 fis8 a4 b | e8( fis e d) b4. | fis4 fis8 a4 b | e4( d8) b4 r | % Wonder if it's
 		fis4 fis8 a4 b | e d8 b4. r8 | b4 b8 b4 fis | a b8( a) b4. |
-		r4. r2 | r4. r2 | r4. r2 | r4. r2 | 
+		r4. r2 | r4. r2 | 
 		
 		fis4 fis8 a4 b | e8( fis) e( d) b4. | fis4 fis8 a4 b | e4( d8) b4 r | % Dreamed I woke
 		fis4 fis8 a4 b | e d8 b2 | b4 b8 b4 fis | a b8( a) b4. |
-		r4. r2 | r4. r2 | r4. r2 | r4. r2 | 
+		r4. r2 | r4. r2 | 
 		
 		fis4 fis8 a4 b | e8( fis e) d b4. | fis4 fis8 a4 b | e4 d8 b4 r | % Children like
 		fis4 fis8 a4 b | e d8 b2 | b4 b8 b4 fis | a b8( a) b4. |
-		r4. r2 | r4. r2 | r4. r2 | r4. r2 | 
+		r4. r2 | r4. r2 | 
 	}
 	
 	\new NullVoice = "two" {
@@ -32,15 +32,15 @@ melody = \relative c' {
 		\hideNotes {
 			fis4 fis8 a4 b | e8( fis e d) b4. | fis4 fis8 a4 b | e4 d8 b4 r |
 			fis4 fis8 a4 b | e d8 b2 | b4 b8 b4 fis | a b8( a) b4. |
-			r4. r2 | r4. r2 | r4. r2 | r4. r2 | 
+			r4. r2 | r4. r2 | 
 			
 			fis4 fis8 a4 b | e8( fis) e( d) b4. | fis4 fis8 a4 b | e4 d8 b4 r |
 			fis4 fis8 a4 b | e d8 b4. r8 | b4 b8 b4 fis | a b8( a) b4. |
-			r4. r2 | r4. r2 | r4. r2 | r4. r2 | 
+			r4. r2 | r4. r2 | 
 			
 			fis4. a4 b | e8( fis e d b4.) | fis4 fis8 a4 b | e4 d8 b4 r |
 			fis4 fis8 a4 b | e d8 b4. r8 | b4 b8 b4 fis | a b8( a) b4. |
-			r4. r2 | r4. r2 | r4. r2 | r4. r2 | 
+			r4. r2 | r4. r2 | 
 		}
 	}
 	
@@ -49,15 +49,15 @@ melody = \relative c' {
 		\hideNotes {
 			fis4 fis8 a4 b | e8( fis) e b4 fis | fis4 fis8 a4 b | e4 d8 b4 r | % Verses made of
 			fis4 fis8 a4 b | e d8 b2 | b4 b8 b4 fis | a b8( a) b4. |
-			r4. r2 | r4. r2 | r4. r2 | r4. r2 | 
+			r4. r2 | r4. r2 | 
 			
 			fis4 fis8 a4 b | e8( fis) e( d) b4. | fis4. a4 b | e4 d8 b4 r | % Peas
 			fis4 fis8 a4 b | e d8 b4. r8 | b4 b8 b4 fis | a b8( a) b4. |
-			r4. r2 | r4. r2 | r4. r2 | r4. r2 | 
+			r4. r2 | r4. r2 | 
 			
 			fis4 fis8 a4 b | e8( fis) e( d) b4. | fis4 fis8 a4 b | e4 d8 b4 r | % If there's been a
 			fis4 fis8 a4 b | e d8 b4. r8 | b4 b8 b4 fis | a b8( a) b4. |
-			r4. r2 | r4. r2 | r4. r2 | r4. r2 | 
+			r4. r2 | r4. r2 | 
 		}
 	}
 	
@@ -66,15 +66,15 @@ melody = \relative c' {
 		\hideNotes {
 			fis4 fis8 a4 b | e8( fis) e( d) b4. | fis4 fis8 a4 b | e4 d8 b4 r | % This is how we glamp
 			fis4 fis8 a4 b | e d8 b2 | b4 b8 b4 fis | a b8( a) b4. |
-			r4. r2 | r4. r2 | r4. r2 | r4. r2 | 
+			r4. r2 | r4. r2 | 
 			
 			fis4 fis8 a4 b | e8( fis) e( d) b4. | fis4 fis8 a4 b | e4 d8 b4 r |
 			fis4 fis8 a4 b | e d8 b4. r8 | b4 b8 b4 fis | a b8( a) b4. |
-			r4. r2 | r4. r2 | r4. r2 | r4. r2 | 
+			r4. r2 | r4. r2 | 
 			
 			fis4 fis8 a4 b | e8( fis) e( d) b4. | fis4 fis8 a4 b | e4 d8 b4 r |
 			fis4 fis8 a4 b | e d8 b4. r8 | b4 b8 b4 fis | a b8( a) b4. |
-			r4. r2 | r4. r2 | r4. r2 | r4. r2 | 
+			r4. r2 | r4. r2 | 
 		}
 	}
 	>>
@@ -168,7 +168,7 @@ harmonies = \chordmode {
   	b4.:m d2:m | b4.:m d2:m | b4.:m d2:m | b4.:m d2:m | 
   	b4.:m d2:m | b4.:m d2:m | b4.:m d2:m | b4.:m d2:m | 
   	b4.:m d2:m | b4.:m d2:m | b4.:m d2:m | b4.:m d2:m | 
-  	b4.:m d2:m | b4.:m d2:m | b4.:m d2:m | b4.:m d2:m | 
+  	b4.:m d2:m | b4.:m d2:m | 
 }
   
 
