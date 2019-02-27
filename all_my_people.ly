@@ -9,7 +9,7 @@
 
 melody = \relative c'' {
   \clef treble
-  \key g \major
+  \key c \major
   \time 4/4 
 	\new Voice = "words" {
 		\voiceOne 
@@ -18,15 +18,15 @@ melody = \relative c'' {
 		d c a c4 r4. | r2 r8 c4 c8 | % round in 
 		c b4 b r4. | r2 r8 d4 d8 | % certainty
 		d c a c4 r4. | r2 r8 e4 e8 | % marvelously
-		e d b d4 r4. | r2 r8 d4 d8 | % possible
+		e d c d4 r4. | r2 r8 d4 d8 | % possible
 		d c a c4 r4. | r2 r8 c4 c8 | % vow to
 		c b a b4 r4. | r2 r8 d4 d8 | % wouldn't
 		d c a c4 r4. | r2 r8 e4 e8 | % might
-		e d b d4 r4. | r2 r8 d4 d8 | % stubbornly
+		e d c d4 r4. | r2 r8 d4 d8 | % stubbornly
 		d c a c4 r4. | r2 r8 c4 c8 | % tinue to stretch
 		c b a b4 r4. | r2 r8 d4 d8 | % end of a tale
 		d c a c4 r4. | r2 r4 e8 e | % gins at the end
-		e fis e d d4 r | r2 r4 d8 d~ | % was and once
+		e f e d d4 r | r2 r4 d8 d~ | % was and once
 		d c a c4 c4 r8 | r2 r8 c4 c8 | % here we still 
 		c b a b4 r4. | r2 r8 d4 d8 | % people and me
 		d c a c4~ c4.~ | c1 | % people and me
@@ -85,7 +85,7 @@ harmonies = \chordmode {
   >>
   
   \layout { 
-   #(layout-set-staff-size 20)
+   #(layout-set-staff-size 22)
    }
   \midi { 
   	\tempo 4 = 125
