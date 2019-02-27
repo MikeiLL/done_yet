@@ -58,7 +58,7 @@ text =  \lyricmode {
 }
 
 harmonies = \chordmode {
-	\partial 2 g2 |
+	\partial 2 g2:6 |
   	g1 | g | f | f | 
   	e:m | e:m | f | f |
   	g1 | g | f | f | 
