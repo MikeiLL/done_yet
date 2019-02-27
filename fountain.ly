@@ -27,7 +27,7 @@ melody = \relative c' {
 
 verse_one =  \lyricmode {
   \set associatedVoice = "words"
-  Moui -- tur -- ize. Moui -- tur -- ize. Moui -- tur -- ize. Moui -- tur -- ize.
+  Mouis -- tur -- ize. Mouis -- tur -- ize. Mouis -- tur -- ize. Mouis -- tur -- ize.
   Feast your eyes. Feast your eyes. Feast your eyes. Feast your eyes.
   Your shoul -- ders, your shoul -- ders, your tight, ach -- ing shoul -- ders.
   Lay down on your bel -- ly. I'll rub them all o -- ver.
