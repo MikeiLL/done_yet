@@ -73,9 +73,9 @@ harmonies = \chordmode {
 \markup \fill-line {
 \column {
 ""
-"2. Next they came for the dealers selling us our medicine..."
-"3. Next they came for the harlots underneath the Lynch Street Bridge..."
-"4. Next they came for the trans men hiding their anatomy..."
+"2. Next they came for the dealers... selling us our medicine..."
+"3. Next they came for the harlots... underneath the Lynch Street Bridge..."
+"4. Next they came for the trans men... hiding their anatomy..."
 "5. Next they came for my family. Listen to the marching steps."
 "   No one left to speak. Kept my"
 "   eyes on the ground, hands tightly bound,"
