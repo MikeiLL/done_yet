@@ -22,7 +22,7 @@ melody = \relative c'' {
      g | f | e | d |
    }
    e4 d c | e4 d c | e4 d c |
-   \new Voice = "verse_two" {
+   \context Voice = "verse" {
      c2. | d | e | f |
      e | f | e | c |
    }
@@ -36,9 +36,6 @@ chorus =  \lyricmode {
 verse =  \lyricmode {
  This one here will
  be the first verse.
-}
-
-verse_two =  \lyricmode {
  This one here will
  be the se -- cond.
 }
@@ -59,7 +56,6 @@ harmonies = \chordmode {
    }
    \new Lyrics \lyricsto "chorus" \chorus
    \new Lyrics \lyricsto "verse" \verse
-   \new Lyrics \lyricsto "verse_two" \verse_two
  >>
 
   
