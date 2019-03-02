@@ -13,7 +13,7 @@ melody = \relative c' {
  \time 4/4
  \set Score.voltaSpannerDuration = #(ly:make-moment 4/4)
  #(ly:expect-warning "cannot end volta")
- \repeat volta 3 {
+ \repeat volta 4 {
  <<
 	   \new Voice = "chorus" {
 		 \voiceOne
@@ -40,15 +40,20 @@ melody = \relative c' {
 	    	r2. g4 |
 		   g2 g4 g | a4 g a b~ | b2 r |  r1 | % heart ... cage
 		   b2 b4 b | c4 b4 c d~ | d2 r | r1 | % Hard... control
-		   b2 b4 b | c4 b c d~ | d4 g2 c4~ | c2 r4 b4 |% Lips... to lie again
+		   b2 b4 b | c4 b c d~ | d4 g2 c,4~ | c2 r4 b4 |% Lips... to lie again
 		   b4 b8 b4. b4 | c b a g~ | g4 r2. | r1 | % they've gotten... trouble before
 	   }
 	   \context Voice = "verse" {
 	    	r1 |
-		   g4 g8 g4. g4 | a8 g4 g4. a b~ | b2 b |  r1 | % Tell me... faulty
+		   g4 g8 g4. g4 | a8 g4 g4. a8 b~ | b2 b |  r1 | % Tell me... faulty
 		   b8 b4 b4. b4 | c4 b8 b4. c4 | d2 r | r1 | % Some... change
 		   b4 b8 b4. b4 | c4 b8 b4. c8 d~ | d4 d8 d4. d8 e~ | e4 d8 d4. c8 b~ |% Recommending... life of dreams will always
 		   b4 b8 b4. b4 | c b8 b4. a4 | g2 r | r1 | % always... pain
+	   }
+	   \context Voice = "verse" {
+	    	r1 |
+		    r1 | b8 a g4 a8 g fis4 | r1 | b8 a g4 a8 g fis4 | % Sure I don't sure I don't
+		    g1 | b8 a g4 a8 g fis4 | g1 | g |
 	   }
 	}
 }
@@ -87,6 +92,10 @@ verse =  \lyricmode {
 	Rec -- co -- mend -- ing sub -- sti -- stutes they
 	tell me that a life of dreams will al --
 	ways end in lone -- li -- ness and pain.
+	
+	Sure I don't. Sure I don't.
+	Sure I don't. Sure I don't know.
+	Sure I don't. Sure I don't know. No.
 }
 
 
@@ -110,6 +119,14 @@ harmonies = \chordmode {
  g1 | c:9 | g1 | c:9 | 
  g1 | c:9 | g1 | c:9 | 
  g1 | c:9 | g1 | c:9 | 
+ 
+ g1 | c:9 | g1 | c:9 | 
+ g1 | c:9 | g1 | c:9 | 
+ g1 | c:9 | g1 | c:9 | 
+ g1 | c:9 | g1 | c:9 | 
+ 
+ g1 | c:9 | g1 | c:9 | 
+ g1 | 
 }
 
 \score {
