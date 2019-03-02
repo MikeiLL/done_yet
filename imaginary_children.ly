@@ -24,16 +24,31 @@ melody = \relative c' {
 		 
 		 r2 b4 d | b d b8 a4 b8~ | b4 r b4 d | b g b8 a4 g8~ | % Every ... little boy
 		 g4 r b4 d | b d b a8 b~ | b4 r b4 d | b d b a8 g~ | % boy ... wants ... destroy
-		 g4 r2. r1 | r | r |
+		 g4 r2. r1 | r |
 	   }
  >>
 	}
 	\alternative {
 		\context Voice = "verse" {
+		 	r |
 		   g4 g8 g4. g8 a~ | a4 g8 g4. a8 b~ | b4 b8 b4. r4 | % Council ... sake
 		   b4 b8 b4. b8 c~ | c4 b8 b4. a8 d~ | d4 r2. | r1 | % Council ... good
 		   b4 b8 b4. b8 c~ | c4 b8 b4. c8 d~ | d4 d8 d4. d8 c~ | c4 c8 c4. c8 b~ |% Put me in ... talk a-
 		   b4 b8 b4. b4 | c8 b4 b4. a8 g~ | g4 r2. | r1 | % bout the way ... heart
+	   }
+	   \context Voice = "verse" {
+	    	r2. g4 |
+		   g2 g4 g | a4 g a b~ | b2 r |  r1 | % heart ... cage
+		   b2 b4 b | c4 b4 c d~ | d2 r | r1 | % Hard... control
+		   b2 b4 b | c4 b c d~ | d4 g2 c4~ | c2 r4 b4 |% Lips... to lie again
+		   b4 b8 b4. b4 | c b a g~ | g4 r2. | r1 | % they've gotten... trouble before
+	   }
+	   \context Voice = "verse" {
+	    	r1 |
+		   g4 g8 g4. g4 | a8 g4 g4. a b~ | b2 b |  r1 | % Tell me... faulty
+		   b8 b4 b4. b4 | c4 b8 b4. c4 | d2 r | r1 | % Some... change
+		   b4 b8 b4. b4 | c4 b8 b4. c8 d~ | d4 d8 d4. d8 e~ | e4 d8 d4. c8 b~ |% Recommending... life of dreams will always
+		   b4 b8 b4. b4 | c b8 b4. a4 | g2 r | r1 | % always... pain
 	   }
 	}
 }
@@ -58,10 +73,39 @@ verse =  \lyricmode {
 	Put me in the cal -- en -- dar for 
 	Thurs -- day af -- ter -- noon to talk a --
 	bout the way my mo -- ther broke my heart.
+	
+	My
+	heart won't go in -- to it's cage.
+	Hard as I try to con -- troll.
+	Lips are re -- fus -- ing to lie a -- 
+	gain. They've
+	got -- ten me in trou -- ble be --
+	for.
+	
+	Tell me that my re -- ci -- pe is faul -- ty.
+	Some of the in -- gred -- i -- ents must change.
+	Rec -- co -- mend -- ing sub -- sti -- stutes they
+	tell me that a life of dreams will al --
+	ways end in lone -- li -- ness and pain.
 }
 
 
 harmonies = \chordmode {
+ g1 | c:9 | g1 | c:9 | 
+ g1 | c:9 | g1 | c:9 | 
+ g1 | c:9 | g1 | c:9 | 
+ g1 | c:9 | g1 | c:9 |
+ 
+ g1 | c:9 | g1 | c:9 | 
+ g1 | c:9 | g1 | c:9 | 
+ g1 | c:9 | g1 | c:9 | 
+ g1 | c:9 | g1 | c:9 |
+ 
+ g1 | c:9 | g1 | c:9 | 
+ g1 | c:9 | g1 | c:9 | 
+ g1 | c:9 | g1 | c:9 | 
+ g1 | c:9 | g1 | c:9 |
+ 
  g1 | c:9 | g1 | c:9 | 
  g1 | c:9 | g1 | c:9 | 
  g1 | c:9 | g1 | c:9 | 
