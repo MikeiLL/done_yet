@@ -2,7 +2,7 @@
 \paper{ print-page-number = ##f bottom-margin = 0.5\in }
 
 \header {
-  title = "All About Love (for Bell Hooks)"
+  title = "All About Love (thank you bell books)"
   composer = "Words and Music by Rivka and Mike iLL"
   tagline = "Copyright R. and M. Kilmer Creative Commons Attribution-NonCommercial, BMI"
 }
