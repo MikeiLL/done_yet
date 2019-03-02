@@ -41,14 +41,30 @@ melody = \relative c' {
 		\context Voice = "verse" {
 		   bes,8 c bes4 c2~ | c r | bes8 bes bes4 c4 c~ | c1 | % All about love ... woman and children
 		   d8 d d d ees4 ees8 ees | ees1 | d8 d d d ees4 ees8 ees | f4 f8 f g4 g8 g  | % Woman is the slave ... it's a
-		   aes8 aes aes aes b b b b | b8 b b b ees ees ees4 | % cycle ... equal
+		   aes8 aes aes aes b b b b | b8 b b b c c ees4 | % cycle ... eroding our
 	   }
 	}
-
+<<
+	   \new Voice = "chorus_two" {
+		 \voiceOne
+		 f2( ees | f4) r2. | f2( ees | f4) r2. | 
+		 f2( ees | f4) r2. | f2( ees | f4) r2. |
+	   }
+	   \new Voice = "instrumental_two" {
+		 \voiceOne
+		 r1 | r8 ges, aes bes c bes aes ges | r1 | r8 ges aes bes c bes aes ges | 
+		 r1 | r8 ges aes bes c bes aes ges | r1 | r8 ges aes bes c bes aes ges | 
+	   }
+ >>
 }
 
 
 chorus =  \lyricmode {
+ Love __  Love __ 
+ Love __  Love __ 
+}
+
+chorus_two = \lyricmode {
  Love __  Love __ 
  Love __  Love __ 
 }
@@ -77,6 +93,17 @@ verse =  \lyricmode {
 
 harmonies = \chordmode {
  f2:min ees | f1:min | f2:min ees | f1:min | 
+ f2:min ees | f1:min | f2:min ees | f1:min | 
+ f2:min ees | f1:min | f2:min ees | f1:min | 
+ f2:min ees | f1:min | f2:min ees | f1:min | 
+ f2:min ees | f1:min | f2:min ees | f1:min | 
+ f2:min ees | f1:min | f2:min ees | f1:min | 
+ f2:min ees | f1:min | f2:min ees | f1:min | 
+ f2:min ees | f1:min | f2:min ees | f1:min | 
+ f2:min ees | f1:min | f2:min ees | f1:min | 
+ f2:min ees | f1:min | f2:min ees | f1:min | 
+ f2:min ees | f1:min | f2:min ees | f1:min | 
+ f2:min ees | f1:min | 
 }
 
 \score {
@@ -90,6 +117,7 @@ harmonies = \chordmode {
    }
    \new Lyrics \lyricsto "chorus" \chorus
    \new Lyrics \lyricsto "verse" \verse
+   \new Lyrics \lyricsto "chorus_two" \chorus_two
  >>
 
   
