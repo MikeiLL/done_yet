@@ -86,7 +86,7 @@ verse =  \lyricmode {
 	Wo -- man is the slave to the slave.
 	Child -- ren are the slave to the 
 	slave to the slave. It's a
-	cy -- cle that's e -- ro -- ding and e -- ro -- ding and e --
+	mo -- del that's e -- ro -- ding and e -- ro -- ding and e --
 	ro -- ding our
 }
 
