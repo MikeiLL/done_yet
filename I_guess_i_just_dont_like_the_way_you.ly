@@ -18,8 +18,10 @@ melody = \relative c'' {
 			fis4 e2~ | e2. | r | r | % Hollow
 			r4 d' e | c d b | c a b | g c a | % And not the kind of
 			b2 g8 g | \tuplet 4/3 {a4 a fis g} | fis e2~ | e2. | % trast to the opposite of sorrow
-			r4 d' e | c d b | c a b | g a c | % You said these words to me feeling
-			b fis g | b fis e~ | e2. | r | % totally deflated
+			r4 d' e | c d b | c a4. b8~ | b g4 a c8~ | % You said these words to me feeling
+			c4 b fis | g b fis | e2. | r | % totally deflated
+			r4 d' e | c d b | c a b | g a fis | % I guess I ... are that
+			g e a~ | a fis g | e2. | r | % way with ... anymore
 	}
 	
 	\new NullVoice = "hidden" {
@@ -36,6 +38,10 @@ harmony = \relative c {
   \key e \minor
   \clef bass
   	\repeat volta 5 {
+  		a4  << c e >>  << c e >> | e, << c' e >> << c e >> | 
+  		e,  << g b >> << g b >> | b, << g' b >> << g b >> | 
+  		a  << c e >>  << c e >> | e, << c' e >> << c e >> | 
+  		e,  << g b >> << g b >> | e, g b | 
   		a4  << c e >>  << c e >> | e, << c' e >> << c e >> | 
   		e,  << g b >> << g b >> | b, << g' b >> << g b >> | 
   		a  << c e >>  << c e >> | e, << c' e >> << c e >> | 
@@ -66,7 +72,7 @@ text =  \lyricmode {
       	to -- tal -- ly de -- 
       	fla -- ted.
       	I guess I just don't like the 
-      	way you are that way with me any --
+      	way you are that way with me a -- ny
       	more.
       }
 	
@@ -82,9 +88,6 @@ text =  \lyricmode {
       six -- teen words you
       ne -- ver real -- ly 
       sta -- ted.
-	  I guess I just don't like the 
-	  way you are that way with me any --
-	  more.
     }
     	
 >>
