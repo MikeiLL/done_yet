@@ -65,10 +65,10 @@ harmony = \relative c {
   		g, << b d >> << b d >> | d, << b' d >> << b d >> | 
   		a4 << c e >>  << c e >> | e, << c' e >> << c e >> | 
   		g, << b d >> << b d >> | d, << b' d >> << b d >> | 
-  		b << dis fis >> << dis fis >> | b << dis fis >> << dis fis >> | 
+  		b << dis fis >> << dis fis >> | b, << dis fis >> << dis fis >> | 
   		c << e g >> << e g >> | g, << e' g >> << e g >> |
   		a, << c e >> << c e >> | g, << c e >> << c e >> |
-  		fis, << c e >> << c e >> | fis, << c e >> << c e >> |
+  		fis, << c' e >> << c e >> | fis, << c' e >> << c e >> |
   		fis, << b dis >> << b dis >> | fis, << b dis >> << b dis >> |
   	}
 }
