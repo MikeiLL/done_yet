@@ -22,6 +22,8 @@ melody = \relative c'' {
 			c4 b fis | g b fis | e2. | r | % totally deflated
 			r4 d' e | c d b | c a b | g a fis | % I guess I ... are that
 			g e a~ | a fis g | e2. | r | % way with ... anymore
+			r4 d' e | c d b | c a b | g a fis | % I guess I ... are that
+			g e a~ | a fis g | e2. | r | % way with ... anymore
 			
 			r4 a b | c2 d4 | b2.~ | b |
 			r4 a b | c2 d4 | b4. d~ | d2. |
@@ -45,6 +47,10 @@ harmony = \relative c {
   \clef bass
   	\repeat volta 5 {
   		a4  << c e >>  << c e >> | e, << c' e >> << c e >> | 
+  		e, << g b >> << g b >> | b, << g' b >> << g b >> | 
+  		a  << c e >>  << c e >> | e, << c' e >> << c e >> | 
+  		e, << g b >> << g b >> | e, g b | 
+  		a4 << c e >>  << c e >> | e, << c' e >> << c e >> | 
   		e, << g b >> << g b >> | b, << g' b >> << g b >> | 
   		a  << c e >>  << c e >> | e, << c' e >> << c e >> | 
   		e, << g b >> << g b >> | e, g b | 
@@ -90,6 +96,9 @@ text =  \lyricmode {
       	I guess I just don't like the 
       	way you are that way with me a -- ny
       	more.
+      	I guess I just don't like the 
+      	way you are that way with me a -- ny
+      	more.
       }
 	
 	\new Lyrics {
@@ -124,10 +133,16 @@ harmonies = \chordmode {
   	a:min | a:min | e:min | e:min | 
   	a:min | a:min | e:min | e:min | 
   	a:min | a:min | e:min | e:min | 
+  	a:min | a:min | e:min | e:min | 
+  	a:min | a:min | e:min | e:min | 
+  	a:min | a:min | e:min | e:min | 
+  	a:min | a:min | e:min | e:min | 
+  	a:min | a:min | e:min | e:min | 
   	a:min | a:min | g | g | 
   	a:min | a:min | g | g | 
   	b | b | c | c |
-  	a | a:/g | a:/fis | b:/fis | b:/fis
+  	a | a:/g | fis:dim | fis:dim | 
+  	b:/fis | b:/fis
 }
   
 
