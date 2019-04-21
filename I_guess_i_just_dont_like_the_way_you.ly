@@ -22,6 +22,12 @@ melody = \relative c'' {
 			c4 b fis | g b fis | e2. | r | % totally deflated
 			r4 d' e | c d b | c a b | g a fis | % I guess I ... are that
 			g e a~ | a fis g | e2. | r | % way with ... anymore
+			
+			r4 a b | c2 d4 | b2.~ | b |
+			r4 a b | c2 d4 | b4. d~ | d2. |
+			r4 cis dis | e2 fis4 | fis g e~ | e2. |
+			c2 e4 | b2 d4 | a2.~ | a4 b c | 
+			d2 c4 | b a2 |
 	}
 	
 	\new NullVoice = "hidden" {
@@ -39,21 +45,31 @@ harmony = \relative c {
   \clef bass
   	\repeat volta 5 {
   		a4  << c e >>  << c e >> | e, << c' e >> << c e >> | 
-  		e,  << g b >> << g b >> | b, << g' b >> << g b >> | 
+  		e, << g b >> << g b >> | b, << g' b >> << g b >> | 
   		a  << c e >>  << c e >> | e, << c' e >> << c e >> | 
-  		e,  << g b >> << g b >> | e, g b | 
-  		a4  << c e >>  << c e >> | e, << c' e >> << c e >> | 
-  		e,  << g b >> << g b >> | b, << g' b >> << g b >> | 
+  		e, << g b >> << g b >> | e, g b | 
+  		a4 << c e >>  << c e >> | e, << c' e >> << c e >> | 
+  		e, << g b >> << g b >> | b, << g' b >> << g b >> | 
   		a  << c e >>  << c e >> | e, << c' e >> << c e >> | 
-  		e,  << g b >> << g b >> | e, g b | 
-  		a4  << c e >>  << c e >> | e, << c' e >> << c e >> | 
-  		e,  << g b >> << g b >> | b, << g' b >> << g b >> | 
+  		e, << g b >> << g b >> | e, g b | 
+  		a4 << c e >>  << c e >> | e, << c' e >> << c e >> | 
+  		e, << g b >> << g b >> | b, << g' b >> << g b >> | 
   		a  << c e >>  << c e >> | e, << c' e >> << c e >> | 
-  		e,  << g b >> << g b >> | e, g b | 
-  		a4  << c e >>  << c e >> | e, << c' e >> << c e >> | 
-  		e,  << g b >> << g b >> | b, << g' b >> << g b >> | 
+  		e, << g b >> << g b >> | e, g b | 
+  		a4 << c e >>  << c e >> | e, << c' e >> << c e >> | 
+  		e, << g b >> << g b >> | b, << g' b >> << g b >> | 
   		a  << c e >>  << c e >> | e, << c' e >> << c e >> | 
-  		e,  << g b >> << g b >> | e, g b | 
+  		e, << g b >> << g b >> | e, g b | 
+  		
+  		a4 << c e >>  << c e >> | e, << c' e >> << c e >> | 
+  		g, << b d >> << b d >> | d, << b' d >> << b d >> | 
+  		a4 << c e >>  << c e >> | e, << c' e >> << c e >> | 
+  		g, << b d >> << b d >> | d, << b' d >> << b d >> | 
+  		b << dis fis >> << dis fis >> | b << dis fis >> << dis fis >> | 
+  		c << e g >> << e g >> | g, << e' g >> << e g >> |
+  		a, << c e >> << c e >> | g, << c e >> << c e >> |
+  		fis, << c e >> << c e >> | fis, << c e >> << c e >> |
+  		fis, << b dis >> << b dis >> | fis, << b dis >> << b dis >> |
   	}
 }
 
