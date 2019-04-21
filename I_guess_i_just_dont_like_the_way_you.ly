@@ -119,7 +119,15 @@ verseFive = \lyricmode {
 }
 
 harmonies = \chordmode {
-  	a1:min
+  	a2.:min | a:min | e:min | e:min | 
+  	a:min | a:min | e:min | e:min | 
+  	a:min | a:min | e:min | e:min | 
+  	a:min | a:min | e:min | e:min | 
+  	a:min | a:min | e:min | e:min | 
+  	a:min | a:min | g | g | 
+  	a:min | a:min | g | g | 
+  	b | b | c | c |
+  	a | a:/g | a:/fis | b:/fis | b:/fis
 }
   
 
