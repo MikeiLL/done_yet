@@ -172,3 +172,17 @@ harmonies = \chordmode {
 }
 
 
+%Additional Verses
+\markup \fill-line {
+\column {
+	"Monotone:"
+	"Guess I'm tryina build back an ounce of confidence."
+	"Why would someone want someone this broken in half?"
+	"Floating through the air like a plain white baloon,"
+	"Out of touch, out of mind, out of tune."
+	""
+	"Sung:"
+	"Away, away, away, away."
+  }
+}
+
