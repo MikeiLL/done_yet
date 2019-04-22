@@ -7,7 +7,7 @@
   tagline = "Copyright R. and M. Kilmer Creative Commons Attribution-NonCommercial, BMI"
 }
 
-melody = \relative c'' {
+melody = \relative c' {
   \clef treble
   \key c \major
   \time 4/4 
@@ -29,7 +29,11 @@ melody = \relative c'' {
 		e f e d d4 r | r2 r4 d8 d~ | % was and once
 		d c a c4 c4 r8 | r2 r8 c4 c8 | % here we still 
 		c b a b4 r4. | r2 r8 d4 d8 | % people and me
-		d c a c4~ c4.~ | c1 | % people and me
+		d c a c4~ c4.~ | c2. r8 c' | % people and me
+		b2 g | e2. f4 | g4 b g2~ | g2. c4 |
+		b2 g | e2. f4 | g1~ | g2. r8 c |
+		b2 g | e2. f4 | g4 b g2~ | g2. f4 |
+		g1 | b | g~ | g |
 	}
 }
 
