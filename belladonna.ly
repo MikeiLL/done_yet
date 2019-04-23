@@ -83,7 +83,8 @@ harmonies = \chordmode {
   	f:min | f:min | bes:/d | bes:/d |
   	bes:min | bes:min | f:7 | f:7 |
   	bes:min | bes:min | ees:/g | ees:/g |
-  	ees:min | ees:min | aes | g2 ges2 |
+  	e | e | ees:min | ees:min | 
+  	aes | g2 ges2 | f1:min | f:min
 }
 
 \score {
