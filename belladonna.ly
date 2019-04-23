@@ -12,7 +12,7 @@ bassline = \relative c, {
 	\clef bass
   	\key f \minor
   	\time 4/4
-  	f8 r4 f8 c'8 r4 c8 | b8 r4 b8 aes8 r4 aes8 |
+  	f8 r4 f8 des'8 r4 des8 | c8 r4 c8 aes8 r4 aes8 |
 }
 
 melody = \relative c'' {
@@ -24,14 +24,19 @@ melody = \relative c'' {
 	  \new Voice = "words" {
 		  \repeat volta 2 {
 			\partial 4 b8 c |
-			  des8 c4 c8~ c4 b8 c~ | c4 r2 b8 c | des8 c4 c8~ c4 b8 c~ | c4 r aes2 |
+			  des8 c4 c8~ c4 b8 c~ | c4 r2 b8 c | des8 c4 c8~ c4 b8 c~ | c4 r aes4 r |
 			  g4 r2. | r2 b8 b4 b8~ | b4 c r2 | r2. b8 c |
-			  des8 c4 c8~ c4 b8 c~ | c4 r2 b8 c | des8 c4 c8~ c4 b8 c~ | c4 r aes2 |
+			  des8 c4 c8~ c4 b8 c~ | c4 r2 b8 c | des8 c4 c8~ c4 b8 c~ | c4 r aes4 r |
 			  g4 r2. | r2 b8 b4 b8~ | b4 c r2 | r1 |
 			  f,4 aes b8 aes4 b8~ | b4 c r2 | f,4 aes b8 aes4 b8~ | b4 c r2 | 
 			  f,4 aes b8 aes4 b8~ | b4 c r2 | f,4 aes b8 aes4 b8~ | b4 c r2 | 
 		  }
 			aes8 aes aes4 g8 g g4 | aes g f r | aes8 aes aes4 aes bes | c r c4. c8  |
+			c1~ | c4 r c4. c8 | c1~ | c4 r c4 des | 
+			\tuplet 3/4 { ees4 des c } | des1 | ees4. ees8 ees ees4 ees8~ | ees2 f4. f8 | 
+			f4. f8~ f2~ | f4 r f4. f8 | f1~ | f4 r f ges | 
+			aes ges f ges~ | ges1 | f2 f4 f~ | f f2 f4~ | 
+			f1~ |f | r | r |
 	  }
   >>
 }
@@ -50,6 +55,11 @@ text =  \lyricmode {
 		Fold me, Bel -- la -- don -- na.
 		Sec -- ond thought, sec -- ond thought let's just not.
 		Sec -- ond thought let's just not.
+		Gol -- den eyes. I -- vory smile. Love my -- 
+		self in your gaze. Won -- der if it's safe.
+		Jet com -- plex -- ion. Vel -- vet voice. Love my
+		self in your song. Won -- der if it's
+		wrong.
 }
 
 wordsTwo =  \lyricmode {
@@ -57,13 +67,23 @@ wordsTwo =  \lyricmode {
 	\set stanza = #"2. " 
 	All the pri -- zes you a -- chieved, all the child -- ren that you saved, but 
 	you, Bel -- la -- don -- na.
-	All the demons that you faced, all the humans you ap -- praised, but
+	All the de -- mons that you faced, all the hu -- mans you ap -- praised, but
 	you, Bel -- la -- don -- na.
 }
 
 harmonies = \chordmode {
 	r4
   	f1:min | f:min | f:min | f:min |
+  	f:min | f:min | f:min | f:min |
+  	f:min | f:min | f:min | f:min |
+  	f:min | f:min | f:min | f:min |
+  	f:min | f:min | f:min | f:min |
+  	f:min | f:min | f:min | f:min |
+  	f:min | f:min | f:min | f:min |
+  	f:min | f:min | bes:/d | bes:/d |
+  	bes:min | bes:min | f:7 | f:7 |
+  	bes:min | bes:min | ees:/g | ees:/g |
+  	ees:min | ees:min | aes | g2 ges2 |
 }
 
 \score {
