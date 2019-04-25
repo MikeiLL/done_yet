@@ -49,10 +49,10 @@ text =  \lyricmode {
 		you, Bel -- la -- don -- na.
 		In the park be -- hind the trees. I was just a -- bout to leave, but
 		you, Bel -- la -- don -- na.
-		Touch me, Bel -- la -- don -- na.
+		Love -- ly, Bel -- la -- don -- na.
+		Lone -- ly, Bel -- la -- don -- na.
+		Hurt me, Bel -- la -- don -- na.
 		Hold me, Bel -- la -- don -- na.
-		Twist me, Bel -- la -- don -- na.
-		Fold me, Bel -- la -- don -- na.
 		Sec -- ond thought, sec -- ond thought let's just not.
 		Sec -- ond thought let's just not.
 		Gol -- den eyes. I -- vory smile. Love my -- 
@@ -69,6 +69,10 @@ wordsTwo =  \lyricmode {
 	you, Bel -- la -- don -- na.
 	All the de -- mons that you faced, all the hu -- mans you ap -- praised, but
 	you, Bel -- la -- don -- na.
+	Love -- ly, Bel -- la -- don -- na.
+	Lone -- ly, Bel -- la -- don -- na.
+	Twist me, Bel -- la -- don -- na.
+	Fold me, Bel -- la -- don -- na.
 }
 
 harmonies = \chordmode {
