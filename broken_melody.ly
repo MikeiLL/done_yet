@@ -12,7 +12,7 @@ bassline = \relative c, {
 	\clef bass
   	\key bes \minor
   	\time 4/4
-  	b4 r2. |
+  	b4 r2. | r4 \tuplet 3/2 { f8 fis g } aes4 f |
 }
 
 melody = \relative c'' {
@@ -21,9 +21,21 @@ melody = \relative c'' {
   \time 4/4 
   \set Score.voltaSpannerDuration = #(ly:make-moment 24/8)
   <<
+	\repeat volta 2 {
+		<< bes8 des >> << c ees >> << des f >> << c ees >> << bes8 des >> r << bes8 des >> << c ees >>  |
+		<< des f >> r << des f >> r << bes,4 des >> r | 
+		<< aes8 c >> << bes des >> << c ees >> << bes des >> << aes4 c >> r8 << bes des >> |
+		<< aes1 c >> |
+		<< bes8 des >> << c ees >> << des f >> << c ees >> << bes8 des >> r << bes8 des >> << c ees >>  |
+		<< des f >> r << des f >> r << bes,4 des >> r | 
+		<< aes8 c >> << bes des >> << c ees >> << bes des >> << aes4 c >> r8 << bes des >> |
+		<< aes1 c >> |
 	  \new Voice = "words" {
-		  \repeat volta 2 {
-			 
+			 bes2. c4 | bes2. c4 | aes2 r2 | r2. aes4 |
+			 bes2. c4 | des2. c4 | c2 ees | r1 |
+			 bes2. c4 | bes2. c4 | aes2 r2 | r1 |
+			 bes2 r4 c | des2. ees4 | fes1 | ees |
+			 f1 ~ | f | r | r
 		  }
 			aes8 aes aes4 g8 g g4 | aes g f r | aes8 aes aes4 aes bes | c r c4. c8  |
 			c1~ | c4 r c4. c8 | c1~ | c4 r c4 des | 
@@ -45,14 +57,9 @@ text =  \lyricmode {
 wordsTwo =  \lyricmode {
 	\set associatedVoice = "words"
 	\set stanza = #"2. " 
-	All the pri -- zes you a -- chieved, all the child -- ren that you saved, but 
-	you, Bel -- la -- don -- na.
-	All the de -- mons that you faced, all the hu -- mans you ap -- praised, but
-	you, Bel -- la -- don -- na.
-	Love -- ly, Bel -- la -- don -- na.
-	Lone -- ly, Bel -- la -- don -- na.
-	Twist me, Bel -- la -- don -- na.
-	Fold me, Bel -- la -- don -- na.
+	Hea -- vy as a cloud. I tip -- toe through the kit -- chen.
+	Qui -- et as a mouse. Lone -- ly hor -- ney, sad, emp -- ty, in a 
+	hole.
 }
 
 harmonies = \chordmode {
