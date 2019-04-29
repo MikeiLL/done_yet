@@ -1,7 +1,7 @@
 \version "2.18.2"
 
 \header {
-  title = "Better Never"
+  title = "Belladonna"
   composer = "Words and Music by Mike iLL"
   tagline = "Copyright R. and M. Kilmer Creative Commons Attribution-NonCommercial, BMI"
 }
@@ -87,8 +87,8 @@ harmonies = \chordmode {
   	f:min | f:min | bes:/d | bes:/d |
   	bes:min | bes:min | f:7 | f:7 |
   	bes:min | bes:min | ees:/g | ees:/g |
-  	e | e | ees:min | ees:min | 
-  	aes | g2 ges2 | f1:min | f:min
+  	ees:min | ees:min | aes | aes | 
+  	g | ges | f1:min | f:min
 }
 
 \score {
