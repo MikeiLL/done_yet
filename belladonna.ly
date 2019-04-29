@@ -57,7 +57,7 @@ text =  \lyricmode {
 		Sec -- ond thought let's just not.
 		Gol -- den eyes. I -- vory smile. Love my -- 
 		self in your gaze. Won -- der if it's safe.
-		Jet com -- plex -- ion. Vel -- vet voice. Love my
+		Jet com -- plex -- ion. Jas -- per voice. Love my
 		self in your song. Won -- der if it's
 		wrong.
 }
