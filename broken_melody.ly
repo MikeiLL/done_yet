@@ -50,21 +50,22 @@ melody = \relative c'' {
 				 f'4 c2. | f4 des2. | e1 | ges4 ges2 ges8 f |
 				 f1~ | f | 
 			  }
-			  des8 f ees des c4 bes8 r | bes8 des c bes aes4 ges8 r | f4 des'8 ges,4 des'8 g,4~ | g1 |
-			  g4 f'8 aes,4 f'8 a,4~ | a2. 
+			  << bes,8 des >> << c ees >> << des f >> << c ees >> << bes8 des >> r << bes8 des >> << c ees >>  |
+			  << des f >> r << des f >> r << bes,4 des >> r | 
+			  << aes8 c >> << bes des >> << c ees >> << bes des >> << aes4 c >> r8 << bes des >> |
+			  << aes2 c >> r |
+			  << bes8 des >> << c ees >> << des f >> << c ees >> << bes8 des >> r << bes8 des >> << c ees >>  |
+			  << des f >> r << des f >> r << bes,4 des >> r | 
+			  << aes8 c >> << bes des >> << c ees >> << bes des >> << aes4 c >> r8 << bes des >> |
+			  << aes2 c >> r4
+			
 			  \new Voice = "chorus" {
 				 a4 | % You 
 				 bes2. c4 | des2. ees4 | c2 r | f4 c8 bes aes4. aes8 |  % ask me who I am. ... dear we
 				 bes2. c4 | bes2. c4 | f,4 r2. | r1 |
 			}
-			<< bes8 des >> << c ees >> << des f >> << c ees >> << bes8 des >> r << bes8 des >> << c ees >>  |
-			<< des f >> r << des f >> r << bes,4 des >> r | 
-			<< aes8 c >> << bes des >> << c ees >> << bes des >> << aes4 c >> r8 << bes des >> |
-			<< aes2 c >> r |
-			<< bes8 des >> << c ees >> << des f >> << c ees >> << bes8 des >> r << bes8 des >> << c ees >>  |
-			<< des f >> r << des f >> r << bes,4 des >> r | 
-			<< aes8 c >> << bes des >> << c ees >> << bes des >> << aes4 c >> r8 << bes des >> |
-			<< aes2 c >> r4
+			des'8 f ees des c4 bes8 r | bes8 des c bes aes4 ges8 r | f4 des'8 ges,4 des'8 g,4~ | g1 |
+			g4 f'8 aes,4 f'8 a,4~ | a2. 
 			\new Voice = "verseThree" {
 				 a4 |
 				 bes2. c4 | bes2. c4 | aes2 r | r2. aes4 |
@@ -73,8 +74,28 @@ melody = \relative c'' {
 				 bes2. c4 | des2. ees4 | e1 | ges4 ges2 f4 |
 				 f1 ~ | f | 
 			  }
-			des8 f ees des c4 bes8 r | bes8 des c bes aes4 ges8 r | f4 des'8 ges,4 des'8 g,4~ | g1 |
-			g4 f'8 aes,4 f'8 a,4~ | a1 |
+			<< bes,8 des >> << c ees >> << des f >> << c ees >> << bes8 des >> r << bes8 des >> << c ees >>  |
+			  << des f >> r << des f >> r << bes,4 des >> r | 
+			  << aes8 c >> << bes des >> << c ees >> << bes des >> << aes4 c >> r8 << bes des >> |
+			  << aes2 c >> r |
+			  << bes8 des >> << c ees >> << des f >> << c ees >> << bes8 des >> r << bes8 des >> << c ees >>  |
+			  << des f >> r << des f >> r << bes,4 des >> r | 
+			  << aes8 c >> << bes des >> << c ees >> << bes des >> << aes4 c >> r8 << bes des >> |
+			  << aes2 c >> r4.
+			\new Voice = "verseFour" {
+					 bes8 |
+					 bes bes bes bes bes bes r bes | bes r bes bes4 r bes8 | 
+					 bes bes bes bes4 bes8 r bes | bes bes bes bes4 r bes8 |
+					 bes bes bes bes bes r4 bes8 | bes bes bes bes4. r8 bes | 
+					 bes bes bes bes bes r4 bes8 | bes bes bes bes4 r4. |
+					 bes8 bes bes bes4 r8 bes bes | bes bes bes bes4. r4 | 
+					 bes8 bes bes bes bes bes r bes | bes bes bes bes4 r 
+			  }
+			\new Voice = "chorusTwo" {
+				 a8 | % You 
+				 bes2. c4 | des2. ees4 | c2 r | f4 c8 bes aes4. aes8 |  % ask me who I am. ... dear we
+				 bes2. c4 | bes2. c4 | f,4 r2. | r1 |
+			}
 		}
 	}
 }
@@ -108,6 +129,16 @@ wordsThree =  \lyricmode {
 	The ta -- ble by the bed.
 	Piles of cloth -- ing warn, un -- warn, un -- 
 	known.
+}
+
+wordsFour =  \lyricmode {
+	\set associatedVoice = "verseFour"
+	I live in a puz -- zle box that can't be solved. 
+	My love is a mons -- ter. My soul is a beast.
+	The house is a pri -- son. The peo -- ple are bars.
+	My past is a ri -- ver. A ri -- ver of sin.
+	Guilt is a priest who will ne -- ver ab -- solve.
+	Life is a me -- lo -- dy that does -- n't re -- solve.
 }
 
 
@@ -154,6 +185,8 @@ harmonies = \chordmode {
   	\new Lyrics \lyricsto "verseTwo" \wordsTwo
   	\new Lyrics \lyricsto "chorus" \chorus
   	\new Lyrics \lyricsto "verseThree" \wordsThree
+  	\new Lyrics \lyricsto "verseFour" \wordsFour
+  	\new Lyrics \lyricsto "chorusTwo" \chorus
   >>
   
   \layout { }
