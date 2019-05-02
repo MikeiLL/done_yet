@@ -84,18 +84,22 @@ melody = \relative c'' {
 			  << aes2 c >> r4.
 			\new Voice = "verseFour" {
 					 bes8 |
-					 bes bes bes bes bes bes r bes | bes r bes bes4 r bes8 | 
-					 bes bes bes bes4 bes8 r bes | bes bes bes bes4 r bes8 |
-					 bes bes bes bes bes r4 bes8 | bes bes bes bes4. r8 bes | 
-					 bes bes bes bes bes r4 bes8 | bes bes bes bes4 r4. |
-					 bes8 bes bes bes4 r8 bes bes | bes bes bes bes4. r4 | 
-					 bes8 bes bes bes bes bes r bes | bes bes bes bes4 r 
+					 bes bes bes bes bes bes r bes | bes r bes bes4 r bes8 | % live in a 
+					 bes bes bes bes4 bes8 r bes | bes bes bes bes4 r bes8 | % love is
+					 bes bes bes bes bes r4 bes8 | bes bes bes bes4. r8 bes | % house is 
+					 bes bes bes bes bes r4 bes8 | bes bes bes bes4 r4. | % past
+					 bes8 bes bes bes bes r8 bes bes | bes bes bes bes4. r8 bes |  % guilt
+					 bes bes bes bes bes r4 bes8 | bes bes bes bes16 bes bes8 r4 bes8 | % age is 
+					 bes8 bes bes bes bes bes r bes | bes bes bes bes4 r % life is a melody
 			  }
 			\new Voice = "chorusTwo" {
 				 a8 | % You 
 				 bes2. c4 | des2. ees4 | c2 r | f4 c8 bes aes4. aes8 |  % ask me who I am. ... dear we
 				 bes2. c4 | bes2. c4 | f,4 r2. | r1 |
 			}
+			des'8 f ees des c4 bes8 r | bes8 des c bes aes4 ges8 r | f4 des'8 ges,4 des'8 g,4~ | g1 |
+			g4 f'8 aes,4 f'8 a,4~ | a1 | a4 aes'8 bes,4 aes'8 c,4~ | c1 |
+			c4 c'8 des,4 c'8 ees,4~ | ees1 |
 		}
 	}
 }
@@ -137,8 +141,9 @@ wordsFour =  \lyricmode {
 	My love is a mons -- ter. My soul is a beast.
 	The house is a pri -- son. The peo -- ple are bars.
 	My past is a ri -- ver. A ri -- ver of sin.
-	Guilt is a priest who will ne -- ver ab -- solve.
-	Life is a me -- lo -- dy that does -- n't re -- solve.
+	Guilt is a bish -- op who will ne -- ver ab -- solve.
+	My age is a sen -- tence. Dis -- ease is a pen -- i -- tence.
+	My life is a me -- lo -- dy that does -- n't re -- solve.
 }
 
 
