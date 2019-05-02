@@ -91,10 +91,19 @@ melody = \relative c'' {
 					 bes8 bes bes bes bes r8 bes bes | bes bes bes bes4. r8 bes |  % guilt
 					 bes bes bes bes bes r4 bes8 | bes bes bes bes16 bes bes8 r4 bes8 | % age is 
 					 bes8 bes bes bes bes bes r bes | bes bes bes bes4 r bes8 | % life is a melody
-					 bes8 bes bes bes bes bes r bes | bes bes bes bes4 r % life is a melody
+					 bes8 bes bes bes bes bes r bes | bes bes bes bes4 r4. % life is a melody
 			  }
+			  
+			<< bes8 des >> << c ees >> << des f >> << c ees >> << bes8 des >> r << bes8 des >> << c ees >>  |
+			  << des f >> r << des f >> r << bes,4 des >> r | 
+			  << aes8 c >> << bes des >> << c ees >> << bes des >> << aes4 c >> r8 << bes des >> |
+			  << aes2 c >> r |
+			  << bes8 des >> << c ees >> << des f >> << c ees >> << bes8 des >> r << bes8 des >> << c ees >>  |
+			  << des f >> r << des f >> r << bes,4 des >> r | 
+			  << aes8 c >> << bes des >> << c ees >> << bes des >> << aes4 c >> r8 << bes des >> |
+			  << aes2 c >> r4
 			\new Voice = "chorusTwo" {
-				 a8 | % You 
+				 a4 | % You 
 				 bes2. c4 | des2. ees4 | c2 r | f4 c8 bes aes4. aes8 |  % ask me who I am. ... dear we
 				 bes2. c4 | bes2. c4 | f,4 r2. | r1 |
 			}
@@ -186,6 +195,9 @@ harmonies = \chordmode {
 	bes:min | ges:maj7 | f:min | f:min |
 	bes:min | ges:maj7 | f:min | f:min |
 	bes:min | ges:maj7 | f:min | f:min |
+	
+	bes:min | bes:min | f:min | f:min |
+	bes:min | bes:min | f:min | f:min |
 	
 	bes:min | ges:maj7 | f:min | f:min | % Ask me who I am
 	bes:min | ges:maj7 | f:min | f:min |
