@@ -90,6 +90,7 @@ melody = \relative c'' {
 					 bes bes bes bes bes r4 bes8 | bes bes bes bes4 r4. | % past
 					 bes8 bes bes bes bes r8 bes bes | bes bes bes bes4. r8 bes |  % guilt
 					 bes bes bes bes bes r4 bes8 | bes bes bes bes16 bes bes8 r4 bes8 | % age is 
+					 bes8 bes bes bes bes bes r bes | bes bes bes bes4 r bes8 | % life is a melody
 					 bes8 bes bes bes bes bes r bes | bes bes bes bes4 r % life is a melody
 			  }
 			\new Voice = "chorusTwo" {
@@ -144,6 +145,7 @@ wordsFour =  \lyricmode {
 	Guilt is a bish -- op who will ne -- ver ab -- solve.
 	My age is a sen -- tence. Dis -- ease is a pen -- i -- tence.
 	My life is a me -- lo -- dy that does -- n't re -- solve.
+	My life is a me -- lo -- dy that does -- n't re -- solve.
 }
 
 
@@ -161,17 +163,35 @@ harmonies = \chordmode {
 	bes:min | bes:min | d:m7.5- | d:m7.5- |
 	bes:min | ges:6 | c:7 | ges:6 | 
 	bes:min | bes:min |
-	bes:min | bes:min | bes1:min | bes:min |
-	bes1:min | bes:min |
+	
+	bes1:min | bes:min | f:min | f:min |
+	bes:min | bes:min | f:min | f:min |
+	
 	bes:min | ges:maj7 | f:min | f:min | % Ask me who I am
 	bes:min | ges:maj7 | f:min | f:min |
-	bes:min | bes:min | f:min | f:min |
-	bes:min | bes:min | f:min | f:min |
+		
+	bes:min | bes:min | bes1:min | bes:min |
+	bes1:min | bes:min |
+	
 	bes:min | bes:min | f:min | f:min | % Table by the bed
 	bes:min | bes:min | f:min/ees | f:min/ees |
 	bes:min | bes:min | d:m7.5- | d:m7.5- |
 	bes:min | ges:6 | c:7 | ges:6 | 
 	bes:min | bes:min |
+	
+	bes:min | bes:min | f:min | f:min |
+	bes:min | bes:min | f:min | f:min |
+	
+	bes:min | ges:maj7 | f:min | f:min | % I live in a puzzle box
+	bes:min | ges:maj7 | f:min | f:min |
+	bes:min | ges:maj7 | f:min | f:min |
+	bes:min | ges:maj7 | f:min | f:min |
+	
+	bes:min | ges:maj7 | f:min | f:min | % Ask me who I am
+	bes:min | ges:maj7 | f:min | f:min |
+		
+	bes:min | bes:min | bes1:min | bes:min |
+	bes1:min | bes:min |
 	bes:min | bes:min | bes1:min | bes:min |
 }
 
