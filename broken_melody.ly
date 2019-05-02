@@ -141,7 +141,7 @@ wordsThree =  \lyricmode {
 	\set associatedVoice = "verseThree"
 	The walls are clo -- sing in. A box of me -- di -- ca -- tion.
 	The ta -- ble by the bed.
-	Piles of cloth -- ing warn, un -- warn, un -- 
+	Piles of cloth -- ing worn, un -- worn, un -- 
 	known.
 }
 
