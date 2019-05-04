@@ -207,10 +207,6 @@ harmonies = \chordmode {
 	bes:min | ges:6 | c:7 | ges:6 | 
 	bes:min | bes:min |
 	
-	bes:min | ges:maj7 | f:min | f:min |
-	bes:min | ges:maj7 | f:min | f:min |
-	bes:min | ges:maj7 | f:min | f:min |
-	
 	bes:min | bes:min | f:min | f:min |
 	bes:min | bes:min | f:min | f:min |
 	
