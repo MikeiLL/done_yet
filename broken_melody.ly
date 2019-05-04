@@ -27,7 +27,7 @@ melody = \relative c'' {
 		<< aes2 c >> r |
 		<< bes8 des >> << c ees >> << des f >> << c ees >> << bes8 des >> r << bes8 des >> << c ees >>  |
 		<< des f >> r << des f >> r << bes,4 des >> r | 
-		<< aes8 c >> << bes des >> << c ees >> << bes des >> << aes4 c >> r8 << bes des >> |
+		<< aes8. c >> << bes des >> << c8 ees >> << bes4 des >> << aes8 c >> r |
 	}
 	\alternative {
 		{
@@ -84,14 +84,16 @@ melody = \relative c'' {
 			  << aes2 c >> r4.
 			\new Voice = "verseFour" {
 					 bes8 |
-					 bes bes bes bes bes bes r bes | bes r bes bes4 r bes8 | % live in a 
-					 bes bes bes bes4 bes8 r bes | bes bes bes bes4 r bes8 | % love is
+					 bes bes bes bes4 bes8 r bes | bes bes bes bes4 r bes8 | % spouse is
 					 bes bes bes bes bes r4 bes8 | bes bes bes bes4. r8 bes | % house is 
 					 bes bes bes bes bes r4 bes8 | bes bes bes bes4 r4. | % past
 					 bes8 bes bes bes bes r8 bes bes | bes bes bes bes4. r8 bes |  % guilt
-					 bes bes bes bes bes r4 bes8 | bes bes bes bes16 bes bes8 r4 bes8 | % age is 
-					 bes8 bes bes bes bes bes r bes | bes bes bes bes4 r bes8 | % life is a melody
-					 bes8 bes bes bes bes bes r bes | bes bes bes bes4 r4. % life is a melody
+					 
+					 bes bes bes bes bes r bes bes | bes bes bes bes4 r4 bes8 | % writing a sentence
+					 bes bes bes bes bes r4 bes8 | bes bes bes bes bes r4 bes8 | % fighting repentance 
+					 bes bes bes bes bes bes r bes | bes r bes bes4 r bes8 | % live in a 
+					 bes8 bes bes bes bes bes r bes | bes bes bes bes4 r4 bes8 | % life is a melody
+					 f' f f f4 r f8 | f f f f4. r4 |
 			  }
 			  
 			<< bes8 des >> << c ees >> << des f >> << c ees >> << bes8 des >> r << bes8 des >> << c ees >>  |
@@ -147,28 +149,32 @@ wordsThree =  \lyricmode {
 
 wordsFour =  \lyricmode {
 	\set associatedVoice = "verseFour"
-	I live in a puz -- zle box that can't be solved. 
-	My love is a mons -- ter. My soul is a beast.
+	My spouse is a mons -- ter. My soul is a beast.
 	The house is a pri -- son. The peo -- ple are bars.
-	My past is a ri -- ver. A ri -- ver of sin.
-	Guilt is a bish -- op who will ne -- ver ab -- solve.
-	My age is a sen -- tence. Dis -- ease is a pen -- i -- tence.
-	My life is a me -- lo -- dy that does -- n't re -- solve.
-	My life is a me -- lo -- dy that does -- n't re -- solve.
+	My past is a ri -- ver of shame and reg -- ret.
+	Guilt is the bish -- op who will ne -- ver ab -- solve.
+
+	I'm writing a sen -- tence that will ne -- ver con -- clude. 
+	I'm fight -- ing re -- pen -- tance. Dis -- ease is a pen -- ance.
+	I live in a puz -- zle box that can't be solved.
+	Life is a me -- lo -- dy that does -- n't re -- solve.
+	
+	It does -- n't re -- solve. It does -- n't re -- solve.
 }
 
 
 harmonies = \chordmode {
 	bes1:min | bes:min | f:min | f:min |
 	bes:min | bes:min | f:min | f:min |
+	
 	bes:min | bes:min | f:min | f:min |
-	bes:min | bes:min | f:min/ees | f:min/ees |
+	bes:min | bes:min | aes:/ees | aes:/ees |
 	bes:min | bes:min | d:m7.5- | d:m7.5- |
 	bes:min | ges:6 | c:7 | ges:6 | 
 	bes:min | bes:min |
 	f:min | % second ending start
 	bes:min | bes:min | f:min | f:min |
-	bes:min | bes:min | f:min/ees | f:min/ees |
+	bes:min | bes:min | aes:/ees | aes:/ees |
 	bes:min | bes:min | d:m7.5- | d:m7.5- |
 	bes:min | ges:6 | c:7 | ges:6 | 
 	bes:min | bes:min |
@@ -179,11 +185,11 @@ harmonies = \chordmode {
 	bes:min | ges:maj7 | f:min | f:min | % Ask me who I am
 	bes:min | ges:maj7 | f:min | f:min |
 		
-	bes:min | bes:min | bes1:min | bes:min |
-	bes1:min | bes:min |
+	bes:min | bes:min | bes:min | bes:min |
+	bes:min | bes:min |
 	
 	bes:min | bes:min | f:min | f:min | % Table by the bed
-	bes:min | bes:min | f:min/ees | f:min/ees |
+	bes:min | bes:min | aes:/ees | aes:/ees |
 	bes:min | bes:min | d:m7.5- | d:m7.5- |
 	bes:min | ges:6 | c:7 | ges:6 | 
 	bes:min | bes:min |
@@ -191,7 +197,12 @@ harmonies = \chordmode {
 	bes:min | bes:min | f:min | f:min |
 	bes:min | bes:min | f:min | f:min |
 	
-	bes:min | ges:maj7 | f:min | f:min | % I live in a puzzle box
+	bes:min | bes:min | f:min | f:min | % I live in a puzzle box
+	bes:min | bes:min | aes:/ees | aes:/ees |
+	bes:min | bes:min | d:m7.5- | d:m7.5- |
+	bes:min | ges:6 | c:7 | ges:6 | 
+	bes:min | bes:min |
+	
 	bes:min | ges:maj7 | f:min | f:min |
 	bes:min | ges:maj7 | f:min | f:min |
 	bes:min | ges:maj7 | f:min | f:min |
