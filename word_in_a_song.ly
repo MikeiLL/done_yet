@@ -13,6 +13,7 @@ melody = \relative c'' {
   \key f \major
   \time 3/4 
   \set Score.voltaSpannerDuration = #(ly:make-moment 24/8)
+  <<
   \new Voice = "words" {
 		\repeat volta 2 {
 			c4 c c | bes2 r4 | a4 bes a | f2 r4 |
@@ -21,6 +22,14 @@ melody = \relative c'' {
 			a a a | g2 r4 | d f f | f2 r4 |
 		}
 	}
+  
+  \new NullVoice = "hidden" {
+			c'4 c c | bes2 r4 | a4 bes a | f2 r4 |
+			c'4 c c | bes2 r4 | bes c d | d c r |
+			c4 c c | bes2 r4 | a bes a | g( f) r |
+			a a a | g2 r4 | d f f | f2 r4 |
+	}
+	>>
 }
 
 text =  \lyricmode {
@@ -49,12 +58,23 @@ text =  \lyricmode {
       	Lost in the woods. Lost in the dark.
       	Ten mil -- lion thoughts tied up in knots.
       	I need a friend. Tell me I'm wrong.
-      	Love is a word. Word in a song.
+      	God is a word. Word in a song.
     }
-    	
+	
 >>
 }
 
+
+wordsTwo =  \lyricmode {
+	\new Lyrics {
+      \set associatedVoice = "hidden"
+      \set stanza = #"4. " 
+      	Woke up to -- day. Most of us did.
+      	Might be our last. Try to de -- ny it.
+      	Laugh when I can. Hope that you'll join.
+      	God is a word. Word in a song.
+    }
+}
 
 
 harmonies = \chordmode {
@@ -72,6 +92,7 @@ harmonies = \chordmode {
     }
   	\new Voice = "voice" { \melody  }
   	\new Lyrics \lyricsto "words" \text
+  	\new Lyrics \lyricsto "hidden" \wordsTwo
   >>
   
   \layout { }
