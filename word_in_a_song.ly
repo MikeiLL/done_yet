@@ -42,6 +42,15 @@ text =  \lyricmode {
 		Old peo -- ple talk, fol -- low a -- long.
 		God is a word. Word in a song.
     }
+	
+	\new Lyrics {
+      \set associatedVoice = "melody"
+      \set stanza = #"3. " 
+      	Lost in the woods. Lost in the dark.
+      	Ten mil -- lion thoughts tied up in knots.
+      	I need a friend. Tell me I'm wrong.
+      	Love is a word. Word in a song.
+    }
     	
 >>
 }
