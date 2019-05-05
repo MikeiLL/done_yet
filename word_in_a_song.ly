@@ -8,13 +8,6 @@
 
 \paper{ print-page-number = ##f bottom-margin = 0.5\in }
 
-bassline = \relative c {
-	\clef bass
-  	\key bes \minor
-  	\time 4/4
-  	bes4 r2. | r4 \tuplet 3/2 { f8 fis g } aes4 f |
-}
-
 melody = \relative c'' {
   \clef treble
   \key f \major
@@ -76,9 +69,3 @@ harmonies = \chordmode {
   \midi { }
 }
 
-% Additional Notes
-\markup \fill-line {
-"Bass theme:"
-}
-
-\new Voice = "bassline" { \bassline }
