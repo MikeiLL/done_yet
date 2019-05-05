@@ -48,9 +48,9 @@ text =  \lyricmode {
 	\new Lyrics {
       \set associatedVoice = "melody"
       \set stanza = #"2. " 
-      	First there was dark. Then there was sound.
+      	First there was nothing. Then there was sound.
 		Big gold -- en sun, wa -- ter and ground.
-		Old peo -- ple talk, fol -- low a -- long.
+		Old peo -- ple talk, shut up and learn.
 		One day we're here. One day we're gone.
     }
 	
@@ -102,3 +102,14 @@ harmonies = \chordmode {
   \midi { }
 }
 
+%Additional Notes
+\markup \fill-line {
+\column {
+" "
+" "
+" "
+" "
+"First had \"follow along\" where \"shut up and learn\" is, but the latter is more fun."
+" "
+  }
+}
