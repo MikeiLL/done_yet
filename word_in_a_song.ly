@@ -52,7 +52,7 @@ harmonies = \chordmode {
 	f2. | c:min | c: min | f |
 	f | c:min | c: min | f |
 	f | c:min | c:dim | bes |
-	bes | bes:min | f |
+	bes | bes:min | bes:min | f |
 }
 
 \score {
