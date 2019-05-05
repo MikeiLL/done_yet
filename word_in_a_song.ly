@@ -39,7 +39,7 @@ text =  \lyricmode {
       \set stanza = #"2. " 
       	First there was dark. Then there was sound.
 		Big gold -- en sun, wa -- ter and ground.
-		So we are told, fol -- low a -- long.
+		Old peo -- ple talk, fol -- low a -- long.
 		God is a word. Word in a song.
     }
     	
