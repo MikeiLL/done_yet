@@ -20,7 +20,7 @@ melody = \relative c'' {
 			c'4 c c | bes2 r4 | bes c d | d( c) r |
 			c4 c c | bes2 r4 | a bes a | g( f) r |
 			a a a | g2 r4 | d f f | f2 r4 |
-			r2. | r |
+			r2. | r | r |
 		}
 	}
   
@@ -29,7 +29,7 @@ melody = \relative c'' {
 			c'4 c c | bes2 r4 | bes c d | d c r |
 			c4 c c | bes2 r4 | a bes a | g( f) r |
 			a a a | g2 r4 | d f f | f2 r4 |
-			r2. | r |
+			r2. | r | r |
 	}
 	>>
 }
@@ -84,6 +84,7 @@ harmonies = \chordmode {
 	f | c:min/ees | c: min/ees | f |
 	f | c:min/ees | c:dim/ees | bes |
 	bes | bes:min | bes:min | f |
+	f | f | f |
 }
 
 \score {
