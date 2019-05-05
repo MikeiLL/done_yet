@@ -1,7 +1,7 @@
 \version "2.18.2"
 
 \header {
-  title = "One day we're Gone"
+  title = "One Day we're Gone"
   composer = "Words and Music by Rivka & Mike iLL"
   tagline = "Copyright R. and M. Kilmer Creative Commons Attribution-NonCommercial, BMI"
 }
@@ -20,6 +20,7 @@ melody = \relative c'' {
 			c'4 c c | bes2 r4 | bes c d | d( c) r |
 			c4 c c | bes2 r4 | a bes a | g( f) r |
 			a a a | g2 r4 | d f f | f2 r4 |
+			r2. | r |
 		}
 	}
   
@@ -28,6 +29,7 @@ melody = \relative c'' {
 			c'4 c c | bes2 r4 | bes c d | d c r |
 			c4 c c | bes2 r4 | a bes a | g( f) r |
 			a a a | g2 r4 | d f f | f2 r4 |
+			r2. | r |
 	}
 	>>
 }
