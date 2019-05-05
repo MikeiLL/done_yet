@@ -1,7 +1,7 @@
 \version "2.18.2"
 
 \header {
-  title = "Word in a Song"
+  title = "One day we're Gone"
   composer = "Words and Music by Rivka & Mike iLL"
   tagline = "Copyright R. and M. Kilmer Creative Commons Attribution-NonCommercial, BMI"
 }
@@ -49,16 +49,16 @@ text =  \lyricmode {
       	First there was dark. Then there was sound.
 		Big gold -- en sun, wa -- ter and ground.
 		Old peo -- ple talk, fol -- low a -- long.
-		God is a word. Word in a song.
+		One day we're here. One day we're gone.
     }
 	
 	\new Lyrics {
       \set associatedVoice = "melody"
       \set stanza = #"3. " 
-      	Lost in the woods. Lost in the dark.
+      	Deep in the woods. Lost in the dark.
       	Ten mil -- lion thoughts tied up in knots.
       	I need a friend. Tell me I'm wrong.
-      	God is a word. Word in a song.
+      	One day we're here. One day we're gone.
     }
 	
 >>
@@ -71,16 +71,16 @@ wordsTwo =  \lyricmode {
       \set stanza = #"4. " 
       	Woke up to -- day. Most of us did.
       	Might be our last. Try to de -- ny it.
-      	Laugh when I can. Hope that you'll join.
-      	God is a word. Word in a song.
+      	Laugh when I can. Sing when there's song.
+      	One day we're here. One day we're gone.
     }
 }
 
 
 harmonies = \chordmode {
-	f2. | c:min | c: min | f |
-	f | c:min | c: min | f |
-	f | c:min | c:dim | bes |
+	f2. | c:min/ees | c: min/ees | f |
+	f | c:min/ees | c: min/ees | f |
+	f | c:min/ees | c:dim/ees | bes |
 	bes | bes:min | bes:min | f |
 }
 
