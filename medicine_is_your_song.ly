@@ -9,22 +9,25 @@
 \paper{ print-page-number = ##f bottom-margin = 0.5\in }
 
 
-melody = \relative g'' {
+melody = \relative c' {
   \clef treble
   \key g \major
   \time 4/4 
   \set Score.voltaSpannerDuration = #(ly:make-moment 24/8)
 	\new Voice = "words" {
 		r4 d8 d d4 d8 d~ | d4 d d d | e4. fis g4~ | g2 r | 
+		r e4 fis | g g8 fis4. e4 | e4. d d4~ | d r2. |
+		r2 d4 d8 d~ | d4 d d d | e4 e8 fis4. g4~ | g2 r | 
+		r e8 e fis4 | g g fis e8 e~ | e4 d2. | r1 |
 	}
 }
 
 text =  \lyricmode {
   \set associatedVoice = "words"
 	I can hear the move -- ment of your soft, wide lips
-	Lang -- uid tongue against those milk- -- white teeth.
+	Lang -- uid tongue a -- gainst those milk- -- white teeth.
 
-	Feel the heav -- ing of your de -- li -- cate breath
+	Und -- u -- la -- tion of your de -- li -- cate breath
 	Car -- ry -- ing notes that pe -- net -- rate me.
 
 	Toss and turn too late to read or write, too tired to con -- cen -- trate
