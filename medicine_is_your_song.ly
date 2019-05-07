@@ -30,6 +30,8 @@ melody = \relative c' {
 		
 		g4 d8 g4. d8 g~ | g4 a8 b4. d8 d~ | d4 c8 c4. b8 c~ | c b4 a4. g4 | % toss and turn
 		d'8 c4 c4. b8 a~ | a4 g8 a4. g4 | a8 b4. r2 | r1 |
+		d4 d8 d d d d4 | d r2. | r4 e8 e4. fis8 fis~ | fis4 g8 g4 r4. | % bones crawling
+		r4 a8 a4. b8 c~ | c4 c8 c4. c4 | b8 g4. r2 | r1 | % i needed more to hear
 	}
 }
 
