@@ -146,11 +146,16 @@ harmonies = \chordmode {
 	c:/g | c:/g | c:/g | g |
 	c:/g | c:/g | c:/g | g |
 	
+	g | g | g:maj6 | g:maj6 |
+	c:/g | c:/g | g | g |
+	g | g | g:maj6 | g:maj6 |
+	c:/g | c:/g | g | g |
 	
+	%chorus
 	g | g | g:maj6 | g:maj6 |
-	c:/g | c:/g | g | g |
+	c:/g | c:/g | c:/g | g |
 	g | g | g:maj6 | g:maj6 |
-	c:/g | c:/g | g | g |
+	c:/g | c:/g | c:/g | g |
 }
 
 \score {
