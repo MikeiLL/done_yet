@@ -37,6 +37,14 @@ melody = \relative c' {
 		d'8 c4 c4. b8 a~ | a4 g8 a4. g4 | a8 b4. r2 | r1 | % mented by the drone
 		d,4 d8 d d d d4 | d r2. | r4 e8 e4. fis8 fis~ | fis4 g8 g4 r4. | % bones crawling
 		r4 a8 a4. b8 c~ | c4 c8 c4. c4 | b8 g4. r2 | r1 | % i needed more to hear
+		
+		d8 b d2.( | b2) r | c4. fis d4~ | d r2.| % Medicine is your song
+		d8 b d2.( | b2) r | c4. fis d4~ | d r2.| % Medicine is your song
+		
+		d4 d d8 d d4 | d d8 d d4 d | e4. fis g4~ | g1 | % Your voice is an arrow
+		r4. e8 e4 fis8 g~ | g g g4 fis8 e4 e8~ | e4 d r2 | r1 | % destroying all
+		d4 d8 d d4 d8 d~ | d4 d r2 | e4. fis g4~ | g1 | % No idea
+		r4. g a4 | b4. c d4~ | d1~ | d2 r | % No idea at all
 	}
 }
 
@@ -45,7 +53,6 @@ text =  \lyricmode {
 	
 	Used to think my mind was wings.
 	Now I know that it’s a pri -- son.
-
 	Be -- lieved these plans we made would set us free.
 	So far they hav -- en't. 
 	
@@ -63,23 +70,26 @@ text =  \lyricmode {
 	
 	I can hear the move -- ment of your soft, wide lips
 	Lang -- uid tongue a -- gainst your milk- -- white teeth.
-
 	Un -- du -- la -- tion of your de -- li -- cate breath
 	car -- ry -- ing tones that pe -- net -- rate me.
 
 	Toss and turn too late to read or write, too tired to con -- cen -- trate,
 	tor -- men -- ted by the drone of my own think -- ing.
-
 	Bones crawl -- ing out of my skin. I can’t re -- mem -- ber when
 	I need -- ed more to hear you sing -- ing.
+	
+	Me -- di -- cine is your song.
+	Me -- di -- cine is your song.
+	
+	Your voice is an ar -- row car -- ried by a whis -- pering wind
+	Des -- troy -- ing all but this ve -- ry mo -- ment.
+	What would I do with -- out you? No i -- dea.
+	No i -- dea at all.
 
 	Un -- der -- neath in -- som -- ni -- a a blan -- ket made of pure dis -- trac -- tion
 	Flash -- ing lights mis -- took for in -- spi -- ra -- tion.
 
-	Your voice is an ar -- row car -- ried by a whis -- per -- ing wind
-	Des -- troy -- ing all but this ve -- ry mo -- ment.
 
-	Me -- di -- cine is your song. Lul -- la -- by take me'a- long.
 
 	Tell me that I’m won -- der -- ful, mar -- ve -- lous be -- yond com -- pare
 	That you see how hard I’m try -- ing.
@@ -89,31 +99,42 @@ text =  \lyricmode {
 
 	Drif -- ting off as if with -- in my mo -- thers arms a -- gainst her breast, know -- ing
 	All is well, there’s no -- thing left to bo -- ther with.
-
-	What would I do without you? No i -- dea.
-	No i -- dea at all.
-
 }
 
 
 
 
 harmonies = \chordmode {
-	g | g | g:maj6 | g:maj6
+	g1 | g | g:maj6 | g:maj6 |
 	c:/g | c:/g | g | g |
-	g | g | g:maj6 | g:maj6
+	g | g | g:maj6 | g:maj6 |
 	c:/g | c:/g | g | g |
 	c:/g | c:/g | g | g |
 	
 	%chorus
-	g | g | g:maj6 | g:maj6
+	g | g | g:maj6 | g:maj6 |
 	c:/g | c:/g | c:/g | g |
-	g | g | g:maj6 | g:maj6
+	g | g | g:maj6 | g:maj6 |
 	c:/g | c:/g | c:/g | g |
 	
-	g | g | g:maj6 | g:maj6
+	g | g | g:maj6 | g:maj6 |
 	c:/g | c:/g | g | g |
-	g | g | g:maj6 | g:maj6
+	g | g | g:maj6 | g:maj6 |
+	c:/g | c:/g | g | g |
+	
+	g | g | g:maj6 | g:maj6 |
+	c:/g | c:/g | g | g |
+	g | g | g:maj6 | g:maj6 |
+	c:/g | c:/g | g | g |
+	
+	% partial chorus
+	c:/g | c:/g | c:/g | g |
+	c:/g | c:/g | c:/g | g |
+	
+	
+	g | g | g:maj6 | g:maj6 |
+	c:/g | c:/g | g | g |
+	g | g | g:maj6 | g:maj6 |
 	c:/g | c:/g | g | g |
 }
 
