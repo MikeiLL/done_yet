@@ -44,7 +44,7 @@ melody = \relative c' {
 		d,4 d d8 d d4 | d d8 d d4 d | e4. fis g4~ | g1 | % Your voice is an arrow
 		r4. e8 e4 fis8 g~ | g g g4 fis8 e4 e8~ | e4 d r2 | r1 | % destroying all
 		d4 d8 d d4 d8 d~ | d4 d r2 | e4. fis g4~ | g1 | % No idea
-		r4. g a4 | b4. c d4~ | d1~ | d2 r4 d'8 d| % No idea at all... When I 
+		r4. g a4 | b4. c d4~ | d1~ | d2 r4 d8 d| % No idea at all... When I 
 				
 		d4 d d b8 d~ | d4 b8 d4. r8 d | e4 e8 e4. e8 e~ | e e e4 r2 | % feel like
 		d8 b d2.( | b2) r | c4. fis d4~ | d r2 d8 d | % Medicine is your song
