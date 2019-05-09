@@ -16,33 +16,32 @@ melody = \relative c' {
   \set Score.voltaSpannerDuration = #(ly:make-moment 24/8)
 	\new Voice = "words" {
 	
-		r4 d8 d d4 d8 d~ | d4 d d d | e4. fis g4~ | g2 r | 
-		r e4 fis | g g8 fis4. e4 | e4. d d4~ | d r2. |
-		r2 d4 d8 d~ | d4 d d d | e4 e8 fis4. g4~ | g2 r | 
-		r e8 e fis4 | g g fis e8 e~ | e4 d2. | r1 |
+		r2 d4 d8 d~ | d4 d8 d4. d8 e~ | e4 r2. | r1 | % Used to think my mind
+		r2 e4 fis | g4 g8 fis4. e8 e~ | e4 d r2 | r1 | % Now I know
+		r2. d8 d~ | d4 d d d | e4. e8 e fis4 g8~ | g2 r | % Believed these plans
+		r1 | r4 e4 e g | e8 d4. r2 | r1 | % So far they haven't
 		
-		r2 d4 d8 d~ | d4 d8 d4. d8 e~ | e4 r2. | r1 |
-		r2 e4 fis | g4 g8 fis4. e8 e~ | e4 d r2 | r1 |
-		r2. d8 d~ | d4 d d d | e4. e8 e fis4 g8~ | g2 r |
-		r1 | r4 e4 e g | e8 d4. r2 | r1 |
+		r2 e4 fis | g g8 g fis4 e8 e~ | e d4. r2 | r2. d8 d | % I'm just trapped... When I 
 		
-		r2 e4 fis | g g8 g fis4 e8 e~ | e d4. r2 | r1 | % I'm just trapped
+		d4 d d b8 d~ | d4 b8 d4. r8 d | e4 e8 e4. e8 e~ | e e e4 r2 | % feel like
+		d8 b d2.( | b2) r | c4. fis d4~ | d r2 d8 d | % Medicine is your song
+		d4 d d d | d4 b8 d4. r8 d | e4 e8 e4. e4 | e e8 e4. r4 | % the cliff
+		d8 b d2.( | b2) r | c4. fis d4~ | d r2.| % Medicine is your song
 		
-		g4 d8 g4. d8 g~ | g4 a8 b4. d8 d~ | d4 c8 c4. b8 c~ | c b4 a4. g4 | % toss and turn
-		d'8 c4 c4. b8 a~ | a4 g8 a4. g4 | a8 b4. r2 | r1 |
-		d4 d8 d d d d4 | d r2. | r4 e8 e4. fis8 fis~ | fis4 g8 g4 r4. | % bones crawling
+		r4 d8 d d4 d8 d~ | d4 d d d | e4. fis g4~ | g2 r | % I can hear the
+		r e4 fis | g g8 fis4. e4 | e4. d d4~ | d r2. | % Languid tongue
+		r2 d4 d8 d~ | d4 d d d | e4 e8 fis4. g4~ | g2 r | % Undulation of your 
+		r e8 e fis4 | g g fis e8 e~ | e4 d2. | r1 | % carrying notes that
+		
+		g4 d8 g4. d8 g~ | g4 a8 b4. d8 d~ | d4 c8 c4. b8 c~ | c b4 a4. g4 | % toss and turn... tor-
+		d'8 c4 c4. b8 a~ | a4 g8 a4. g4 | a8 b4. r2 | r1 | % mented by the drone
+		d,4 d8 d d d d4 | d r2. | r4 e8 e4. fis8 fis~ | fis4 g8 g4 r4. | % bones crawling
 		r4 a8 a4. b8 c~ | c4 c8 c4. c4 | b8 g4. r2 | r1 | % i needed more to hear
 	}
 }
 
 text =  \lyricmode {
   \set associatedVoice = "words"
-  
-	I can hear the move -- ment of your soft, wide lips
-	Lang -- uid tongue a -- gainst those milk- -- white teeth.
-
-	Und -- u -- la -- tion of your de -- li -- cate breath
-	Car -- ry -- ing tones that pe -- net -- rate me.
 	
 	Used to think my mind was wings.
 	Now I know that it’s a pri -- son.
@@ -51,9 +50,25 @@ text =  \lyricmode {
 	So far they hav -- en't. 
 	
 	I'm just trapped in my own re -- flec -- tion.
+	
+	When I feel like I could hope to die.
+	My friends and I'd be bet -- ter off.
+	
+	Me -- di -- cine is your song.
+	
+	On the bro -- ken bum -- py road a -- long
+	the cliff I feel like dri -- ving off.
+	
+	Me -- di -- cine is your song.
+	
+	I can hear the move -- ment of your soft, wide lips
+	Lang -- uid tongue a -- gainst your milk- -- white teeth.
 
-	Toss and turn too late to read or write, too tired to con -- cen -- trate
-	Tor -- men -- ted by the drone of my own think -- ing.
+	Un -- du -- la -- tion of your de -- li -- cate breath
+	car -- ry -- ing tones that pe -- net -- rate me.
+
+	Toss and turn too late to read or write, too tired to con -- cen -- trate,
+	tor -- men -- ted by the drone of my own think -- ing.
 
 	Bones crawl -- ing out of my skin. I can’t re -- mem -- ber when
 	I need -- ed more to hear you sing -- ing.
@@ -84,7 +99,22 @@ text =  \lyricmode {
 
 
 harmonies = \chordmode {
+	g | g | g:maj6 | g:maj6
+	c:/g | c:/g | g | g |
+	g | g | g:maj6 | g:maj6
+	c:/g | c:/g | g | g |
+	c:/g | c:/g | g | g |
 	
+	%chorus
+	g | g | g:maj6 | g:maj6
+	c:/g | c:/g | c:/g | g |
+	g | g | g:maj6 | g:maj6
+	c:/g | c:/g | c:/g | g |
+	
+	g | g | g:maj6 | g:maj6
+	c:/g | c:/g | g | g |
+	g | g | g:maj6 | g:maj6
+	c:/g | c:/g | g | g |
 }
 
 \score {
