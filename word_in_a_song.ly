@@ -50,7 +50,7 @@ text =  \lyricmode {
       \set stanza = #"2. " 
       	First there was nothing. Then there was sound.
 		Big gold -- en sun, wa -- ter and ground.
-		Old peo -- ple talk, shut up and learn.
+		Old peo -- ple talk, fol -- low a -- long.
 		One day we're here. One day we're gone.
     }
 	
@@ -109,7 +109,7 @@ harmonies = \chordmode {
 " "
 " "
 " "
-"First had \"follow along\" where \"shut up and learn\" is, but the latter is more fun."
+"Maybe substitute \"follow along\" with \"shut up and learn\"."
 " "
   }
 }

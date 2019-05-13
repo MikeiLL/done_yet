@@ -69,7 +69,7 @@ text =  \lyricmode {
 	Me -- di -- cine is your song.
 	
 	On the bro -- ken bum -- py road a -- long
-	the cliff I feel like dri -- ving off.
+	the cliff I pic -- ture dri -- ving off.
 	
 	Me -- di -- cine is your song.
 	
