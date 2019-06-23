@@ -48,9 +48,14 @@ melody = \relative c' {
 		  	r8 f4 ees8 ees16 d ees4 d8 | ees4 d8 bes4. r4 | 
 		  	r4. d8 d d d ees~ | ees4 ees8 ees f4. g8~ | 
 		  	g g f g4 g f8 | g4. g4.~ g4 | % when and for how long
-		  	r8 f4 f8 ees4 ees8 d~ | d d d c4 c8 bes4 | % Everybody's trying to
-		  	bes bes8 bes4 bes8 bes4 | bes8 aes8~ aes2.~ | % hitch your beau
-		  	aes4. 
+		  	r f8 f ees ees d d | d d4 d8 c4 r8 c8~ | % Everybody's trying to snake your slot, snatch
+		  	c c bes4 r8 bes4 bes8 | aes4. c8 d d4 d8 | % snatch... hitch your boy and skim your dough. A yogi's con
+		  	d4 d r2 | r4 c8 c c c c c | % a yogi's... everybody who was
+		  	\tuplet 3/2 { d4 d d } ees2~ | ees4 r8 g,8 g4 g8 g | % noone... The least of my
+		  	g g r4 d'8 d d d | c d4. d4 r | % people... sainthood. 
+		  	ees8 ees d ees4. ees4 | r4 g g g | % Who is the most less. Then some punk 
+		  	g2. r8 g8 | f8 f4 ees ees8 d4 | % dies a
+		  	ees4. d c4~ | c1 |
 		  }
 		}
 	}
@@ -81,7 +86,11 @@ text =  \lyricmode {
 	Comp -- et -- ing for who's gon -- na shine
 	when and for how long and how bright.
 	Ev' -- ry bo -- dies try -- ing to snake your slot,
-	snatch your beau and skim your dough
+	snatch your boy and skim your dough. A yogi's con -- 
+	ven -- tion. Ev -- 'ry -- bo -- dy who was
+	no -- one was there. The least of my
+	peo -- ple po -- li -- tick -- ing for saint -- hood.
+	Who is the most less. Then some punk dies
 }
 
 
