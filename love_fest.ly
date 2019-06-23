@@ -12,6 +12,7 @@ melody = \relative c' {
   \clef treble
   \key c \minor
   \time 4/4
+  \set Score.voltaSpannerDuration = #(ly:make-moment 4/4)
   \partial 8*7 g4. c4 ees |
   g1~ | g8 aes g aes g f ees r | f4. d4.~ d4~ | d8 g,4. bes4 d |
   f1~ | f8 g f g f ees d r | ees2 d4 c8 c | r c4. ees4 g |
@@ -55,7 +56,14 @@ melody = \relative c' {
 		  	g g r4 d'8 d d d | c d4. d4 r | % people... sainthood. 
 		  	ees8 ees d ees4. ees4 | r4 g g g | % Who is the most less. Then some punk 
 		  	g2. r8 g8 | f8 f4 ees ees8 d4 | % dies a
-		  	ees4. d c4~ | c1 |
+		  	ees4. d c4~ | c1 | % aging shadow
+		  	d8 d d d d4 d8 d | d d d2 r4 | % Everybody's favorite
+		  	d c ees8 ees r4 | d8 d c aes4. r4 | % Loved by 
+		  	r8. c16~ c8 d4 d d8~ | d4 d8 d4. d8 ees | % We come back down to Earth
+		  	d1 | r1 | 
+		  }
+		  {
+		  	c8 c c c c c r c |
 		  }
 		}
 	}
@@ -91,6 +99,14 @@ text =  \lyricmode {
 	no -- one was there. The least of my
 	peo -- ple po -- li -- tick -- ing for saint -- hood.
 	Who is the most less. Then some punk dies
+	a skin -- ny lone -- ly a -- ging
+	sha -- dow.
+	Ev' -- ry -- bo -- dies favo -- rite pain in the ass.
+	Loved by ma -- ny. Ha -- ted by all.
+	We come back down to Earth for a while.
+	
+	% Verse three
+	This is for the wri -- ters, the
 }
 
 
@@ -118,6 +134,12 @@ harmonies = \chordmode {
   % Second verse
   c:min11 | c:min11 | gis:13 | gis:13 |
   gis:13 | gis:13 | c:min11 | c:min11 | 
+  c:min11 | c:min11 | gis:13 | gis:13 |
+  gis:13 | gis:13 | c:min11 | c:min11 | 
+  c:min11 | c:min11 | gis:13 | gis:13 |
+  gis:13 | gis:13 | c:min11 | c:min11 | 
+  c:min11 | c:min11 | gis:13 | gis:13 |
+  gis:13 | gis:13 | c:m9 | c:m9 | 
 }
 
 \score {
