@@ -27,18 +27,25 @@ melody = \relative c' {
   	d8 d d d c c4 bes8~ | bes bes bes4 aes r | % Rattling and bangin
   	aes8 aes aes bes4 r8 bes bes | c c c d4 d8 ees4 | % Riding around on this ... beyond
   	\tuplet 3/2 { d4 c ees d c ees } | \tuplet 3/2 { d4 c ees } d2 | 
-  	% Chorus
-  	r1 | r4 g f ees |
-  	d4. c4.~ c4 | r g' f ees |
-  	d4. c4.~ c4 | r g' f ees |
-  	d4. c4.~ c4 | bes2 aes4. g'8~ |
-  	g4 f2.~ | f4 g4. ees |
-  	c1~ | c4 g'4. bes |
-  	a4. g~ g4~ | g g2 g4 |
-  	c r b r | bes r a g |
-  	b( bes b) g~ | g1 |
-  	r1 | r | r | r | r | r |
-  }
+  	
+  	\repeat volta 2 {
+		% Chorus
+		r1 | r4 g f ees |
+		d4. c4.~ c4 | r g' f ees |
+		d4. c4.~ c4 | r g' f ees |
+		d4. c4.~ c4 | bes2 aes4. g'8~ |
+		g4 f2.~ | f4 g4. ees |
+		c1~ | c4 g'4. bes |
+		a4. g~ g4~ | g g2 g4 |
+		c r b r | bes r a g |
+		b( bes b) g~ | g1 |
+		r1 | r | r | r | 
+		% Verse two
+		}
+	  	\alternative {
+		  g,8. g16~ g8 bes d4. c16 c |
+		}
+	}
   
 }
 
@@ -52,11 +59,16 @@ text =  \lyricmode {
 	Rat -- tl -- ing and thump -- ing sha -- kers and drums.
 	Ri -- ding a -- round on this wrin -- le -- y road be -- yond
 	co -- lor and gen -- der and coun -- try and crowd.
+	
+	% Refrain
 	It's not a game show.
 	It's not a con -- test
 	It's just a good old new age love fest.
 	Fools and queens, gods and mons -- ters all of
 	us. Sat. Sat. Na -- ma -- sté. Om.
+	
+	% Verse two
+	Hard to be -- lieve we are
 }
 
 
@@ -64,8 +76,26 @@ harmonies = \chordmode {
   \partial 8*7 c2.:min11 c8:min11
   c1:min11 | c:min11 | gis:13 | gis:13 |
   gis:13 | gis:13 | c:min11 | c:min11 | 
-  c:min11 | c:min11 | gis:13 | f:9.5- |
-  c:min11 | c:min11 | c:min11 | c:min11 |
+  c:min11 | c:min11 | gis:13 | gis2:13 f2:9.5- |
+  c1:min11 | c:min11 | c:min11 | c:min11 |
+  
+  % First verse
+  c:min11 | c:min11 | gis:13 | gis:13 |
+  gis:13 | gis:13 | c:min11 | c:min11 | 
+  c1:min11 | c:min11 | gis:13 | gis:13 |
+  gis:13 | gis:13 | c:min11 | c:min11 | 
+  c:m9 | c:m9 | 
+  
+  % Chorus
+  c:min11 | c:min11 | gis:13 | gis:13 |
+  gis:13 | gis:13 | f:9.5- | f:9 |
+  c1:min11 | c:min11 | gis:13 | gis:13 |
+  f:9.5- | f:9 | f:9.5- | f:9 | 
+  c:min6 | gis:11+.13 | c:min9 | c:min9 | 
+  
+  % Second verse
+  c:min11 | c:min11 | gis:13 | gis:13 |
+  gis:13 | gis:13 | c:min11 | c:min11 | 
 }
 
 \score {
