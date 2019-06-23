@@ -27,6 +27,17 @@ melody = \relative c' {
   	d8 d d d c c4 bes8~ | bes bes bes4 aes r | % Rattling and bangin
   	aes8 aes aes bes4 r8 bes bes | c c c d4 d8 ees4 | % Riding around on this ... beyond
   	\tuplet 3/2 { d4 c ees d c ees } | \tuplet 3/2 { d4 c ees } d2 | 
+  	% Chorus
+  	r1 | r4 g f ees |
+  	d4. c4.~ c4 | r g' f ees |
+  	d4. c4.~ c4 | r g' f ees |
+  	d4. c4.~ c4 | bes2 aes4. g'8~ |
+  	g4 f2.~ | f4 g4. ees |
+  	c1~ | c4 g'4. bes |
+  	a4. g~ g4~ | g g2 g4 |
+  	c r b r | bes r a g |
+  	b( bes b) g~ | g1 |
+  	r1 | r | r | r | r | r |
   }
   
 }
@@ -38,9 +49,14 @@ text =  \lyricmode {
 	All jacked up from the rat -- the and the hum.
 	Great ta see ya. Awe -- some you could come 
 	help to voice this in -- can -- ta -- tion.
-	Rat -- tl -- ing and bang -- ing sha -- kers and drums.
+	Rat -- tl -- ing and thump -- ing sha -- kers and drums.
 	Ri -- ding a -- round on this wrin -- le -- y road be -- yond
 	co -- lor and gen -- der and coun -- try and crowd.
+	It's not a game show.
+	It's not a con -- test
+	It's just a good old new age love fest.
+	Fools and queens, gods and mons -- ters all of
+	us. Sat. Sat. Na -- ma -- sté. Om.
 }
 
 
