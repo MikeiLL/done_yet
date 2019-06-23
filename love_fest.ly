@@ -17,15 +17,39 @@ melody = \relative c' {
   f1~ | f8 g f g f ees d r | ees2 d4 c8 c | r c4. ees4 g |
   c1~ | c8 ees d ees d r c r | b4. aes'~ aes4 | aes8 b, aes' b, g' f d ees |
   c8 r4 c8 r c c r8 | c4 r2. | c8 c r4 c c | c4 r2. |
+  
+  \new Voice = "words" {
+  	c,8 c c c c c c c | c c c ees~ ees2 | % This is for the riders of the
+  	f8 f ees f4. ees8 ees | f f ees c r2 | % Riding around with
+  	c4 c c c8 c | c c c c c4 r | % All jacked up
+  	d8 r c d4 d8 r4 | d8 d c c d4 r | % Great ta see ya
+  	d8 r c d4 d8 c4 | d d d r | % help to voice
+  	d8 d d d c c4 bes8~ | bes bes bes4 aes r | % Rattling and bangin
+  	aes8 aes aes bes4 r8 bes bes | c c c d4 d8 ees4 | % Riding around on this ... beyond
+  	\tuplet 3/2 { d4 c ees d c ees } | \tuplet 3/2 { d4 c ees } d2 | 
+  }
+  
 }
 
 text =  \lyricmode {
-
+\set associatedVoice = "words"
+	This is for the ri -- ders of the wrin -- kl -- y road,
+	ri -- ding a -- round with a piece of the sun.
+	All jacked up from the rat -- the and the hum.
+	Great ta see ya. Awe -- some you could come 
+	help to voice this in -- can -- ta -- tion.
+	Rat -- tl -- ing and bang -- ing sha -- kers and drums.
+	Ri -- ding a -- round on this wrin -- le -- y road be -- yond
+	co -- lor and gen -- der and coun -- try and crowd.
 }
 
 
 harmonies = \chordmode {
-  c:min1
+  \partial 8*7 c2.:min11 c8:min11
+  c1:min11 | c:min11 | gis:13 | gis:13 |
+  gis:13 | gis:13 | c:min11 | c:min11 | 
+  c:min11 | c:min11 | gis:13 | f:9.5- |
+  c:min11 | c:min11 | c:min11 | c:min11 |
 }
 
 \score {
@@ -35,7 +59,7 @@ harmonies = \chordmode {
       \harmonies
     }
     \new Voice = "one" { \melody }
-    \new Lyrics \lyricsto "one" \text
+    \new Lyrics \lyricsto "words" \text
   >>
   \layout { }
   \midi { }
