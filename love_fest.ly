@@ -43,7 +43,15 @@ melody = \relative c' {
 		% Verse two
 		}
 	  	\alternative {
-		  g,8. g16~ g8 bes d4. c16 c |
+		  {
+		  	g,8. g16~ g8 bes d4. c16 c | d8 d ees d d4 r | % Hard to believe
+		  	r8 f4 ees8 ees16 d ees4 d8 | ees4 d8 bes4. r4 | 
+		  	r4. d8 d d d ees~ | ees4 ees8 ees f4. g8~ | 
+		  	g g f g4 g f8 | g4. g4.~ g4 | % when and for how long
+		  	r8 f4 f8 ees4 ees8 d~ | d d d c4 c8 bes4 | % Everybody's trying to
+		  	bes bes8 bes4 bes8 bes4 | bes8 aes8~ aes2.~ | % hitch your beau
+		  	aes4. 
+		  }
 		}
 	}
   
@@ -68,7 +76,12 @@ text =  \lyricmode {
 	us. Sat. Sat. Na -- ma -- sté. Om.
 	
 	% Verse two
-	Hard to be -- lieve we are
+	Hard to be -- lieve we are peo -- ple of beau -- ty.
+	All this bick -- er -- ing and back stab -- bing.
+	Comp -- et -- ing for who's gon -- na shine
+	when and for how long and how bright.
+	Ev' -- ry bo -- dies try -- ing to snake your slot,
+	snatch your beau and skim your dough
 }
 
 
@@ -89,7 +102,7 @@ harmonies = \chordmode {
   % Chorus
   c:min11 | c:min11 | gis:13 | gis:13 |
   gis:13 | gis:13 | f:9.5- | f:9 |
-  c1:min11 | c:min11 | gis:13 | gis:13 |
+  c:min11 | c:min11 | gis:13 | gis:13 |
   f:9.5- | f:9 | f:9.5- | f:9 | 
   c:min6 | gis:11+.13 | c:min9 | c:min9 | 
   
