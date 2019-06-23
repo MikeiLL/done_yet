@@ -63,7 +63,12 @@ melody = \relative c' {
 		  	d1 | r1 | 
 		  }
 		  {
-		  	c8 c c c c c r c |
+		  	r1 | r1 |
+		  	c8 c c c c c r c | c c r c c c c c | % This is for the riders
+		  	f f r2 ees8 ees | f f ees f f4 r8 ees | % writers documenting the present
+		  	f f ees f4. r8 ees | f f ees f f4 r | % calling the past. presenting a future
+		  	g8 g g g g g g r | g g g g g4 r | % Reaching for utopia
+		  	g4 d8 d d d d d | d4 d8 d4. r8 | % out. Peoples people
 		  }
 		}
 	}
@@ -106,7 +111,36 @@ text =  \lyricmode {
 	We come back down to Earth for a while.
 	
 	% Verse three
-	This is for the wri -- ters, the
+	This is for the ri -- ters, the hi -- ders, the fight -- ers and the
+	wri -- ters doc -- u -- ment -- ing the pre -- sent, re -- 
+	cal -- ling the past, pre -- sent -- ing a fu -- ture,
+	reach -- ing for u -- to -- pi -- a. Try -- ing not to burn
+	
+	out. Peo -- ple's peo -- ple got a lot to learn per --
+	sist past re -- sis -- tance, womb to urn.
+	Dy -- ing with -- out re -- gret -- ting that we
+	weren't what we weren't. In -- 
+	trig -- ued and am -- used. We is what we is.
+	
+	Un -- de -- fin -- a -- ble, a -- ma -- zing, u -- ni -- que -- ly this.
+	To -- tal -- ly o -- ri -- gi -- nal -- ly blessed in bliss.
+	Not to be dis -- missed just 'cause of con -- di -- tion. Come
+	on get down with the in -- to -- na -- tion.
+	
+	Leave a do -- na -- tion for the end of times.
+	May these lines scat -- ter and spawn
+	mul -- ti -- ple poems that will scat -- ter and spawn
+	mul -- ti -- ple poems that will purge and urge re --
+	 
+	surg -- ence of the curves that car -- ry us on
+	and on and on and on and on and on
+	I had a vi -- sion ri -- ding through the sky
+	third eye o -- pen so wide.
+	
+	So so young, wish -- ing for great -- ness.
+	Then a bit old -- er, wish -- ing for suc -- cess.
+	Wish -- ing for hap -- pi -- ness now.
+	Fin -- nal -- ly a dig -- ni -- fied death.
 }
 
 
@@ -140,6 +174,22 @@ harmonies = \chordmode {
   gis:13 | gis:13 | c:min11 | c:min11 | 
   c:min11 | c:min11 | gis:13 | gis:13 |
   gis:13 | gis:13 | c:m9 | c:m9 | 
+  
+  % Third verse
+  c:min9 | c:min9 |  % End of chorus
+  c:min11 | c:min11 | gis:13 | gis:13 |
+  gis:13 | gis:13 | c:min11 | c:min11 | 
+  c:min11 | c:min11 | gis:13 | gis:13 |
+  c:min11 | c:min11 | gis:13 | gis:13 | 
+  c:min11 | c:min11 | gis:13 | gis:13 | 
+  gis:13 | gis:13 | c:min11 | c:min11 | 
+  c:min11 | c:min11 | gis:13 | gis:13 | 
+  gis:13 | gis:13 | c:min11 | c:min11 | 
+  c:min11 | c:min11 | gis:13 | gis:13 | 
+  gis:13 | gis:13 | c:min11 | c:min11 | 
+  c:min11 | c:min11 | gis:13 | gis:13 | 
+  gis:13 | gis:13 | c:min11 | c:min11 | 
+  c:m9 | c:m9 | 
 }
 
 \score {
