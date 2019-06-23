@@ -68,7 +68,14 @@ melody = \relative c' {
 		  	f f r2 ees8 ees | f f ees f f4 r8 ees | % writers documenting the present
 		  	f f ees f4. r8 ees | f f ees f f4 r | % calling the past. presenting a future
 		  	g8 g g g g g g r | g g g g g4 r | % Reaching for utopia
-		  	g4 d8 d d d d d | d4 d8 d4. r8 | % out. Peoples people
+		  	
+		  	g4 d8 d d d d d | d4 d8 d4. r8 d| % out. Peoples people
+		  	f4 f8 f f4 f8 f | f4 f8 f4. r4 | % sist past resistance
+		  	f16 f8 f16 f8 f f f f f | f4 f8 f f4 r8 f8 |% dying without regretting
+		  	g4 g8 g g4 r8 g | g4 g8 g g4 r | % trigued and amused we is what we is
+		  	
+		  	d8 d d16 d d d d4 d8 d | d4 d8 d4. r4 | % Undefinable
+		  	% niquely this.
 		  }
 		}
 	}
@@ -122,7 +129,7 @@ text =  \lyricmode {
 	weren't what we weren't. In -- 
 	trig -- ued and am -- used. We is what we is.
 	
-	Un -- de -- fin -- a -- ble, a -- ma -- zing, u -- ni -- que -- ly this.
+	Un -- de -- fin -- a -- ble, a -- ma -- zing, u -- nique -- ly this.
 	To -- tal -- ly o -- ri -- gi -- nal -- ly blessed in bliss.
 	Not to be dis -- missed just 'cause of con -- di -- tion. Come
 	on get down with the in -- to -- na -- tion.
