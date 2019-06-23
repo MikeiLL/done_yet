@@ -54,7 +54,7 @@ melody = \relative c' {
 		  	d4 d r2 | r4 c8 c c c c c | % a yogi's... everybody who was
 		  	\tuplet 3/2 { d4 d d } ees2~ | ees4 r8 g,8 g4 g8 g | % noone... The least of my
 		  	g g r4 d'8 d d d | c d4. d4 r | % people... sainthood. 
-		  	ees8 ees d ees4. ees4 | r4 g g g | % Who is the most less. Then some punk 
+		  	f8 f f ees4. f4 | r4 g g g | % Who is the most less. Then some punk 
 		  	g2. r8 g8 | f8 f4 ees ees8 d4 | % dies a
 		  	ees4. d c4~ | c1 | % aging shadow
 		  	d8 d d d d4 d8 d | d d d2 r4 | % Everybody's favorite
