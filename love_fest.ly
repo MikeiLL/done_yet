@@ -71,7 +71,7 @@ melody = \relative c' {
 		  	
 		  	g4 d8 d d d d d | d4 d8 d4. r8 d| % out. Peoples people
 		  	f4 f8 f f4 f8 r | f4 f8 f4. r4 | % sist past resistance
-		  	f16 f8 f16 f8 f f f f f | f4 f8 f f4 r8 ees8 |% dying without regretting
+		  	g16 g8 g16 g8 g g g g g | g4 g8 g g4 r8 ees8 |% dying without regretting
 		  	c4 c8 c ees4 r8 ees | c4 c8 c aes4 r | % trigued and amused we is what we is
 		  	
 		  	r4 ees'8 d c d g, g | bes4 g8 c4. r4 | % Undefinable
@@ -92,7 +92,7 @@ melody = \relative c' {
 		  	d4 d d r | d8 d d d4 d4 r8 | % So so young
 		  	f8 f f4 f f | f8 f d g f4 r | % Then a bit older
 		  	f8 f f f f f f4 | r1 | % Looking for happiness
-		  	g8 g g g g g aes4 | g4 r2. 
+		  	g8 g g g g g aes4 | g1 
 		  	"D.S." \bar "||"
 		  }
 		}
@@ -104,7 +104,7 @@ text =  \lyricmode {
 \set associatedVoice = "words"
 	This is for the ri -- ders of the wrin -- kl -- y road,
 	ri -- ding a -- round with a piece of the sun.
-	All jacked up from the rat -- the and the hum.
+	All jacked up from the rat -- tle and the hum.
 	Great ta see ya. Awe -- some you could come 
 	help to voice this in -- can -- ta -- tion.
 	Rat -- tl -- ing and thump -- ing sha -- kers and drums.
