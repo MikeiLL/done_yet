@@ -12,7 +12,6 @@ melody = \relative c' {
   \clef treble
   \key c \minor
   \time 4/4
-  \set Score.voltaSpannerDuration = #(ly:make-moment 4/4)
   \partial 8*7 g4. c4 ees |
   g1~ | g8 aes g aes g f ees r | f4. d4.~ d4~ | d8 g,4. bes4 d |
   f1~ | f8 g f g f ees d r | ees2 d4 c8 c | r c4. ees4 g |
@@ -29,6 +28,7 @@ melody = \relative c' {
   	aes8 aes aes bes4 r8 bes bes | c c c d4 d8 ees4 | % Riding around on this ... beyond
   	\tuplet 3/2 { d4 c ees d c ees } | \tuplet 3/2 { d4 c ees } d2 | 
   	
+  	\set Score.voltaSpannerDuration = #(ly:make-moment 4/4)
   	\repeat volta 2 {
 		% Chorus
 		r1 | r4 g f ees |
@@ -55,8 +55,8 @@ melody = \relative c' {
 		  	\tuplet 3/2 { d4 d d } ees2~ | ees4 r8 g,8 g4 g8 g | % noone... The least of my
 		  	g g r4 d'8 d d d | c d4. d4 r | % people... sainthood. 
 		  	f8 f f ees4. f4 | r4 g g g | % Who is the most less. Then some punk 
-		  	g2. r8 g8 | f8 f4 ees ees8 d4 | % dies a
-		  	ees4. d c4~ | c1 | % aging shadow
+		  	g4. r8 g8 f8 f4 | ees ees8 d4 ees4. | % dies a
+		  	d c4.~ c4~ | c1 | % aging shadow
 		  	d8 d d d d4 d8 d | d d d2 r4 | % Everybody's favorite
 		  	d c ees8 ees r4 | d8 d c aes4. r4 | % Loved by 
 		  	r8. c16~ c8 d4 d d8~ | d4 d8 d4. d8 ees | % We come back down to Earth
@@ -70,12 +70,30 @@ melody = \relative c' {
 		  	g8 g g g g g g r | g g g g g4 r | % Reaching for utopia
 		  	
 		  	g4 d8 d d d d d | d4 d8 d4. r8 d| % out. Peoples people
-		  	f4 f8 f f4 f8 f | f4 f8 f4. r4 | % sist past resistance
-		  	f16 f8 f16 f8 f f f f f | f4 f8 f f4 r8 f8 |% dying without regretting
-		  	g4 g8 g g4 r8 g | g4 g8 g g4 r | % trigued and amused we is what we is
+		  	f4 f8 f f4 f8 r | f4 f8 f4. r4 | % sist past resistance
+		  	f16 f8 f16 f8 f f f f f | f4 f8 f f4 r8 ees8 |% dying without regretting
+		  	c4 c8 c ees4 r8 ees | c4 c8 c aes4 r | % trigued and amused we is what we is
 		  	
-		  	d8 d d16 d d d d4 d8 d | d4 d8 d4. r4 | % Undefinable
-		  	% niquely this.
+		  	r4 ees'8 d c d g, g | bes4 g8 c4. r4 | % Undefinable
+		  	bes'8 bes g c bes bes16 bes g4 | f f8 f4. r4 | % totally originally.
+		  	d8 d d d d4 d | d8 d d d d4 r8 d | % not to be dismissed... come
+		  	ees4 ees ees ees8 ees | ees4 ees8 d4 c4. | % on get down with the 
+		  	
+		  	c8 c c c4 c8 c c | c4 c8 ees4. r4 | % Leave a donation
+		  	f4 f f r | f8 f ees f4. r4 | % May these lines
+		  	f8 f f f4. f8 f | f8 f ees f4. r4 | % multiple
+		  	g8 g g g4. g8 g | g4 g g4. g8 | % multiple poems... re-
+		  	
+		  	g8 d d d d4 d8 d | d d d2 r4 | % surgence of the 
+		  	r8 ges f ges f4 ges8 f~ | f ges f ges f4 r | % and on and on
+		  	f8 f f f4. f4 | f8 f f f f4 r | % I had a vision
+		  	g4 g g8 g aes4 | g2 r | % Third eye open
+		  	
+		  	d4 d d r | d8 d d d4 d4 r8 | % So so young
+		  	f8 f f4 f f | f8 f d g f4 r | % Then a bit older
+		  	f8 f f f f f f4 | r1 | % Looking for happiness
+		  	g8 g g g g g aes4 | g4 r2. 
+		  	c1_"D.S." \bar "||"
 		  }
 		}
 	}
@@ -118,7 +136,7 @@ text =  \lyricmode {
 	We come back down to Earth for a while.
 	
 	% Verse three
-	This is for the ri -- ters, the hi -- ders, the fight -- ers and the
+	This is for the ri -- ders, the hi -- ders, the fight -- ers and the
 	wri -- ters doc -- u -- ment -- ing the pre -- sent, re -- 
 	cal -- ling the past, pre -- sent -- ing a fu -- ture,
 	reach -- ing for u -- to -- pi -- a. Try -- ing not to burn
@@ -127,9 +145,9 @@ text =  \lyricmode {
 	sist past re -- sis -- tance, womb to urn.
 	Dy -- ing with -- out re -- gret -- ting that we
 	weren't what we weren't. In -- 
-	trig -- ued and am -- used. We is what we is.
+	trigued and am -- used. We is what we is.
 	
-	Un -- de -- fin -- a -- ble, a -- ma -- zing, u -- nique -- ly this.
+	Un -- de -- fin -- a -- ble, u -- nique -- ly this.
 	To -- tal -- ly o -- ri -- gi -- nal -- ly blessed in bliss.
 	Not to be dis -- missed just 'cause of con -- di -- tion. Come
 	on get down with the in -- to -- na -- tion.
@@ -147,7 +165,7 @@ text =  \lyricmode {
 	So so young, wish -- ing for great -- ness.
 	Then a bit old -- er, wish -- ing for suc -- cess.
 	Wish -- ing for hap -- pi -- ness now.
-	Fin -- nal -- ly a dig -- ni -- fied death.
+	Fin -- al -- ly a dig -- ni -- fied death.
 }
 
 
@@ -196,7 +214,6 @@ harmonies = \chordmode {
   gis:13 | gis:13 | c:min11 | c:min11 | 
   c:min11 | c:min11 | gis:13 | gis:13 | 
   gis:13 | gis:13 | c:min11 | c:min11 | 
-  c:m9 | c:m9 | 
 }
 
 \score {
