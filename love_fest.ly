@@ -92,8 +92,7 @@ melody = \relative c' {
 		  	d4 d d r | d8 d d d4 d4 r8 | % So so young
 		  	f8 f f4 f f | f8 f d g f4 r | % Then a bit older
 		  	f8 f f f f f f4 | r1 | % Looking for happiness
-		  	g8 g g g g g aes4 | g1 
-		  	"D.S." \bar "||"
+		  	g8 g g g g g aes4 | g1_"D.S." \bar "||"
 		  }
 		}
 	}
