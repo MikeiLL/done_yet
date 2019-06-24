@@ -39,7 +39,7 @@ melody = \relative c' {
 		c1~ | c4 g'4. bes |
 		a4. g~ g4~ | g g2 g4 |
 		c r b r | bes r a g |
-		b( bes b) g~ | g1 |
+		bes( a bes) g~ | g1 |
 		r1 | r | r | r | 
 		% Verse two
 		}
@@ -93,7 +93,7 @@ melody = \relative c' {
 		  	f8 f f4 f f | f8 f d g f4 r | % Then a bit older
 		  	f8 f f f f f f4 | r1 | % Looking for happiness
 		  	g8 g g g g g aes4 | g4 r2. 
-		  	c1_"D.S." \bar "||"
+		  	"D.S." \bar "||"
 		  }
 		}
 	}
