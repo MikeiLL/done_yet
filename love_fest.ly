@@ -23,7 +23,7 @@ melody = \relative c' {
   	f8 f ees f4. ees8 ees | f f ees c r2 | % Riding around with
   	c4 c c c8 c | c c c c c4 r | % All jacked up
   	d8 r c d4 d8 r4 | d8 d c c d4 r | % Great ta see ya
-  	d8 r c d4 d8 c4 | d d d r | % help to voice
+  	d8 r c d4 d8 c4 | d c d r | % help to voice
   	d8 d d d c c4 bes8~ | bes bes bes4 aes r | % Rattling and bangin
   	aes8 aes aes bes4 r8 bes bes | c c c d4 d8 ees4 | % Riding around on this ... beyond
   	\tuplet 3/2 { d4 c ees d c ees } | \tuplet 3/2 { d4 c ees } d2 | 
@@ -71,11 +71,11 @@ melody = \relative c' {
 		  	
 		  	g4 d8 d d d d d | d4 d8 d4. r8 d| % out. Peoples people
 		  	f4 f8 f f4 f8 r | f4 f8 f4. r4 | % sist past resistance
-		  	g16 g8 g16 g8 g g g g g | g4 g8 g g4 r8 ees8 |% dying without regretting
+		  	g16 g8 g16 g8 g g g g g | g4 g8 g g4 r8 g8 |% dying without regretting
 		  	c4 c8 c ees4 r8 ees | c4 c8 c aes4 r | % trigued and amused we is what we is
 		  	
 		  	r4 ees'8 d c d g, g | bes4 g8 c4. r4 | % Undefinable
-		  	bes'8 bes g c bes bes16 bes g4 | f f8 f4. r4 | % totally originally.
+		  	bes8 bes g c bes bes16 bes g4 | f f8 f4. r4 | % totally originally.
 		  	d8 d d d d4 d | d8 d d d d4 r8 d | % not to be dismissed... come
 		  	ees4 ees ees ees8 ees | ees4 ees8 d4 c4. | % on get down with the 
 		  	
@@ -101,9 +101,9 @@ melody = \relative c' {
 
 text =  \lyricmode {
 \set associatedVoice = "words"
-	This is for the ri -- ders of the wrin -- kl -- y road,
+	This is for the ri -- ders of the wrin -- k -- ly road,
 	ri -- ding a -- round with a piece of the sun.
-	All jacked up from the rat -- tle and the hum.
+	All shook up from the rat -- tle and the hum.
 	Great ta see ya. Awe -- some you could come 
 	help to voice this in -- can -- ta -- tion.
 	Rat -- tl -- ing and thump -- ing sha -- kers and drums.
@@ -122,8 +122,8 @@ text =  \lyricmode {
 	All this bick -- er -- ing and back stab -- bing.
 	Comp -- et -- ing for who's gon -- na shine
 	when and for how long and how bright.
-	Ev' -- ry bo -- dies try -- ing to snake your slot,
-	snatch your boy and skim your dough. A yogi's con -- 
+	Ev' -- ry bo -- dy try -- ing to snake your slot,
+	snatch your boy, skim your dough. This yo -- gi's con -- 
 	ven -- tion. Ev -- 'ry -- bo -- dy who was
 	no -- one was there. The least of my
 	peo -- ple po -- li -- tick -- ing for saint -- hood.
