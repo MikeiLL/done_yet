@@ -7,132 +7,115 @@
   tagline = "Copyright R. and M. Kilmer Creative Commons Attribution-NonCommercial, BMI"
 }
 
-melody = \relative c'' {
-  \clef treble
-  \key c \major
-  \time 4/4 
-  <<
-	\new Voice = "words" {
-		\voiceOne 
-			
-	}
-	
-	>>
-}
-
-harmony = \relative c {
-  \voiceTwo
-  \key e \minor
-  \clef bass
+drum = \drummode { 
+  bd8 bd bd bd r2 | r1 | bd8 bd bd bd r2 | r1 |
+  bd8 bd bd bd r2 | r1 | bd8 bd bd bd r2 | r1 |
+  bd8 bd bd bd r2 | r1 | bd8 bd bd bd r2 | r1 |
+  bd8 bd bd bd r2 | r1 | bd8 bd bd bd r2 | r1 |
   
+  bd8 bd bd bd r2 | r1 | bd8 bd bd bd r2 | r1 |
+  bd8 bd bd bd r2 | r1 | bd8 bd bd bd r2 | r1 |
+  bd8 bd bd bd r2 | r1 | bd8 bd bd bd r2 | r1 |
+  bd8 bd bd bd r2 | r1 | bd8 bd bd bd r2 | r1 |
+  
+  bd8 bd bd bd r2 | r1 | bd8 bd bd bd r2 | r1 |
+  bd8 bd bd bd r2 | r1 | bd8 bd bd bd r2 | r1 |
+  bd8 bd bd bd r2 | r1 | bd8 bd bd bd r2 | r1 |
+  bd8 bd bd bd r2 | r1 | bd8 bd bd bd r2 | r1 |
+  
+  bd8 bd bd bd r2 | r1 | bd8 bd bd bd r2 | r1 |
+  bd8 bd bd bd r2 | r1 | bd8 bd bd bd r2 | r1 |
+  bd8 bd bd bd r2 | r1 | bd8 bd bd bd r2 | r1 |
+  bd8 bd bd bd r2 | r1 | bd8 bd bd bd r2 | r1 |
 }
 
-text =  \lyricmode {
-<<
-	\new Lyrics {
-      \set associatedVoice = "melody"
-      \set stanza = #"1. " 
+verse = \drummode { 
+	r1 | hh4 hh hh hh | r1 | hh4 hh hh8 hh hh4 |
+	r1 | hh8 hh hh4 hh hh | r1 | hh8 hh hh4 hh8 hh hh4 |
+	r2. r8 hh8 | hh hh hh hh hh4 hh | r2. r8 hh8 | hh4 hh8 hh4. r4 |
+	r2. r8 hh8 | hh hh hh4 hh r | r2. r8 hh8 | hh hh hh4 hh r |
+	r1 | hh4. hh8 hh4 r | r2. r8 hh8 | hh4. hh8 hh hh4. |
+	r2. r8 hh8 | hh hh hh hh4. hh4 | r2. r8 hh8 | hh4 hh hh8 hh4. |
+	r1 | hh4 hh8 hh hh4 r | r2. hh4 | hh hh8 hh hh4 r |
+	r1 | hh4 hh8 hh hh4 hh | r1 | hh4 hh hh r |
+	r1 | hh8 hh hh4 hh r | r1 | hh8 hh hh4 hh r |
+	r1 | hh4 hh8 hh hh4 hh | r1 | hh4 hh hh r |
+	r1 | hh8 hh hh4 hh8 hh4. | r1 | hh8 hh hh4 hh2 |
+	r1 | hh4 hh hh hh | r1 | hh8 hh hh4 hh r |
+	r1 | hh8 hh hh4 hh hh | r1 | hh8 hh hh hh hh4 r |
+	r1 | hh8 hh hh4 hh hh | r1 | hh8 hh hh hh hh4 r |
+	r1 | hh4 hh hh hh | r1 | hh4 hh hh8 hh hh4 |
+	r1 | hh8 hh hh4 hh hh | r1 | hh8 hh hh4 hh8 hh hh4 |
+}
+
+words =  \lyricmode {
+
       	One two three four
-		Five Six Seven Eight
+		Five Six Se -- ven Eight
 
 		Me and my peops are
-		Pretty great pretty great
+		Pret -- ty great pret -- ty great
 
-		We’ve got a little story
+		We’ve got a lit -- tle sto -- ry
 		We’d like to share
 
-		To everyone here
-		And everyone there
+		To eve -- ry -- one here
+		And eve -- ry -- one there
 
 		Once there was
-		And once there wasn’t
+		And once there was -- n’t
 
-		A couple of hundred
-		A hundred dozen
+		A cou -- ple of hund -- red
+		A hund -- red do -- zen
 
 		Prayers in the wind
 		Like stars in the sky
 
-		Somebody out there
+		Some -- bo -- dy out there
 		Hear my cry
 
-		Singing it once
-		Dancing it twice
+		Sing -- ing it once
+		Danc -- ing it twice
 
-		I’m gonna love me
+		I’m gon -- na love me
 		Love my life
 
-		All of my troubles
+		All of my troub -- les
 		All of my pain
 
-		Washed away by
-		Heavenly rain
+		Washed a -- way by
+		Heav -- en -- ly rain
 
-		Heavenly raindrops
-		Falling all around
+		Heav -- en -- ly rain -- drops
+		Fall -- ing all a -- round
 
-		Falling like drum beats
-		Listen to the sound
+		Fall -- ing like drum beats
+		Lis -- ten to the sound
 
 		One two three four
-		Five six seven eight
+		Five six sev -- en eight
 
 		Me and my peops are
-		Really great really great.
+		Pret -- ty great. Pret -- ty great.
       }
     	
->>
+\score { 
+<< 
+\new DrumStaff { 
+   \new DrumVoice = "words" { \verse } 
+} 
+\new Lyrics \lyricsto "words" { \words  } 
 
-}
-
-
-verseFive = \lyricmode {
-	\new Lyrics {
-      \set associatedVoice = "hidden"
-      \set stanza = #"5. " 
-    }
-}
-
-harmonies = \chordmode {
-}
-  
-
-\score {
-  <<
-    \new ChordNames {
-      \set chordChanges = ##t
-      \harmonies 
-    }
-    \new PianoStaff {
-    <<
-    	\new Voice = "voice" { \melody  }
-  		\new Lyrics \lyricsto "words" \text
-    	\new Voice = "chords" { \harmony  }
-    >>
-  	}
-  >>
-  
-  \layout { 
-   #(layout-set-staff-size 22)
-   }
-  \midi { 
-  	\tempo 4 = 125
-  }
-  
-}
+\new DrumStaff { 
+   \new DrumVoice = "foo" { \drum } 
+} 
+ >> 
+} 
 
 
 %Additional Verses
 \markup \fill-line {
 \column {
-	"Monotone:"
-	"Guess I'm tryina build an ounce of confidence back."
-	"Why would someone want someone this broken in half?"
-	"Floating through the air like a plain white baloon,"
-	"Out of touch, out of mind, out of tune."
-	""
-	"Sung:"
-	"Away, away, away, away."
   }
 }
 
