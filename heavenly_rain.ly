@@ -35,7 +35,7 @@ text =  \lyricmode {
       	One two three four
 		Five Six Seven Eight
 
-		Me and my people are
+		Me and my peops are
 		Pretty great pretty great
 
 		We’ve got a little story
