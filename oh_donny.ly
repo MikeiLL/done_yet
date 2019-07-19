@@ -64,3 +64,13 @@ harmonies = {
   \layout { }
   \midi { }
 }
+
+% Additional Notes
+\markup \fill-line {
+" "
+" All my love, I gave you free."
+" All my love, I gave you free."
+" Just because you were afraid,"
+" Took my love and ran away."
+}
+
