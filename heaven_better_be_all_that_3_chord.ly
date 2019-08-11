@@ -31,11 +31,12 @@ melody = \relative c'' {
 	d4 e d | r2. | cis4 d8 e4. | r4 des8 cis4 b8 | % That's a lot ... a lot to
 	b4 r2 |
 	
-	% Offering a bowl of warm milk
-	% Pair of handcuffs as a decoration
-	% Fancy bracelets
-	% Tie up. Why abandon us.
-	% Why abandon all our praises.
+	r4 b, d8 e | g a4 b4 g8~ | g4 e r |  % Offering a bowl of warm milk
+	r2 a4 | b8 d4 b8 a g | e8. g r4. | a4. g4 r8 | % Pair of handcuffs as a decoration
+	r4 a g8 r | r b4 a r8 |% Fancy bracelets
+	r4. a4 g8~ | g4 b e,8 g~ | % Tie up. Why ab- 
+	g4 a4 e | r d'8.( b16) a8( g) | g4 a8 e4.~ | e4 d2 | % andon us. Why abandon all our 
+	r4. e'4. d8( | b4) r2 | % praises.
 	% 
 	% I am, I am, I am ever your servant, 
 	% Mother of light, all right?
@@ -250,31 +251,33 @@ firstVerse_text = \lyricmode {
  Hea -- ven bet -- ter be all that.
  Hea -- ven bet -- ter be all that.
  More than this? That's a lot. A lot to ask.
+ 
+ Of -- fer -- ing a bowl of warm milk
+ Pair of hand -- cuffs as a de -- co- ra -- tion
+ Fan -- cy brace -- lets
+ Tie up. Why a -- ban -- don us?
+ Why ab -- an -- don all our prai -- ses.
+ 
+ I am, I am, I am e -- ver your ser -- vant, 
+ Mo -- ther of light, all right?
+ High -- er. High -- er than a flier.
+ Light -- er than a fire– fly. Yeah.
 }
  
-moreVerse_text = \lyricmode { Offering a bowl of warm milk
- Pair of handcuffs as a decoration
- Fancy bracelets
- Tie up. Why abandon us.
- Why abandon all our praises.
- 
- I am, I am, I am ever your servant, 
- Mother of light, all right?
- Higher. Higher than a flier.
- Lighter than a fire– fly. Yeah.
+moreVerse_text = \lyricmode { 
   
   
  Fa la la la I I I I
  Born by a tribe I like and love.
- Bold trends I try, would not defy tradition
+ Bold trends I try, would not defy tra -- di -- tion
  But let me be clear.
  
- Her. Our. All our us combined right here.
- Ever come what lie. Ah.
- Holler holler. Hip hip.
+ Her. Our. All our us com -- bined right here.
+ E -- ver come what lie. Ah.
+ Hol -- ler hol -- ler. Hip hip.
  Hell of hell of hip hip.
- Halleluja hip hip.
- Halleluja hip hip. What
+ Hal -- le -- lu -- ja hip hip.
+ Hal -- le -- lu -- ja hip hip. What
  
  Here ’n’ I a 
  Yeah I I I I I a
@@ -282,59 +285,59 @@ moreVerse_text = \lyricmode { Offering a bowl of warm milk
  
  High, why I ever
  Why I ever lie yeah
- Hey it’s such a game we are playing. Yeah. Hey.
+ Hey it’s such a game we are play -- ing. Yeah. Hey.
  
- Hey hey hey hip hip by us say what by us say what said tru all of my yodel 
- Hip hip my yodel goin’ up.
+ Hey hey hey hip hip by us say what by us say what said tru all of my yo -- del 
+ Hip hip my yo -- del goin’ up.
  
 
  
- In that spot, that mind that got desire less
+ In that spot, that mind that got de -- sire less
  Be on that
  Great land that feels
- Better than heaven ever
- Softly as a landing feather
- Gently by a well adroit sweet nimble finger of sky
+ Bet -- ter than hea -- ven e -- ver
+ Soft -- ly as a land -- ing fea -- ther
+ Gent -- ly by a well ad -- roit sweet nim -- ble fin -- ger of sky
   
- Rolling and a tum-ba-ling a-
- Round about above a mother
- Ready ever. Any weather.
+ Rol -- ling and a tum- ba- ling a --
+ round a -- bout a -- bove a mo -- ther
+ Rea -- dy e -- ver. A -- ny wea -- ther.
  Guided by complete surrender.
  
- Man and woman, humankind we
- All got deep and deeper into trouble
- Mmm Build that build that Babel Tower up
+ Man and wo -- man, hum -- an -- kind we
+ All got deep and deep -- er in -- to trou -- ble
+ Mmm Build that build that Ba -- bel Tower up
  
  Za ba bap za ba bap
  Za ba bap ba ba ba bap
  Ba ba bap ba ba bap ba ba bap
  Ba ba ba bop bop bop bap ba bap
  
- Higher higher higher higher 
- Higher higher wow!
+ High -- er high -- er high -- er high -- er 
+ High -- er high -- er wow!
  
 
  
  Got it in our blood, papa. Good, papa.
- Ma was in the wood cut pile up up our
- Though I understood what the thought was for
- How ‘bout by lunch I forget it?
+ Ma was in the wood cut pile up up far
+ Thought I un -- der -- stood what the thought was for
+ How ‘bout by lunch I for -- get it?
  
- Every day I wake up
+ Eve -- ry day I wake up
  So far. What for?
- But I lie awake a lot late ask not what for
- Walking on a wide
- One a wide foot-pounded ground network of trails
+ But I lie a -- wake a lot late ask not what for
+ Walk -- ing on a wide
+ One a wide foot-pound -- ed ground net -- work of trails
  
- Every time we think that we’ve found some peace and some
- Peace and some peace and security
- Well buddy babe you can bet bet bet that the media.
- Audio, video, billboard and radio
- Grabbing ahold of my mind and my wallet
- Benny after Benny and a
- Billion and a billion and a
- Zillion you would think that we’re buying
- La la la la la life after life
+ Eve -- ry time we think that we’ve found some peace and some
+ Peace and some peace and se -- cu -- ri -- ty
+ Well bud -- dy babe you can bet bet bet that the me -- di -- a.
+ Au -- di -- o, vi -- de -- o, bill -- board and ra -- di -- o
+ Grab -- bing a -- hold of my mind and my wal -- let
+ Ben -- ny af -- ter Ben -- ny and a
+ Bil -- lion and a bil -- lion and a
+ Zil -- lion you would think that we’re buy -- ing
+ La la la la la life af -- ter life
 
 }
 
@@ -344,11 +347,17 @@ harmonies = \chordmode {
 	g | g | e:min | e:min | g | g | e:min | e:min |
 	g | g | e:min | e:min | g | g | e:min | e:min |
 	g | g | e:min | e:min |
+	
 	b2.:min | b:min | e:min | e:min |
 	b2.:min | b:min | e:min | e:min |
 	b2.:min | b:min | e:min | e:min |
+	
 	g | g | a | a |
 	g | g | e:min | e:min 
+	
+	b2.:min | b:min | e:min | e:min |
+	b2.:min | b:min | e:min | e:min |
+	b2.:min | b:min | e:min | e:min |
 }
 
 \score {
