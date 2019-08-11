@@ -117,7 +117,6 @@ harmonies = \chordmode {
 " "
 " "
 " "
-"Maybe substitute \"follow along\" with \"shut up and learn\"."
 " "
   }
 }
