@@ -72,5 +72,10 @@ harmonies = {
 " All my love, I gave you free."
 " Just because you were afraid,"
 " Took my love and ran away."
+" "
+" xxx."
+" xxx."
+" Jeweled scepter, crown and thrown"
+" Living on your world alone."
 }
 
