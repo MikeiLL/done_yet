@@ -30,6 +30,180 @@ melody = \relative c'' {
 	r2. | fis8 fis fis fis fis4~ | fis2. | g4 e2 |
 	d4 e d | r2. | cis4 d8 e4. | r4 des8 cis4 b8 | % That's a lot ... a lot to
 	b4 r2 |
+	
+	% Offering a bowl of warm milk
+	% Pair of handcuffs as a decoration
+	% Fancy bracelets
+	% Tie up. Why abandon us.
+	% Why abandon all our praises.
+	% 
+	% I am, I am, I am ever your servant, 
+	% Mother of light, all right?
+	% Higher. Higher than a flier.
+	% Lighter than a fire– fly. Yeah.
+	% 
+	% CHORUS
+	% 
+	% Fa la la la I I I I
+	% Born by a tribe I like and love.
+	% Bold trends I try, would not defy tradition
+	% But let me be clear.
+	% 
+	% Her. Our. All our us combined right here.
+	% Ever come what lie. Ah.
+	% Holler holler. Hip hip.
+	% Hell of hell of hip hip.
+	% Halleluja hip hip.
+	% Halleluja hip hip. What
+	% 
+	% Here ’n’ I a 
+	% Yeah I I I I I a
+	% Awh ah an
+	% 
+	% High, why I ever
+	% Why I ever lie yeah
+	% Hey it’s such a game we are playing. Yeah. Hey.
+	% 
+	% Hey hey hey hip hip by us say what by us say what said tru all of my yodel 
+	% Hip hip my yodel goin’ up.
+	% 
+	% CHORUS
+	% 
+	% In that spot, that mind that got desire less
+	% Be on that
+	% Great land that feels
+	% Better than heaven ever
+	% Softly as a landing feather
+	% Gently by a well adroit sweet nimble finger of sky
+	%  
+	% Rolling and a tum-ba-ling a-
+	% Round about above a mother
+	% Ready ever. Any weather.
+	% Guided by complete surrender.
+	% 
+	% Man and woman, humankind we
+	% All got deep and deeper into trouble
+	% Mmm Build that build that Babel Tower up
+	% 
+	% Za ba bap za ba bap
+	% Za ba bap ba ba ba bap
+	% Ba ba bap ba ba bap ba ba bap
+	% Ba ba ba bop bop bop bap ba bap
+	% 
+	% Higher higher higher higher 
+	% Higher higher wow!
+	% 
+	% CHORUS
+	% 
+	% Got it in our blood, papa. Good, papa.
+	% Ma was in the wood cut pile up up our
+	% Though I understood what the thought was for
+	% How ‘bout by lunch I forget it?
+	% 
+	% Every day I wake up
+	% So far. What for?
+	% But I lie awake a lot late ask not what for
+	% Walking on a wide
+	% One a wide foot-pounded ground network of trails
+	% 
+	% Every time we think that we’ve found some peace and some
+	% Peace and some peace and security
+	% Well buddy babe you can bet bet bet that the media.
+	% Audio, video, billboard and radio
+	% Grabbing ahold of my mind and my wallet
+	% Benny after Benny and a
+	% Billion and a billion and a
+	% Zillion you would think that we’re buying
+	% La la la la la life after life
+	% 
+	% CHORUS
+	% Offering a bowl of warm milk
+	% Pair of handcuffs as a decoration
+	% Fancy bracelets
+	% Tie up. Why abandon us.
+	% Why abandon all our praises.
+	% 
+	% I am, I am, I am ever your servant, 
+	% Mother of light, all right?
+	% Higher. Higher than a flier.
+	% Lighter than a fire– fly. Yeah.
+	% 
+	% CHORUS
+	% 
+	% Fa la la la I I I I
+	% Born by a tribe I like and love.
+	% Bold trends I try, would not defy tradition
+	% But let me be clear.
+	% 
+	% Her. Our. All our us combined right here.
+	% Ever come what lie. Ah.
+	% Holler holler. Hip hip.
+	% Hell of hell of hip hip.
+	% Halleluja hip hip.
+	% Halleluja hip hip. What
+	% 
+	% Here ’n’ I a 
+	% Yeah I I I I I a
+	% Awh ah an
+	% 
+	% High, why I ever
+	% Why I ever lie yeah
+	% Hey it’s such a game we are playing. Yeah. Hey.
+	% 
+	% Hey hey hey hip hip by us say what by us say what said tru all of my yodel 
+	% Hip hip my yodel goin’ up.
+	% 
+	% CHORUS
+	% 
+	% In that spot, that mind that got desire less
+	% Be on that
+	% Great land that feels
+	% Better than heaven ever
+	% Softly as a landing feather
+	% Gently by a well adroit sweet nimble finger of sky
+	%  
+	% Rolling and a tum-ba-ling a-
+	% Round about above a mother
+	% Ready ever. Any weather.
+	% Guided by complete surrender.
+	% 
+	% Man and woman, humankind we
+	% All got deep and deeper into trouble
+	% Mmm Build that build that Babel Tower up
+	% 
+	% Za ba bap za ba bap
+	% Za ba bap ba ba ba bap
+	% Ba ba bap ba ba bap ba ba bap
+	% Ba ba ba bop bop bop bap ba bap
+	% 
+	% Higher higher higher higher 
+	% Higher higher wow!
+	% 
+	% CHORUS
+	% 
+	% Got it in our blood, papa. Good, papa.
+	% Ma was in the wood cut pile up up our
+	% Though I understood what the thought was for
+	% How ‘bout by lunch I forget it?
+	% 
+	% Every day I wake up
+	% So far. What for?
+	% But I lie awake a lot late ask not what for
+	% Walking on a wide
+	% One a wide foot-pounded ground network of trails
+	% 
+	% Every time we think that we’ve found some peace and some
+	% Peace and some peace and security
+	% Well buddy babe you can bet bet bet that the media.
+	% Audio, video, billboard and radio
+	% Grabbing ahold of my mind and my wallet
+	% Benny after Benny and a
+	% Billion and a billion and a
+	% Zillion you would think that we’re buying
+	% La la la la la life after life
+	% 
+	% CHORUS
+
   }
   
    #(ly:expect-warning "cannot end volta") 
@@ -67,7 +241,7 @@ chorus_text =  \lyricmode {
 	More than this? That's a lot. A lot to ask.
 }
 
-firstVerse_test = \lyricmode {
+firstVerse_text = \lyricmode {
  Bye bye by air. In bo -- dy I en -- dure, but
  But why I a -- bide by a bur -- den
  Bye bye, but that bye bye bye
@@ -77,12 +251,94 @@ firstVerse_test = \lyricmode {
  Hea -- ven bet -- ter be all that.
  More than this? That's a lot. A lot to ask.
 }
+ 
+moreVerse_text = \lyricmode { Offering a bowl of warm milk
+ Pair of handcuffs as a decoration
+ Fancy bracelets
+ Tie up. Why abandon us.
+ Why abandon all our praises.
+ 
+ I am, I am, I am ever your servant, 
+ Mother of light, all right?
+ Higher. Higher than a flier.
+ Lighter than a fire– fly. Yeah.
+  
+  
+ Fa la la la I I I I
+ Born by a tribe I like and love.
+ Bold trends I try, would not defy tradition
+ But let me be clear.
+ 
+ Her. Our. All our us combined right here.
+ Ever come what lie. Ah.
+ Holler holler. Hip hip.
+ Hell of hell of hip hip.
+ Halleluja hip hip.
+ Halleluja hip hip. What
+ 
+ Here ’n’ I a 
+ Yeah I I I I I a
+ Awh ah an
+ 
+ High, why I ever
+ Why I ever lie yeah
+ Hey it’s such a game we are playing. Yeah. Hey.
+ 
+ Hey hey hey hip hip by us say what by us say what said tru all of my yodel 
+ Hip hip my yodel goin’ up.
+ 
 
-verse_text =  \lyricmode {
+ 
+ In that spot, that mind that got desire less
+ Be on that
+ Great land that feels
+ Better than heaven ever
+ Softly as a landing feather
+ Gently by a well adroit sweet nimble finger of sky
+  
+ Rolling and a tum-ba-ling a-
+ Round about above a mother
+ Ready ever. Any weather.
+ Guided by complete surrender.
+ 
+ Man and woman, humankind we
+ All got deep and deeper into trouble
+ Mmm Build that build that Babel Tower up
+ 
+ Za ba bap za ba bap
+ Za ba bap ba ba ba bap
+ Ba ba bap ba ba bap ba ba bap
+ Ba ba ba bop bop bop bap ba bap
+ 
+ Higher higher higher higher 
+ Higher higher wow!
+ 
 
-	
-	
+ 
+ Got it in our blood, papa. Good, papa.
+ Ma was in the wood cut pile up up our
+ Though I understood what the thought was for
+ How ‘bout by lunch I forget it?
+ 
+ Every day I wake up
+ So far. What for?
+ But I lie awake a lot late ask not what for
+ Walking on a wide
+ One a wide foot-pounded ground network of trails
+ 
+ Every time we think that we’ve found some peace and some
+ Peace and some peace and security
+ Well buddy babe you can bet bet bet that the media.
+ Audio, video, billboard and radio
+ Grabbing ahold of my mind and my wallet
+ Benny after Benny and a
+ Billion and a billion and a
+ Zillion you would think that we’re buying
+ La la la la la life after life
+
 }
+
+
 harmonies = \chordmode {
 	g2. | g | e:min | e:min | g | g | e:min | e:min |
 	g | g | e:min | e:min | g | g | e:min | e:min |
@@ -92,6 +348,7 @@ harmonies = \chordmode {
 	b2.:min | b:min | e:min | e:min |
 	b2.:min | b:min | e:min | e:min |
 	g | g | a | a |
+	g | g | e:min | e:min 
 }
 
 \score {
@@ -101,9 +358,9 @@ harmonies = \chordmode {
       \harmonies
     }
   	\new Voice = "voice" { \melody  }
-  	\new Lyrics \lyricsto "verseOne" \firstVerse_test
+  	\new Lyrics \lyricsto "verseOne" \firstVerse_text
   	\new Lyrics \lyricsto "chorus" \chorus_text
-  	\new Lyrics \lyricsto "verse" \verse_text
+  	\new Lyrics \lyricsto "verse" \moreVerse_text
   >>
   
   \layout { }
