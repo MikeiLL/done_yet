@@ -36,12 +36,18 @@ melody = \relative c'' {
 	r4 a g8 r | r b4 a r8 |% Fancy bracelets
 	r4. a4 g8~ | g4 b e,8 g~ | % Tie up. Why ab- 
 	g4 a4 e | r d'8.( b16) a8( g) | g4 a8 e4.~ | e4 d2 | % andon us. Why abandon all our 
-	r4. e'4. d8( | b4) r2 | % praises.
-	% 
-	% I am, I am, I am ever your servant, 
-	% Mother of light, all right?
-	% Higher. Higher than a flier.
-	% Lighter than a fire– fly. Yeah.
+	r4. e'4 d8( | b4) r2 | % praises.
+
+	r4. e4 d16( a | g4) r2 | r4. e'4 d16( a | g4) r2 | % I am, I am,
+	r4 r16 e'4 d16( a g~) | g8 r g'4. e16 d |  % I am ever your 
+	a8. g a16 b e,4 | g4. a8 b4 | % servant, Mother of light, a' right?
+	g,4.( a8 b16 c d e~ | e8. g8. a8 b16 g8.~ | % High- 
+	g8) e8 r4 d'~ | d8 b8 g e r g~ | % er. Higher than a fl-
+	g4 e8 r4 e'~ | e8. d16 b g r g8.( a8 | % ier. Lighter than a fi-
+	bes4. a4 g8~ | g4 a8) r4. | % __ 
+	r4. g8( a b~ | b4 a8 g4 e8 | % __
+	a4. b8. d | e8. g a8 a | % __
+	a4. a8. a8 g16) | e4 g2~ | g2. | e4 r2 | % re fly. Yeah.
 	% 
 	% CHORUS
 	% 
@@ -183,7 +189,7 @@ melody = \relative c'' {
 	% CHORUS
 	% 
 	% Got it in our blood, papa. Good, papa.
-	% Ma was in the wood cut pile up up our
+	% Ma was in the wood cut pile up up far
 	% Though I understood what the thought was for
 	% How ‘bout by lunch I forget it?
 	% 
@@ -260,8 +266,8 @@ firstVerse_text = \lyricmode {
  
  I am, I am, I am e -- ver your ser -- vant, 
  Mo -- ther of light, all right?
- High -- er. High -- er than a flier.
- Light -- er than a fire– fly. Yeah.
+ High -- er. High -- er than a fli -- er.
+ Light -- er than a fi__ ah -- re  fly__. Yeah.
 }
  
 moreVerse_text = \lyricmode { 
@@ -354,6 +360,13 @@ harmonies = \chordmode {
 	
 	g | g | a | a |
 	g | g | e:min | e:min 
+	
+	g2. | g | e:min | e:min | g | g | e:min | e:min |
+	g | g | e:min | e:min | g | g | e:min | e:min |
+	g | g | e:min | e:min | g | g | e:min | e:min |
+	g | g | e:min | e:min | g | g | e:min | e:min |
+	g | g | e:min | e:min | g | g | e:min | e:min |
+	
 	
 	b2.:min | b:min | e:min | e:min |
 	b2.:min | b:min | e:min | e:min |
