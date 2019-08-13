@@ -23,31 +23,32 @@ melody = \relative c'' {
   	a4 b8 a g d'~ | d4 b8 a g e~ | e4( g8) r4. | r4 g4. e8~ | % But why I abide by a burden. Bye bye, 
 	e4 d8 g4 b8~ | b4 a8( g) a4~ | % bye, but that bye bye bye
 	a b8 d4 e16 g~ | g4 a b | a( g) e8 g8~ | g2.~ | % With that put but bye bye abide
-	g~ | g2 ~g4( | % abide
+	g2~ g8( a8 | b8) r8 r2 | % abide
 	
-	b8) r8 r2 | fis8 fis fis fis fis4~ | fis2. | g4 e2 | % Heaven better
+	r2. | fis8 fis fis fis fis4~ | fis2. | g4 e2 | % Heaven better
 	r2. | fis8 fis fis fis fis4~ | fis2. | g4 e2 |
 	r2. | fis8 fis fis fis fis4~ | fis2. | g4 e2 |
 	d4 e d | r2. | cis4 d8 e4. | r4 des8 cis4 b8 | % That's a lot ... a lot to
 	b4 r2 |
 	
 	r4 b, d8 e | g a4 b4 g8~ | g4 e r |  % Offering a bowl of warm milk
-	r2 a4 | b8 d4 b8 a g | e8. g r4. | a4. g4 r8 | % Pair of handcuffs as a decoration
+	r2 a4 | b8 d4 b8 a g | e8. g r4. | r4 a4. g8 | % Pair of handcuffs as a decoration
 	r4 a g8 r | r b4 a r8 |% Fancy bracelets
 	r4. a4 g8~ | g4 b e,8 g~ | % Tie up. Why ab- 
-	g4 a4 e | r d'8.( b16) a8( g) | g4 a8 e4.~ | e4 d2 | % andon us. Why abandon all our 
-	r4. e'4 d8( | b4) r2 | % praises.
+	g4 a4 e | r d'8.( b16) a8( g) | g4 a8 e4 d8~ | d4 e'4 d8( b~ ) | % andon us. Why abandon all our praises.
+	b4 r8 e4 d16( a | % 
 
-	r4. e4 d16( a | g4) r2 | r4. e'4 d16( a | g4) r2 | % I am, I am,
-	r4 r16 e'4 d16( a g~) | g8 r g'4. e16 d |  % I am ever your 
-	a8. g a16 b e,4 | g4. a8 b4 | % servant, Mother of light, a' right?
+	g4) r8 e'4 d16( a | g8) r8. e'4 d16( a g~)  | % I am, I am,
+	g8 r g'4. e16 d | a8. g a16 b e,4 |  % I am ever your servant,
+	g4. a8 b4 | r4. a8 b4 | %  Mother of light, a' right? A' right?
+	r2. | 
 	g,4.( a8 b16 c d e~ | e8. g8. a8 b16 g8.~ | % High- 
 	g8) e8 r4 d'~ | d8 b8 g e r g~ | % er. Higher than a fl-
-	g4 e8 r4 e'~ | e8. d16 b g r g8.( a8 | % ier. Lighter than a fi-
-	bes4. a4 g8~ | g4 a8) r4. | % __ 
-	r4. g8( a b~ | b4 a8 g4 e8 | % __
-	a4. b8. d | e8. g a8 a | % __
-	a4. a8. a8 g16) | e4 g2~ | g2. | e4 r2 | % re fly. Yeah.
+	g4 e8 r4 e'8~ | e8. d16 b g r g8.( a8 | % ier. Lighter than a fi-
+	bes4. a4 g8~ | g4 e8) r4. | % __ 
+	r4. g8( a b~ | b4 a8 g4 e8 | % I
+	a,4.\trill b8. d | e8. g a8 a4 | % __
+	a4. a8. a8 g16) | e4 g2~ | g2~ g8 e8~ | e4 r2 | % re fly. Yeah.
 	% 
 	% CHORUS
 	% 
@@ -217,7 +218,7 @@ melody = \relative c'' {
    \repeat volta 3 {
    \new Voice = "chorus" {
      \voiceOne
-     r2. | fis8 fis fis fis fis4~ | fis2. | g4 e2 | % Heaven better
+     r2. | fis'8 fis fis fis fis4~ | fis2. | g4 e2 | % Heaven better
 			r2. | fis8 fis fis fis fis4~ | fis2. | g4 e2 |
 			r2. | fis8 fis fis fis fis4~ | fis2. | g4 e2 |
 			d4 e d | r2. | cis4 d8 e4. | r4 des8 cis4 b8 | % That's a lot ... a lot to
@@ -265,7 +266,7 @@ firstVerse_text = \lyricmode {
  Why ab -- an -- don all our prai -- ses.
  
  I am, I am, I am e -- ver your ser -- vant, 
- Mo -- ther of light, all right?
+ Mo -- ther of light, a -- ight? A -- ight?
  High -- er. High -- er than a fli -- er.
  Light -- er than a fi__ ah -- re  fly__. Yeah.
 }
@@ -354,10 +355,10 @@ harmonies = \chordmode {
 	g | g | e:min | e:min | g | g | e:min | e:min |
 	g | g | e:min | e:min |
 	
+	% Chorus
 	b2.:min | b:min | e:min | e:min |
 	b2.:min | b:min | e:min | e:min |
 	b2.:min | b:min | e:min | e:min |
-	
 	g | g | a | a |
 	g | g | e:min | e:min 
 	
@@ -365,10 +366,13 @@ harmonies = \chordmode {
 	g | g | e:min | e:min | g | g | e:min | e:min |
 	g | g | e:min | e:min | g | g | e:min | e:min |
 	g | g | e:min | e:min | g | g | e:min | e:min |
-	g | g | e:min | e:min | g | g | e:min | e:min |
+	g | g | e:min | e:min |
 	
-	
+	% Chorus
 	b2.:min | b:min | e:min | e:min |
+	b2.:min | b:min | e:min | e:min |
+	b2.:min | b:min | e:min | e:min |
+	g | g | a | a |
 	b2.:min | b:min | e:min | e:min |
 	b2.:min | b:min | e:min | e:min |
 }
@@ -382,7 +386,7 @@ harmonies = \chordmode {
   	\new Voice = "voice" { \melody  }
   	\new Lyrics \lyricsto "verseOne" \firstVerse_text
   	\new Lyrics \lyricsto "chorus" \chorus_text
-  	\new Lyrics \lyricsto "verse" \moreVerse_text
+  	% \new Lyrics \lyricsto "verse" \moreVerse_text
   >>
   
   \layout { }
