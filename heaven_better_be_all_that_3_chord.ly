@@ -50,30 +50,7 @@ melody = \relative c'' {
 	a,4.\trill b8. d | e8. g a8 a4 | % __
 	a4. a8. a8 g16) | e4 g2~ | g2~ g8 e8~ | e4 r2 | % re fly. Yeah.
 	% 
-	% CHORUS
-	% 
-	% Fa la la la I I I I
-	% Born by a tribe I like and love.
-	% Bold trends I try, would not defy tradition
-	% But let me be clear.
-	% 
-	% Her. Our. All our us combined right here.
-	% Ever come what lie. Ah.
-	% Holler holler. Hip hip.
-	% Hell of hell of hip hip.
-	% Halleluja hip hip.
-	% Halleluja hip hip. What
-	% 
-	% Here ’n’ I a 
-	% Yeah I I I I I a
-	% Awh ah an
-	% 
-	% High, why I ever
-	% Why I ever lie yeah
-	% Hey it’s such a game we are playing. Yeah. Hey.
-	% 
-	% Hey hey hey hip hip by us say what by us say what said tru all of my yodel 
-	% Hip hip my yodel goin’ up.
+	
 	% 
 	% CHORUS
 	% 
@@ -229,8 +206,30 @@ melody = \relative c'' {
  }
  \alternative {
    \new Voice = "verse" {
-    	
-		
+    	% CHORUS
+		% 
+		r2. | r4 e8 fis g4 | g8 r a r a16( b) r8 | b r b4( a~)  | % Fa la la la I I I I
+		a2 r4 | r2. | e4 fis8. g fis8~ | fis4. e8 e b | % mBorn by a tribe I like and 
+		e8. % love. Bold trends I try, would not defy tradition
+		% But let me be clear.
+		% 
+		% Her. Our. All our us combined right here.
+		% Ever come what lie. Ah.
+		% Holler holler. Hip hip.
+		% Hell of hell of hip hip.
+		% Halleluja hip hip.
+		% Halleluja hip hip. What
+		% 
+		% Here ’n’ I a 
+		% Yeah I I I I I a
+		% Awh ah an
+		% 
+		% High, why I ever
+		% Why I ever lie yeah
+		% Hey it’s such a game we are playing. Yeah. Hey.
+		% 
+		% Hey hey hey hip hip by us say what by us say what said tru all of my yodel 
+		% Hip hip my yodel goin’ up.
    }
    \context Voice = "verse" {
      	
@@ -375,6 +374,8 @@ harmonies = \chordmode {
 	g | g | a | a |
 	b2.:min | b:min | e:min | e:min |
 	b2.:min | b:min | e:min | e:min |
+	
+	g | g | e:min | e:min | g | g | e:min | e:min |
 }
 
 \score {
@@ -386,7 +387,7 @@ harmonies = \chordmode {
   	\new Voice = "voice" { \melody  }
   	\new Lyrics \lyricsto "verseOne" \firstVerse_text
   	\new Lyrics \lyricsto "chorus" \chorus_text
-  	% \new Lyrics \lyricsto "verse" \moreVerse_text
+  	\new Lyrics \lyricsto "verse" \moreVerse_text
   >>
   
   \layout { }
