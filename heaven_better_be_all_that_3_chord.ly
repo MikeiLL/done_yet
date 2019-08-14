@@ -12,6 +12,9 @@ melody = \relative c'' {
   \clef treble
   \key d \major
   \time 6/8 
+  \set Score.voltaSpannerDuration = #(ly:make-moment 12/8)
+  #(ly:expect-warning "cannot end volta") 
+  
   r4. d( | e8) r d4 b8 g16 a~ | a4( b8 g4) e8 | r8 a,4 b8( d e) |
   g4 a8 b4( d8 | a g) a4 r | r b,8 cis e g | a4 g8 e4 r8 |
   r4 g,4. a8 | \tuplet 5/3 { b4 cis e g a~ } | a4 b8( g e) d'~ |
@@ -210,15 +213,15 @@ melody = \relative c'' {
 		% 
 		r2. | r4 e8 fis g4 | g8 r a r a16( b) r8 | b r b4( a~)  | % Fa la la la I I I I
 		a2 r4 | r2. | e4 fis8. g fis8~ | fis4. e8 e b | % mBorn by a tribe I like and 
-		e8. % love. Bold trends I try, would not defy tradition
-		% But let me be clear.
+		e8. r r4. | r8. g' a b | a8 r g a g4 | a8( b) e,4 g~ | % love. Bold trends I try, would not defy tra-
+		g4. e4 d8~ | d8. b a g | b,2. | r2 r8 b~ |  % dition, but let me be clear. Her-.
 		% 
-		% Her. Our. All our us combined right here.
-		% Ever come what lie. Ah.
-		% Holler holler. Hip hip.
-		% Hell of hell of hip hip.
-		% Halleluja hip hip.
-		% Halleluja hip hip. What
+		b4.( d4 e8)~ | e r4 a,8.( b~ | b4. d4 e8)~ | e4 r8 a,4( b8~) | b4. d4 e8~ | e r4 b'4 a8~ | a4. % Her. Our. All our us combined 
+		g8 r b~ | b4.( e8) r e~ | e4. d4 b8~ | b4. g4 a8~ | a4 r2 | r e'4 | % right here. Ever come what lie. Ah.
+		r4 g,8 g g g | r4 d8( e) d( e) | % Holler holler. Hip hip.
+		r4 d8 d d d | r4 e8 r d r | % Hell of hell of hip hip.
+		r4 d8 d d d | r4 g8 r e r | % Halleluja hip hip.
+		r4 d8 d d d( | e) r e r b r | % Halleluja hip hip. What
 		% 
 		% Here ’n’ I a 
 		% Yeah I I I I I a
@@ -275,8 +278,8 @@ moreVerse_text = \lyricmode {
   
  Fa la la la I I I I
  Born by a tribe I like and love.
- Bold trends I try, would not defy tra -- di -- tion
- But let me be clear.
+ Bold trends I try, would not de -- fy tra -- di -- tion,
+ but let me be clear.
  
  Her. Our. All our us com -- bined right here.
  E -- ver come what lie. Ah.
