@@ -218,10 +218,10 @@ melody = \relative c'' {
 		% 
 		b4.( d4 e8)~ | e r4 a,8.( b~ | b4. d4 e8)~ | e4 r8 a,4( b8~) | b4. d4 e8~ | e r4 b'4 a8~ | a4. % Her. Our. All our us combined 
 		g8 r b~ | b4.( e8) r e~ | e4. d4 b8~ | b4. g4 a8~ | a4 r2 | r e'4 | % right here. Ever come what lie. Ah.
-		r4 g,8 g g g | r4 d8( e) d( e) | % Holler holler. Hip hip.
+		r4 g,8 g g g | r4 d'8( e) d( e) | % Holler holler. Hip hip.
 		r4 d8 d d d | r4 e8 r d r | % Hell of hell of hip hip.
 		r4 d8 d d d | r4 g8 r e r | % Halleluja hip hip.
-		r4 d8 d d d( | e) r e r b r | % Halleluja hip hip. What
+		r4 d8 d d d | e r e r b r | % Halleluja hip hip. What
 		% 
 		% Here ’n’ I a 
 		% Yeah I I I I I a
@@ -378,6 +378,10 @@ harmonies = \chordmode {
 	b2.:min | b:min | e:min | e:min |
 	b2.:min | b:min | e:min | e:min |
 	
+	g | g | e:min | e:min | g | g | e:min | e:min |
+	g | g | e:min | e:min | g | g | e:min | e:min |
+	g | g | e:min | e:min | g | g | e:min | e:min |
+	g | g | e:min | e:min | g | g | e:min | e:min |
 	g | g | e:min | e:min | g | g | e:min | e:min |
 }
 
