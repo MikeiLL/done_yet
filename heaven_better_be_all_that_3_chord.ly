@@ -20,7 +20,7 @@ melody = \relative c'' {
   r4 g,4. a8 | \tuplet 5/3 { b4 cis e g a~ } | a4 b8( g e) d'~ |
   d4 b8( a g4 ) |
   
-  \new Voice = "verseOne" {
+  \new Voice = "lyrics" {
   	d'8( e4) e8. e | d8( b g4) r8 a | % bye bye by air. In
   	a b g e g4~ | g4. e8 r4 | % In body i endure but
   	a4 b8 a g d'~ | d4 b8 a g e~ | e4( g8) r4. | r4 g4. e8~ | % But why I abide by a burden. Bye bye, 
@@ -31,12 +31,12 @@ melody = \relative c'' {
 	r2. | fis8 fis fis fis fis4~ | fis2. | g4 e2 | % Heaven better
 	r2. | fis8 fis fis fis fis4~ | fis2. | g4 e2 |
 	r2. | fis8 fis fis fis fis4~ | fis2. | g4 e2 |
-	d4 e d | r2. | cis4 d8 e4. | r4 des8 cis4 b8 | % That's a lot ... a lot to
+	d4 e d | r2. | cis4 d8 e4. | r4 a8 cis4 b8 | % That's a lot ... a lot to
 	b4 r2 |
 	
 	r4 b, d8 e | g a4 b4 g8~ | g4 e r |  % Offering a bowl of warm milk
 	r2 a4 | b8 d4 b8 a g | e8. g r4. | r4 a4. g8 | % Pair of handcuffs as a decoration
-	r4 a g8 r | r b4 a r8 |% Fancy bracelets
+	r4 a g8 r | r b4 e, r8 |% Fancy bracelets
 	r4. a4 g8~ | g4 b e,8 g~ | % Tie up. Why ab- 
 	g4 a4 e | r d'8.( b16) a8( g) | g4 a8 e4 d8~ | d4 e'4 d8( b~ ) | % andon us. Why abandon all our praises.
 	b4 r8 e4 d16( a | % 
@@ -52,9 +52,39 @@ melody = \relative c'' {
 	r4. g8( a b~ | b4 a8 g4 e8 | % I
 	a,4.\trill b8. d | e8. g a8 a4 | % __
 	a4. a8. a8 g16) | e4 g2~ | g2~ g8 e8~ | e4 r2 | % re fly. Yeah.
-	% 
-	
-	% 
+
+	% CHORUS
+	r2. | fis'8 fis fis fis fis4~ | fis2. | g4 e2 | % Heaven better
+			r2. | fis8 fis fis fis fis4~ | fis2. | g4 e2 |
+			r2. | fis8 fis fis fis fis4~ | fis2. | g4 e2 |
+			d4 e d | r2. | cis4 d8 e4. | r4 a8 cis4 b8 | % That's a lot ... a lot to
+			b4 r2 |
+		}
+		r4 b' a | g2.~ | g4 cis, g | % ask.
+		b4 r2 | r4 b' a | g2.~ | g4 cis, g | 
+
+	r2. | r4 e8 fis g4 | g8 r a r a16( b) r8 | b r b4( a~)  | % Fa la la la I I I I
+	a2 r4 | r2. | e4 fis8. g fis8~ | fis4. e8 e b | % mBorn by a tribe I like and 
+	e8. r r4. | r8. g' a b | a8 r g a g4 | a8( b) e,4 g~ | % love. Bold trends I try, would not defy tra-
+	g4. e4 d8~ | d8. b a g | b,2. | r2 r8 b~ |  % dition, but let me be clear. Her-.
+
+	b4.( d4 e8)~ | e r4 a,8.( b~ | b4. d4 e8)~ | e4 r8 a,4( b8~) | b4. d4 e8~ | e r4 b'4 a8~ | a4. % Her. Our. All our us combined 
+	g8 r b~ | b4.( e8) r e~ | e4. d4 b8~ | b4. g4 a8~ | a4 r2 | r e'4 | % right here. Ever come what lie. Ah.
+	r4 g,8 g g g | r4 d'8( e) d( e) | % Holler holler. Hip hip.
+	r4 d8 d d d | r4 e8 r b r | % Hell of hell of hip hip.
+	r4 d8 d d d | r4 g8 r e r | % Halleluja hip hip.
+	r4 d8 d d d | e r e r b r | % Halleluja hip hip. What
+
+	% Here ’n’ I a 
+	% Yeah I I I I I a
+	% Awh ah an
+
+	% High, why I ever
+	% Why I ever lie yeah
+	% Hey it’s such a game we are playing. Yeah. Hey.
+
+	% Hey hey hey hip hip by us say what by us say what said tru all of my yodel 
+	% Hip hip my yodel goin’ up.
 	% CHORUS
 	% 
 	% In that spot, that mind that got desire less
@@ -194,64 +224,8 @@ melody = \relative c'' {
 
   }
   
-   #(ly:expect-warning "cannot end volta") 
-   \repeat volta 3 {
-   \new Voice = "chorus" {
-     \voiceOne
-     r2. | fis'8 fis fis fis fis4~ | fis2. | g4 e2 | % Heaven better
-			r2. | fis8 fis fis fis fis4~ | fis2. | g4 e2 |
-			r2. | fis8 fis fis fis fis4~ | fis2. | g4 e2 |
-			d4 e d | r2. | cis4 d8 e4. | r4 des8 cis4 b8 | % That's a lot ... a lot to
-			b4 r2 |
-		}
-		r4 b' a | g2.~ | g4 cis, g | % ask.
-		b4 r2 | r4 b' a | g2.~ | g4 cis, g | 
- }
- \alternative {
-   \new Voice = "verse" {
-    	% CHORUS
-		% 
-		r2. | r4 e8 fis g4 | g8 r a r a16( b) r8 | b r b4( a~)  | % Fa la la la I I I I
-		a2 r4 | r2. | e4 fis8. g fis8~ | fis4. e8 e b | % mBorn by a tribe I like and 
-		e8. r r4. | r8. g' a b | a8 r g a g4 | a8( b) e,4 g~ | % love. Bold trends I try, would not defy tra-
-		g4. e4 d8~ | d8. b a g | b,2. | r2 r8 b~ |  % dition, but let me be clear. Her-.
-		% 
-		b4.( d4 e8)~ | e r4 a,8.( b~ | b4. d4 e8)~ | e4 r8 a,4( b8~) | b4. d4 e8~ | e r4 b'4 a8~ | a4. % Her. Our. All our us combined 
-		g8 r b~ | b4.( e8) r e~ | e4. d4 b8~ | b4. g4 a8~ | a4 r2 | r e'4 | % right here. Ever come what lie. Ah.
-		r4 g,8 g g g | r4 d'8( e) d( e) | % Holler holler. Hip hip.
-		r4 d8 d d d | r4 e8 r b r | % Hell of hell of hip hip.
-		r4 d8 d d d | r4 g8 r e r | % Halleluja hip hip.
-		r4 d8 d d d | e r e r b r | % Halleluja hip hip. What
-		% 
-		% Here ’n’ I a 
-		% Yeah I I I I I a
-		% Awh ah an
-		% 
-		% High, why I ever
-		% Why I ever lie yeah
-		% Hey it’s such a game we are playing. Yeah. Hey.
-		% 
-		% Hey hey hey hip hip by us say what by us say what said tru all of my yodel 
-		% Hip hip my yodel goin’ up.
-   }
-   \context Voice = "verse" {
-     	
-   		}
-   \context Voice = "verse" {
-     	
-		\set Score.repeatCommands = #'(end-repeat)
-   		}
-	}
-}
 
-chorus_text =  \lyricmode {
-	Hea -- ven bet -- ter be all that.
-	Hea -- ven bet -- ter be all that.
-	Hea -- ven bet -- ter be all that.
-	More than this? That's a lot. A lot to ask.
-}
-
-firstVerse_text = \lyricmode {
+text = \lyricmode {
  Bye bye by air. In bo -- dy I en -- dure, but
  But why I a -- bide by a bur -- den
  Bye bye, but that bye bye bye
@@ -271,11 +245,12 @@ firstVerse_text = \lyricmode {
  Mo -- ther of light, a -- ight? A -- ight?
  High -- er. High -- er than a fli -- er.
  Light -- er than a fi__ ah -- re  fly__. Yeah.
-}
  
-moreVerse_text = \lyricmode { 
-  
-  
+ Hea -- ven bet -- ter be all that.
+ Hea -- ven bet -- ter be all that.
+ Hea -- ven bet -- ter be all that.
+ More than this? That's a lot. A lot to ask.
+ 
  Fa la la la I I I I
  Born by a tribe I like and love.
  Bold trends I try, would not de -- fy tra -- di -- tion,
@@ -349,6 +324,7 @@ moreVerse_text = \lyricmode {
  La la la la la life af -- ter life
 
 }
+ 
 
 
 harmonies = \chordmode {
@@ -392,9 +368,7 @@ harmonies = \chordmode {
       \harmonies
     }
   	\new Voice = "voice" { \melody  }
-  	\new Lyrics \lyricsto "verseOne" \firstVerse_text
-  	\new Lyrics \lyricsto "chorus" \chorus_text
-  	\new Lyrics \lyricsto "verse" \moreVerse_text
+  	\new Lyrics \lyricsto "lyrics" \text
   >>
   
   \layout { }
