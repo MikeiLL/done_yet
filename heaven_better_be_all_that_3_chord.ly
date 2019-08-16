@@ -12,8 +12,6 @@ melody = \relative c'' {
   \clef treble
   \key d \major
   \time 6/8 
-  \set Score.voltaSpannerDuration = #(ly:make-moment 12/8)
-  #(ly:expect-warning "cannot end volta") 
   
   r4. d( | e8) r d4 b8 g16 a~ | a4( b8 g4) e8 | r8 a,4 b8( d e) |
   g4 a8 b4( d8 | a g) a4 r | r b,8 cis e g | a4 g8 e4 r8 |
@@ -31,7 +29,7 @@ melody = \relative c'' {
 	r2. | fis8 fis fis fis fis4~ | fis2. | g4 e2 | % Heaven better
 	r2. | fis8 fis fis fis fis4~ | fis2. | g4 e2 |
 	r2. | fis8 fis fis fis fis4~ | fis2. | g4 e2 |
-	d4 e d | r2. | cis4 d8 e4. | r4 a8 cis4 b8 | % That's a lot ... a lot to
+	d4 e d | r2. | cis4 d8 e4. | r4 a,8 cis4 b8 | % That's a lot ... a lot to
 	b4 r2 |
 	
 	r4 b, d8 e | g a4 b4 g8~ | g4 e r |  % Offering a bowl of warm milk
@@ -55,15 +53,18 @@ melody = \relative c'' {
 
 	% CHORUS
 	r2. | fis'8 fis fis fis fis4~ | fis2. | g4 e2 | % Heaven better
-			r2. | fis8 fis fis fis fis4~ | fis2. | g4 e2 |
-			r2. | fis8 fis fis fis fis4~ | fis2. | g4 e2 |
-			d4 e d | r2. | cis4 d8 e4. | r4 a8 cis4 b8 | % That's a lot ... a lot to
-			b4 r2 |
-		}
-		r4 b' a | g2.~ | g4 cis, g | % ask.
-		b4 r2 | r4 b' a | g2.~ | g4 cis, g | 
-
-	r2. | r4 e8 fis g4 | g8 r a r a16( b) r8 | b r b4( a~)  | % Fa la la la I I I I
+	r2. | fis8 fis fis fis fis4~ | fis2. | g4 e2 |
+	r2. | fis8 fis fis fis fis4~ | fis2. | g4 e2 |
+	d4 e d | r2. | cis4 d8 e4. | r4 a,8 cis4 b8 | % That's a lot ... a lot to
+	b4 r2 | % ask.
+  }
+  
+  r4 b' a | g2.~ | g4 cis, g | 
+  b4 r2 | r4 b' a | g2.~ | g4 cis, g | 
+	
+  \context Voice = "lyrics" {
+  	\set associatedVoice = "text"
+  	r2. | r4 e8 fis g4 | g8 r a r a16( b) r8 | b r b4( a~)  | % Fa la la la I I I I
 	a2 r4 | r2. | e4 fis8. g fis8~ | fis4. e8 e b | % mBorn by a tribe I like and 
 	e8. r r4. | r8. g' a b | a8 r g a g4 | a8( b) e,4 g~ | % love. Bold trends I try, would not defy tra-
 	g4. e4 d8~ | d8. b a g | b,2. | r2 r8 b~ |  % dition, but let me be clear. Her-.
@@ -75,161 +76,17 @@ melody = \relative c'' {
 	r4 d8 d d d | r4 g8 r e r | % Halleluja hip hip.
 	r4 d8 d d d | e r e r b r | % Halleluja hip hip. What
 
-	% Here ’n’ I a 
-	% Yeah I I I I I a
-	% Awh ah an
-
-	% High, why I ever
-	% Why I ever lie yeah
-	% Hey it’s such a game we are playing. Yeah. Hey.
-
-	% Hey hey hey hip hip by us say what by us say what said tru all of my yodel 
-	% Hip hip my yodel goin’ up.
-	% CHORUS
-	% 
-	% In that spot, that mind that got desire less
-	% Be on that
-	% Great land that feels
-	% Better than heaven ever
-	% Softly as a landing feather
-	% Gently by a well adroit sweet nimble finger of sky
-	%  
-	% Rolling and a tum-ba-ling a-
-	% Round about above a mother
-	% Ready ever. Any weather.
-	% Guided by complete surrender.
-	% 
-	% Man and woman, humankind we
-	% All got deep and deeper into trouble
-	% Mmm Build that build that Babel Tower up
-	% 
-	% Za ba bap za ba bap
-	% Za ba bap ba ba ba bap
-	% Ba ba bap ba ba bap ba ba bap
-	% Ba ba ba bop bop bop bap ba bap
-	% 
-	% Higher higher higher higher 
-	% Higher higher wow!
-	% 
-	% CHORUS
-	% 
-	% Got it in our blood, papa. Good, papa.
-	% Ma was in the wood cut pile up up our
-	% Though I understood what the thought was for
-	% How ‘bout by lunch I forget it?
-	% 
-	% Every day I wake up
-	% So far. What for?
-	% But I lie awake a lot late ask not what for
-	% Walking on a wide
-	% One a wide foot-pounded ground network of trails
-	% 
-	% Every time we think that we’ve found some peace and some
-	% Peace and some peace and security
-	% Well buddy babe you can bet bet bet that the media.
-	% Audio, video, billboard and radio
-	% Grabbing ahold of my mind and my wallet
-	% Benny after Benny and a
-	% Billion and a billion and a
-	% Zillion you would think that we’re buying
-	% La la la la la life after life
-	% 
-	% CHORUS
-	% Offering a bowl of warm milk
-	% Pair of handcuffs as a decoration
-	% Fancy bracelets
-	% Tie up. Why abandon us.
-	% Why abandon all our praises.
-	% 
-	% I am, I am, I am ever your servant, 
-	% Mother of light, all right?
-	% Higher. Higher than a flier.
-	% Lighter than a fire– fly. Yeah.
-	% 
-	% CHORUS
-	% 
-	% Fa la la la I I I I
-	% Born by a tribe I like and love.
-	% Bold trends I try, would not defy tradition
-	% But let me be clear.
-	% 
-	% Her. Our. All our us combined right here.
-	% Ever come what lie. Ah.
-	% Holler holler. Hip hip.
-	% Hell of hell of hip hip.
-	% Halleluja hip hip.
-	% Halleluja hip hip. What
-	% 
-	% Here ’n’ I a 
-	% Yeah I I I I I a
-	% Awh ah an
-	% 
-	% High, why I ever
-	% Why I ever lie yeah
-	% Hey it’s such a game we are playing. Yeah. Hey.
-	% 
-	% Hey hey hey hip hip by us say what by us say what said tru all of my yodel 
-	% Hip hip my yodel goin’ up.
-	% 
-	% CHORUS
-	% 
-	% In that spot, that mind that got desire less
-	% Be on that
-	% Great land that feels
-	% Better than heaven ever
-	% Softly as a landing feather
-	% Gently by a well adroit sweet nimble finger of sky
-	%  
-	% Rolling and a tum-ba-ling a-
-	% Round about above a mother
-	% Ready ever. Any weather.
-	% Guided by complete surrender.
-	% 
-	% Man and woman, humankind we
-	% All got deep and deeper into trouble
-	% Mmm Build that build that Babel Tower up
-	% 
-	% Za ba bap za ba bap
-	% Za ba bap ba ba ba bap
-	% Ba ba bap ba ba bap ba ba bap
-	% Ba ba ba bop bop bop bap ba bap
-	% 
-	% Higher higher higher higher 
-	% Higher higher wow!
-	% 
-	% CHORUS
-	% 
-	% Got it in our blood, papa. Good, papa.
-	% Ma was in the wood cut pile up up far
-	% Though I understood what the thought was for
-	% How ‘bout by lunch I forget it?
-	% 
-	% Every day I wake up
-	% So far. What for?
-	% But I lie awake a lot late ask not what for
-	% Walking on a wide
-	% One a wide foot-pounded ground network of trails
-	% 
-	% Every time we think that we’ve found some peace and some
-	% Peace and some peace and security
-	% Well buddy babe you can bet bet bet that the media.
-	% Audio, video, billboard and radio
-	% Grabbing ahold of my mind and my wallet
-	% Benny after Benny and a
-	% Billion and a billion and a
-	% Zillion you would think that we’re buying
-	% La la la la la life after life
-	% 
-	% CHORUS
-
+	c8( d4 b8 a g) | r4. g16 g4( a16 | b8 d b g \startTrillSpan e4~ | e4.)  r | % Here n I a 
+	
   }
+}
   
-
 text = \lyricmode {
  Bye bye by air. In bo -- dy I en -- dure, but
  But why I a -- bide by a bur -- den
  Bye bye, but that bye bye bye
  With that put but by bye bye a -- bide
+ 
  Hea -- ven bet -- ter be all that.
  Hea -- ven bet -- ter be all that.
  Hea -- ven bet -- ter be all that.
@@ -273,20 +130,18 @@ text = \lyricmode {
  
  Hey hey hey hip hip by us say what by us say what said tru all of my yo -- del 
  Hip hip my yo -- del goin’ up.
- 
-
- 
+  
  In that spot, that mind that got de -- sire less
  Be on that
  Great land that feels
  Bet -- ter than hea -- ven e -- ver
  Soft -- ly as a land -- ing fea -- ther
- Gent -- ly by a well ad -- roit sweet nim -- ble fin -- ger of sky
+ Gent -- ly by a well ad -- roit, sweet, nim -- ble fin -- ger of sky
   
  Rol -- ling and a tum- ba- ling a --
  round a -- bout a -- bove a mo -- ther
  Rea -- dy e -- ver. A -- ny wea -- ther.
- Guided by complete surrender.
+ Gui -- ded by com -- plete sur -- ren -- der.
  
  Man and wo -- man, hum -- an -- kind we
  All got deep and deep -- er in -- to trou -- ble
@@ -299,8 +154,6 @@ text = \lyricmode {
  
  High -- er high -- er high -- er high -- er 
  High -- er high -- er wow!
- 
-
  
  Got it in our blood, papa. Good, papa.
  Ma was in the wood cut pile up up far
