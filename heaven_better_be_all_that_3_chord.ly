@@ -74,11 +74,11 @@ melody = \relative c'' {
 	r4 g,8 g g g | r4 d'8( e) d( e) | % Holler holler. Hip hip.
 	r4 d8 d d d | r4 e8 r b r | % Hell of hell of hip hip.
 	r4 d8 d d d | r4 g8 r e r | % Halleluja hip hip.
-	r4 d8 d d d | e r e r b r | % Halleluja hip hip. What
+	r4 d8 d d d | e r e r b r | % Halleluja hip hip. What-
 
-	c8( d4 b8 a g) | r4. g16 g4( a16 | b8 d b g \startTrillSpan e4~ | e4.)  r | % Here n I a 
-	% Yeah I I I I I a
-	% Awh ah an
+	c8( d4 b8) a( g) | r4. g16~ g4( a16) | b8( d b g \startTrillSpan e4~ | e4.)  g4\stopTrillSpan r8 | % ever nobody
+	r4 g( a~ | a8) b4 d8( b a | g8.) e8. e4. | e4 g b,8 r | % Yeah, Ay Yai Yai I I pray with
+	r4 b2~ | b8 d e g a b | a8. g d4 e16( fis) | e4.( fis4) r8 | % all and every tiny corner of my mind
 
 	% High, why I ever
 	% Why I ever lie yeah
@@ -265,11 +265,11 @@ faLaLa = \lyricmode {
  Hol -- ler hol -- ler. Hip hip.
  Hell of hell of hip hip.
  Hal -- le -- lu -- ja hip hip.
- Hal -- le -- lu -- ja hip hip. What
+ Hal -- le -- lu -- ja hip hip. What -- 
  
- Here ’n’ I a 
- Yeah I I I I I a
- Awh ah an
+ e -- ver no -- bo -- dy
+ Yeah, Ay Yai Yai I I pray with
+ all and eve -- ry ti -- ny cor -- ner of my mind
  
  High, why I ever
  Why I ever lie yeah
