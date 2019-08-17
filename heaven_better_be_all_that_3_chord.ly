@@ -80,9 +80,8 @@ melody = \relative c'' {
 	r4 g( a~ | a8) b4 d8( b a | g8.) e8. e4. | e4 g b,8 r | % Yeah, Ay Yai Yai I I pray with
 	r4 b2~ | b8 d e g a b | a8. g d4 e16( fis) | e4.( fis4) r8 | % all and every tiny corner of my mind
 
-	% High, why I ever
-	% Why I ever lie yeah
-	% Hey it’s such a game we are playing. Yeah. Hey.
+	r4 b2 | d8. b a e | g4. a8 g e | g( e4.) e4  | % High, why I ever Why I ever lie yeah
+	r8. e'(d16 e4 d16 | e4) d8. b8 e,8. | % Hey it’s such a game we are playing. Yeah. Hey.
 
 	% Hey hey hey hip hip by us say what by us say what said tru all of my yodel 
 	% Hip hip my yodel goin’ up.
@@ -271,8 +270,7 @@ faLaLa = \lyricmode {
  Yeah, Ay Yai Yai I I pray with
  all and eve -- ry ti -- ny cor -- ner of my mind
  
- High, why I ever
- Why I ever lie yeah
+ High, why I e -- ver; why I e -- ver lie yeah
  Hey it’s such a game we are play -- ing. Yeah. Hey.
  
  Hey hey hey hip hip by us say what by us say what said tru all of my yo -- del 
