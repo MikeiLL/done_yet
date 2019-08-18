@@ -41,7 +41,7 @@ melody = \relative c'' {
 
 	g4) r8 e'4 d16( a | g8) r8. e'4 d16( a g~)  | % I am, I am,
 	g8 r g'4. e16 d | a8. g a16 b e,4 |  % I am ever your servant,
-	g4. a8 b4 | r4. a8 b4 | %  Mother of light, a' right? A' right?
+	g4. a8 b4 | r4.( a8 b4) | %  Mother of light. A' right?
 	r2. | 
 	g,4.( a8 b16 c d e~ | e8. g8. a8 b16 g8.~ | % High- 
 	g8) e8 r4 d'~ | d8 b8 g e r g~ | % er. Higher than a fl-
@@ -99,6 +99,8 @@ melody = \relative c'' {
     
  r4 b' a | g2.~ | g4 cis, g | 
  b4 r2 | r4 b' a | g2.~ | g4 cis, g | 
+ \new Voice = "verseFour" {
+  	\set associatedVoice = "text"
 	% 
 	% In that spot, that mind that got desire less
 	% Be on that
@@ -124,7 +126,17 @@ melody = \relative c'' {
 	% Higher higher higher higher 
 	% Higher higher wow!
 	% 
+	
 	% CHORUS
+  	\tuplet 3/2 {a4( b8)} r2 | fis'8 fis fis fis fis4~ | fis2. | g4 e2 | % up. Heaven better
+  	r2. | fis8 fis fis fis fis4~ | fis2. | g4 e2 |
+  	r2. | fis8 fis fis fis fis4~ | fis2. | g4 e2 |
+  	d4 e d | r2. | cis4 d8 e4. | r4 a,8 cis4 b8 | % That's a lot ... a lot to
+  	b4 r2 | % ask.
+ }
+    
+ r4 b' a | g2.~ | g4 cis, g | 
+ b4 r2 | r4 b' a | g2.~ | g4 cis, g |
 	% 
 	% Got it in our blood, papa. Good, papa.
 	% Ma was in the wood cut pile up up our
@@ -255,7 +267,7 @@ text = \lyricmode {
  Why ab -- an -- don all our prai -- ses.
  
  I am, I am, I am e -- ver your ser -- vant, 
- Mo -- ther of light, a -- ight? A -- ight?
+ Mo -- ther of light. A -- ight?
  High -- er. High -- er than a fli -- er.
  Light -- er than a fi__ ah -- re  fly__. Yeah.
  
