@@ -41,7 +41,7 @@ melody = \relative c'' {
 
 	g4) r8 e'4 d16( a | g8) r8. e'4 d16( a g~)  | % I am, I am,
 	g8 r g'4. e16 d | a8. g a16 b e,4 |  % I am ever your servant,
-	g4. a8 b4 | r4.( a8 b4) | %  Mother of light. A' right?
+	g4.( a8 b4) | r4. a8 b4 | %  Mother of light. A' right?
 	r2. | 
 	g,4.( a8 b16 c d e~ | e8. g8. a8 b16 g8.~ | % High- 
 	g8) e8 r4 d'~ | d8 b8 g e r g~ | % er. Higher than a fl-
