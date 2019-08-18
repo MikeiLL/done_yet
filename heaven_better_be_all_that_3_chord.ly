@@ -81,11 +81,24 @@ melody = \relative c'' {
 	r4 b2~ | b8 d e g a b | a8. g d4 e16( fis) | e4.( fis4) r8 | % all and every tiny corner of my mind
 
 	r4 b2 | d8. b a e | g4. a8 g e | g( e4.) e4  | % High, why I ever Why I ever lie yeah
-	r8. e'(d16 e4 d16 | e4) d8. b8 e,8. | % Hey it’s such a game we are playing. Yeah. Hey.
+	r8. e'(d16 e4 d16 | e4) d8. b8 e,8. | g4. a8 b g~ | g4 e2 | % Hey it’s such a game we are playing. 
+	d2.( | b4 d e) | g4.( a8 e4~ | e8) r e' r e r | % Yeah. Hey. Hey hey
 
-	% Hey hey hey hip hip by us say what by us say what said tru all of my yodel 
-	% Hip hip my yodel goin’ up.
+	e r d r b r | \tuplet 3/2 {a4( b8)} g4 e | % hey hip hip by us say
+	g8 r \tuplet 3/2 {a4( b8)} g4 | r \tuplet 3/2 {g4 r8} \tuplet 3/2 {a4( b8)} | % what by us what said
+	g4 e g | \tuplet 3/2 {a4( b8)} g4 e | % tru all of my yodel 
+	\tuplet 3/2 {e'4 r8} \tuplet 3/2 {d4 r8} \tuplet 3/2 {a4( b8)} | g4 \tuplet 3/2 {e4 r8} g4 | % Hip hip my yodel goin’ 
+	
 	% CHORUS
+  	\tuplet 3/2 {a4( b8)} r2 | fis'8 fis fis fis fis4~ | fis2. | g4 e2 | % up. Heaven better
+  	r2. | fis8 fis fis fis fis4~ | fis2. | g4 e2 |
+  	r2. | fis8 fis fis fis fis4~ | fis2. | g4 e2 |
+  	d4 e d | r2. | cis4 d8 e4. | r4 a,8 cis4 b8 | % That's a lot ... a lot to
+  	b4 r2 | % ask.
+ }
+    
+ r4 b' a | g2.~ | g4 cis, g | 
+ b4 r2 | r4 b' a | g2.~ | g4 cis, g | 
 	% 
 	% In that spot, that mind that got desire less
 	% Be on that
@@ -222,7 +235,6 @@ melody = \relative c'' {
 	% 
 	% CHORUS
 	
-  }
 }
   
 text = \lyricmode {
@@ -273,8 +285,13 @@ faLaLa = \lyricmode {
  High, why I e -- ver; why I e -- ver lie yeah
  Hey it’s such a game we are play -- ing. Yeah. Hey.
  
- Hey hey hey hip hip by us say what by us say what said tru all of my yo -- del 
+ Hey hey hey hip hip by us say what by us what said tru all of my yo -- del 
  Hip hip my yo -- del goin’ up.
+ 
+ Hea -- ven bet -- ter be all that.
+ Hea -- ven bet -- ter be all that.
+ Hea -- ven bet -- ter be all that.
+ More than this? That's a lot. A lot to ask.
   
  In that spot, that mind that got de -- sire less
  Be on that
@@ -352,6 +369,9 @@ harmonies = \chordmode {
 	b2.:min | b:min | e:min | e:min |
 	b2.:min | b:min | e:min | e:min |
 	
+	g | g | e:min | e:min | g | g | e:min | e:min |
+	g | g | e:min | e:min | g | g | e:min | e:min |
+	g | g | e:min | e:min | g | g | e:min | e:min |
 	g | g | e:min | e:min | g | g | e:min | e:min |
 	g | g | e:min | e:min | g | g | e:min | e:min |
 	g | g | e:min | e:min | g | g | e:min | e:min |
