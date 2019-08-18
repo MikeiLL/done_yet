@@ -102,19 +102,20 @@ melody = \relative c'' {
  \new Voice = "verseFour" {
   	\set associatedVoice = "text"
 	% 
-	% In that spot, that mind that got desire less
-	% Be on that
-	% Great land that feels
-	% Better than heaven ever
-	% Softly as a landing feather
-	% Gently by a well adroit sweet nimble finger of sky
+	r2. | r8. a8( b8.) cis8 r | e8 r g r a8.( b16 | a4) g e | % In that spot, that mind that got 
+	r4 b8. d8.~ d8~ | d4. e8 r4 | % desire less
+	r8 b d2~ | d4. e8 r b' | % Be on that great
+	r4 b b8. d16~ | d4. b8 a g | % land that feels better than 
+	a b g2( | e8) e8 r4. d'8~ | % heaven ever
+	d8 r b a g a~ | a8 b r g4.~ | g4( e8) e4. | r2. | % Softly as a landing feather
+	a,8. b d e | g8 a16( b) a16( b8.) a16( b8.) | % Gently by a well adroit sweet 
+	a8 g a g e g~ | g2 r4 | % nimble finger of sky
 	%  
-	% Rolling and a tum-ba-ling a-
-	% Round about above a mother
-	% Ready ever. Any weather.
-	% Guided by complete surrender.
+	r4 e,8 c b a | r4 b8 a g fis | r4 e8 fis g a | b d b4 a8 r | % Rolling and a tum-ba-ling a-Round about above a mother
+	r4 fis'8 e d b | r4 e8 d b g | % Ready ever. Any weather.
+	r4 e8 fis g a | b d b4. a8 |% Guided by complete surrender.
 	% 
-	% Man and woman, humankind we
+	r4. d4~ d16 e16~ | e8 r2 g8~ | g4. b16 r8 a16( b8~)| b4( fis8) fis r4 | % Man and woman, humankind we
 	% All got deep and deeper into trouble
 	% Mmm Build that build that Babel Tower up
 	% 
@@ -128,7 +129,7 @@ melody = \relative c'' {
 	% 
 	
 	% CHORUS
-  	\tuplet 3/2 {a4( b8)} r2 | fis'8 fis fis fis fis4~ | fis2. | g4 e2 | % up. Heaven better
+  	r2. | fis'8 fis fis fis fis4~ | fis2. | g4 e2 | % up. Heaven better
   	r2. | fis8 fis fis fis fis4~ | fis2. | g4 e2 |
   	r2. | fis8 fis fis fis fis4~ | fis2. | g4 e2 |
   	d4 e d | r2. | cis4 d8 e4. | r4 a,8 cis4 b8 | % That's a lot ... a lot to
@@ -140,14 +141,14 @@ melody = \relative c'' {
 	% 
 	% Got it in our blood, papa. Good, papa.
 	% Ma was in the wood cut pile up up our
-	% Though I understood what the thought was for
+	% Thought I understood what the thought was for
 	% How ‘bout by lunch I forget it?
 	% 
 	% Every day I wake up
 	% So far. What for?
 	% But I lie awake a lot late ask not what for
 	% Walking on a wide
-	% One a wide foot-pounded ground network of trails
+	% On a wide foot-pounded ground network of trails
 	% 
 	% Every time we think that we’ve found some peace and some
 	% Peace and some peace and security
@@ -329,6 +330,11 @@ faLaLa = \lyricmode {
  High -- er high -- er high -- er high -- er 
  High -- er high -- er wow!
  
+ Hea -- ven bet -- ter be all that.
+ Hea -- ven bet -- ter be all that.
+ Hea -- ven bet -- ter be all that.
+ More than this? That's a lot. A lot to ask.
+ 
  Got it in our blood, papa. Good, papa.
  Ma was in the wood cut pile up up far
  Thought I un -- der -- stood what the thought was for
@@ -338,7 +344,7 @@ faLaLa = \lyricmode {
  So far. What for?
  But I lie a -- wake a lot late ask not what for
  Walk -- ing on a wide
- One a wide foot-pound -- ed ground net -- work of trails
+ On a wide foot-pound -- ed ground net -- work of trails
  
  Eve -- ry time we think that we’ve found some peace and some
  Peace and some peace and se -- cu -- ri -- ty
@@ -349,6 +355,69 @@ faLaLa = \lyricmode {
  Bil -- lion and a bil -- lion and a
  Zil -- lion you would think that we’re buy -- ing
  La la la la la life af -- ter life
+ 
+ Hea -- ven bet -- ter be all that.
+ Hea -- ven bet -- ter be all that.
+ Hea -- ven bet -- ter be all that.
+ More than this? That's a lot. A lot to ask.
+
+}
+
+inThatSpot = \lyricmode {
+ In that spot, that mind that got de -- sire less
+ Be on that
+ Great land that feels
+ Bet -- ter than hea -- ven e -- ver
+ Soft -- ly as a land -- ing fea -- ther
+ Gent -- ly by a well ad -- roit, sweet, nim -- ble fin -- ger of sky
+  
+ Rol -- ling and a tum- ba- ling a --
+ round a -- bout a -- bove a mo -- ther
+ Rea -- dy e -- ver. A -- ny wea -- ther.
+ Gui -- ded by com -- plete sur -- ren -- der.
+ 
+ Man and wo -- man, hum -- an -- kind we
+ All got deep and deep -- er in -- to trou -- ble
+ Mmm Build that build that Ba -- bel Tower up
+ 
+ Za ba bap za ba bap
+ Za ba bap ba ba ba bap
+ Ba ba bap ba ba bap ba ba bap
+ Ba ba ba bop bop bop bap ba bap
+ 
+ High -- er high -- er high -- er high -- er 
+ High -- er high -- er wow!
+ 
+ Hea -- ven bet -- ter be all that.
+ Hea -- ven bet -- ter be all that.
+ Hea -- ven bet -- ter be all that.
+ More than this? That's a lot. A lot to ask.
+ 
+ Got it in our blood, papa. Good, papa.
+ Ma was in the wood cut pile up up far
+ Thought I un -- der -- stood what the thought was for
+ How ‘bout by lunch I for -- get it?
+ 
+ Eve -- ry day I wake up
+ So far. What for?
+ But I lie a -- wake a lot late ask not what for
+ Walk -- ing on a wide
+ On a wide foot-pound -- ed ground net -- work of trails
+ 
+ Eve -- ry time we think that we’ve found some peace and some
+ Peace and some peace and se -- cu -- ri -- ty
+ Well bud -- dy babe you can bet bet bet that the me -- di -- a.
+ Au -- di -- o, vi -- de -- o, bill -- board and ra -- di -- o
+ Grab -- bing a -- hold of my mind and my wal -- let
+ Ben -- ny af -- ter Ben -- ny and a
+ Bil -- lion and a bil -- lion and a
+ Zil -- lion you would think that we’re buy -- ing
+ La la la la la life af -- ter life
+ 
+ Hea -- ven bet -- ter be all that.
+ Hea -- ven bet -- ter be all that.
+ Hea -- ven bet -- ter be all that.
+ More than this? That's a lot. A lot to ask.
 
 }
  
@@ -389,6 +458,21 @@ harmonies = \chordmode {
 	g | g | e:min | e:min | g | g | e:min | e:min |
 	g | g | e:min | e:min | g | g | e:min | e:min |
 	g | g | e:min | e:min | g | g | e:min | e:min |
+	g | g | e:min | e:min | 
+	
+	% Chorus
+	b2.:min | b:min | e:min | e:min |
+	b2.:min | b:min | e:min | e:min |
+	b2.:min | b:min | e:min | e:min |
+	g | g | a | a |
+	b2.:min | b:min | e:min | e:min |
+	b2.:min | b:min | e:min | e:min |
+	
+	g | g | e:min | e:min | g | g | e:min | e:min |
+	g | g | e:min | e:min | g | g | e:min | e:min |
+	g | g | e:min | e:min | g | g | e:min | e:min |
+	g | g | e:min | e:min | g | g | e:min | e:min |
+	g | g | e:min | e:min | g | g | e:min | e:min |
 }
 
 \score {
@@ -400,6 +484,7 @@ harmonies = \chordmode {
   	\new Voice = "voice" { \melody  }
   	\new Lyrics \lyricsto "lyrics" \text
   	\new Lyrics \lyricsto "verseThree" \faLaLa
+  	\new Lyrics \lyricsto "verseFour" \inThatSpot
   >>
   
   \layout { }
