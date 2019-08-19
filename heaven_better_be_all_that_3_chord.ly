@@ -146,13 +146,13 @@ melody = \relative c'' {
 	e4 b r | r4. d,4 r8 | e4. g4 r8 | a r d d d d | % wake up So far. What for? But I lie a-
 	e g d r b r | a4 g d8 r | e2 r4 | r2. | % wake a lot late ask not what for
 	r2 \tuplet 3/2 { d'8 d d } | \tuplet 3/2 { d4 g8~ } g2( | g4 \tuplet 3/2 {fis4 g8} fis4 | \tuplet 3/2 {e4 fis8} e2~ | % Walking on a wi-
-	e8 d~ \tuplet 3/2 { d4 e8 } d4 | \tuplet 3/2 { b4 d8 } b4) \tuplet 3/2 { a4 b8 } | a4. g8 a b | g4. e8 d b16 e~ | e4. r | % de On a wide foot-pounded ground network of trails
+	e8 d~ \tuplet 3/2 { d4 e8 } d4 | \tuplet 3/2 { b4 d8 } b4) \tuplet 3/2 { a4 b8 } | a4. g8 a b | g4 e8 d b e | % de On a wide foot-pounded ground network of trails
 	% 
-	% Every time we think that we’ve found some peace and some
-	% Peace and some peace and security
-	% Well buddy babe you can bet bet bet that the media.
-	% Audio, video, billboard and radio
-	% Grabbing ahold of my mind and my wallet
+	r4. g,8 a a | b b c d e g | \tuplet 4/3 { a8 r a a4 a a8 } | % Every time we think that we’ve found some peace and some peace and 
+	a8 r a r \tuplet 3/2 { a r a } | a4 g8 e4 r8 | % some peace and security
+	a4 a8 a \tuplet 3/2 { a a a } | a8. a a8 a a | r8 a4 g8 e4 | % Well buddy babe you can bet bet bet that the media: 
+	r4 a g8 d | b'4 g8 e a4 | g8 e4 r8 b'4 | g8 e4 b' g8 | % Audio, video, billboard and radio
+	e r d4. b8 | % Grabbing ahold of my mind and my wallet
 	% Benny after Benny and a
 	% Billion and a billion and a
 	% Zillion you would think that we’re buying
