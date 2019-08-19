@@ -115,17 +115,17 @@ melody = \relative c'' {
 	r4 fis'8 e d b | r4 e8 d b g | % Ready ever. Any weather.
 	r4 e8 fis g a | b d b4. a8 |% Guided by complete surrender.
 	% 
-	r4. d4~ d16 e16~ | e8 r2 g8~ | g4. b16 r8 a16( b8~)| b4( fis8) fis r4 | % Man and woman, humankind we
-	% All got deep and deeper into trouble
-	% Mmm Build that build that Babel Tower up
+	r4. d4~ d16 e16~ | e8 r2 g8~ | g4. b16 r8 a16( b8~)| b4( fis8) fis r fis~ | % Man and woman, human
+	fis4. d4 e8~ | e8. g a b | d4 e8 d b a~ | a4. g4 r8 | % kind we all got deep and deeper into trouble
+	r8 a4 a4~ a16( g~) | g8 g r a4 g8 | r4 d'8 a8. b8.~ | b4. b8 r4 | % Mmm Build that build that Babel Tower up
 	% 
-	% Za ba bap za ba bap
-	% Za ba bap ba ba ba bap
-	% Ba ba bap ba ba bap ba ba bap
-	% Ba ba ba bop bop bop bap ba bap
+	\tuplet 4/6 { r8 a16 a a r g g } | \tuplet 4/6 { g r8 e16 e e r8 } | % Za ba bap za ba bap
+	d16 d d d r8 \tuplet 3/2 { e8 e e } r8  | \tuplet 4/6 { g16 g g r a a a r } | % Za ba bap ba ba ba bap Ba ba bap ba ba bap 
+	\tuplet 4/6 { b16 b b b b b8 b16~ } | \tuplet 4/6 { b16 d8 d d g16~ } | % ba ba bap Ba ba ba bop bop bop bap ba bap
 	% 
-	% Higher higher higher higher 
-	% Higher higher wow!
+	g4. a8 e4 | d8 r4 g4.~ | g8. a8 r16 e8. d8 r16 | % Higher higher higher higher 
+	g8 a8 r e4 d8 | b'2(\glissando b,4) | % Higher higher wow!
+	% this might have been a measure of higher higher 
 	% 
 	
 	% CHORUS
@@ -383,7 +383,7 @@ inThatSpot = \lyricmode {
  Za ba bap za ba bap
  Za ba bap ba ba ba bap
  Ba ba bap ba ba bap ba ba bap
- Ba ba ba bop bop bop bap ba bap
+ Ba ba ba ba bop bop bop bap ba bap
  
  High -- er high -- er high -- er high -- er 
  High -- er high -- er wow!
@@ -473,6 +473,16 @@ harmonies = \chordmode {
 	g | g | e:min | e:min | g | g | e:min | e:min |
 	g | g | e:min | e:min | g | g | e:min | e:min |
 	g | g | e:min | e:min | g | g | e:min | e:min |
+	g | g | e:min | e:min | g | g | e:min | e:min |
+	g | g | e:min | e:min | 
+	
+	% Chorus
+	b2.:min | b:min | e:min | e:min |
+	b2.:min | b:min | e:min | e:min |
+	b2.:min | b:min | e:min | e:min |
+	g | g | a | a |
+	b2.:min | b:min | e:min | e:min |
+	b2.:min | b:min | e:min | e:min |
 }
 
 \score {
