@@ -123,7 +123,7 @@ melody = \relative c'' {
 	\tuplet 4/6 { b16 b b b b b8 b16~ } | \tuplet 4/6 { b16 d8 d d g16~ } | % ba ba bap Ba ba ba bop bop bop bap ba bap
 	% 
 	g4. a8 e4 | d8 r4 g4.~ | % Higher higher high-
-	g8. a8 r16 e8. d~ | d8 r g e4 r8 | % er higher Higher
+	g8. a8 r16 e8. d~ | d8 r g a4 r8 | % er higher Higher
 	e4 d b'~ | b2 (\glissando b,4) | %  higher wow!
 
 	% CHORUS
@@ -372,14 +372,13 @@ harmonies = \chordmode {
 	g | g | e:min | e:min | g | g | e:min | e:min |
 	g | g | e:min | e:min | g | g | e:min | e:min |
 	g | g | e:min | e:min | g | g | e:min | e:min |
-	g | g | e:min | e:min | 
+	g | g | e:min | e:min | g | g | e:min | e:min | 
 	
 	% Chorus
 	b2.:min | b:min | e:min | e:min |
 	b2.:min | b:min | e:min | e:min |
 	b2.:min | b:min | e:min | e:min |
 	g | g | a | a |
-	b2.:min | b:min | e:min | e:min |
 	b2.:min | b:min | 
 }
 
