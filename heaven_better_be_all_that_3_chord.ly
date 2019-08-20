@@ -151,16 +151,28 @@ melody = \relative c'' {
 	r4. g,8 a a | b b c d e g | \tuplet 4/3 { a8 r a a4 a a8 } | % Every time we think that we’ve found some peace and some peace and 
 	a8 r a r \tuplet 3/2 { a r a } | a4 g8 e4 r8 | % some peace and security
 	a4 a8 a \tuplet 3/2 { a a a } | a8. a a8 a a | r8 a4 g8 e4 | % Well buddy babe you can bet bet bet that the media: 
-	r4 a g8 d | b'4 g8 e a4 | g8 e4 r8 b'4 | g8 e4 b' g8 | % Audio, video, billboard and radio
-	e r d4. b8 | % Grabbing ahold of my mind and my wallet
-	% Benny after Benny and a
-	% Billion and a billion and a
-	% Zillion you would think that we’re buying
-	% La la la la la life after life
-	% 
+	r4 a g8 d | b'4 g8 e a4 | g8 e4 r8 b'4 | g8 e4 b'8 g e| % Audio, video, billboard and radio
+	e'4. d8 b4 | a4 g a | e4 g2 | r2. | % Grabbing ahold of my mind and my wallet
+	r4. \tuplet 4/3 {e8 e e e} | \tuplet 4/3 { g g g g } \tuplet 4/3 { a a a a } | % Benny after Benny and a Billion and a 
+	d d d d e e | e8. e \tuplet 4/3 { g8 fis g a } | % billion and a Zillion you would think we’re buying
+	\tuplet 4/3 { b4 b b b } | % La la la la 
+	b32 b b b 
+	b b b b 
+	b b b b 
+	b b b b 
+	b b b b
+	b b b b | % lax32 
+	a4 g e | g2. | % life after life
 	
 	% CHORUS
-	}
+  	r2. | fis8 fis fis fis fis4~ | fis2. | g4 e2 | % up. Heaven better
+  	r2. | fis8 fis fis fis fis4~ | fis2. | g4 e2 |
+  	r2. | fis8 fis fis fis fis4~ | fis2. | g4 e2 |
+  	d4 e d | r2. | cis4 d8 e4. | r4 a,8 cis4 b8 | % That's a lot ... a lot to
+  	b4 r2 | % ask.
+ }
+    
+ r4 b'8 a g4 | cis,4 cis g | b 
 	
 }
   
@@ -275,7 +287,14 @@ gotItInOurBlood = \lyricmode {
  Ben -- ny af -- ter Ben -- ny and a
  Bil -- lion and a bil -- lion and a
  Zil -- lion you would think that we’re buy -- ing
- La la la la la life af -- ter life
+ La la la la 
+ la la la la 
+ la la la la 
+ la la la la 
+ la la la la 
+ la la la la 
+ la la la 
+ life af -- ter life
  
  Hea -- ven bet -- ter be all that.
  Hea -- ven bet -- ter be all that.
@@ -361,7 +380,7 @@ harmonies = \chordmode {
 	b2.:min | b:min | e:min | e:min |
 	g | g | a | a |
 	b2.:min | b:min | e:min | e:min |
-	b2.:min | b:min | e:min | e:min |
+	b2.:min | b:min | 
 }
 
 \score {
