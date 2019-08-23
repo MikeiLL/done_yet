@@ -14,8 +14,8 @@ melody = \relative c'' {
   \time 6/8 
   
   r4. d( | e8) r d4 b8 g16 a~ | a4( b8 g4) e8 | r8 a,4 b8( d e) |
-  g4 a8 b4( d8 | a g) a4 r | r b,8 cis e g | a4 g8 e4 r8 |
-  r4 g,4. a8 | \tuplet 5/3 { b4 cis e g a~ } | a4 b8( g e) d'~ |
+  g4 a8 b4( d8 | a g) a4 r | r b,8 d e g | a4 g8 e4 r8 |
+  r4 g,4. a8 | \tuplet 5/3 { b4 d e g a~ } | a4 b8( g e) d'~ |
   d4 b8( a g4 ) |
   
   \new Voice = "lyrics" {
@@ -101,13 +101,13 @@ melody = \relative c'' {
  b4 r2 | r4 b' a | g2.~ | g4 cis, g | 
  \new Voice = "verseFour" {
 	% 
-	r2. | r8. a8( b8.) cis8 r | e8 r g r a8.( b16 | a4) g e | % In that spot, that mind that got 
+	r2. | r8. a,8( b8.) d8 r | e8 r g r a8.( b16 | a4) g e | % In that spot, that mind that got 
 	r4 b8. d8.~ d8~ | d4. e8 r4 | % desire less
 	r8 b d2~ | d4. e8 r b' | % Be on that great
 	r4 b b8. d16~ | d4. b8 a g | % land that feels better than 
 	a b g2( | e8) e8 r4. d'8~ | % heaven ever
 	d8 r b a g a~ | a8 b r g4.~ | g4( e8) e4. | r2. | % Softly as a landing feather
-	a,8. b d e | g8 a16( b) a16( b8.) a16( b8.) | % Gently by a well adroit sweet 
+	a8. b d e | g8 a16( b) a16( b8.) a16( b8.) | % Gently by a well adroit sweet 
 	a8 g a g e g~ | g2 r4 | % nimble finger of sky
 	%  
 	r4 e,8 c b a | r4 b8 a g fis | r4 e8 fis g a | b d b4 a8 r | % Rolling and a tum-ba-ling a-Round about above a mother
@@ -354,7 +354,7 @@ harmonies = \chordmode {
 	g | g | e:min | e:min | g | g | e:min | e:min |
 	g | g | e:min | e:min | g | g | e:min | e:min |
 	g | g | e:min | e:min | g | g | e:min | e:min |
-	g | g | e:min | e:min | g | g | e:min | e:min |
+	b:min | b:min | e:min | e:min | g | g | e:min | e:min |
 	g | g | e:min | e:min | g | g | e:min | e:min |
 	g | g | e:min | e:min | 
 	
