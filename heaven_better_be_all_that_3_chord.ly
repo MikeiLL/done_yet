@@ -21,7 +21,7 @@ melody = \relative c'' {
   \new Voice = "lyrics" {
   	d'8( e4) e8. e | d8( b g4) r8 a | % bye bye by air. In
   	a b g e g4~ | g4. e8 r4 | % In body i endure but
-  	a4 b8 a g d'~ | d4 b8 a g e~ | e4( g8) r4. | r4 g4. e8~ | % But why I abide by a burden. Bye bye, 
+  	a4 b8 a g d'~ | d4 b8 a( g) e~ | e4 g8 r4. | r4 g4. e8~ | % But why I abide by a burden. Bye bye, 
 	e4 d8 g4 b8~ | b4 a8( g) a4~ | % bye, but that bye bye bye
 	a b8 d4 e16 g~ | g4 a b | a( g) e8 g8~ | g2.~ | % With that put but bye bye abide
 	g2~ g8( a8 | b8) r8 r2 | % abide
@@ -64,9 +64,9 @@ melody = \relative c'' {
 	
   \new Voice = "verseThree" {
   	\set associatedVoice = "text"
-  	r2. | r4 e8 fis g4 | g8 r a r a16( b) r8 | b r b4( a~)  | % Fa la la la I I I I
-	a2 r4 | r2. | e4 fis8. g fis8~ | fis4. e8 e b | % mBorn by a tribe I like and 
-	e8. r r4. | r8. g' a b | a8 r g a g4 | a8( b) e,4 g~ | % love. Bold trends I try, would not defy tra-
+  	r2. | r4 b8 cis d4 | d8 r fis r fis16( g) r8 | g r g4( fis~)  | % fa la la la I I I I
+	fis2 r4 | r2. | b,4 cis8. d cis8~ | cis4. b8 b fis | % Born by a tribe I like and 
+	b8. r r4. | r8. g' a b | a8 r g a g4 | a8( b) e,4 g~ | % love. Bold trends I try, would not defy tra-
 	g4. e4 d8~ | d8. b a g | b,2. | r2 r8 b~ |  % dition, but let me be clear. Her-.
 
 	b4.( d4 e8)~ | e r4 a,8.( b~ | b4. d4 e8)~ | e4 r8 a,4( b8~) | b4. d4 e8~ | e r4 b'4 a8~ | a4. % Her. Our. All our us combined 
