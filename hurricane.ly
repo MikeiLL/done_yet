@@ -45,6 +45,8 @@ melody = \relative c' {
 			e8 d e2~ | e2. | g | r | % Hurricane blow
 			e8 d e2~ | e2. | g~ | g2 f4 | % Hurricane blow my
 			e2.~ | e2 d4 | c2. | r | % thoughts away
+			d8 c d2~ | d d8 f~ | f2.~ | f4 r e | d2.~ | d4 r c | b r2 | r2 r8 c | % We're as lost today as yesterday the
+			d c d2~ | d2. | f2.~ | f2 e4 | d r2 | r2. | r | r | % difference is now there's proof.
 		} 
 	  }
 	>>
@@ -80,6 +82,8 @@ verse_one =  \lyricmode {
 	Hur -- ri -- cane. 
 	Hur -- ri -- cane blow.
 	Hur -- ri -- cane blow my thoughts a -- way.
+	We're as lost to -- day as yes -- ter -- day.
+	The differ -- ence is, now there's proof.
 }
 
 
@@ -117,6 +121,10 @@ harmonies = \chordmode {
   c | c | a:m | a:m/g |
   c | c | a:m | a:m/g |
   c | c | a:m | a:m/g |
+  d:min | d:min | g | g |
+  d:min | d:min | g | g |
+  d:min | d:min | g | g |
+  d:min | d:min | g | g |
 }
 
 \score {
