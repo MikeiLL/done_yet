@@ -45,6 +45,7 @@ melody = \relative c' {
 			e8 d e2~ | e2. | g | r | % Hurricane blow
 			e8 d e2~ | e2. | g~ | g2 f4 | % Hurricane blow my
 			e2.~ | e2 d4 | c2. | r | % thoughts away
+			e8 d e2~ | e2. | g~ | g2 a4 | e4 r2 | r2. | r | r | % Hurricane, lift my roots.
 			d8 c d2~ | d d8 f~ | f2.~ | f4 r e | d2.~ | d4 r c | b r2 | r2 r8 c | % We're as lost today as yesterday the
 			d c d2~ | d2. | f2.~ | f2 e4 | d r2 | r2. | r | r | % difference is now there's proof.
 		} 
@@ -61,8 +62,8 @@ verse_one =  \lyricmode {
 	In -- stru -- ments and love af -- fairs fall a -- part with -- out some -- one to 
 	care and who knows how to care.  
 	Hur -- ri -- cane. 
-	Hur -- ri -- cane blow.
-	Hur -- ri -- cane blow my thoughts a -- way.
+	Hur -- ri -- cane, blow.
+	Hur -- ri -- cane, blow my thoughts a -- way.
 	Drawn down to the wild part of the gar -- den.
 	Best dance I e -- ver took part in.
 	Learn -- ing how for -- rests are made.
@@ -71,8 +72,8 @@ verse_one =  \lyricmode {
 	In -- ter -- ject -- ing pro -- fe -- sies of doom. Please pick up your
 	vi -- o -- lin in -- stead and pull us out a tune.
 	Hur -- ri -- cane. 
-	Hur -- ri -- cane blow.
-	Hur -- ri -- cane blow my thoughts a -- way.
+	Hur -- ri -- cane, blow.
+	Hur -- ri -- cane, blow my thoughts a -- way.
 	Gen -- e -- ra -- tor's pow -- er switch is rus -- ted on.
 	Light -- ing up the thous -- anth act it's get -- ting long.
 	The old fam -- il -- iar masks. We hold our breath and gasp.
@@ -80,8 +81,9 @@ verse_one =  \lyricmode {
 	Bet -- ween the clust -- ered words, at eve -- ry preg -- nant pause I
 	hear a whis -- per dar -- ing Let's get out of here.
 	Hur -- ri -- cane. 
-	Hur -- ri -- cane blow.
-	Hur -- ri -- cane blow my thoughts a -- way.
+	Hur -- ri -- cane, blow.
+	Hur -- ri -- cane, blow my thoughts a -- way.
+	Hur -- ri -- cane, lift my roots.
 	We're as lost to -- day as yes -- ter -- day.
 	The differ -- ence is, now there's proof.
 }
@@ -117,6 +119,8 @@ harmonies = \chordmode {
   e:m | e:m | g | g |
   f | f | f | f | 
   e:m | e:m | g | g |
+  c | c | a:m | a:m/g |
+  c | c | a:m | a:m/g |
   c | c | a:m | a:m/g |
   c | c | a:m | a:m/g |
   c | c | a:m | a:m/g |
