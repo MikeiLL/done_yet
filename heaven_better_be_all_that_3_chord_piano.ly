@@ -406,7 +406,7 @@ treble_refrain_basic = \relative {
 }
 
 treble_refrain_basic_tag = \relative { 
-	r2. | r4 b'8 r a r | g2. | r4 dis8 r g, r |
+	r2. | r4 b''8 r a r | g2. | r4 dis8 r g, r |
 	r2. | r4 b'8 r a r | g8 a g2 | r4 dis8 r g, r |
 	r2. | r | r | r |
 }
@@ -425,22 +425,34 @@ treble = \relative c'' {
 		% Refrain
 		r2. | r | r | r4 g' e |
 		b8 r r2 | r2. | r | g'4 e b |
-		r2. | r | r2 g'4 | e b2 |
+		r2. | r | r2 g'4 | e b2 | 
+		r2. | r | r | r |
 		\treble_refrain_basic_tag
 		\treble_basic % verse three
 		\treble_basic
 		\treble_basic \treble_basic
 		\treble_basic \treble_basic \treble_basic \treble_basic % ...hell of hell of hip hip
 		\treble_basic \treble_basic \treble_basic \treble_basic % ...tiny corner of my mind
-		\treble_basic \treble_basic
+		\treble_basic 
+		\treble_basic
 		\treble_basic % ... yeah hey hey hey
-		\treble_basic \treble_basic 
+		\treble_basic 
 		% Refrain
 		r2. | r | r | r4 g'8 e b4 |
-		r2. | r | r | r | g'4 e b |
-		r2. | r | r | r | g'4 e b |
+		r2. | r | r | g'4 e b |
+		r2. | r | r | g'4 e b |
 		r2. | <g b d>4 r2 | <a cis e>4 r2 | <a cis e>4 r2 |
-		\treble_refrain_basic_tag
+		r2. | r4 b'8 r a r | g8 a g2 | r4 dis8 r g, r |
+		r2. | r4 b'8 r a r | \grace a16 g2. | r4 dis8 r g, r |
+		r2. | r | r | r |
+		\treble_basic \treble_basic \treble_basic \treble_basic % ...
+		\treble_basic \treble_basic \treble_basic \treble_basic % ...man and woman human
+		\treble_basic \treble_basic \treble_basic \treble_basic % ...
+		% Refrain
+		\treble_refrain_basic
+		r2. | r4 b''8 r a r | g2. | r4 dis8 r g, r |
+		r2. | r4 b'8 r a r | g16 a g8~ g2 | r4 dis8 r g, r |
+		r2. | r | r | r |
 	}
 }
 bass = \relative c, {
@@ -468,7 +480,16 @@ bass = \relative c, {
 		\bass_refrain_basic
 		b8 r8 r2 | <a' b d fis>8 r8 r2 | e,8 r8 r2 | <e' g b>8 r8 r2 | 
 		b8 r8 r2 | <b' d fis>8 r8 r2 | r2  e,4| <e' g b>8 r8 r2 | 
-		
+		\bass_basic \bass_basic \bass_basic \bass_basic % ...
+		\bass_basic \bass_basic \bass_basic \bass_basic % ...man and woman human
+		b,8 r8 r2 | <b' d fis>8 r8 r2 | e,,8 r8 r2 | <e' g b>8 r8 r4 e8 fis | 
+		\bass_basic \bass_basic \bass_basic \bass_basic % ...wow
+		% Refrain
+		b,8 r8 r2 | <b' d fis>8 r8 r2 | r2. | <e, g b>2. | 
+		b8 r8 r2 | <b' d fis>8 r8 r2 | e,,8 r8 r2 | <e' g b>8 r8 r2 | 
+		b8 r8 r2 | <b' d fis>8 r8 r2 | e,,8 r8 r2 | <e' g b>8 r8 r2 | 
+		g,8 r8 r2 | <g' b d>8 r8 r2  | a,8 r8 r2 | <a' cis e>8 r8 r2 | 
+		\bass_refrain_basic_tag
 	}
 }
 \score {
@@ -489,7 +510,6 @@ bass = \relative c, {
   >>
   
   \layout { }
-  \midi { }
 }
 
 %Additional Notes
