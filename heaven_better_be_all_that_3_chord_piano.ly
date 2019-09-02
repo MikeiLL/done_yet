@@ -398,6 +398,8 @@ bass_refrain_basic_tag = \relative {
 
 treble_basic = \relative { r2. | r | r | r | }
 
+treble_developed = \relative { r2. | <g' b d>8 r8 r2 | r2. | <e g b>8 r8 r2 | }
+
 treble_refrain_basic = \relative { 
 	r2. | r | r | r |
 	r | r | r | r |
@@ -450,11 +452,13 @@ treble = \relative c'' {
 		\treble_basic \treble_basic \treble_basic \treble_basic % ...
 		% Refrain
 		\treble_refrain_basic
+		% treble refrain tag
 		r2. | r4 b'8 r a r | g2. | r4 dis8 r g, r |
 		r2. | r4 b'8 r a r | g16 a g8~ g2 | r4 dis8 r g, r |
-		r2. | r | r | r |
-		\treble_basic \treble_basic \treble_basic \treble_basic % verse four
-		r2. | r | r | r4 <e g b>8 r  <b e g>8 r | \treble_basic \treble_basic % ... network of trails
+		
+		% verse four
+		r2. | r | r | <e g b>8 r8 r2 |  \treble_developed \treble_developed \treble_developed 
+		\treble_developed r2. | <g b d>8 r8 r2 | r2. | r4 <e g b>8 r  <b, e g>8 r | \treble_developed \treble_developed % ... network of trails
 	}
 }
 bass = \relative c, {
@@ -494,6 +498,7 @@ bass = \relative c, {
 		\bass_refrain_basic_tag
 		\bass_basic \bass_basic \bass_basic \bass_basic % verse four
 		\bass_basic \bass_basic \bass_basic \bass_basic % ... network of trails
+		\bass_basic \bass_basic 
 	}
 }
 \score {
