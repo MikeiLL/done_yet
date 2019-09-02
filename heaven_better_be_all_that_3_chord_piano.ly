@@ -391,6 +391,11 @@ bass_refrain_basic = \relative {
 	g,8 r8 r2 | <g' b d>8 r8 r2  | a,8 r8 r2 | <a' cis e>8 r8 r2 | 
 }
 
+bass_refrain_basic_tag = \relative { 
+	b,8 r8 r2 | <b' d fis>8 r8 r2 | e,8 r8 r2 | <e' g b>8 r8 r2 | 
+	b,8 r8 r2 | <b' d fis>8 r8 r2 | e,8 r8 r2 | <e' g b>8 r8 r2 | 
+}
+
 treble_basic = \relative { r2. | r | r | r | }
 
 treble_refrain_basic = \relative { 
@@ -398,6 +403,11 @@ treble_refrain_basic = \relative {
 	r | r | r | r |
 	r | r | r | r |
 	r | r | r | r |
+}
+
+treble_refrain_basic_tag = \relative { 
+	r2. | r4 b'8 r a r | g2. | r4 dis8 r g, r |
+	r2. | r4 b'8 r a r | g8 a g2 | r4 dis8 r g, r |
 }
 
 treble = \relative c'' {
@@ -408,6 +418,13 @@ treble = \relative c'' {
 		\treble_basic \treble_basic \treble_basic
 		\treble_basic \treble_basic \treble_basic \treble_basic % verse one
 		\treble_refrain_basic
+		\treble_basic \treble_basic \treble_basic \treble_basic % verse two
+		\treble_basic \treble_basic \treble_basic \treble_basic % ...aiight.?
+		\treble_basic \treble_basic  % ...firefly yeah.
+		r2. | r | r | r4 g' e |
+		b8 r r2 | r2. | r | g'4 e b |
+		r2. | r | r2 g'4 | e b2 |
+		\treble_refrain_basic_tag
 	}
 }
 bass = \relative c, {
@@ -418,6 +435,11 @@ bass = \relative c, {
 		\bass_basic \bass_basic \bass_basic % intro
 		\bass_basic \bass_basic \bass_basic \bass_basic % verse one
 		\bass_refrain_basic
+		\bass_basic \bass_basic \bass_basic \bass_basic % verse two
+		\bass_basic \bass_basic \bass_basic \bass_basic % ...aiight.?
+		\bass_basic \bass_basic  % ...firefly yeah.
+		\bass_refrain_basic
+		\bass_refrain_basic_tag
 	}
 }
 \score {
