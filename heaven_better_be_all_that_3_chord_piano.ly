@@ -52,10 +52,10 @@ melody = \relative c'' {
 	a4. a8. a8 g16) | e4 g2~ | g2~ g8 e8~ | e4 r2 | % re fly. Yeah.
 
 	% CHORUS
-	r2. | fis'8 fis fis fis fis4~ | fis2~ fis8 g8~ | g4. e | % Heaven better
-	r2. | fis8 fis fis fis fis4~ | fis2 g4 | e r2 |
-	r2 fis8 fis | fis fis fis2~ | fis2 g4~ | g e2 |
-	d4 e d | r2. | cis4 d8 e4. | r4 a,8 cis4 b8 | % That's a lot ... a lot to
+	r2. | fis'8 fis fis fis fis4~ | fis2 g4( | e) e r | % Heaven better
+	r2. | fis8 fis fis fis fis4~ | fis2 g4( | e4.) e |
+	r2 fis8 fis | fis fis fis2~ | fis4. g( | e4) e d |
+	e d2 | r4. cis4 d8 | e4. r | r4 a,8 cis4 b8 | % That's a lot ... a lot to
 	b4 r2 | % ask.
   }
   
@@ -90,10 +90,10 @@ melody = \relative c'' {
 	\tuplet 3/2 {e'4 r8} \tuplet 3/2 {d4 r8} \tuplet 3/2 {a4( b8)} | g4 \tuplet 3/2 {e4 r8} g4 | % Hip hip my yodel goin’ 
 	
 	% CHORUS
-  	\tuplet 3/2 {a4( b8)} r2 | fis'8 fis fis fis fis4~ | fis2. | g4 e2 | % up. Heaven better
-  	r2. | fis8 fis fis fis fis4~ | fis2. | g4 e2 |
-  	r2. | fis8 fis fis fis fis4~ | fis2. | g4 e2 |
-  	d4 e d | r2. | cis4 d8 e4. | r4 a,8 cis4 b8 | % That's a lot ... a lot to
+  	\tuplet 3/2 {a4( b8)} r2 | fis'8 fis fis fis fis4~ | fis2 g4( | e4.) e | % Heaven better
+	r2. | fis8 fis fis fis fis4~ | fis2 g4( | e4.) e |
+	r2 fis8 fis | fis fis fis2~ | fis4. g( | e4) e r |
+	d4 e d | r2. | cis4 d8 e4. | r4 a,8 cis4 b8 | % That's a lot ... a lot to
   	b4 r2 | % ask.
  }
     
@@ -385,9 +385,9 @@ harmonies = \chordmode {
 bass_basic = \relative { g,8 r8 r2 | <g' b d>8 r8 r2 | e,8 r8 r2 | <e' g b>8 r8 r2 | }
 
 bass_refrain_basic = \relative { 
-	b,8 r8 r2 | <b' d fis>8 r8 r2 | e,8 r8 r2 | <e' g b>8 r8 r2 | 
-	b,8 r8 r2 | <b' d fis>8 r8 r2 | e,,8 r8 r2 | <e' g b>8 r8 r2 |
-	b,8 r8 r2 | <b' d fis>8 r8 r2 | e,8 r8 r2 | <e' g b>8 r8 r2 |
+	b,8 r8 r2 | <b' d fis>8 r8 r2 | e,,8 r8 r2 | <e' g b>8 r8 r2 | 
+	b8 r8 r2 | <b' d fis>8 r8 r2 | e,,8 r8 r2 | <e' g b>8 r8 r2 |
+	b8 r8 r2 | <b' d fis>8 r8 r2 | e,,8 r8 r2 | <e' g b>8 r8 r2 |
 	g,8 r8 r2 | <g' b d>8 r8 r2  | a,8 r8 r2 | <a' cis e>8 r8 r2 | 
 }
 
