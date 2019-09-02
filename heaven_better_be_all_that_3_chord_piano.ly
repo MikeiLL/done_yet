@@ -26,9 +26,9 @@ melody = \relative c'' {
 	a b8 d4 e16 g~ | g4 a b | a( g) e8 g8~ | g2.~ | % With that put but bye bye abide
 	g2~ g8( a8 | b8) r8 r2 | % abide
 	
-	r2. | fis8 fis fis fis fis4~ | fis2. | g4 e2 | % Heaven better
-	r2. | fis8 fis fis fis fis4~ | fis2. | g4 e2 |
-	r2. | fis8 fis fis fis fis4~ | fis2. | g4 e2 |
+	r2. | fis8 fis fis fis fis4~ | fis2~ fis8 g8~ | g4. e | % Heaven better
+	r2. | fis8 fis fis fis fis4~ | fis2 g4 | e r2 |
+	r2 fis8 fis | fis fis fis2~ | fis2 g4~ | g e2 |
 	d4 e d | r2. | cis4 d8 e4. | r4 a,8 cis4 b8 | % That's a lot ... a lot to
 	b4 r2 |
 	
@@ -52,9 +52,9 @@ melody = \relative c'' {
 	a4. a8. a8 g16) | e4 g2~ | g2~ g8 e8~ | e4 r2 | % re fly. Yeah.
 
 	% CHORUS
-	r2. | fis'8 fis fis fis fis4~ | fis2. | g4 e2 | % Heaven better
-	r2. | fis8 fis fis fis fis4~ | fis2. | g4 e2 |
-	r2. | fis8 fis fis fis fis4~ | fis2. | g4 e2 |
+	r2. | fis'8 fis fis fis fis4~ | fis2~ fis8 g8~ | g4. e | % Heaven better
+	r2. | fis8 fis fis fis fis4~ | fis2 g4 | e r2 |
+	r2 fis8 fis | fis fis fis2~ | fis2 g4~ | g e2 |
 	d4 e d | r2. | cis4 d8 e4. | r4 a,8 cis4 b8 | % That's a lot ... a lot to
 	b4 r2 | % ask.
   }
@@ -392,8 +392,8 @@ bass_refrain_basic = \relative {
 }
 
 bass_refrain_basic_tag = \relative { 
-	b,8 r8 r2 | <b' d fis>8 r8 r2 | e,8 r8 r2 | <e' g b>8 r8 r2 | 
-	b,8 r8 r2 | <b' d fis>8 r8 r2 | e,8 r8 r2 | <e' g b>8 r8 r2 | 
+	b,8 r8 r2 | <b' d fis>8 r8 r2 | e,,8 r8 r2 | <e' g b>8 r8 r2 | 
+	b8 r8 r2 | <b' d fis>8 r8 r2 | e,,8 r8 r2 | <e' g b>8 r8 r2 | 
 }
 
 treble_basic = \relative { r2. | r | r | r | }
@@ -408,6 +408,7 @@ treble_refrain_basic = \relative {
 treble_refrain_basic_tag = \relative { 
 	r2. | r4 b'8 r a r | g2. | r4 dis8 r g, r |
 	r2. | r4 b'8 r a r | g8 a g2 | r4 dis8 r g, r |
+	r2. | r | r | r |
 }
 
 treble = \relative c'' {
@@ -421,9 +422,24 @@ treble = \relative c'' {
 		\treble_basic \treble_basic \treble_basic \treble_basic % verse two
 		\treble_basic \treble_basic \treble_basic \treble_basic % ...aiight.?
 		\treble_basic \treble_basic  % ...firefly yeah.
+		% Refrain
 		r2. | r | r | r4 g' e |
 		b8 r r2 | r2. | r | g'4 e b |
 		r2. | r | r2 g'4 | e b2 |
+		\treble_refrain_basic_tag
+		\treble_basic % verse three
+		\treble_basic
+		\treble_basic \treble_basic
+		\treble_basic \treble_basic \treble_basic \treble_basic % ...hell of hell of hip hip
+		\treble_basic \treble_basic \treble_basic \treble_basic % ...tiny corner of my mind
+		\treble_basic \treble_basic
+		\treble_basic % ... yeah hey hey hey
+		\treble_basic \treble_basic 
+		% Refrain
+		r2. | r | r | r4 g'8 e b4 |
+		r2. | r | r | r | g'4 e b |
+		r2. | r | r | r | g'4 e b |
+		r2. | <g b d>4 r2 | <a cis e>4 r2 | <a cis e>4 r2 |
 		\treble_refrain_basic_tag
 	}
 }
@@ -440,6 +456,19 @@ bass = \relative c, {
 		\bass_basic \bass_basic  % ...firefly yeah.
 		\bass_refrain_basic
 		\bass_refrain_basic_tag
+		g'8 r8 r2 | <g' b d>8 r8 r4 fis, | e8 r8 r2 | <e' g b>8 r8 r2 | % verse three
+		\bass_basic 
+		\bass_basic \bass_basic
+		\bass_basic \bass_basic \bass_basic \bass_basic % ...hell of hell of hip hip
+		\bass_basic \bass_basic \bass_basic g,8 r8 r2 | <g' b d>8 r8 r2 | e,8 r8 r2 | <e' g b>8 r8 e,4 fis | % ...tiny corner of my mind
+		g8 r8 r2 | <g' b d>8 r8 g,4 fis | e8 r8 r2 | <e' g b>8 r8 e,4 fis | 
+		g8 r8 r2 | <g' b d>8 r8 g,4 fis | e8 r8 r2 | <e' g b>8 r4. e,8 fis | 
+		\bass_basic % ... yeah hey hey hey
+		\bass_basic \bass_basic  
+		\bass_refrain_basic
+		b8 r8 r2 | <a' b d fis>8 r8 r2 | e,8 r8 r2 | <e' g b>8 r8 r2 | 
+		b8 r8 r2 | <b' d fis>8 r8 r2 | r2  e,4| <e' g b>8 r8 r2 | 
+		
 	}
 }
 \score {
