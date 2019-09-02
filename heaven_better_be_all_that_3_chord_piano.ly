@@ -382,19 +382,22 @@ harmonies = \chordmode {
 	b2.:min | b:min | 
 }
 
-bass_basic = \relative { g8 r8 r2 | r2. | e8 r8 r2 | r2. | }
+bass_basic = \relative { g,8 r8 r2 | <g' b d>8 r8 r2 | e,8 r8 r2 | <e' g b>8 r8 r2 | }
+
 bass_refrain_basic = \relative { 
-	b8 r8 r2 | r2. | e8 r8 r2 | r2. | 
-	b8 r8 r2 | r2. | e8 r8 r2 | r2. | 
-	b8 r8 r2 | r2. | e8 r8 r2 | r2. | 
-	g8 r8 r2 | r2. | a8 r8 r2 | r2. | 
+	b,8 r8 r2 | <b' d fis>8 r8 r2 | e,8 r8 r2 | <e' g b>8 r8 r2 | 
+	b,8 r8 r2 | <b' d fis>8 r8 r2 | e,,8 r8 r2 | <e' g b>8 r8 r2 |
+	b,8 r8 r2 | <b' d fis>8 r8 r2 | e,8 r8 r2 | <e' g b>8 r8 r2 |
+	g,8 r8 r2 | <g' b d>8 r8 r2  | a,8 r8 r2 | <a' cis e>8 r8 r2 | 
 }
-treble_basic = \relative { r2. | <g b d>8 r8 r2 | r2. | <e g b>8 r8 r2 | }
+
+treble_basic = \relative { r2. | r | r | r | }
+
 treble_refrain_basic = \relative { 
-	r2. | <b d fis>8 r8 r2 | r2. | <e g b>8 r8 r2 | r2. | 
-	r2. | <b d fis>8 r8 r2 | r2. | <e g b>8 r8 r2 | r2. | 
-	r2. | <b d fis>8 r8 r2 | r2. | <e g b>8 r8 r2 | r2. | 
-	<g b d>8 r8 r2 | r2. | <a cis e>8 r8 r2 | 
+	r2. | r | r | r |
+	r | r | r | r |
+	r | r | r | r |
+	r | r | r | r |
 }
 
 treble = \relative c'' {
@@ -404,10 +407,10 @@ treble = \relative c'' {
 	\new Voice = "treble" {
 		\treble_basic \treble_basic \treble_basic
 		\treble_basic \treble_basic \treble_basic \treble_basic % verse one
-		\treble_refrain_basic 
+		\treble_refrain_basic
 	}
 }
-bass = \relative c {
+bass = \relative c, {
   \clef bass
   \key d \major
   \time 6/8 
