@@ -28,8 +28,8 @@ melody = \relative c'' {
 	
 	r2. | fis8 fis fis fis fis4~ | fis2~ fis8 g8~ | g4. e | % Heaven better
 	r2. | fis8 fis fis fis fis4~ | fis2 g4 | e r2 |
-	r2 fis8 fis | fis fis fis2~ | fis2 g4~ | g e2 |
-	d4 e d | r2. | cis4 d8 e4. | r4 a,8 cis4 b8 | % That's a lot ... a lot to
+	r2 fis8 fis | fis fis fis2~ | fis2 g4~ | g8 e4 d8. e |
+	d2 r4 | r4. cis4 d8 | e4. r4. | r8 a,8 cis4 b8 b~ | % That's a lot ... a lot to
 	b4 r2 |
 	
 	r4 b, d8 e | g a4 b4 g8~ | g4 e r |  % Offering a bowl of warm milk
