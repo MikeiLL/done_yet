@@ -169,10 +169,10 @@ melody = \relative c'' {
   	r2. | fis8 fis fis fis fis4~ | fis2. | g4 e2 |
   	r2. | fis8 fis fis fis fis4~ | fis2. | g4 e2 |
   	d4 e d | r2. | cis4 d8 e4. | r4 a,8 cis4 b8 | % That's a lot ... a lot to
-  	b4 r2 | % ask.
+  	b4\fermata r2 | % ask.
  }
     
- r4 b'8 a g4 | cis,4 cis g | b 
+ r4 b'8 a g4 | cis,4 cis g | b\fermata 
 	
 }
   
@@ -459,6 +459,17 @@ treble = \relative c'' {
 		% verse four
 		r2. | r | r | <e g b>8 r8 r2 |  \treble_developed \treble_developed \treble_developed 
 		\treble_developed r2. | <g b d>8 r8 r2 | r2. | r4 <e g b>8 r  <b, e g>8 r | \treble_developed \treble_developed % ... network of trails
+		r2. | <g'' b d>8 r8 r2 | r2. | <e g a>8 r8 r2 | 
+		r2. | <g b d>8 r8 r2 | r2. | <e g a>8 r8 r2 | 
+		r2. | <g b d>8 r8 r2 | r2. | <b e g>8 r8 r2 | 
+		<g b d>8 r8 r2 | r4 <g b d>8 r8 <g b d>4 | r2. | <e g a>8 r8 r2 |
+		\treble_developed \treble_developed
+		% Refrain
+		r2. | <b' d fis>8 r r2 | r2. | <e g b>8 r r2 | 
+		r2. | <b d fis>8 r r2 | r2. | <e, g b>8 r r2 | 
+		r2. | <b' d fis>8 r r2 | r2. | <e, g b>8 r r2 | 
+		r2. | <g b d>8 r r2 | r2. | <a cis e>8 r r2 | r2. |
+		r4 b8 a g r | dis8 r dis r g, r | <dis fis b>2. |
 	}
 }
 bass = \relative c, {
@@ -499,6 +510,14 @@ bass = \relative c, {
 		\bass_basic \bass_basic \bass_basic \bass_basic % verse four
 		\bass_basic \bass_basic \bass_basic \bass_basic % ... network of trails
 		\bass_basic \bass_basic 
+		\bass_basic \bass_basic 
+		\bass_basic \bass_basic 
+		% Refrain
+		b,8 r8 r2 | <b' d fis>8 r8 r2 | e,,8 r8 r2 | <e' g b>8 r r2 | 
+		b8 r8 r2 | <b' d fis>8 r8 r2 | r2 e,,8 r8 | r4 e8 r r4 | 
+		b'8 r8 r2 | <b' d fis>8 r8 r2 | e,,8 r8 r2 | <e' g b>8 r r2 | 
+		g,8 r8 r2 | <g' b d>8 r8 r2  | a,8 r8 r2 | <a' cis e>8 r8 r2 | r2. |
+		r4 b8 a g r | dis8 r dis r g, r | b2. |
 	}
 }
 \score {
