@@ -7,6 +7,9 @@
   tagline = "Copyright R. and M. Kilmer Creative Commons Attribution-NonCommercial, BMI"
 }
 
+eightBlank = \relative {
+	r1 | r | r | r | r | r | r | r |
+}
 
 verse = \drummode { 
 	hh4 hh hh8 hh4 hh8 | r hh4 hh8 hh4 r | hh8 hh hh4 hh8 hh4 hh8 | r hh4 hh8 hh4 r | % First time... show
@@ -17,7 +20,12 @@ verse = \drummode {
 	hh4 r hh8 hh hh4 | hh4. hh hh4| hh8 hh hh hh hh4 r | hh8 hh4 hh8 hh4 r | % toes... ankles to neck
 	hh8 hh hh hh hh hh r4 | hh8 hh hh hh hh4 hh8 hh | hh8 hh hh4 hh8 hh hh hh | % thing is freak... brothers do it
 	hh4 hh hh r | r2 hh8 hh4 hh8~ | hh4. hh r4 | r1 | r | % our self... DIO style
-	
+    \eightBlank
+    \eightBlank
+    hh2 hh | hh8 hh hh hh hh hh hh hh | hh hh r4. hh8 hh hh~ | hh hh4 r8 hh2 | % Tsss ... anyway umm
+    r8. hh16~ hh4 hh hh | hh hh8 hh4. r4 | hh r8 hh hh4 r8 hh | hh4 hh8 hh4. r4 | % bout half way ... was blown
+    hh8. hh4 hh r16 r8 hh | \tuplet 3/2 {hh4 hh hh } hh hh | r2 hh8. hh8. hh8 | hh4. hh8 hh8. hh16 hh8 hh | hh4 hh8 hh4. hh4 | hh4 r \tuplet 3/2 { r hh hh } | % Ringmistress... moustache our next
+    % catch ladies and gentlemen...
 }
 
 words =  \lyricmode {
@@ -29,11 +37,17 @@ words =  \lyricmode {
     sword eat -- ing gi -- ant sticks nails up his nose; con -- tor -- tion -- ist does cats cra -- dle with his
     toes; guy in red span -- dex spins four -- ty hu -- la hoops, ank -- les to neck.
     Thing is frea -- ky dea -- ky, thing is wic -- ket wild. It was
-    Ring -- al -- ing Broth -- ers do it our self style. D I O "style.\""	
-}
-
-eightBlank = \relative {
-	r1 | r | r | r | r | r | r | r |
+    Ring -- al -- ing Broth -- ers do it our self style. D I O "style.\""
+    
+    Tsss ah. 
+    Uh huh uh huh uh huh 
+    uh huh uh huh. So a -- ny -- way, um.
+    'Bout half -- way through the show just be -- fore my mind was blown, 
+    ring -- mist -- ress in cape, tux and top -- hat, twirl -- ing her cane and twist -- ing on her hand -- le -- bar moust -- ache, "\"Our" next
+    catch, la -- dies and gen -- tle -- men. The mo -- ment we've all been wait -- ing for. The mys -- ter -- ious, the il -- lus -- ive,
+    mys -- ti -- cal, ma -- gi -- cal ser -- pen -- tine dream, py -- ro -- man -- i -- a -- cal 
+    fiend, the stuff of dreams, ref -- ferred to as the va -- por -- ous queen of steam, you
+    know who I mean, I want y'all to scream.
 }
 
 melody = \relative c' {
@@ -42,20 +56,29 @@ melody = \relative c' {
   \time 4/4 
   \set Score.voltaSpannerDuration = #(ly:make-moment 6/8)
   #(ly:expect-warning "cannot end volta") 
+	 \eightBlank
+	 \eightBlank
+	 \eightBlank
+	 \eightBlank
    \new Voice = "chorus" {
-     \eightBlank
-     \eightBlank
-     \eightBlank
-     \eightBlank
-     \voiceOne
-     c4 c c bes~ | bes c2. | r1 | r |
-     ees4 ees ees des~ | des ees2. | r1 | r |
-     g4 g g fis~ | fis g2. | r1 | r |
-     bes4 bes bes a~ | a bes2. | r1 | r |
+	 \voiceOne
+	 c4 c c bes~ | bes c2. | r1 | r |
+	 ees4 ees ees des~ | des ees2. | r1 | r |
+	 g4 g g fis~ | fis g2. | r1 | r |
+	 bes4 bes bes a~ | a bes2. | r1 | r |
 	}
+	 \eightBlank
+	 \eightBlank
+	 \eightBlank
+	 \eightBlank
 }
  
 chorus_text =  \lyricmode {
+	Temp -- ra -- ture's ri -- sing.
+	Temp -- ra -- ture's ri -- sing.
+	Temp -- ra -- ture's ri -- sing.
+	Temp -- ra -- ture's ri -- sing.
+	
 	Temp -- ra -- ture's ri -- sing.
 	Temp -- ra -- ture's ri -- sing.
 	Temp -- ra -- ture's ri -- sing.
