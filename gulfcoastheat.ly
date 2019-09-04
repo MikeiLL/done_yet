@@ -28,8 +28,8 @@ verse = \drummode {
     hh r \tuplet 3/2 { hh4 hh hh } | \tuplet 3/2 { hh4 hh hh~ } hh4 r8 hh | \tuplet 3/2 { hh4 hh hh } hh4. hh8 | \tuplet 3/2 { hh4 hh hh~ } hh4 hh8 hh | % catch ladies and gentlemen... the mys
     \tuplet 3/2 { hh4 hh hh~ } hh4 hh8 hh | hh4. hh r8 hh8~ | hh4 hh8 hh16 hh4 hh8 hh8 hh16~ | hh4.. hh16~ hh8. hh8 hh8.~ | % terious the elusive...mystical magical serpentine
     hh4. r r8. hh16~ | hh4 hh8 hh hh4 hh8 hh16 hh~ | hh4. hh8 \tuplet 3/2 { hh4 hh hh~ } | hh4 r2 hh8 hh~ | %  being pyromaniacle... refer-
-    hh4. hh8~ \tuplet 3/2 { hh4 hh hh } | \tuplet 3/2 { hh2 hh hh4 hh~  } | hh2 hh4 hh~ | hh2. hh4 | % red to as the... queen of steam you
-    \tuplet 3/2 { hh2 hh hh } | hh2 r4 hh | hh4. hh hh4 | hh2 r | % know who I mean... scream
+    hh hh hh hh hh hh hh hh~ | \tuplet 3/2 { hh2 hh hh4 hh } | % red to as the... queen of steam you
+    \tuplet 3/2 { hh4 hh hh8 hh~ } hh2 | r4. hh8 \tuplet 3/2 { hh4 hh hh8 hh~ } | hh4. r r4 | r1 | % know who I mean... scream
 }
 
 words =  \lyricmode {
@@ -75,7 +75,6 @@ melody = \relative c' {
 	 \eightBlank
 	 \eightBlank
 	 \eightBlank
-	 r1 | r |
 	\context Voice = "chorus" {
 	 \voiceOne
 	 c4 c c bes~ | bes c2. | r1 | r |
