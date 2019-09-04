@@ -27,7 +27,9 @@ verse = \drummode {
     hh8. hh4 hh r16 r8 hh | \tuplet 3/2 {hh4 hh hh } hh hh | r2 hh8. hh8. hh8 | hh4. hh8 hh8. hh16 hh8 hh | hh4 hh8 hh4. hh4 | hh4 r \tuplet 3/2 { r hh hh } | % Ringmistress... moustache our next
     hh r \tuplet 3/2 { hh4 hh hh } | \tuplet 3/2 { hh4 hh hh~ } hh4 r8 hh | \tuplet 3/2 { hh4 hh hh } hh4. hh8 | \tuplet 3/2 { hh4 hh hh~ } hh4 hh8 hh | % catch ladies and gentlemen... the mys
     \tuplet 3/2 { hh4 hh hh~ } hh4 hh8 hh | hh4. hh r8 hh8~ | hh4 hh8 hh16 hh4 hh8 hh8 hh16~ | hh4.. hh16~ hh8. hh8 hh8.~ | % terious the elusive...mystical magical serpentine
-    hh4. r r8. hh16~ | hh4 hh8 hh hh4 hh8 hh16 hh~ | hh4. hh8 \tuplet 3/2 { hh4 hh hh } | hh4 r8 hh16 hh8 hh hh hh hh16~ | %  being pyromaniacle... referred to as the
+    hh4. r r8. hh16~ | hh4 hh8 hh hh4 hh8 hh16 hh~ | hh4. hh8 \tuplet 3/2 { hh4 hh hh~ } | hh4 r2 hh8 hh~ | %  being pyromaniacle... refer-
+    hh4. hh8~ \tuplet 3/2 { hh4 hh hh } | \tuplet 3/2 { hh2 hh hh4 hh~  } | hh2 hh4 hh~ | hh2. hh4 | % red to as the... queen of steam you
+    \tuplet 3/2 { hh2 hh hh } | hh2 r4 hh | hh4. hh hh4 | hh2 r | % know who I mean... scream
 }
 
 words =  \lyricmode {
@@ -49,7 +51,7 @@ words =  \lyricmode {
     catch, la -- dies and gen -- tle -- men. The mo -- ment we've all been wait -- ing for. The mys -- ter -- i -- ous, the il -- lus -- ive,
     mys -- ti -- cal, ma -- gi -- cal ser -- pen -- tine being, py -- ro -- man -- i -- a -- cal 
     fiend, the stuff of dreams, ref -- ferred to as the va -- por -- ous queen of steam, you
-    know who I mean, I want y'all to scream.
+    know who I mean, I want you to scream.
 }
 
 melody = \relative c' {
@@ -73,9 +75,22 @@ melody = \relative c' {
 	 \eightBlank
 	 \eightBlank
 	 \eightBlank
+	 r1 | r |
+	\context Voice = "chorus" {
+	 \voiceOne
+	 c4 c c bes~ | bes c2. | r1 | r |
+	 ees4 ees ees des~ | des ees2. | r1 | r |
+	 g4 g g fis~ | fis g2. | r1 | r |
+	 bes4 bes bes a~ | a bes2. | r1 | r |
+	}
 }
  
 chorus_text =  \lyricmode {
+	Temp -- ra -- ture's ri -- sing.
+	Temp -- ra -- ture's ri -- sing.
+	Temp -- ra -- ture's ri -- sing.
+	Temp -- ra -- ture's ri -- sing.
+	
 	Temp -- ra -- ture's ri -- sing.
 	Temp -- ra -- ture's ri -- sing.
 	Temp -- ra -- ture's ri -- sing.
@@ -92,6 +107,19 @@ tamtamstaff = {
   \override Staff.BarLine.bar-extent = #'(-1.5 . 1.5)
   \set DrumStaff.instrumentName = #"Tamtam"
 }  
+
+basic_verse_bass = \chordmode { c:m | c:m | c:m/fis | c:m/fis | } 
+basic_chorus_bass = \chordmode { c:m | c:m | c:m/eis | c:m/eis | c:m/fis |c:m/fis | c:m/a |c :m/a | }
+
+harmonies = \chordmode {
+	\basic_verse_bass \basic_verse_bass \basic_verse_bass \basic_verse_bass
+	\basic_verse_bass \basic_verse_bass \basic_verse_bass \basic_verse_bass
+	\basic_chorus_bass \basic_chorus_bass
+	\basic_verse_bass \basic_verse_bass \basic_verse_bass \basic_verse_bass
+	\basic_verse_bass \basic_verse_bass \basic_verse_bass \basic_verse_bass
+	\basic_verse_bass \basic_verse_bass \basic_verse_bass \basic_verse_bass
+	\basic_verse_bass \basic_verse_bass \basic_verse_bass \basic_verse_bass
+}
 	
 \score { 
 
@@ -105,6 +133,10 @@ tamtamstaff = {
 } 
 \new Lyrics \lyricsto "words" { \words  } 
 
+\new ChordNames {
+  \set chordChanges = ##t
+  \harmonies
+}
 \new Staff  {
     	\new Voice = "upper" { \melody }
   	}
