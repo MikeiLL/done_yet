@@ -25,7 +25,9 @@ verse = \drummode {
     hh2 hh | hh8 hh hh hh hh hh hh hh | hh hh r4. hh8 hh hh~ | hh hh4 r8 hh2 | % Tsss ... anyway umm
     r8. hh16~ hh4 hh hh | hh hh8 hh4. r4 | hh r8 hh hh4 r8 hh | hh4 hh8 hh4. r4 | % bout half way ... was blown
     hh8. hh4 hh r16 r8 hh | \tuplet 3/2 {hh4 hh hh } hh hh | r2 hh8. hh8. hh8 | hh4. hh8 hh8. hh16 hh8 hh | hh4 hh8 hh4. hh4 | hh4 r \tuplet 3/2 { r hh hh } | % Ringmistress... moustache our next
-    % catch ladies and gentlemen...
+    hh r \tuplet 3/2 { hh4 hh hh } | \tuplet 3/2 { hh4 hh hh~ } hh4 r8 hh | \tuplet 3/2 { hh4 hh hh } hh4. hh8 | \tuplet 3/2 { hh4 hh hh~ } hh4 hh8 hh | % catch ladies and gentlemen... the mys
+    \tuplet 3/2 { hh4 hh hh~ } hh4 hh8 hh | hh4. hh r8 hh8~ | hh4 hh8 hh16 hh4 hh8 hh8 hh16~ | hh4.. hh16~ hh8. hh8 hh8.~ | % terious the elusive...mystical magical serpentine
+    hh4. r r8. hh16~ | hh4 hh8 hh hh4 hh8 hh16 hh~ | hh4. hh8 \tuplet 3/2 { hh4 hh hh } | hh4 r8 hh16 hh8 hh hh hh hh16~ | %  being pyromaniacle... referred to as the
 }
 
 words =  \lyricmode {
@@ -44,8 +46,8 @@ words =  \lyricmode {
     uh huh uh huh. So a -- ny -- way, um.
     'Bout half -- way through the show just be -- fore my mind was blown, 
     ring -- mist -- ress in cape, tux and top -- hat, twirl -- ing her cane and twist -- ing on her hand -- le -- bar moust -- ache, "\"Our" next
-    catch, la -- dies and gen -- tle -- men. The mo -- ment we've all been wait -- ing for. The mys -- ter -- ious, the il -- lus -- ive,
-    mys -- ti -- cal, ma -- gi -- cal ser -- pen -- tine dream, py -- ro -- man -- i -- a -- cal 
+    catch, la -- dies and gen -- tle -- men. The mo -- ment we've all been wait -- ing for. The mys -- ter -- i -- ous, the il -- lus -- ive,
+    mys -- ti -- cal, ma -- gi -- cal ser -- pen -- tine being, py -- ro -- man -- i -- a -- cal 
     fiend, the stuff of dreams, ref -- ferred to as the va -- por -- ous queen of steam, you
     know who I mean, I want y'all to scream.
 }
