@@ -65,7 +65,6 @@ melody = \relative c' {
 	 \eightBlank
 	 \eightBlank
    \new Voice = "chorus" {
-	 \voiceOne
 	 c4 c c bes~ | bes c2. | r1 | r |
 	 ees4 ees ees des~ | des ees2. | r1 | r |
 	 g4 g g fis~ | fis g2. | r1 | r |
@@ -75,12 +74,15 @@ melody = \relative c' {
 	 \eightBlank
 	 \eightBlank
 	 \eightBlank
-	\context Voice = "chorus" {
-	 \voiceOne
-	 c4 c c bes~ | bes c2. | r1 | r |
+	\new Voice = "chorus_two" {
+	 c,4 c c bes~ | bes c2. | r1 | r |
 	 ees4 ees ees des~ | des ees2. | r1 | r |
 	 g4 g g fis~ | fis g2. | r1 | r |
 	 bes4 bes bes a~ | a bes2. | r1 | r |
+	 c,4 r ees r | c r2. | c4 r ees r | f r2. |
+	 f4 r ges r | c, r2. | c4 r ees r | c r2. | 
+	 c4 r ees r | f r2. | f4 r ges r | 
+	 c, r2.| r1 | r | r | 
 	}
 }
  
@@ -89,16 +91,10 @@ chorus_text =  \lyricmode {
 	Temp -- ra -- ture's ri -- sing.
 	Temp -- ra -- ture's ri -- sing.
 	Temp -- ra -- ture's ri -- sing.
-	
-	Temp -- ra -- ture's ri -- sing.
-	Temp -- ra -- ture's ri -- sing.
-	Temp -- ra -- ture's ri -- sing.
-	Temp -- ra -- ture's ri -- sing.
-	
-	Temp -- ra -- ture's ri -- sing.
-	Temp -- ra -- ture's ri -- sing.
-	Temp -- ra -- ture's ri -- sing.
-	Temp -- ra -- ture's ri -- sing.
+	Gulf Coast Heat. Gulf Coast Heat.
+	Gulf Coast Heat.
+	Gulf Coast Heat. Gulf Coast Heat.
+	Gulf Coast Heat.
 }
 
 tamtamstaff = {
@@ -116,8 +112,7 @@ harmonies = \chordmode {
 	\basic_chorus_bass \basic_chorus_bass
 	\basic_verse_bass \basic_verse_bass \basic_verse_bass \basic_verse_bass
 	\basic_verse_bass \basic_verse_bass \basic_verse_bass \basic_verse_bass
-	\basic_verse_bass \basic_verse_bass \basic_verse_bass \basic_verse_bass
-	\basic_verse_bass \basic_verse_bass \basic_verse_bass \basic_verse_bass
+	\basic_verse_bass \basic_verse_bass 
 }
 	
 \score { 
@@ -140,6 +135,7 @@ harmonies = \chordmode {
     	\new Voice = "upper" { \melody }
   	}
   	\new Lyrics \lyricsto "chorus" \chorus_text
+  	\new Lyrics \lyricsto "chorus_two" \chorus_text
  >> 
 } 
 
