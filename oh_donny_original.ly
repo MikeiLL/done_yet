@@ -1,26 +1,26 @@
 \version "2.18.2"
 
 \header {
-  title = "Oh Donny Original Version over instrumental for panhandler"
+  title = "Oh Donny Original (over riff for panhandler)"
   composer = "Words and Music by Mike iLL"
   tagline = "Copyright R. and M. Kilmer Creative Commons Attribution-NonCommercial, BMI"
 }
 
 \paper{ print-page-number = ##f bottom-margin = 0.5\in }
 
-melody = \relative f'' {
+melody = \relative c'' {
   \clef treble
   \key c \major
   \time 4/4
   \set Score.voltaSpannerDuration = #(ly:make-moment 4/4)
   \partial 4 g~
   \repeat volta 2 {
-	  g2 e8. c g'8~ | g2 e8 c4 a8~ | a4 r c4. d g,8~ |
+	  g2 e8. c g'8~ | g2 e8 c4 a8~ | a4 r c8. d g,8~ |
 	  g1~ | g | r | r |
-	  r4 g'4. e8. c | g'2 e c~ | c1 | a4. c d4 |
-	  \tuplet 3/2 { d8( e d e~)} e2.~ | e1 | r | r |
+	  r4 g'4. e8. c | g'2 e4 c~ | c1 | a4. c d4 |
+	  \tuplet 3/2 { d8( e d } c2.)~ | c1 | r | r |
 	}
-
+	
 }
 
 
@@ -28,7 +28,7 @@ melody = \relative f'' {
 text =  \lyricmode {
   Oh Don -- ny, oh Don -- ny what
   have you done?
-  Oh Don -- ny, oh oh Don -- ny what
+  Oh Don -- ny, oh Don -- ny what
   have you done__?
   
   Spin -- ning tales can't be un -- spun.
@@ -40,7 +40,11 @@ text =  \lyricmode {
 
 
 harmonies = {
-
+	c4 |
+	c1 | c | f | 
+	c | c | c | c |
+	c | c | c | f | 
+	c | c | c | c |
 }
 
 \score {
