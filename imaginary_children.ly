@@ -23,7 +23,7 @@ melody = \relative c' {
 		 b4 b8 b4. b4 | c8 b4 b4. a8 g~ | g2 r | r1 | % brightening ... world
 		 
 		 r2 b4 d | b d b8 a4 b8~ | b4 r b4 d | b g b8 a4 g8~ | % Every ... little boy
-		 g4 r b4 d | b d b a8 b~ | b4 r b4 d | b d b a8 g~ | % boy ... wants ... destroy
+		 g4 r b4 d | b d2 b4 | r2 b4 d | b d b a8 g~ | % boy ... just she ... destroy
 		 g4 r2. r1 | r |
 	   }
  >>
@@ -67,8 +67,8 @@ chorus =  \lyricmode {
 	
 	Eve -- ry eve -- ry mo -- ther's son 
 	wants to help their lit -- tle boy.
-	Wants to help them to suc -- ceed.
-	Least she hopes she don't des -- troy.
+	Just she hopes she don't;
+	just she hopes she don't des -- troy.
 }
 
 
