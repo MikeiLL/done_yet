@@ -100,7 +100,7 @@ chorus_text =  \lyricmode {
 tamtamstaff = {
   \override Staff.StaffSymbol.line-positions = #'( 0 )
   \override Staff.BarLine.bar-extent = #'(-1.5 . 1.5)
-  \set DrumStaff.instrumentName = #"Tamtam"
+  \set DrumStaff.instrumentName = #"Rap"
 }  
 
 basic_verse_bass = \chordmode { c:m | c:m | c:m/fis | c:m/fis | } 

@@ -25,7 +25,7 @@ melody = \relative c' {
   	d8 r c d4 d8 r4 | d8 d c c d4 r | % Great ta see ya
   	d8 r c d4 d8 c4 | d c d r | % help to voice
   	d8 d d d c c4 bes8~ | bes bes bes4 aes r | % Rattling and bangin
-  	aes8 aes aes bes4 r8 bes bes | c c c d4 d8 ees4 | % Riding around on this ... beyond
+  	aes8 aes aes bes4 r8 bes bes | c c c d4 r ees8 | % Riding around on this ... full
   	\tuplet 3/2 { d4 c ees d c ees } | \tuplet 3/2 { d4 c ees } d2 | 
   	
   	\set Score.voltaSpannerDuration = #(ly:make-moment 4/4)
@@ -38,8 +38,8 @@ melody = \relative c' {
 		g4 f2.~ | f4 g4. ees |
 		c1~ | c4 g'4. bes |
 		a4. g~ g4~ | g g2 g4 |
-		c r b r | bes r a g |
-		bes( a bes) g~ | g1 |
+		c r2. | r2 a4 g |
+		bes( a bes g)~ | g1 |
 		r1 | r | r | r | 
 		% Verse two
 		}
@@ -49,7 +49,7 @@ melody = \relative c' {
 		  	r8 f4 ees8 ees16 d ees4 d8 | ees4 d8 bes4. r4 | 
 		  	r4. d8 d d d ees~ | ees4 ees8 ees f4. g8~ | 
 		  	g g f g4 g f8 | g4. g4.~ g4 | % when and for how long
-		  	r f8 f ees ees d d | d d4 d8 c4 r8 c8~ | % Everybody's trying to snake your slot, snatch
+		  	r f4 ees8 ees d d | d d4 d8 c4 r8 c8~ | % Somebody's trying to snake your slot, snatch
 		  	c c bes4 r8 bes4 bes8 | aes4. c8 d d4 d8 | % snatch... hitch your boy and skim your dough. A yogi's con
 		  	d4 d r2 | r4 c8 c c c c c | % a yogi's... everybody who was
 		  	\tuplet 3/2 { d4 d d } ees2~ | ees4 r8 g,8 g4 g8 g | % noone... The least of my
@@ -71,7 +71,7 @@ melody = \relative c' {
 		  	
 		  	g4 d8 d d d d d | d4 d8 d4. r8 d| % out. Peoples people
 		  	f4 f8 f f4 f8 r | f4 f8 f4. r4 | % sist past resistance
-		  	g16 g8 g16 g8 g g g g g | g4 g8 g g4 r8 g8 |% dying without regretting
+		  	c'16 g8 g16 g8 g g g g g | g4 g8 g g4 r8 g8 |% dying without regretting
 		  	c4 c8 c ees4 r8 ees | c4 c8 c aes4 r | % trigued and amused we is what we is
 		  	
 		  	r4 ees'8 d c d g, g | bes4 g8 c4. r4 | % Undefinable
@@ -107,15 +107,15 @@ text =  \lyricmode {
 	Great ta see ya. Awe -- some you could come 
 	help to voice this in -- can -- ta -- tion.
 	Rat -- tl -- ing and thump -- ing sha -- kers and drums.
-	Ri -- ding a -- round on this wrin -- le -- y road be -- yond
-	co -- lor and gen -- der and coun -- try and crowd.
+	Ri -- ding a -- round on this wrin -- le -- y road full
+	co -- lor full gen -- der full won -- der full crowd.
 	
 	% Refrain
 	It's not a game show.
 	It's not a con -- test
 	It's just a good old new age love fest.
 	Fools and queens, gods and mons -- ters all of
-	us. Sat. Sat. Na -- ma -- sté. Om.
+	us. Bump a -- long.
 	
 	% Verse two
 	Hard to be -- lieve we are peo -- ple of beau -- ty.
@@ -124,7 +124,7 @@ text =  \lyricmode {
 	when and for how long and how bright.
 	Ev' -- ry bo -- dy try -- ing to snake your slot,
 	snatch your boy, skim your dough. This yo -- gi's con -- 
-	ven -- tion. Ev -- 'ry -- bo -- dy who was
+	ven -- tion. Some -- bo -- dy who was
 	no -- one was there. The least of my
 	peo -- ple po -- li -- tick -- ing for saint -- hood.
 	Who is the most less. Then some punk dies
@@ -162,7 +162,7 @@ text =  \lyricmode {
 	third eye o -- pen so wide.
 	
 	So so young, wish -- ing for great -- ness.
-	Then a bit old -- er, wish -- ing for suc -- cess.
+	Then a bit old -- er, wish -- ing for res -- pect.
 	Wish -- ing for hap -- pi -- ness now.
 	Fin -- al -- ly a dig -- ni -- fied death.
 }
