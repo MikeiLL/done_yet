@@ -1,0 +1,1 @@
+\tuplet 3/2 { \repeat tremolo 6 { d8 c } } | \tuplet 3/2 { \repeat tremolo 6 { d8 c } } | 
