@@ -38,7 +38,7 @@ melody = \relative c' {
 		g4 f2.~ | f4 g4. ees |
 		c1~ | c4 g'4. bes |
 		a4. g~ g4~ | g g2 g4 |
-		c r2. | r2 a4 g |
+		c r2. | r2 a4 a |
 		bes( a bes g)~ | g1 |
 		r1 | r | r | r | 
 		% Verse two
@@ -48,9 +48,9 @@ melody = \relative c' {
 		  	g,8. g16~ g8 bes d4. c16 c | d8 d ees d d4 r | % Hard to believe
 		  	r8 f4 ees8 ees16 d ees4 d8 | ees4 d8 bes4. r4 | 
 		  	r4. d8 d d d ees~ | ees4 ees8 ees f4. g8~ | 
-		  	g g f g4 g f8 | g4. g4.~ g4 | % when and for how long
-		  	r f4 ees8 ees d d | d d4 d8 c4 r8 c8~ | % Somebody's trying to snake your slot, snatch
-		  	c c bes4 r8 bes4 bes8 | aes4. c8 d d4 d8 | % snatch... hitch your boy and skim your dough. A yogi's con
+		  	g g f g4 g f8 | g4. g4.~ g4 | % when and for how long and how bright
+		  	r8 f f f ees ees ees d~ | d d c4 c8 r c bes8~ | % Somebody trying to snake your slot, snatch ya boy~
+		  	bes4. bes4 bes8 aes4~ | aes4 r8 c8 d d4 d8 | % boy... hitch your boy and skim your dough. A yogi's con
 		  	d4 d r2 | r4 c8 c c c c c | % a yogi's... everybody who was
 		  	\tuplet 3/2 { d4 d d } ees2~ | ees4 r8 g,8 g4 g8 g | % noone... The least of my
 		  	g g r4 d'8 d d d | c d4. d4 r | % people... sainthood. 
@@ -122,9 +122,9 @@ text =  \lyricmode {
 	All this bick -- er -- ing and back stab -- bing.
 	Comp -- et -- ing for who's gon -- na shine
 	when and for how long and how bright.
-	Ev' -- ry bo -- dy try -- ing to snake your slot,
+	Some -- bo -- dy try -- ing to snake your slot,
 	snatch your boy, skim your dough. This yo -- gi's con -- 
-	ven -- tion. Some -- bo -- dy who was
+	ven -- tion. Ev -- 'ry -- bo -- dy who was
 	no -- one was there. The least of my
 	peo -- ple po -- li -- tick -- ing for saint -- hood.
 	Who is the most less. Then some punk dies
