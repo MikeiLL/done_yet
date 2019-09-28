@@ -30,6 +30,30 @@ verse = \drummode {
     hh4. r r8. hh16~ | hh4 hh8 hh hh4 hh8 hh16 hh~ | hh4. hh8 \tuplet 3/2 { hh4 hh hh~ } | hh4 r2 hh8 hh~ | %  being pyromaniacle... refer-
     hh hh hh hh hh hh hh hh~ | \tuplet 3/2 { hh2 hh hh4 hh } | % red to as the... queen of steam you
     \tuplet 3/2 { hh4 hh hh8 hh~ } hh2 | r4. hh8 \tuplet 3/2 { hh4 hh hh8 hh~ } | hh4. r r4 | r1 | % know who I mean... scream
+    
+    \eightBlank
+    \eightBlank
+    \eightBlank
+    r1 | r | r | r | r | r | r |
+    
+    % Verse three
+    hh4 hh hh hh8 hh8~ | hh8 hh4 hh8 hh4 r | % Wild drums lead the crowd, chanting, "Coast!"
+    hh r8 hh4 % Tent filled with a thick cloud of smoke.
+    % Two balls of fire danced into the ring, swung
+    % wid -- er and wider 'till they start -- ed to spin.
+    % Spin -- ning, spin -- ning, fast as fast gets,
+    % crowd dis -- sap -- pat -- ing you could
+    % see a sil -- hou -- ette:
+    % God -- dess; an art -- ist
+    % wield -- ing twin flames,
+    % spin -- ning them a -- round at the
+    % end of twin chains. Se -- 
+    % duced the room, O -- ya dance,
+    % fig -- ure eights, atoms, in -- 
+    % fi -- ni -- ty trance.
+    % Ate, spit fire, kick flame from her heels.
+    % Shot blue sparks from her fin -- ger -- nails.
+    % Dis -- ap -- peared in a blind -- ing flash. 
 }
 
 words =  \lyricmode {
@@ -52,6 +76,24 @@ words =  \lyricmode {
     mys -- ti -- cal, ma -- gi -- cal ser -- pen -- tine being, py -- ro -- man -- i -- a -- cal 
     fiend, the stuff of dreams, ref -- ferred to as the va -- por -- ous queen of steam, you
     know who I mean, I want you to scream.
+    
+    Wild drums lead the crowd, chant -- ing, "Coast!"
+    Tent filled with a thick cloud of smoke.
+    Two balls of fire danced into the ring, swung
+    wid -- er and wider 'till they start -- ed to spin.
+    Spin -- ning, spin -- ning, fast as fast gets,
+    crowd dis -- sap -- pat -- ing you could
+    see a sil -- hou -- ette:
+    God -- dess; an art -- ist
+    wield -- ing twin flames,
+    spin -- ning them a -- round at the
+    end of twin chains. Se -- 
+    duced the room, O -- ya dance,
+    fig -- ure eights, atoms, in -- 
+    fi -- ni -- ty trance.
+    Ate, spit fire, kick flame from her heels.
+    Shot blue sparks from her fin -- ger -- nails.
+    Dis -- ap -- peared in a blind -- ing flash.
 }
 
 melody = \relative c' {
@@ -79,7 +121,7 @@ melody = \relative c' {
 	 ees4 ees ees des~ | des ees2. | r1 | r |
 	 g4 g g fis~ | fis g2. | r1 | r |
 	 bes4 bes bes a~ | a bes2. | r1 | r |
-	 c,4 r ees r | c r2. | c4 r ees r | f r2. |
+	 c4 r ees r | c r2. | c4 r ees r | f r2. |
 	 f4 r ges r | c, r2. | c4 r ees r | c r2. | 
 	 c4 r ees r | f r2. | f4 r ges r | 
 	 c, r2.| r1 | r | r | 
