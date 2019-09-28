@@ -38,22 +38,21 @@ verse = \drummode {
     
     % Verse three
     hh4 hh hh hh8 hh8~ | hh8 hh4 hh8 hh4 r | % Wild drums lead the crowd, chanting, "Coast!"
-    hh r8 hh4 % Tent filled with a thick cloud of smoke.
-    % Two balls of fire danced into the ring, swung
-    % wid -- er and wider 'till they start -- ed to spin.
-    % Spin -- ning, spin -- ning, fast as fast gets,
-    % crowd dis -- sap -- pat -- ing you could
-    % see a sil -- hou -- ette:
-    % God -- dess; an art -- ist
-    % wield -- ing twin flames,
-    % spin -- ning them a -- round at the
-    % end of twin chains. Se -- 
-    % duced the room, O -- ya dance,
-    % fig -- ure eights, atoms, in -- 
-    % fi -- ni -- ty trance.
-    % Ate, spit fire, kick flame from her heels.
-    % Shot blue sparks from her fin -- ger -- nails.
-    % Dis -- ap -- peared in a blind -- ing flash. 
+    hh r8 hh4 hh8 hh hh | r hh4 hh8 hh4 r | % Tent filled with a thick cloud of smoke.
+    hh8 hh4 hh8 hh4. dd8~ | hh8 hh hh hh hh4 hh | % Two balls of fire danced into the ring, swung
+    hh hh hh8 hh hh hh | hh hh hh hh4. r4 | % wid -- er and wider 'till they start -- ed to spin.
+    hh8 hh4. hh8 hh4 hh8~ | hh hh hh4 hh r | % Spin -- ning, spin -- ning, fast as fast gets,
+    hh4 hh8 hh hh hh hh hh | hh hh hh hh hh4 r | % crowd dis -- sap -- pat -- ing you could see a sil -- hou -- ette:
+    hh4 hh r4. hh8 | hh4 hh r2 | % God -- dess; an art -- ist
+    hh4 hh r4 hh | hh2 r | % wield -- ing twin flames,
+    hh8 hh hh4 r4. hh8 | hh4 hh r4. hh8 | % spin -- ning them a -- round at the
+    hh4 hh r hh | hh2 r4. hh8 | % end of twin chains. Se -- 
+    hh4 hh8 hh4. r4 | hh4 hh hh r | % duced the room, O -- ya dance,
+    hh8 hh hh4 hh8 hh4 hh8 | hh8 hh hh hh4. r4 | % fig -- ure eights, atoms, in -- fi -- ni -- ty trance.
+    hh4 hh hh hh | hh hh8 hh hh4 r | % Ate, spit fire, kick flame from her heels.
+    hh4 hh hh hh8 hh | hh4 hh8 hh4. r4 | % Shot blue sparks from her fin -- ger -- nails.
+    hh4 hh8 hh4. hh8 hh | hh4 hh hh r | % Dis -- ap -- peared in a blind -- ing flash. 
+    hh2 hh4 hh8 hh~ | hh8 hh4 hh4. r4 |% Damn, knocked me on my ass.
 }
 
 words =  \lyricmode {
@@ -79,7 +78,7 @@ words =  \lyricmode {
     
     Wild drums lead the crowd, chant -- ing, "Coast!"
     Tent filled with a thick cloud of smoke.
-    Two balls of fire danced into the ring, swung
+    Two balls of fire danced in -- to the ring, swung
     wid -- er and wider 'till they start -- ed to spin.
     Spin -- ning, spin -- ning, fast as fast gets,
     crowd dis -- sap -- pat -- ing you could
@@ -89,11 +88,12 @@ words =  \lyricmode {
     spin -- ning them a -- round at the
     end of twin chains. Se -- 
     duced the room, O -- ya dance,
-    fig -- ure eights, atoms, in -- 
+    fig -- ure eights, at -- oms, in -- 
     fi -- ni -- ty trance.
     Ate, spit fire, kick flame from her heels.
     Shot blue sparks from her fin -- ger -- nails.
     Dis -- ap -- peared in a blind -- ing flash.
+    Damn! Knocked me on my ass.
 }
 
 melody = \relative c' {
@@ -117,6 +117,20 @@ melody = \relative c' {
 	 \eightBlank
 	 \eightBlank
 	\new Voice = "chorus_two" {
+	 c,4 c c bes~ | bes c2. | r1 | r |
+	 ees4 ees ees des~ | des ees2. | r1 | r |
+	 g4 g g fis~ | fis g2. | r1 | r |
+	 bes4 bes bes a~ | a bes2. | r1 | r |
+	 c4 r ees r | c r2. | c4 r ees r | f r2. |
+	 f4 r ges r | c, r2. | c4 r ees r | c r2. | 
+	 c4 r ees r | f r2. | f4 r ges r | 
+	 c, r2.| r1 | r | r | 
+	}
+    \eightBlank
+    \eightBlank
+    \eightBlank
+    \eightBlank
+	\new Voice = "chorus_three" {
 	 c,4 c c bes~ | bes c2. | r1 | r |
 	 ees4 ees ees des~ | des ees2. | r1 | r |
 	 g4 g g fis~ | fis g2. | r1 | r |
@@ -178,6 +192,7 @@ harmonies = \chordmode {
   	}
   	\new Lyrics \lyricsto "chorus" \chorus_text
   	\new Lyrics \lyricsto "chorus_two" \chorus_text
+  	\new Lyrics \lyricsto "chorus_three" \chorus_text
  >> 
 } 
 
