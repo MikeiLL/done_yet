@@ -8,62 +8,62 @@
 }
 
 fourBlank = \relative {
-	r1 r2  | r1 r2  | r1 r2  | r1 r2  |
+	r1 | r | r | r |
 }
 
 verse = \relative c' { 
   \clef treble
   \key g \major
-  \time 12/8 
+  \time 4/4 
   \set Score.voltaSpannerDuration = #(ly:make-moment 6/8)
   #(ly:expect-warning "cannot end volta") 
-	b4 b8 b4 b8 b b4 b4 r8 | b4 b8 b4 b8 b4 b8 b4 r8 | % Used to be the mid -- dle class made some mo -- ney in the clear.
-	b4 b8 b4 b8 b4 b8 b4 r8 | b4.~ b4 b8 b4 b8 b4. | % Used to be I'm fair -- ly sure. Whao, but not no more.
+	\tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 b8 } \tuplet 3/2 { b b4 } \tuplet 3/2 { b4 r8 }| \tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 b8 } b4| % Used to be the mid -- dle class made some mo -- ney in the clear.
+	\tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 r8 } | b4~ \tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 b8 } b4 | % Used to be I'm fair -- ly sure. Whao, but not no more.
 	\fourBlank
 
-	b4 b8 b4 b8 b4 b8 b4 r8 | b4 b8 b4 b8 b4 b8 b4 r8 | % Love -- ly beach we used to share, creat -- ures wa -- ter, earth and air.
-	b4 b8 b4 b8 b4 b8 b4 r8 | b4.~ b4 b8 b4 b8 b4. | % Used to be I'm fair -- ly sure. Whao, but not no more.
+	\tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 r8 } | \tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 b8 } b4| % Love -- ly beach we used to share, creat -- ures wa -- ter, earth and air.
+	\tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 r8 } | b4~ \tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 b8 } b4 | % Used to be I'm fair -- ly sure. Whao, but not no more.
 	\fourBlank
 	
-	b4 b8 b4 b8 b4 b8 b4 r8 | b4 b8 b4 b8 b4 b8 b4 r8 | % Once up -- on a yes -- ter -- year, aqui -- fer was crys -- tal clear
-	b4 b8 b4 b8 b4 b8 b4 r8 | b4.~ b4 b8 b4 b8 b4. | % Used to be I'm fair -- ly sure. Whao, but not no more.
+	\tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 r8 } | \tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 b8 } b4| % Once up -- on a yes -- ter -- year, aqui -- fer was crys -- tal clear
+	\tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 r8 } | b4~ \tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 b8 } b4 | % Used to be I'm fair -- ly sure. Whao, but not no more.
 	\fourBlank
 
-	b4 b8 b4 b8 b4 b8 b4 r8 | b4 b8 b4 b8 b4 b8 b4 r8 | % Lobby -- ists were once res -- trained in their in -- flu -- en -- tial games
-	b4 b8 b4 b8 b4 b8 b4 r8 | b4.~ b4 b8 b4 b8 b4. | % Used to be I'm fair -- ly sure. Whao, but not no more.
+	\tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 r8 } | \tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 b8 } b4| % Lobby -- ists were once res -- trained in their in -- flu -- en -- tial games
+	\tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 r8 } | b4~ \tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 b8 } b4 | % Used to be I'm fair -- ly sure. Whao, but not no more.
 	\fourBlank
 	
-	b4 b8 b4 b8 b4 b8 b4 r8 | b4 b8 b4 b8 b4 b8 b4 r8 | % Once u -- pon a pen -- sion plan, diffe -- rent than a pok -- er hand
-	b4 b8 b4 b8 b4 b8 b4 r8 | b4.~ b4 b8 b4 b8 b4. | % Used to be I'm fair -- ly sure. Whao, but not no more.
+	\tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 r8 } | \tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 b8 } b4| % Once u -- pon a pen -- sion plan, diffe -- rent than a pok -- er hand
+	\tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 r8 } | b4~ \tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 b8 } b4 | % Used to be I'm fair -- ly sure. Whao, but not no more.
 	\fourBlank
 
-	b4 b8 b4 b8 b4 b8 b4 r8 | b4 b8 b4 b8 b4 b8 b4 r8 | % Gamb -- ling on our roofs and beds, sen -- sib -- ly for -- bid for -- bid
-	b4 b8 b4 b8 b4 b8 b4 r8 | b4.~ b4 b8 b4 b8 b4. | % Used to be I'm fair -- ly sure. Whao, but not no more.
+	\tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 r8 } | \tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 b8 } b4| % Gamb -- ling on our roofs and beds, sen -- sib -- ly for -- bid for -- bid
+	\tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 r8 } | b4~ \tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 b8 } b4 | % Used to be I'm fair -- ly sure. Whao, but not no more.
 	\fourBlank
 	
-	b4. b4 b8 b b4 b4 r8 | b4 b8 b4 b8 b4 b8 b4 r8 | % Who did O -- ba -- ma -- care? Frank -- en -- stein of sin -- gle payer
-	b4 b8 b4 b8 b4 b8 b4 r8 | b4.~ b4 b8 b4 b8 b4. | % Used to be I'm fair -- ly sure. Whao, but not no more.
+	\tuplet 3/2 { b4. } \tuplet 3/2 { b4 b8 } \tuplet 3/2 { b b4 } \tuplet 3/2 { b4 r8 } | \tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 b8 } b4| % Who did O -- ba -- ma -- care? Frank -- en -- stein of sin -- gle payer
+	\tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 r8 } | b4~ \tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 b8 } b4 | % Used to be I'm fair -- ly sure. Whao, but not no more.
 	\fourBlank
 
-	b4 b8 b4 b8 b4 b8 b4 r8 | b4 b8 b4 b8 b4 b8 b4 r8 | % Who you wor -- ship how you pray, not the busi -- ness of the state
-	b4 b8 b4 b8 b4 b8 b4 r8 | b4.~ b4 b8 b4 b8 b4. | % Used to be I'm fair -- ly sure. Whao, but not no more.
+	\tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 r8 } | \tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 b8 } b4| % Who you wor -- ship how you pray, not the busi -- ness of the state
+	\tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 r8 } | b4~ \tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 b8 } b4 | % Used to be I'm fair -- ly sure. Whao, but not no more.
 	\fourBlank
 	
-	b4 b8 b4 b8 b4 b8 b4 r8 | b4 b8 b4 b8 b4 b8 b4 r8 | % As a child and ear -- ly teen, life was clear -- ly as it seemed.
-	b4 b8 b4 b8 b4 b8 b4 r8 | b4.~ b4 b8 b4 b8 b4. | % Used to be I'm fair -- ly sure. Whao, but not no more.
+	\tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 r8 } | \tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 b8 } b4| % As a child and ear -- ly teen, life was clear -- ly as it seemed.
+	\tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 r8 } | b4~ \tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 b8 } b4 | % Used to be I'm fair -- ly sure. Whao, but not no more.
 	\fourBlank
 
-	b4 b8 b4 b8 b4 b8 b4 b8 | b4 b8 b4 b8 b4 b8 b4 r8 | % Back in school they test -- ed some, but not so much it made you numb.
-	b4 b8 b4 b8 b4 b8 b4 r8 | b4.~ b4 b8 b4 b8 b4. | % Used to be I'm fair -- ly sure. Whao, but not no more.
+	\tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 b8 } | \tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 b8 } b4| % Back in school they test -- ed some, but not so much it made you numb.
+	\tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 r8 } | b4~ \tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 b8 } b4 | % Used to be I'm fair -- ly sure. Whao, but not no more.
 	\fourBlank
 	
-	b8 b4 b4 b8 b b4 b4 r8 | b4 b8 b4 b8 b4 b8 b4 r8 | % Hud -- dled mas -- ses, hung -- ry scores, wel -- comed at our gol -- den shores,
-	b4 b8 b4 b8 b4 b8 b4 r8 | b4.~ b4 b8 b4 b8 b4. | % Used to be I'm fair -- ly sure. Whao, but not no more.
+	\tuplet 3/2 { b8 b4 } \tuplet 3/2 { b4 b8 } \tuplet 3/2 { b b4 } \tuplet 3/2 { b4 r8 } | \tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 b8 } b4| % Hud -- dled mas -- ses, hung -- ry scores, wel -- comed at our gol -- den shores,
+	\tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 r8 } | b4~ \tuplet 3/2 { b4 b8 } \tuplet 3/2 { b4 b8 } b4 | % Used to be I'm fair -- ly sure. Whao, but not no more.
 
 	
 }
 
-words =  \lyricmode {
+words = \lyricmode {
 	Used to be the mid -- dle class made some mo -- ney in the clear.
 	Used to be I'm fair -- ly sure. Whao, but not no more.
 	
