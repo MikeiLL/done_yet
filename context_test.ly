@@ -1,80 +1,45 @@
 \version "2.19.45"
-\paper{ print-page-number = ##f bottom-margin = 0.5\in }
-
-\header {
-  title = "Two Verses with a Non-Lyric Section"
-}
-
-melody = \relative c'' {
- \clef treble
- \key c \major
- \time 3/4
- \set Score.voltaSpannerDuration = #(ly:make-moment 3/4)
- #(ly:expect-warning "cannot end volta")
-   \new Voice = "chorus" {
-     \voiceOne
-     c2. | d | e | d |
-     c |
-   }
-   e4 d c | e4 d c | e4 d c |
-   \new Voice = "verse" {
-     c2. | d | e | f |
-     g | f | e | d |
-   }
-   e4 d c | e4 d c | e4 d c |
-   \context Voice = "verse" {
-     c2. | d | e | f |
-     e | f | e | c |
-   }
-}
-
-
-chorus =  \lyricmode {
- These are words they are.
-}
-
-verse =  \lyricmode {
- This one here will
- be the first verse.
- This one here will
- be the se -- cond.
-}
-
-
-harmonies = \chordmode {
- c2.
-}
 
 \score {
- <<
-   \new ChordNames {
-     \set chordChanges = ##t
-     \harmonies
-   }
-   \new Staff  {
-     \new Voice = "main" { \melody }
-   }
-   \new Lyrics \lyricsto "chorus" \chorus
-   \new Lyrics \lyricsto "verse" \verse
- >>
-
-  
-  \layout { 
-   #(layout-set-staff-size 16)
-   }
-  \midi { 
-  	\tempo 4 = 125
-  }
-  
+  <<
+    \new Staff {
+      \time 3/4
+      \new Voice = "a" { a'2. }
+      % Sequential:
+      \new Voice = "b" { b'4 \new Voice { g'8[ 8] } b'4 }
+      % Parallel:
+      <<
+        \new Voice = "c" { c''4 s c'' }
+        \new Voice { s4 g'8 8 s }
+      >>
+      % Parallel within Sequential:
+      {
+        \new Voice = "d" { d''4 }
+        <<
+          \context Voice = "d" { s4 }
+          \new Voice { g'8[ 8] }
+        >>
+        \context Voice = "d" { d''4 }
+      }
+      % Sequential within Parallel:
+      <<
+        \new Voice = "e" { s2. }
+        {
+          \context Voice = "e" { e''4 }
+          \new Voice { g'8[ 8] }
+          \context Voice = "e" { e''4 }
+        }
+      >>
+    }
+    \new Lyrics <<
+      \lyricsto "a" { a }
+      \lyricsto "b" { b b }
+      \lyricsto "c" { c c }
+      \lyricsto "d" { d d }
+      \lyricsto "e" { e e }
+    >>
+  >>
 }
 
-%Additional Verses
-\markup \fill-line {
-\column {
-""
-
-
-" "
-  }
-}
-
+% Thanks to Aaron Hill lilypond@hillvisions.com
+% Reference http://lilypond.org/doc/v2.19/Documentation/notation/keeping-contexts-alive.en.html
