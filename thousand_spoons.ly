@@ -39,10 +39,10 @@ melody = \relative c'' {
 		a2\glissando e'4. | a,2\glissando e'8 % Me me. Full
 		}
 		\new Voice = "refrain" {
-			d4 | d4 d4. c4 | bes4 bes4. a4 | a4 g8 fis2~ | fis4.~ fis4 d'4 |
-			d4~ d4. c4 | bes4~ bes4. a4 | a4 g8 fis2~ | fis4 fis8 g a4 bes8~ | 
-			bes2~ bes4.~ | bes4.~ bes4 a4 | a2~ a4.~ | a4 fis8 g a4 bes8~ | 
-			bes2~ bes4.~ | bes4.~ bes4 a4 | a2~ a4.~ | a2 r4. |
+			d4 | d4 d4. c4 | bes4 bes4. a4 | a4 g8 fis2~ | fis4.~ fis4 d'4 | % Full color... Full
+			d4~ d4. c4 | bes4~ bes4. a4 | a4 g8 fis2~ | fis4 fis8 g a4 bes8~ | % on, full time... a silver-
+			bes4 c4~ c4.~ | c4. bes4 a4~ | a2~ a4.~ | a4 fis8 g a4 bes8~ | 
+			bes4 c4~ c4.~ | c4. bes4 a4~ | a2~ a4.~ | a2 r4. |
 		}
 	}
 	\new NullVoice = "hidden" {
@@ -74,7 +74,32 @@ text =  \lyricmode {
 
 
 harmonies = \chordmode {
- a2:maj a4.:maj |
+ a2 a4. | a2 a4. |
+ d2:min d4.:min | d2:min d4.:min | 
+ a2 a4. | d2:min d4.:min | 
+ a2 a4. | a2 a4. |
+ a2 a4. | g2 g4. |
+ f2 f4. | bes2:min/f bes4.:min/f |
+ a2 a4. | a2 a4. |
+ a2 a4. | g2 g4. |
+ f2 f4. | bes2:min/f bes4.:min/f |
+ a2 a4. | a2 a4. |
+ a2 a4. | d2:min d4.:min | 
+ a2 a4. | a2 a4. |
+ a2 a4. | g2 g4. |
+ f2 f4. | bes2:min/f bes4.:min/f |
+ a2 a4. | a2 a4. |
+ a2 a4. | g2 g4. |
+ f2 f4. | bes2:min/f bes4.:min/f |
+ a2 a4. | a2 a4. |
+ a2 a4. | a2 a4. |
+ 
+ d2:7 d4.:7 | g2:min g4.:min |
+ d2:7 d4.:7 | d2:7 d4.:7 | 
+ d2:7 d4.:7 | g2:min g4.:min |
+ d2:7 d4.:7 | d2:7 d4.:7 | 
+ d2:7 d4.:7 | d2:7 d4.:7 | 
+ d2:7 d4.:7 | d2:7 d4.:7 | 
 }
 
 \score {
