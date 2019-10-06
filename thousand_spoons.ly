@@ -37,7 +37,7 @@ melody = \relative c'' {
 		a2~ a4.~ | a2~ a4. |
 		cis4 cis4. a4 | a4 g4. fis4 | f4 g4. a4 | bes4. c4 a4~ | % Jack in the pul -- pit the co -- lor of men -- strual blood.
 		a2~ a4.~ | a2~ a4. |
-		a2.-\bendAfter #5 r8 | a2-\bendAfter #5 r8 % Me me. Full
+		a2.-\bendAfter #5 r8 | r4 r4. r4 | a2.-\bendAfter #5 r8 | r4 r4. % Me me. Full
 		}
 		\new Voice = "refrain" {
 			d4 | d4 d4. c4 | bes4 bes4. a4 | a4 g8 fis2~ | fis4.~ fis4 d'4 | % Full color... Full
@@ -129,13 +129,14 @@ harmonies = \chordmode {
  a2 a4. | g2 g4. |
  f2 f4. | bes2:min/f bes4.:min/f |
  a2 a4. | a2 a4. |
- a2 a4. | d2:min d4.:min | 
  a2 a4. | a2 a4. |
+ d2:min d4.:min | d2:min d4.:min | 
  a2 a4. | g2 g4. |
  f2 f4. | bes2:min/f bes4.:min/f |
  a2 a4. | a2 a4. |
  a2 a4. | g2 g4. |
  f2 f4. | bes2:min/f bes4.:min/f |
+ a2 a4. | a2 a4. |
  a2 a4. | a2 a4. |
  a2 a4. | a2 a4. |
  
