@@ -35,16 +35,16 @@ melody = \relative c'' {
  		
 		cis4 cis4. a4 | a4 g8 g4 fis4 | f g4. a4 | bes4 c4. a4~ | % Danc -- ing my scars o -- pen to see what I'm made out of.
 		a2~ a4.~ | a2~ a4. |
-		cis4 cis4. a4 | a4 g4. fis4 | f4 g4. a4 | bes4. c4 a4~ | % Jack in the pul -- pit the co -- lor of men -- strual blood.
+		cis4 cis4. a4 | a4 g4. fis4 | f4 g4. a4 | bes4. c2 | % Jack in the pul -- pit the co -- lor of men -- strual blood.
 		a2~ a4.~ | a2~ a4. |
 		a2.-\bendAfter #5 r8 | r4 r4. r4 | a2.-\bendAfter #5 r8 | r4 r4. % Me me. Full
 		}
 		\new Voice = "refrain" {
 			d4 | d4 d4. c4 | bes4 bes4. a4 | a4 g8 fis2~ | fis4.~ fis4 d'4 | % Full color... Full
-			d4~ d4. c4 | bes4~ bes4. a4 | a4 g8 fis2~ | fis4 fis8 g a4 bes8~ | % on, full time... a silver-
-			bes4 c4~ c4.~ | c4. bes4 a4~ | a2~ a4.~ | a4 fis8 g a4 bes8~ | 
-			bes4 c4~ c4.~ | c4. bes4 a4~ | a2~ a4.~ | a4 fis8 g a4 bes8~ | 
-			bes4 c4~ c4.~ | c4. bes4 a4~ | a2~ a4.~ | a2 r4. |
+			d4~ d4. c4 | bes4~ bes4. a4 | a4 g8 fis2~ | fis4 fis8 g a4 bes8 | % on, full time... a silver-
+			c4~ c4.~ c4~ | c4~ c4. bes4 | a4~ a4.~ a4~ | a4 fis8 g a bes4 | % chain my dream I will not re-
+			c4~ c4.~ c4~ | c4~ c4. bes4 | a4~ a4.~ a4~ | a4 fis8 g a bes4 | % strain my being I will not re-
+			c4~ c4.~ c4~ | c4~ c4. bes4 | a4~ a4.~ a4~ | a2 r4. | % main unseen
 		}
 	}
 	\new NullVoice = "hidden" {
@@ -72,7 +72,7 @@ melody = \relative c'' {
 			r4 r4. r4 | r4 r4. r4 | r4 r4. r4 | r4 r4. r4 |
 			cis4 cis4. a4 | a4 g4. fis4 | f g4. a4 | bes4 c4. a4~ | % Fade in -- to no -- thing is al -- ways the sta -- tus quo.
 			a2~ a4.~ | a2~ a4. |
-			cis4 cis4. a4 | a4 g4. fis4 | f g4. a4 | bes4 c4. a4~ | % In -- tim -- i -- da -- ted, per -- haps if you got to know
+			cis4 cis4. a4 | a4 g4. fis4 | f g4. a4 | bes4. c2 | % In -- tim -- i -- da -- ted, per -- haps if you got to know
 			a2~ a4.~ | a2~ a4. |
 
 		}
