@@ -14,9 +14,30 @@ fourBlank = \relative {
 verse = \relative c' { 
   \clef treble
   \key c \major
-  \time 6/6 
+  \time 6/8 
   \set Score.voltaSpannerDuration = #(ly:make-moment 6/8)
   #(ly:expect-warning "cannot end volta") 
+	\partial 4 c8 d |
+	e2 e8 e | d2 d8 d | c2 c8 c | cis2 cis8 cis | % I was tied to the mast on an old ship of fools
+	d2 e8 d | c4 c c8 a | c4 r2 | r2 c8 d |% Where I once was the cap -- tain, so I thought.
+	e2 e8 e | d2 d8 d | c2 c8 c | cis2 cis8 cis |% And I barked my com -- mands at the half heart 
+	d2 e8 d | c4 c a | c4 r2 | r2 c8 d | % ‘Till we end -- ed up far from our course. On a 
+	
+	e4. e8 e e | d2 d8 d | c2 c8 c | cis2 cis8 cis | % On a small un -- co -- vered raft, when we found you a -- drift
+	d4 e f | e e d | e4 r2 | r2 r8 e | % And we lift -- ed you over the side.
+	e2 e8 e | e2 e8 e | e4 e f | g2 f8 e | % You told us a tale. A re -- mote de -- sert isle.
+	f4 g f | e e d | e4 r2 | r2  % Where you left your o -- ri -- gi -- nal tribe.	
+
+}
+
+chorus = \relative c' { 
+	g8 a | 
+	c2 d8 e | g2 g,8 a | % It was love at first sight.
+	c2 d8 e | a2 r4 | % I was scared, it was right.
+	% Hope -- less -- ly drawn to the blind -- ing light.
+	% As we feel our way through
+	% You for me, me for you
+	% We dis -- co -- ver that we’re stron -- ger as one than two.
 
 }
 
@@ -27,7 +48,7 @@ words = \lyricmode {
 	‘Till we end -- ed up far from our course.
 	
 	On a small un -- co -- vered raft, when we found you a -- drift
-	And we lift -- ed you over the side.
+	And we lift -- ed you o -- ver the side.
 	You told us a tale. A re -- mote de -- sert isle.
 	Where you left your o -- ri -- gi -- nal tribe.	
 	
@@ -61,7 +82,7 @@ words = \lyricmode {
 
 }
 
-% CHORUS_text =  \lyricmode {
+chorus_text =  \lyricmode {
 	It was love at first sight.
 	I was scared, it was right.
 	Hope -- less -- ly drawn to the blind -- ing light.
@@ -83,8 +104,10 @@ harmonies = \chordmode {
 << 
 \new Staff {
 	\new Voice = "words" { \verse } 
+	\new Voice = "chorus" { \chorus } 
 } 
 \new Lyrics \lyricsto "words" { \words  } 
+\new Lyrics \lyricsto "chorus" { \chorus_text  } 
 
 \new ChordNames {
   \set chordChanges = ##t
