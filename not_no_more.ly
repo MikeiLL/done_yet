@@ -3,7 +3,7 @@
 
 \header {
   title = "Not No More"
-  composer = "Words by Rivka & Mike iLL music from Folk Dance Song..."
+  composer = "Words by Rivka & Mike iLL music from Ciuleandra as sung by Maria Tănase"
   tagline = "Copyright R. and M. Kilmer Creative Commons Attribution-NonCommercial, BMI"
 }
 
