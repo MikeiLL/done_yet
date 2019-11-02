@@ -151,8 +151,8 @@ melody = \relative c'' {
 	r4. g,8 a a | b b c d e g | \tuplet 4/3 { a8 r a a4 a a8 } | % Every time we think that we’ve found some peace and some peace and 
 	a8 r a r \tuplet 3/2 { a r a } | a4 g8 e4 r8 | % some peace and security
 	a4 a8 a \tuplet 3/2 { a a a } | a8. a a8 a a | r8 a4 g8 e4 | % Well buddy babe you can bet bet bet that the media: 
-	r4 a g8 d | b'4 g8 e a4 | g8 e4 r8 b'4 | g8 e4 b'8 g e| % Audio, video, billboard and radio
-	e'4. d8 b4 | a4 g a | e4 g2 | r2. | % Grabbing ahold of my mind and my wallet
+	r4 a g8 d | b'4 g8 e a4 | g8 e4 r8 b'4 | g8 e4 d'8 b g| % Audio, video, billboard and radio
+	e'4. d8 b4 | a4 g a | e4 g2~ | g2 r4 | % Grabbing ahold of my mind and my wallet
 	r4. \tuplet 4/3 {e8 e e e} | \tuplet 4/3 { g g g g } \tuplet 4/3 { a a a a } | % Benny after Benny and a Billion and a 
 	d d d d e e | e8. e \tuplet 4/3 { g8 fis g a } | % billion and a Zillion you would think we’re buying
 	\tuplet 4/3 { b4 b b b } | % La la la la 
