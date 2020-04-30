@@ -76,7 +76,7 @@ harmonies = \chordmode {
 "One the dark and the lonely run"
 "Who's been oh oh so sorry."
 " "
-"3. Have you ever been a worm?
+"3. Have you ever been a worm?"
 "Have you ever been a germ,"
 "Boring through the eyes of an old dead body?"
 "Have you ever been discussed"
@@ -85,7 +85,7 @@ harmonies = \chordmode {
 " "
 "4. If you've ever seen yourself"
 "In the eyes of someone you hurt"
-"Buttressing your fortresses of glory?"
+"Buttressing your fortresses of glory,"
 "Then I hope you found the strength,"
 "And you went to every length to let them"
 "Know, oh so sorry."
