@@ -20,14 +20,14 @@ melody = \transpose c g {
 				g,8 g4 g8 a4 c | c8 d4. r2 | % We used to share our bodies
 				g,4. g8 a4 c | d r b( c |% Now we share a house Ooh
 				d4. e8 d e d c | b4.) b8 b4 c | c8 d4 d8~ d8. c16 c16 b8.~ | % Ooh I often wonder where did we go 
-				b4 d4 r2 | r8 g4 e8~ e8. d16 d16 c8. | c4 r2. | r1 | r | r | % wrong Hey, where did we go right?
+				b4 d4 r2 | r8 g4 e8~ e8. d16 d16 c8.~ | c4 c r2 | r1 | r | r | % wrong Hey, where did we go right?
 			
 				g8 g4 g8 a4 c | d8 e4. r2 | % You used to be my best friend
 				g,4. g8 a4 c | e r2. | % Now you're just my man.
 				g,8 g4 g8 a4 c | c8 d4. r2 | % You used to pay attention
 				g,4. g8 a4 c | d r b( c | % Now you pay the rent Ooh
 				d4. e8 d e d c | b4.) b8 b4 c | c8 d4 d8~ d8. c16 c16 b8.~ | % Ooh I often wonder where did we go 
-				b4 d4 r2 | r8 g4 e8~ e8. d16 d16 c8. | c4 r2. | r1 | r | r |  % wrong Hey, where did we go right?
+				b4 d4 r2 | r8 g4 e8~ e8. d16 d16 c8.~ | c4 c r2 | r1 | r | r |  % wrong Hey, where did we go right?
 
 				c2( ees | c4) r2. | c8 c c4 ees4 ees8 c~ | c4 r2. | % Right. Travelling through the night
 				c8 c c4 ees4 f | ges f2 ees4 | % Carrying our belongings No
