@@ -24,8 +24,8 @@ melody = \relative c' {
 		
 		bes4 bes8 bes4 c8 | c4 bes8 bes4 d8 | d4 bes8 bes4 c8 | c4 bes8 g8 f4\fermata | % open up the door and see the man who's asking for some money
 		bes8 bes bes bes4 bes8 | c c bes bes8 bes4 | \tuplet 4/3 { d8 bes bes bes } bes8. bes | c8 bes4 g8 f4 | % Is it a man or is it a woman definitely someone really skinny.
-		bes4. bes | c8 bes4 bes4. | bes'8 g g g g g | a4 g8 g4. | % Dark skin, missing teeth. Shouldn't have traded the car away.
-		d4 d8 d4 d8 | ees4 d8 c4 bes8 | c16 bes8.~ bes8 bes4. | % Now we've got a one that's got no title signed.
+		bes4. bes | c8 bes4 bes4. | bes'8 g g g g g | a4 g8 d4. | % Dark skin, missing teeth. Shouldn't have traded the car away.
+		d4 d8 d4 d8 | ees4 d8 c4 bes8 | c16 bes8.~ bes8 bes4. | % Now I've got a one that's got no title signed.
 		
 	}
   
@@ -43,7 +43,7 @@ text =  \lyricmode {
 		O -- pen up the door and see the man who's ask -- ing for some mo -- ney.
 		Is it a man or is it a wo -- man de -- fi -- nite -- ly some -- one real -- ly skin -- ny.
 		Dark skin, mis -- sing teeth. Should -- n't have tra -- ded the car a -- way.
-		Now we've got a one that's got no ti -- tle signed.
+		Now I've got a one that's got no ti -- tle signed.
 	}
 	
 }

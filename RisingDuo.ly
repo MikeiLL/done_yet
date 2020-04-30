@@ -52,6 +52,7 @@ harmonies = \chordmode {
     }
     \lyricsto "one" \text
   >>
+	
 
   \layout { #(layout-set-staff-size 25) }
   \midi { }
