@@ -2,7 +2,7 @@
 \paper{ print-page-number = ##f bottom-margin = 0.5\in }
 
 \header {
-  title = "Oh So Sorry"
+  title = "Where Did We Go Right?"
   composer = "Words and Music by Rivka & Mike iLL"
   tagline = "Copyright R. and M. Kilmer Creative Commons Attribution-NonCommercial, BMI"
 }
