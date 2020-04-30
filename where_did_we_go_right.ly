@@ -30,14 +30,14 @@ melody = \transpose c g {
 				b4 d4 r2 | r8 g4 e8~ e8. d16 d16 c8.~ | c4 c r2 | r1 | r | r |  % wrong Hey, where did we go right?
 
 				c2( ees | c4) r2. | c8 c c4 ees4 ees8 c~ | c4 r2. | % Right. Travelling through the night
-				c8 c c4 ees4 f | ges f2 ees4 | % Carrying our belongings No
+				c8 c c4 ees4 f | g f2 ees4 | % Carrying our belongings No
 				ges f2 ees4 | c4 r2. | % respite in sight.
 
 				c2( ees | c4) r2. | c8 c c4 ees4 ees8 c~ | c4 r2. | % Right. Travelling through the night
-				c8 c c4 ees4 f | ges f2 ees4 | % Carrying our belongings But
+				c8 c c4 ees4 f | g f2 ees4 | % Carrying our belongings But
 				ges( f2) ees4 | c4 r2. | % at what price
 			
-				c8 c c4 ees4 f | ges f2 ees4 | % Carrying our resentments through
+				c8 c c4 ees4 f | g f2 ees4 | % Carrying our resentments through
 				ges( f2) ees4 | c4 r2. | r1 | r | r | % fire and ice.
 			}
 		}
