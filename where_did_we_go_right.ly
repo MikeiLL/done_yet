@@ -38,7 +38,7 @@ melody = \transpose c g {
 				ges( f2) ees4 | c4 r2. | % at what price
 			
 				c8 c c4 ees4 f | ges f2 ees4 | % Carrying our resentments through
-				ges( f2) ees4 | c4 r2. | % fire and ice.
+				ges( f2) ees4 | c4 r2. | r1 | r | r | % fire and ice.
 			}
 		}
 	}
@@ -60,14 +60,14 @@ text =  \lyricmode {
 	Hey, where did we go right?
 	
 	Right. Tra -- vel -- ling through the night
-	Car -- rying our be -- long -- ings 
+	Car -- ry -- ing our be -- long -- ings 
 	No res -- pite in sight.
 	
 	Right. Tra -- vel -- ling through the night
-	Car -- rying our be -- long -- ings 
+	Car -- ry -- ing our be -- long -- ings 
 	But at what price.
 	
-	Car -- rying our re -- sent -- ments
+	Car -- ry -- ing our re -- sent -- ments
 	Through fire and ice.
 }
 
@@ -91,6 +91,7 @@ harmonies = \chordmode {
   	aes | aes | aes | g |
   	
   	aes | aes | aes | g |
+  	g | g | g |
 }
 
 \score {
