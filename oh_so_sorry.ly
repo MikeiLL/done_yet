@@ -86,14 +86,14 @@ harmonies = \chordmode {
 "4. If you've ever seen yourself"
 "In the eyes of someone you hurt"
 "Buttressing your fortresses of glory,"
-"Then I hope you found the strength,"
+"Then I hope that you found the strength,"
 "And you went to every length to let them"
 "Know, oh so sorry."
 " "
 
-"Made a mistake and we're oh so"
-"Another mistake and we're oh so"
-"Is it too late, cause we're oh so"
+"Made a mistake and I'm oh so"
+"Another mistake and I'm oh so"
+"Is it too late, cause I'm oh so"
 "Sorry. Whoops!"
   }
 }
