@@ -120,10 +120,10 @@ harmonies = \chordmode {
 %Additional Verses
 \markup \fill-line {
 \column {
-	We used to fight like street cats.
-	We used to fight like dogs.
-	You used to write me letters.
-	I used to sing you songs.
+	"We used to fight like street cats."
+	"We used to fight like dogs."
+	"You used to write me letters."
+	"I used to sing you songs."
   }
 }
 
