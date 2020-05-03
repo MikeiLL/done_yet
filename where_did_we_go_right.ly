@@ -3,7 +3,6 @@
 
 \header {
   title = "Where Did We Go Right?"
-  composer = "Words and Music by Rivka & Mike iLL"
   tagline = "Copyright R. and M. Kilmer Creative Commons Attribution-NonCommercial, BMI"
 }
 
@@ -26,15 +25,15 @@ melody = \transpose c g {
 			g,8 g4 g8 a4 c | c8 d4. r2 | % You used to pay attention
 			g,4. g8 a4 c | d r b( c | % Now you pay the rent Ooh
 			d4. e8 d e d c | b4.) b8 b4 c | c8 d4 d8~ d8. c16 c16 b8.~ | % Ooh I often wonder where did we go 
-			b4 d4 r2 | r8 g4 e8~ e8. d16 d16 c8.~ | c4 c r2 | r1 | r | r | % wrong Hey, where did we go right?
+			b4 d4 r2 | r8 g4 e8~ e8. d16 d16 c8.~ | c4 c r2 | r1 | % wrong Hey, where did we go right?
 
 			c2( ees | c4) r2. | c8 c c4 ees4 ees8 c~ | c4 r2. | % Right. Travelling through the night
-			c8 c c4 ees4 f | g f2 ees4 | % Carrying our belongings No
+			c8 c c4 ees4 f8 g~ | g4 f2 ees4 | % Carrying our belongings No
 			ges f2 ees4 | c4 r2. | % respite in sight.
 
 			c2( ees | c4) r2. | c8 c4. ees4 ees8 c~ | c4 r2. | % Night. Make our burden light
 			c8 c c4 ees4 f | g f2 ees4 | % Leaving our heavy wrongings
-			ges f2 ees4 | c4 r2. | % and quarrels begind 
+			ges f2 ees4 | c4 r2. | % and quarrels behind 
 
 			c2( ees | c4) r2. | c8 c c4 ees4 ees8 c~ | c4 r2. | % Right. 
 			c8 c c4 ees4 f | g f2 ees4 | % Carrying our resentments through
@@ -48,7 +47,7 @@ melody = \transpose c g {
 			d4 r2 g4 | e4. d8 d c4. | c4 r2. | r1 |  % Hey, where did we go right?
 			
 			c2( ees | c4) r2. | c8 c c4 ees4 ees8 c~ | c4 r2. | % Right. Travelling through the night
-			c8 c c4 ees4 f | g f2 ees4 | % Carrying our belongings No
+			c8 c c4 ees4 f8 g~ | g4 f2 ees4 | % Carrying our belongings No
 			ges f2 ees4 | c4 r2. | % respite in sight.
 
 			c2( ees | c4) r2. | c8 c c4 ees4 ees8 c~ | c4 r2. | % Right. Travelling through the night
@@ -87,7 +86,7 @@ text =  \lyricmode {
 	
 	Light. Tra -- vel -- ling through the night
 	Burn -- ing our old re -- sent -- ments
-	for fire and light.
+	for warmth and light.
 	
 	We used to fight like street cats
 	We used to fight like dogs
@@ -106,7 +105,7 @@ text =  \lyricmode {
 	
 	Light. Tra -- vel -- ling through the night
 	Burn -- ing our old re -- sent -- ments
-	for fire for fire and light. 
+	for fire for warmth and light. 
 }
 
 harmonies = \chordmode {
@@ -118,8 +117,7 @@ harmonies = \chordmode {
   	g | g | g | g |
   	g | d | d | d | 
   	d | d | d | d |
-  	d | g | g | g |
-  	g |
+  	d | g | g | 
   	
   	aes | g | aes | g |
   	aes | aes | aes | g |
@@ -172,12 +170,5 @@ harmonies = \chordmode {
   	\tempo 4 = 125
   }
   
-}
-
-%Additional Verses
-\markup \fill-line {
-\column {
-
-  }
 }
 
