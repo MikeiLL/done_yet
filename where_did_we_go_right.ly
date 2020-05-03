@@ -32,17 +32,17 @@ melody = \transpose c g {
 			c8 c c4 ees4 f | g f2 ees4 | % Carrying our belongings No
 			ges f2 ees4 | c4 r2. | % respite in sight.
 
-			c2( ees | c4) r2. | c8 c c4 ees4 ees8 c~ | c4 r2. | % Right. Travelling through the night
-			c8 c c4 ees4 f | g f2 ees4 | % Carrying our belongings But
-			ges( f2) ees4 | c4 r2. | % at what price
+			c2( ees | c4) r2. | c8 c4. ees4 ees8 c~ | c4 r2. | % Night. Make our burden light
+			c8 c c4 ees4 f | g f2 ees4 | % Leaving our heavy wrongings
+			ges f2 ees4 | c4 r2. | % and quarrels begind 
 
-			c2( ees | c4) r2. | c8 c c4 ees4 ees8 c~ | c4 r2. | % Right. Travelling through the night
+			c2( ees | c4) r2. | c8 c c4 ees4 ees8 c~ | c4 r2. | % Right. 
 			c8 c c4 ees4 f | g f2 ees4 | % Carrying our resentments through
 			ges( f2) ees4 | c4 r2. | r1 | r | r | % fire and ice.
 			
 			g8 g4 g8 a4 c | d8 e4. r2 | % We used to fight like street cats
 			g,8 g4 g8 a4 c | e r2. | % We used to fight like dogs
-			g,8 g4 g8 a4 c | c8 d4. r2 | % You used to write me letters
+			g,8 g4 g8 a4 c | c4 d r2 | % You used to write me letters
 			g,8 g4 g8 a4 c | d r b( c | % I used to sing you songs. Ooh
 			d4. e8 d e d c | b4.) b8 b4 c | c8 d4 r8 r4 d4~ | d4. c8 c b4 d8~ | % Ooh I often wonder where did we go wrong
 			d4 r2 g4 | e4. d8 d c4. | c4 r2. | r1 |  % Hey, where did we go right?
@@ -77,17 +77,17 @@ text =  \lyricmode {
 	Ooh I of -- ten won -- der where did we go wrong
 	Hey, where did we go right?
 	
-	Right. Tra -- vel -- ling through the night
+	Right. Tra -- vel -- ling through the night.
 	Car -- ry -- ing our be -- long -- ings,
-	no res -- pite in sight.
+	to -- mor -- row in sight.
 	
-	Right. Tra -- vel -- ling through the night
-	Car -- ry -- ing our be -- long -- ings,
-	but at what price?
+	Night. Make our bur -- den light.
+	Lea -- ving our hea -- vy wrong -- ings,
+	our quar - rels behind.
 	
-	Right. Tra -- vel -- ling through the night
-	Car -- ry -- ing our re -- sent -- ments
-	through fire and ice.
+	Light. Tra -- vel -- ling through the night
+	Burn -- ing our old re -- sent -- ments
+	for fire and light.
 	
 	We used to fight like street cats
 	We used to fight like dogs
@@ -96,17 +96,17 @@ text =  \lyricmode {
 	Ooh I of -- ten won -- der where did we go wrong
 	Hey, where did we go right?
 	
-	Right. Tra -- vel -- ling through the night
+	Right. Tra -- vel -- ling through the night.
 	Car -- ry -- ing our be -- long -- ings,
-	no wor -- ry in sight.
+	to -- mor -- row in sight.
 	
-	Right. Tra -- vel -- ling through the night
-	Car -- ry -- ing our be -- long -- ings,
-	but at what price?
+	Night. Make our bur -- den light.
+	Lea -- ving our hea -- vy wrong -- ings,
+	our quar - rels behind.
 	
-	Right. Tra -- vel -- ling through the night
-	Car -- ry -- ing our re -- sent -- ments
-	through fire, through fire and ice.
+	Light. Tra -- vel -- ling through the night
+	Burn -- ing our old re -- sent -- ments
+	for fire for fire and light. 
 }
 
 harmonies = \chordmode {
