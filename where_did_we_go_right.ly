@@ -73,11 +73,11 @@ verse_one =  \lyricmode {
 	
 	Right. Tra -- vel -- ling through the night.
 	Car -- ry -- ing our be -- long -- ings,
-	to -- mor -- row in sight.
+	no res -- pite in sight.
 	
 	Night. Make our bur -- den light.
-	Lea -- ving our hea -- vy wrong -- ings,
-	our quar - rels behind.
+	Lea -- ving our hea -- vy worr -- ies,
+	and quar - rels behind.
 	
 	Light. Tra -- vel -- ling through the night
 	Burn -- ing our old re -- sent -- ments
