@@ -77,7 +77,7 @@ verse_one =  \lyricmode {
 	
 	Night. Make our bur -- den light.
 	Lea -- ving our hea -- vy worr -- ies,
-	and quar - rels behind.
+	our quar - rels behind.
 	
 	Light. Tra -- vel -- ling through the night
 	Burn -- ing our old re -- sent -- ments
