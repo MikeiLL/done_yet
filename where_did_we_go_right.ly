@@ -26,7 +26,7 @@ melody = \transpose c g {
 			\mark \markup { \musicglyph #"scripts.coda" }
 			c2( ees | c4) r2. | c8 c c4 ees4 ees8 c~ | c4 r2. | % Right. Travelling through the night
 			c8 c c4 ees4 f8 g~ | g4 f2 ees4 | % Carrying our belongings No
-			ges f2 ees4 | c4 r2. | % respite in sight.
+			ges( f2) ees4 | c4 r2. | % respite in sight.
 
 			c2( ees | c4) r2. | c8 c4. ees4 ees8 c~ | c4 r2. | % Night. Make our burden light
 			c8 c c4 ees4 f | g f2 ees4 | % Leaving our heavy wrongings
@@ -73,7 +73,7 @@ verse_one =  \lyricmode {
 	
 	Right. Tra -- vel -- ling through the night.
 	Car -- ry -- ing our be -- long -- ings,
-	to -- mor -- row in sight.
+	but at what price?
 	
 	Night. Make our bur -- den light.
 	Lea -- ving our hea -- vy worr -- ies,
