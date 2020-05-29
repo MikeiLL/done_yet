@@ -121,6 +121,11 @@ harmonies = \chordmode {
   	aes | g | aes | g |
   	aes | aes | aes | g |
   	g | g | g |
+  	
+  	g1 | g | g | g |
+  	g | d | d | d | 
+  	d | d | d | d |
+  	d | d | g | g |
 }
 
 \score {
